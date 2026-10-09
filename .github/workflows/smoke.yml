@@ -60,3 +60,6 @@ jobs:
           print("REACHABLE" if ok else "NOT REACHABLE")
           raise SystemExit(0 if ok else 1)
           PY
+
+      - name: Re-check the September subtitled links (subtitles, pt_only, rights from here)
+        run: python check_pt_only.py
