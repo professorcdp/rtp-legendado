@@ -1,0 +1,2 @@
+requests>=2.31
+anthropic>=0.40   # only needed for step06_translate.py

@@ -1,0 +1,6 @@
+data/cache/
+data/*.tmp
+__pycache__/
+*.pyc
+.venv/
+site/

@@ -1,0 +1,80 @@
+<div class="wrap">
+<header>
+  <p class="kicker">European Portuguese · comprehensible input · checked 11 Sep 2026</p>
+  <h1><span class="caption">What on RTP Play has Portuguese subtitles?</span></h1>
+  <p class="lede">These are the programmes whose latest episode on RTP Play has a Portuguese subtitle track (the one RTP calls <i>Português adaptado</i>). To turn it on, click the <b>CC</b> button at the bottom right of the player.</p>
+  <p class="lede small">Series and recurring programmes carry a description of the show; one-off films and documentaries carry the description RTP gives that title. Each title and description has an English translation underneath it, in italics. You can hide the translations with the checkbox below the search box.</p>
+  <p class="lede small">How the list was made: I checked all <span class="mono">6,268</span> TV programmes in the RTP Play catalogue, looking at the latest episode of each for a subtitle file. Portuguese-language shows come first. International documentaries and foreign-language fiction are at the bottom, because there the subtitles are usually a translation.</p>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="bar">
+  <label for="q" class="kicker" style="display:block;margin:0 0 6px">Filter by title or description</label>
+  <input type="search" id="q" placeholder="e.g. Açores, Abril, comédia, Lisboa…" autocomplete="off">
+  <div class="toggle"><input type="checkbox" id="playable" checked> <label for="playable">Hide programmes that show <span class="mono">SEM DIREITOS DE TRANSMISSÃO ONLINE</span> where you are (<span id="blockedn"></span> hidden)</label></div>
+  <div class="toggle"><input type="checkbox" id="showen" checked> <label for="showen">Show English translations of titles and descriptions (untick to test your reading first)</label></div>
+  <nav class="chips" id="chips" aria-label="Jump to section"></nav>
+</div>
+<main id="list"></main>
+<footer>
+  <h3>Caveats</h3>
+  <p>Only the <b>latest</b> episode of each programme was checked. Some shows add subtitles to only some episodes (older lists mention <i>Portugueses pelo Mundo</i> and <i>Luz Vermelha</i>, for example). So a show can be missing here and still have subtitles on some episodes, and a show listed here may not have them on every episode.</p>
+  <p>Many older titles are still listed in RTP's catalogue but may have expired from the player. The "episodes" figure is how many episodes the programme page links to, and the page stops counting at about 12. Subtitles are closed captions for deaf and hard-of-hearing viewers, so expect sound cues in capitals, like <span class="mono">RISOS</span> or <span class="mono">MÚSICA</span>.</p>
+  <p><b>Playability</b> was checked on 11 Sep 2026 against RTP's own rights service, from your computer's connection (RTP located it in Spain). Rights depend on the viewer's country and change over time. A programme can play in Portugal but be blocked abroad, and new episodes sometimes get different rights from old ones. Untick the box to see everything, with blocked titles marked.</p>
+  <p>Programmes whose subtitle file was empty, plus one-off institutional items like Christmas messages and trailers, were left out.</p>
+</footer>
+</div>
+<script>
+const DATA = __DATA__;
+const SECTIONS = [
+ ['series','Portuguese TV series','RTP drama and comedy series, mostly European Portuguese. This is the richest seam for comprehensible input: recurring characters, everyday speech and plenty of episodes.'],
+ ['film','Portuguese films &amp; TV films','Feature films and one-off TV films, plus a few making-ofs.'],
+ ['fun','Comedy, game shows &amp; entertainment','Unscripted, fast, colloquial Portuguese. <i>Taskmaster</i>, <i>O Preço Certo</i>, <i>Joker</i> and <i>The Floor</i> are recent and frequent.'],
+ ['lang','Language &amp; literature','Of special interest for a linguist: <i>Cuidado com a Língua!</i> is RTP\'s long-running Portuguese usage show.'],
+ ['docs','Documentaries: Portugal &amp; the Lusophone world','History, people, places and society, mostly made in Portugal with Portuguese narration.'],
+ ['nature','Nature, science &amp; environment','A mix of Portuguese productions and acquired documentaries. Acquired ones are usually narrated in Portuguese, but check the first minute.'],
+ ['mag','Magazines, reportage &amp; interviews','Recurring information programmes. Good for listening to real interviews and reporting.'],
+ ['food','Food','Cooking programmes.'],
+ ['kids','Kids &amp; animation','Mostly international animation dubbed into European Portuguese, with slow, clear speech. Easy listening practice.'],
+ ['music','Music, concerts &amp; musicals','Subtitles cover the lyrics and stage talk.'],
+ ['stage','Theatre','Filmed stage plays.'],
+ ['intl','International documentaries','Documentaries about topics outside Portugal, almost all acquired from other broadcasters. The narration may be dubbed into Portuguese or the Portuguese subtitles may be a translation of the original. Check before investing time.','caveat'],
+ ['foreign','Foreign-language fiction (subtitles are translations)','Films and series in English, Spanish, Italian, Galician and so on. The Portuguese subtitles here are a translation, not the words being spoken. They are useful for reading practice, not for listening.','caveat'],
+];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm=s=>s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+DATA.forEach(o=>o._q=norm(o.n+' '+o.x+' '+o.note+' '+o.c+' '+(o.ne||'')+' '+(o.xe||'')));
+function epsLabel(o){ if(o.s==='film') return 'film'; if(!o.e) return 'special'; return (o.e>=12?'12+':o.e)+' ep'+(o.e===1?'':'s'); }
+function render(){
+  const q=norm(document.getElementById('q').value.trim());
+  const list=document.getElementById('list'), chips=document.getElementById('chips');
+  const onlyOk=document.getElementById('playable').checked;
+  document.getElementById('blockedn').textContent=DATA.filter(o=>!o.ok).length;
+  let html='', chipHtml='', total=0;
+  for(const [id,title,blurb,cls] of SECTIONS){
+    const rows=DATA.filter(o=>o.s===id && (!onlyOk || o.ok) && (!q || o._q.includes(q)));
+    total+= (id==='intl'||id==='foreign')?0:rows.length;
+    chipHtml+=`<a href="#s-${id}" class="${rows.length?'':'dim'}">${title.replace(/ \(.*\)/,'')}<span class="mono">${rows.length}</span></a>`;
+    html+=`<section id="s-${id}" class="${cls||''}"><h2>${title}</h2><p class="blurb">${blurb}</p><ol class="rows">`;
+    if(!rows.length) html+=`<li class="empty">No matches in this section.</li>`;
+    for(const o of rows){
+      const more=o.more.length?`<div class="x more">Also: ${o.more.map(m=>`<a href="${esc(m.u)}" target="_blank" rel="noopener">${esc(m.d)}${m.r===1?'':' (blocked)'}</a>`).join('')}</div>`:'';
+      html+=`<li class="row"><div class="t"><a href="${esc(o.u)}" target="_blank" rel="noopener">${esc(o.n)}</a>${o.c?`<span class="tag">${esc(o.c)}</span>`:''}${o.note?`<span class="tag note">${esc(o.note)}</span>`:''}${o.ok?'':'<span class="tag blocked">no online rights</span>'}${o.ne&&norm(o.ne)!==norm(o.n)?`<span class="en ent">${esc(o.ne)}</span>`:''}</div>
+      <div class="meta mono">${epsLabel(o)} · ${esc(o.d)}</div>${o.x?`<div class="x" lang="pt-PT">${esc(o.x)}${(!o.xs&&o.x.length>=148)?'…':''}${o.xe?`<span class="en enx" lang="en">${esc(o.xe)}</span>`:''}</div>`:''}${more}</li>`;
+    }
+    html+='</ol></section>';
+  }
+  list.innerHTML=html; chips.innerHTML=chipHtml;
+}
+function stats(){
+  const pt=DATA.filter(o=>!['intl','foreign'].includes(o.s));
+  const recent=pt.filter(o=>o.dk>='20250901').length;
+  const series=DATA.filter(o=>o.s==='series').length;
+  document.getElementById('stats').innerHTML=[
+    ['6,268','TV programmes checked'],[DATA.length,'with a subtitle track'],[DATA.filter(o=>o.ok).length,'actually play where you are'],[pt.length,'Portuguese-language'],[series,'Portuguese series'],[recent,'PT titles updated in the last year']
+  ].map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join('');
+}
+document.getElementById('q').addEventListener('input',render);
+document.getElementById('playable').addEventListener('change',render);
+const en=document.getElementById('showen');const setEn=()=>document.body.classList.toggle('hide-en',!en.checked);en.addEventListener('change',setEn);setEn();
+stats(); render();
+</script>

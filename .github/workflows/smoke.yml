@@ -1,0 +1,62 @@
+name: Smoke test (can GitHub reach RTP Play?)
+
+# A cheap reachability check: list one small category, check five programmes
+# for a subtitle track, and ask RTP's rights service where it thinks we are.
+# Run by hand from the Actions tab.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: pipeline
+    env:
+      RTP_WORKERS: "4"
+      RTP_DELAY: "0.2"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Plain request to RTP Play
+        run: curl -sS -o /dev/null -w "HTTP %{http_code} in %{time_total}s\n" https://www.rtp.pt/play/
+
+      - name: Step 1 on one small category
+        run: python step01_catalogue.py --only gastronomia
+
+      - name: Step 2 smoke test (5 programmes)
+        run: python step02_subtitles.py --limit 5
+
+      - name: Step 3 rights check on what step 2 found
+        run: python step03_rights.py --limit 5 || true
+
+      - name: Summary
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          d = pathlib.Path("data")
+          cat = json.loads((d / "catalogue.json").read_text())
+          subs = json.loads((d / "subtitles.json").read_text())
+          rights = json.loads((d / "rights.json").read_text()) if (d / "rights.json").exists() else {}
+          print(f"catalogue: {len(cat)} programmes listed")
+          for v in subs.values():
+              print(v["pid"], "ERROR " + v["error"] if "error" in v else
+                    f"subs={v.get('has_subs')} key={'yes' if v.get('file_key') else 'no'} title={v.get('program_title')!r}")
+          for v in rights.values():
+              print("rights", v)
+          errors = sum(1 for v in subs.values() if "error" in v)
+          ok = len(cat) > 0 and errors < len(subs)
+          print("REACHABLE" if ok else "NOT REACHABLE")
+          raise SystemExit(0 if ok else 1)
+          PY
