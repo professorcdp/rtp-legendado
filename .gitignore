@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Secrets: never commit these
+.env
+.env.*
+*.p8
+*.p12
+*.pem
+*.key
+secrets/
+
+# Xcode / Swift
+xcuserdata/
+DerivedData/
+.build/
+*.xcuserstate
+
+# Node / web
+node_modules/
+dist/
+
+# Editors
+.vscode/
+
+# Local Claude account marker (written by claude-stamp; not shared between machines)
+.claude-account
