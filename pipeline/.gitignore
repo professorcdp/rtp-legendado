@@ -4,3 +4,14 @@ __pycache__/
 *.pyc
 .venv/
 site/
+
+# Working state from steps 1-5 is never committed: step01 only adds to the
+# catalogue and steps 2-4 skip entries they've already done, so carrying these
+# files between weekly runs would keep vanished programmes and never re-check
+# existing ones. Each weekly run starts from a fresh checkout instead.
+# Kept: dataset.json (the published list, so the next run can compare against
+# it) and translations.json (keyed by a hash of the source text, so it can't go
+# stale).
+data/*.json
+!data/dataset.json
+!data/translations.json

@@ -7,6 +7,9 @@ track and the fileKey, derive pt_only from the `/pt/` path segment, and ask the
 rights service what it says from here. Prints how well pt_only predicts the
 September "blocked from Spain" answer.
 
+A one-off check made for issue #5 (about 1,500 requests to RTP). Run it by hand
+when needed; it is deliberately not part of the smoke test.
+
     python check_pt_only.py              # all links
     python check_pt_only.py --limit 50   # quick look
 

@@ -14,7 +14,13 @@ Produces the dataset the page is rendered from. Two things happen here.
 2. MERGING. A show with several seasons appears as several programme ids
    ("Água de Mar" has three). Entries are merged by normalised title, keeping
    every season's link; films stay separate from series of the same name. The
-   row's main link prefers a season that actually plays from here.
+   row's main link prefers a season without a Portugal-only licence.
+
+PORTUGAL-ONLY LICENCE. Files licensed for Portugal only sit under a `/pt/` path
+segment in the player's fileKey. Unlike the rights service's answer, that flag
+doesn't depend on where the rebuild runs, so it is what the page publishes
+(`pt`: 1 when every season of a row is Portugal-only). The rights answer from
+the build machine is kept as `r`/`ok` for reference.
 
 Run it once before step 4 to produce data/dataset_draft.json (which tells step 4
 which programmes need a show-level description), then again afterwards.
@@ -128,6 +134,7 @@ def main():
             "desc": re.sub(r"\s+", " ", desc),
             "show_level": pid in synopses,
             "rights": (rights.get(pid) or {}).get("rights"),
+            "pt_only": "/pt/" in (s.get("file_key") or ""),
             "note": ov["notes"].get(pid, ""),
         })
 
@@ -141,10 +148,10 @@ def main():
     for g in groups.values():
         g["items"].sort(key=lambda i: date_key(i["date"]), reverse=True)
         main_item = g["items"][0]
-        # prefer a season that actually plays from here as the row's main link
-        if main_item["rights"] != 1:
+        # prefer a season without a Portugal-only licence as the row's main link
+        if main_item["pt_only"]:
             for i, it in enumerate(g["items"]):
-                if it["rights"] == 1:
+                if not it["pt_only"]:
                     g["items"][0], g["items"][i] = it, main_item
                     main_item = it
                     break
@@ -161,13 +168,16 @@ def main():
             "note": next((i["note"] for i in g["items"] if i["note"]), ""),
             "r": main_item["rights"],
             "ok": 1 if any(i["rights"] == 1 for i in g["items"]) else 0,
-            "more": [{"u": i["url"], "d": i["date"], "r": i["rights"]} for i in g["items"][1:]],
+            "pt": 1 if all(i["pt_only"] for i in g["items"]) else 0,
+            "more": [{"u": i["url"], "d": i["date"], "r": i["rights"], "pt": 1 if i["pt_only"] else 0}
+                     for i in g["items"][1:]],
         })
 
     rows.sort(key=lambda o: (o["s"], -int(o["dk"])))
     save_json("dataset_draft.json", {"pid_section": pid_section})
     save_json("dataset.json", rows)
-    log(f"dataset: {len(rows)} rows, {sum(r['ok'] for r in rows)} playable from here")
+    log(f"dataset: {len(rows)} rows, {sum(r['pt'] for r in rows)} with a Portugal-only licence, "
+        f"{sum(r['ok'] for r in rows)} playable from the build machine")
     log("  " + ", ".join(f"{k}:{v}" for k, v in sorted(Counter(r["s"] for r in rows).items())))
 
 
