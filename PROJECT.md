@@ -19,7 +19,7 @@ A single self-contained web page (`index.html`, no build step, no dependencies, 
 - A link to each programme on RTP Play
 - Already-shared links keep working
 ### Nice to have
-- Weekly automatic rebuild of the list (in progress, see docs/decisions/0002-automatic-weekly-rebuild.md)
+- Weekly automatic rebuild of the list (done, see docs/decisions/0002-automatic-weekly-rebuild.md)
 
 ## Assumptions
 - Checking only the latest episode of each programme is a good enough guide to whether a show has subtitles.
@@ -34,4 +34,4 @@ A single self-contained web page (`index.html`, no build step, no dependencies, 
 - How long should the old jamminalley.github.io forwarding site be kept?
 
 ## Current status
-Live list of 649 subtitled programmes (snapshot from 11 Sept 2026), now at professorcdp.github.io/rtp-legendado, with the old jamminalley address forwarding there. The build process is in `pipeline/`. A weekly automatic rebuild on GitHub Actions is in progress (issues #5 to #9); the redesigned page is awaiting Jim's OK before it replaces the live one.
+The list rebuilds itself every Monday on GitHub Actions and publishes to professorcdp.github.io/rtp-legendado (the old jamminalley address forwards there). Live since 10 Oct 2026: 664 titles, in the Claude Design look, with a "Portugal-only licence" label. Translations are off until Jim adds the ANTHROPIC_API_KEY secret, so 52 new titles and 101 descriptions have no English yet. Each run that adds or removes titles opens a review issue (first one: #13).

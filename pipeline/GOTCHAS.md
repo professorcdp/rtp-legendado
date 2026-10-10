@@ -106,6 +106,24 @@ entities (`&i`, a stray U+FFFD). The scripts unescape twice, strip trailing
 partial entities and drop replacement characters before rendering; otherwise the
 JSON embedded in the page carries them through to the browser.
 
+## RTP changes its pages (October 2026)
+
+The first automated rebuild, on 10 October 2026, found three changes since September:
+
+- RTP's menu gained SVG icons. `<path ...>` elements matched the old `<p[^>]*>`
+  pattern, so the "longest paragraph" on 200 programme pages became the
+  navigation menu. The pattern now insists on `<p` followed by space or `>`.
+- The collection heading is now written `Este conte&uacute;do faz parte de`,
+  so collection tags silently stopped matching and 49 nature titles fell into
+  Portugal documentaries. Both spellings are accepted now.
+- `<meta name="keywords">` changed from `RTP1|Ficção, ...` to
+  `Title, RTP2, Cultura, date, ...`. The channel is read from either form.
+
+Failures like these are silent: every step "succeeds". `report_changes.py`
+now refuses to publish when more than 15 titles share one description or the
+list shrinks below 70% of the previous run. When a weekly review issue shows
+odd section moves, suspect RTP's markup first.
+
 ## Things done by hand that a rebuild should re-check
 
 - the `config/overrides.json` lists above;
