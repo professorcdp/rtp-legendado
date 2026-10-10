@@ -26,7 +26,9 @@ EPISODE_RE_TMPL = r"/play/p{pid}/e(\d+)"
 KEYWORDS_RE = re.compile(r'<meta name="keywords" content="([^"]*)"')
 DESC_RE = re.compile(r'<meta name="description" content="([^"]*)"')
 OGTITLE_RE = re.compile(r'<meta property="og:title" content="([^"]*)"')
-COLLECTION_RE = re.compile(r"Este conteúdo faz parte de ([^<]{1,80})")
+# RTP writes this heading with the accent as an HTML entity since October 2026
+# ("Este conte&uacute;do faz parte de ..."), so accept both spellings.
+COLLECTION_RE = re.compile(r"Este conte(?:ú|&uacute;)do faz parte de ([^<]{1,80})")
 
 # Sound cues typical of SDH (captions for deaf viewers) - near-absent in
 # translation subtitles for foreign-language audio.

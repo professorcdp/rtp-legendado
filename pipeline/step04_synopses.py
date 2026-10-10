@@ -29,7 +29,10 @@ from common import fetch, load_json, log, save_json, WORKERS
 
 CREDITS_RE = re.compile(r"^(Intérpretes|Autoria|Realiza|Argumento|Elenco|Produção|Ficha)", re.I)
 META_RE = re.compile(r'<meta name="description" content="([^"]*)"')
-P_RE = re.compile(r"<p[^>]*>(.*?)</p>", re.S)
+# `<p` must be followed by whitespace or `>`: RTP's menu icons are SVGs whose
+# `<path ...>` elements otherwise match, and the "paragraph" then swallows the
+# whole navigation menu (seen from October 2026).
+P_RE = re.compile(r"<p(?:\s[^>]*)?>(.*?)</p>", re.S)
 TAG_RE = re.compile(r"<[^>]+>")
 SECTIONS_WITH_SYNOPSIS = {"series", "fun", "kids", "mag", "food", "lang"}
 RECURRING_MIN_EPISODES = 8

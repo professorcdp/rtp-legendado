@@ -45,6 +45,19 @@ PRIORITY = ["foreign", "series", "lang", "fun", "food", "music", "stage",
             "kids", "nature", "intl", "docs", "mag"]
 
 
+def channel_of(keywords: str, name: str) -> str:
+    """Channel from the episode page's keywords.
+
+    September 2026: "RTP1|Ficção, ...". October 2026: "Title, RTP2, Cultura, date, ...".
+    """
+    parts = [p.strip() for p in (keywords or "").split(",")]
+    if "|" in parts[0]:
+        return parts[0].split("|")[0].strip()
+    if len(parts) > 1 and parts[0].lower() == name.lower():
+        return parts[1]
+    return parts[0]
+
+
 def section_for(pid: str, name: str, cats, keywords: str, collections, episodes: int, ov) -> str:
     cols = "|".join(collections)
     kw = keywords or ""
@@ -130,7 +143,7 @@ def main():
             "url": "https://www.rtp.pt" + cat.get("url", f"/play/p{pid}/"),
             "date": date,
             "eps": episodes,
-            "channel": (s.get("keywords", "").split(",")[0].split("|")[0]).strip(),
+            "channel": channel_of(s.get("keywords", ""), name),
             "desc": re.sub(r"\s+", " ", desc),
             "show_level": pid in synopses,
             "rights": (rights.get(pid) or {}).get("rights"),

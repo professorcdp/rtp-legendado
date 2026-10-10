@@ -10,7 +10,10 @@ foreign-language ones, and prints `changed=true|false` for GitHub Actions.
 
 Exits with an error if this run's list is much shorter than the previous one
 (under --min-ratio of it), which usually means RTP had a bad day rather than
-that half the catalogue vanished. The workflow then stops before publishing.
+that half the catalogue vanished. Also exits with an error if more than
+--max-same-desc titles share one description, which means a scraping step has
+picked up page furniture (in October 2026 RTP's menu text landed on 200 rows).
+The workflow then stops before publishing.
 """
 from __future__ import annotations
 
@@ -18,6 +21,7 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter
 from datetime import date
 from pathlib import Path
 
@@ -48,6 +52,7 @@ def main():
     ap.add_argument("previous")
     ap.add_argument("--out", default="changes.md")
     ap.add_argument("--min-ratio", type=float, default=0.7)
+    ap.add_argument("--max-same-desc", type=int, default=15)
     args = ap.parse_args()
 
     new = json.loads((DATA / "dataset.json").read_text(encoding="utf-8"))
@@ -55,6 +60,11 @@ def main():
     if len(new) < args.min_ratio * len(old):
         raise SystemExit(f"this run found {len(new)} titles, against {len(old)} last time; "
                          f"too big a drop to publish (limit {args.min_ratio:.0%})")
+
+    desc, n = (Counter(r["x"] for r in new if r["x"]).most_common(1) or [("", 0)])[0]
+    if n > args.max_same_desc:
+        raise SystemExit(f"{n} titles share the same description ({desc[:80]!r}…); "
+                         f"a scraping step is probably broken, so not publishing")
 
     old_names, new_names = {r["n"] for r in old}, {r["n"] for r in new}
     added = sorted((r for r in new if r["n"] not in old_names), key=lambda r: (r["s"], r["n"]))
