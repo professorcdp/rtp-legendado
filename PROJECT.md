@@ -3,7 +3,7 @@
 **Stamp:** business
 (Says which Claude Max account meters this work and which GitHub account owns the repo. The Claude side is enforced by the `.claude-account` marker file in this folder, written by `claude-stamp`; keep the two in agreement.)
 **Started:** 2026-10-09
-**GitHub:** the repo is owned by the professorcdp organization (business). Work is done while signed in as jamminalley, Jim's own GitHub login, which is an admin of that organization. That appears to be intended, with no separate business GitHub login (inferred from the 2026-10-09 move, see docs/decisions/0001-move-to-professorcdp-org.md; Jim to confirm).
+**GitHub:** the repo is owned by the professorcdp organization (business). Work is done while signed in as jamminalley, Jim's own GitHub login, which is an admin of that organization. That is intended (confirmed by Jim, 2026-10-09; see docs/decisions/0001-move-to-professorcdp-org.md).
 
 ## Overview
 A reference list of the programmes on [RTP Play](https://www.rtp.pt/play/) that carry a Portuguese subtitle track. It's for learners of European Portuguese who want comprehensible input: shows they can watch while reading along in Portuguese. The first version was published on 12 September 2026 and has already been shared with students.

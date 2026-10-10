@@ -14,7 +14,12 @@ new or re-worded entries.
     python step06_translate.py --dry-run      # report what would be translated
     python step06_translate.py --no-api       # fill gaps with "" and carry on
 
-Output: data/translations.json {hash: {"n_en":..., "x_en":...}} and the
+The cache is seeded from snapshot/dataset-2026-09-11.json the first time, so
+rows whose text hasn't changed since September keep their English even without
+an API key. When a row's description has changed but its title hasn't, the
+English title is reused and only the description is left for the API.
+
+Output: data/translations.json {hash: {"n":..., "n_en":..., "x_en":...}} and the
 translated fields merged into data/dataset.json (fields `ne` and `xe`).
 """
 from __future__ import annotations
@@ -26,9 +31,11 @@ import os
 import re
 import sys
 
-from common import load_json, log, save_json
+from common import ROOT, load_json, log, save_json
 
-MODEL = os.environ.get("RTP_TRANSLATE_MODEL", "claude-sonnet-4-5")
+SNAPSHOT = ROOT / "snapshot" / "dataset-2026-09-11.json"
+
+MODEL = os.environ.get("RTP_TRANSLATE_MODEL", "claude-sonnet-5-5")
 BATCH = int(os.environ.get("RTP_TRANSLATE_BATCH", "40"))
 
 SYSTEM = """You translate European Portuguese TV programme metadata into natural English for language learners.
@@ -44,6 +51,19 @@ Return JSON only: a list of {"i": <same id>, "n_en": "...", "x_en": "..."} with 
 
 def key_of(n: str, x: str) -> str:
     return hashlib.sha256(f"{n}␟{x}".encode()).hexdigest()[:24]
+
+
+def seed_from_snapshot(cache: dict) -> int:
+    """Add the September translations to the cache (never overwrites)."""
+    if not SNAPSHOT.exists():
+        return 0
+    added = 0
+    for r in json.loads(SNAPSHOT.read_text(encoding="utf-8")):
+        k = key_of(r["n"], r["x"])
+        if k not in cache and r.get("ne"):
+            cache[k] = {"n": r["n"], "n_en": r["ne"], "x_en": r.get("xe", "")}
+            added += 1
+    return added
 
 
 def translate_batch(client, items):
@@ -68,6 +88,9 @@ def main():
     if not rows:
         raise SystemExit("run step05_dataset.py first")
     cache = load_json("translations.json", {}) or {}
+    seeded = seed_from_snapshot(cache)
+    if seeded:
+        log(f"seeded {seeded} translations from the September snapshot")
 
     todo = []
     for r in rows:
@@ -93,21 +116,26 @@ def main():
             chunk = todo[start:start + BATCH]
             try:
                 for out in translate_batch(client, chunk):
-                    cache[out["i"]] = {"n_en": out.get("n_en", ""), "x_en": out.get("x_en", "")}
+                    src = next((t["n"] for t in chunk if t["i"] == out["i"]), "")
+                    cache[out["i"]] = {"n": src, "n_en": out.get("n_en", ""), "x_en": out.get("x_en", "")}
             except Exception as e:                # noqa: BLE001 - keep going, retry next run
                 log(f"  batch {start // BATCH} failed: {e}")
             save_json("translations.json", cache)
             log(f"  translated {min(start + BATCH, len(todo))}/{len(todo)}")
 
+    # English titles by Portuguese title, for rows whose description changed
+    title_en = {v["n"]: v["n_en"] for v in cache.values() if v.get("n") and v.get("n_en")}
     for r in rows:
         got = cache.get(key_of(r["n"], r["x"]), {})
-        r["ne"] = got.get("n_en", "")
+        r["ne"] = got.get("n_en", "") or title_en.get(r["n"], "")
         r["xe"] = (got.get("x_en", "") or "").replace("�", "")
 
     save_json("dataset.json", rows)
     save_json("translations.json", cache)
     missing = sum(1 for r in rows if not r["ne"])
-    log(f"done: {len(rows) - missing} rows with English, {missing} without")
+    no_desc = sum(1 for r in rows if r["x"] and not r["xe"])
+    log(f"done: {len(rows) - missing} rows with an English title, {missing} without; "
+        f"{no_desc} descriptions without English")
 
 
 if __name__ == "__main__":

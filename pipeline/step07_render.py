@@ -11,6 +11,10 @@ dependencies.
     python step07_render.py --out site/index.html --csv site/rtp-play-legendado.csv
 
 --site-url stamps canonical/og:url/og:image for the deployed location.
+
+After a full rebuild (when data/subtitles.json is present) the check date and
+the number of programmes checked are saved to data/build_info.json, so the page
+can be re-rendered later from the committed dataset without contacting RTP.
 """
 from __future__ import annotations
 
@@ -21,7 +25,7 @@ import re
 from datetime import date, timedelta
 from pathlib import Path
 
-from common import ROOT, load_json, log
+from common import ROOT, load_json, log, save_json
 
 # Page sections in display order: (section key, anchor id, heading, blurb).
 SECTIONS = [
@@ -124,8 +128,15 @@ def main():
         raise SystemExit("run steps 1-6 first")
 
     today = date.today()
-    checked_on = args.checked_on or f"{today.day:02d} {MONTHS_EN[today.month - 1]} {today.year}"
-    checked_n = len(load_json("subtitles.json") or {}) or 6268
+    subtitles = load_json("subtitles.json") or {}
+    if subtitles:                                  # fresh rebuild: record when and how much
+        checked_on = args.checked_on or f"{today.day:02d} {MONTHS_EN[today.month - 1]} {today.year}"
+        checked_n = len(subtitles)
+        save_json("build_info.json", {"checked_on": checked_on, "checked_n": checked_n})
+    else:                                          # re-render of the committed dataset
+        info = load_json("build_info.json") or {}
+        checked_on = args.checked_on or info.get("checked_on") or "11 Sep 2026"
+        checked_n = info.get("checked_n") or 6268
 
     portuguese = [r for r in rows if r["s"] not in NON_PORTUGUESE]
     year_ago = (today - timedelta(days=365)).strftime("%Y%m%d")

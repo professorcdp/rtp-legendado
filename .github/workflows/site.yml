@@ -1,0 +1,157 @@
+name: Rebuild and publish the site
+
+# Weekly: rebuild the list from RTP Play (about 2 hours, mostly waiting), commit
+# the new list, open an issue listing added and removed titles, and publish the
+# page to GitHub Pages. See docs/decisions/0002-automatic-weekly-rebuild.md.
+#
+# Run by hand from the Actions tab:
+#   mode "rebuild"  - the full weekly job
+#   mode "publish"  - re-render the last committed list and publish it, without
+#                     contacting RTP (e.g. after editing the page templates)
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"      # Mondays, 04:17 UTC
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "rebuild (full run, about 2 hours) or publish (re-render the last list only)"
+        type: choice
+        options: [rebuild, publish]
+        default: rebuild
+      no_translate:
+        description: "Skip translations (also skipped automatically while there's no ANTHROPIC_API_KEY secret)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write     # commit the new list
+  issues: write       # open the review issue
+  pages: write        # publish
+  id-token: write     # publish
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: github.event_name == 'schedule' || inputs.mode == 'rebuild'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    defaults:
+      run:
+        working-directory: pipeline
+    env:
+      RTP_WORKERS: "4"          # keep at 4 or below: RTP slows down silently (GOTCHAS.md)
+      RTP_DELAY: "0.2"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - run: pip install -r requirements.txt
+
+      # The HTTP cache expires after 24 hours, so a weekly run refetches
+      # everything anyway; restoring it only helps when a run is retried.
+      - uses: actions/cache@v4
+        with:
+          path: pipeline/data/cache
+          key: rtp-http-${{ github.run_id }}
+          restore-keys: rtp-http-
+
+      - name: Keep the previous list for comparison
+        run: |
+          if [ -f data/dataset.json ]; then
+            cp data/dataset.json "$RUNNER_TEMP/previous.json"
+          else
+            cp snapshot/dataset-2026-09-11.json "$RUNNER_TEMP/previous.json"
+          fi
+
+      - name: Rebuild the list
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RTP_TRANSLATE_MODEL: claude-sonnet-5-5
+          NO_TRANSLATE: ${{ inputs.no_translate }}
+        run: |
+          if [ "$NO_TRANSLATE" = "true" ] || [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::notice::Running without translations (no ANTHROPIC_API_KEY secret, or skipped by hand). Unchanged rows keep their English."
+            python run_all.py --no-translate
+          else
+            python run_all.py
+          fi
+
+      - name: Compare with the previous list
+        id: compare
+        run: python report_changes.py "$RUNNER_TEMP/previous.json" --out "$RUNNER_TEMP/changes.md" >> "$GITHUB_OUTPUT"
+
+      - name: Commit the new list
+        run: |
+          git config user.name "rtp-legendado bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/dataset.json data/translations.json data/build_info.json
+          git diff --cached --quiet || git commit -m "Weekly rebuild of the list ($(date -u +%Y-%m-%d))"
+          git pull --rebase
+          git push
+
+      - name: Assemble the site
+        run: cp ../og.png site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: pipeline/site
+
+      - name: Open a review issue for added and removed titles
+        if: steps.compare.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Review titles from the weekly rebuild ($(date -u +%Y-%m-%d))" \
+            --label chore --label "priority: next" \
+            --body-file "$RUNNER_TEMP/changes.md"
+
+  render:
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'publish'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      # Until the first rebuild has committed a list, publish the page that was
+      # live before the switch to GitHub Actions, unchanged.
+      - name: Render the last committed list
+        run: |
+          mkdir -p _site
+          if [ -f pipeline/data/dataset.json ]; then
+            (cd pipeline && python step07_render.py --out ../_site/index.html --csv ../_site/rtp-play-legendado.csv)
+          else
+            echo "::notice::No committed list yet; publishing the existing index.html and CSV unchanged."
+            cp index.html rtp-play-legendado.csv _site/
+          fi
+          cp og.png _site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: [rebuild, render]
+    if: always() && (needs.rebuild.result == 'success' || needs.render.result == 'success')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

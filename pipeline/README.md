@@ -50,11 +50,11 @@ Environment variables, all optional:
 
 | variable | default | meaning |
 |---|---|---|
-| `RTP_WORKERS` | 5 | concurrent requests — **do not raise**, see GOTCHAS |
+| `RTP_WORKERS` | 5 | concurrent requests — **do not raise**, see GOTCHAS (the weekly workflow uses 4) |
 | `RTP_DELAY` | 0.15 | seconds between requests, globally |
 | `RTP_CACHE_TTL` | 86400 | seconds before a cached response is refetched; 0 disables the cache |
 | `RTP_TIMEOUT` | 45 | per-request timeout |
-| `RTP_TRANSLATE_MODEL` | claude-sonnet-4-5 | model for step 6 |
+| `RTP_TRANSLATE_MODEL` | claude-sonnet-5-5 | model for step 6 |
 | `ANTHROPIC_API_KEY` | — | required by step 6 unless `--no-api` |
 
 ## The two things a rebuild can't do by itself
@@ -74,10 +74,13 @@ Environment variables, all optional:
 
 ## Scheduled rebuilds
 
-`.github/workflows/rebuild.yml` runs the pipeline weekly and commits the result.
-It needs `ANTHROPIC_API_KEY` in the repo's Actions secrets (or remove the
-translate step and keep `--no-translate`). Read the caveat above about the
-runner's location before trusting its "plays outside Portugal" column.
+`.github/workflows/site.yml` (at the top of the repo) runs the pipeline every
+Monday, commits `data/dataset.json`, `data/translations.json` and
+`data/build_info.json`, opens an issue listing added and removed titles, and
+publishes `site/` to GitHub Pages. Translations need `ANTHROPIC_API_KEY` in the
+repo's Actions secrets; without it the run uses `--no-translate`. The page
+publishes the location-independent Portugal-only flag, not the runner's rights
+answer. See `docs/decisions/0002-automatic-weekly-rebuild.md`.
 
 ## Relationship to the published page
 

@@ -19,7 +19,7 @@ import argparse
 import re
 from concurrent.futures import ThreadPoolExecutor
 
-from common import fetch, save_json, load_json, log
+from common import WORKERS, fetch, save_json, load_json, log
 
 # Category ids are stable; they come from `currentHPListCategory` on each
 # /play/programas/<slug>/canal page. Verify with --refresh-categories.
@@ -86,7 +86,7 @@ def main():
         cats = {k: v for k, v in cats.items() if k in args.only.split(",")}
 
     catalogue: dict[str, dict] = load_json("catalogue.json", {}) or {}
-    with ThreadPoolExecutor(max_workers=min(len(cats), 6)) as ex:
+    with ThreadPoolExecutor(max_workers=min(len(cats), WORKERS)) as ex:
         results = list(ex.map(lambda kv: crawl_category(*kv), cats.items()))
 
     for items in results:
