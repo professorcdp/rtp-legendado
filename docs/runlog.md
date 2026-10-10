@@ -77,3 +77,8 @@ Format:
   - g) GOTCHAS.md notes the 60-day rule and how to re-enable the schedule.
 - **Deferred:** c) #14 (chore, priority: next); d) #15 (chore, priority: next).
 - Also noted: no automated tests (#10 still open); the reviewer could not run the pipeline locally (requests not installed).
+
+## 2026-10-10 (new-title review)
+- **Did:** Reviewed the 28 new titles from #13 in series/films/documentaries/nature with Jim, using RTP's collection tags, descriptions and episode slugs (the .vtt sound-cue counts were near zero for everything, Portuguese-made included, so not a useful signal any more). Jim confirmed all: added 4 to `foreign_fiction` (Dalíland, O Caloiro, Cry Macho, A Febre), 11 to `international_documentary`, and a Brazilian Portuguese note for Bye Bye Brasil. Re-ran the workflow; the live page shows all 16 in the right sections.
+- **Issues:** closed #13; opened #16 (per-title notes such as "Brazilian Portuguese" are in the data but never shown on the page or in the CSV).
+- **Next:** #14 (Google font vs "no tracking") and #15 (stale repo root), both waiting on Jim's choice; #16; #10 (tests).
