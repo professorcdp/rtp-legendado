@@ -112,6 +112,7 @@ def main():
         if not os.environ.get("ANTHROPIC_API_KEY"):
             raise SystemExit("set ANTHROPIC_API_KEY, or run with --no-api")
         client = anthropic.Anthropic()
+        failed = 0
         for start in range(0, len(todo), BATCH):
             chunk = todo[start:start + BATCH]
             try:
@@ -119,9 +120,14 @@ def main():
                     src = next((t["n"] for t in chunk if t["i"] == out["i"]), "")
                     cache[out["i"]] = {"n": src, "n_en": out.get("n_en", ""), "x_en": out.get("x_en", "")}
             except Exception as e:                # noqa: BLE001 - keep going, retry next run
+                failed += 1
                 log(f"  batch {start // BATCH} failed: {e}")
             save_json("translations.json", cache)
-            log(f"  translated {min(start + BATCH, len(todo))}/{len(todo)}")
+            log(f"  processed {min(start + BATCH, len(todo))}/{len(todo)}")
+        if failed:
+            # Rows left untranslated still publish and are retried next run, but say so loudly.
+            msg = f"{failed} of {-(-len(todo) // BATCH)} translation batches failed; see the log above"
+            log(("::warning::" if os.environ.get("GITHUB_ACTIONS") else "WARNING: ") + msg)
 
     # English titles by Portuguese title, for rows whose description changed
     title_en = {v["n"]: v["n_en"] for v in cache.values() if v.get("n") and v.get("n_en")}

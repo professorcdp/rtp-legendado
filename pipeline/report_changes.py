@@ -12,8 +12,13 @@ Exits with an error if this run's list is much shorter than the previous one
 (under --min-ratio of it), which usually means RTP had a bad day rather than
 that half the catalogue vanished. Also exits with an error if more than
 --max-same-desc titles share one description, which means a scraping step has
-picked up page furniture (in October 2026 RTP's menu text landed on 200 rows).
-The workflow then stops before publishing.
+picked up page furniture (in October 2026 RTP's menu text landed on 200 rows),
+or if the Portugal-only count is zero or under --min-pt-ratio of the previous
+list's, which means the fileKey markup has probably changed. The workflow then
+stops before publishing.
+
+Also prints `untranslated=N` (rows missing an English title or description)
+and adds that count to the summary.
 """
 from __future__ import annotations
 
@@ -53,6 +58,7 @@ def main():
     ap.add_argument("--out", default="changes.md")
     ap.add_argument("--min-ratio", type=float, default=0.7)
     ap.add_argument("--max-same-desc", type=int, default=15)
+    ap.add_argument("--min-pt-ratio", type=float, default=0.5)
     args = ap.parse_args()
 
     new = json.loads((DATA / "dataset.json").read_text(encoding="utf-8"))
@@ -66,12 +72,24 @@ def main():
         raise SystemExit(f"{n} titles share the same description ({desc[:80]!r}…); "
                          f"a scraping step is probably broken, so not publishing")
 
+    new_pt = sum(1 for r in new if r.get("pt"))
+    old_pt = sum(1 for r in old if r.get("pt"))          # 0 for the September snapshot (no `pt` field)
+    if new_pt == 0 or (old_pt and new_pt < args.min_pt_ratio * old_pt):
+        raise SystemExit(f"{new_pt} titles have a Portugal-only licence, against {old_pt} last time; "
+                         f"the fileKey check is probably broken, so not publishing")
+
+    untranslated = sum(1 for r in new if not r.get("ne") or (r["x"] and not r.get("xe")))
+
     old_names, new_names = {r["n"] for r in old}, {r["n"] for r in new}
     added = sorted((r for r in new if r["n"] not in old_names), key=lambda r: (r["s"], r["n"]))
     removed = sorted((r for r in old if r["n"] not in new_names), key=lambda r: (r["s"], r["n"]))
 
     md = [f"Weekly rebuild on {date.today().isoformat()}: {len(old)} → {len(new)} titles, "
-          f"{len(added)} added, {len(removed)} removed.", ""]
+          f"{len(added)} added, {len(removed)} removed. "
+          f"{untranslated} title(s) still without English.", ""]
+    if untranslated:
+        md += [f"**{untranslated} title(s) have no English yet.** If the run had an API key, the "
+               "translation step failed for them (see the run's log); they are retried next run.", ""]
     to_check = [r for r in added if r["s"] in CHECK_SECTIONS]
     if added:
         md += ["### Please check for foreign-language titles", "",
@@ -88,6 +106,7 @@ def main():
 
     print(md[0], file=sys.stderr)
     print(f"changed={'true' if (added or removed) else 'false'}")
+    print(f"untranslated={untranslated}")
 
 
 if __name__ == "__main__":

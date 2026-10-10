@@ -32,7 +32,7 @@ The list was built once, by hand, on 11 September 2026, and RTP's catalogue chan
 
 ## Consequences
 - The list stays current without manual work, apart from reviewing new titles for foreign-language ones.
-- A full rebuild every week takes about 2 hours of mostly waiting on GitHub's machines, which costs nothing for a public repo.
+- A full rebuild every week takes about 30 minutes of mostly waiting on GitHub's machines (measured 10 October 2026), which costs nothing for a public repo.
 - About 40 titles that were hidden as "won't play where you are" now show, because they're blocked from Spain but aren't stored as Portugal-only.
 - Until the API key is added, new or reworded descriptions appear without English.
 - RTP can change its page layout without warning, and the scraping then fails silently (it happened before the first automated run; see pipeline/GOTCHAS.md). The weekly run therefore refuses to publish when the list shrinks below 70% of the previous one or when more than 15 titles share one description. The weekly review issue is the other early warning.

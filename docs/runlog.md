@@ -55,3 +55,25 @@ Format:
 - **Did:** Jim added the `ANTHROPIC_API_KEY` Actions secret. Ran the workflow by hand with translations: 101 titles and descriptions translated (claude-sonnet-5-5); live page now has English on all 664 titles and all 663 descriptions. Spot-checked new translations; they read well.
 - **Issues:** none opened or closed.
 - **Next:** Review #13 for foreign-language titles. Then #10 (tests).
+
+## 2026-10-10 (review)
+- **Reviewed:** e8e638b..5d25b91 (latest commit 5d25b91)
+- **Verdict:** Sound overall; nothing must be fixed now, but two silent-failure gaps should be closed before the first scheduled Monday run.
+- **Findings (by rank):**
+  - Should fix:
+    - a) No guard for the Portugal-only flag collapsing to zero if RTP changes the fileKey markup (pipeline/step05_dataset.py line 150; guards in pipeline/report_changes.py lines 60-66 don't cover it).
+    - b) Translation API failures are swallowed (pipeline/step06_translate.py lines 121-122); new titles publish without English and the workflow stays green.
+    - c) Page loads the Inter font from Google (pipeline/templates/page_head.html lines 3-5) while the colophon (page_body.html line 39) and PROJECT.md say "no dependencies, no tracking". Pre-dates this range.
+    - d) Repo root is stale: root index.html and rtp-play-legendado.csv are the September files; README.md lines 11-17 describe the September list and the removed "SEM DIREITOS" filter; site.yml lines 139-140 fallback is dead code.
+  - Could fix:
+    - e) gh issue create (site.yml line 108) failing would block the deploy job even though the list is already committed.
+    - f) "about 2 hours" is stale in site.yml lines 3 and 18, docs/decisions/0002 line 35 and run_all.py line 14 (real time about 31 minutes).
+    - g) GitHub disables scheduled workflows after 60 days of repo inactivity; unclear whether bot commits count. Note it in GOTCHAS.md.
+- **Fixed:**
+  - a) report_changes.py refuses to publish if the Portugal-only count is 0 or under 50% of the previous list's. Tested: with every row's flag zeroed, it exits with an error; normal runs pass.
+  - b) step06 counts failed batches and prints a `::warning::`; report_changes.py outputs the untranslated count and adds it to the review issue; site.yml warns when rows lack English after a run with a key, and opens the review issue in that case even if no titles changed. Tested with a deliberately invalid key on a scratch copy.
+  - e) The review-issue step now has `continue-on-error`, so a failure there can't block publishing.
+  - f) Timing updated to about 30 minutes in site.yml, decision 0002, run_all.py, pipeline/README.md and GOTCHAS.md.
+  - g) GOTCHAS.md notes the 60-day rule and how to re-enable the schedule.
+- **Deferred:** c) #14 (chore, priority: next); d) #15 (chore, priority: next).
+- Also noted: no automated tests (#10 still open); the reviewer could not run the pipeline locally (requests not installed).

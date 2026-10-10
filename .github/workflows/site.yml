@@ -1,6 +1,6 @@
 name: Rebuild and publish the site
 
-# Weekly: rebuild the list from RTP Play (about 2 hours, mostly waiting), commit
+# Weekly: rebuild the list from RTP Play (about 30 minutes, mostly waiting), commit
 # the new list, open an issue listing added and removed titles, and publish the
 # page to GitHub Pages. See docs/decisions/0002-automatic-weekly-rebuild.md.
 #
@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "rebuild (full run, about 2 hours) or publish (re-render the last list only)"
+        description: "rebuild (full run, about 30 minutes) or publish (re-render the last list only)"
         type: choice
         options: [rebuild, publish]
         default: rebuild
@@ -105,13 +105,29 @@ jobs:
         with:
           path: pipeline/site
 
+      # With a key, every row should have English. Anything left over means the
+      # translation API failed; flag it and make sure a review issue opens.
+      - name: Check translations
+        id: translations
+        env:
+          HAS_KEY: ${{ secrets.ANTHROPIC_API_KEY != '' && inputs.no_translate != true }}
+          UNTRANSLATED: ${{ steps.compare.outputs.untranslated }}
+        run: |
+          if [ "$HAS_KEY" = "true" ] && [ "$UNTRANSLATED" != "0" ]; then
+            echo "::warning::$UNTRANSLATED title(s) are still without English after a run with an API key. Translation failed; they will be retried next run."
+            echo "failed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # A failure here must not stop the site being published: the list is
+      # already committed.
       - name: Open a review issue for added and removed titles
-        if: steps.compare.outputs.changed == 'true'
+        if: steps.compare.outputs.changed == 'true' || steps.translations.outputs.failed == 'true'
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh issue create \
-            --title "Review titles from the weekly rebuild ($(date -u +%Y-%m-%d))" \
+            --title "Review the weekly rebuild ($(date -u +%Y-%m-%d))" \
             --label chore --label "priority: next" \
             --body-file "$RUNNER_TEMP/changes.md"
 

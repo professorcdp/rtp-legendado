@@ -20,7 +20,7 @@ pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...        # only needed for the translation step
 
 python step02_subtitles.py --limit 20      # smoke test: does RTP answer us at all?
-python run_all.py                          # full rebuild (~2 h, mostly waiting)
+python run_all.py                          # full rebuild (~30 min on GitHub Actions, mostly waiting)
 python run_all.py --no-translate           # same, but skip the API step
 ```
 

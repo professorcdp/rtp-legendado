@@ -11,8 +11,9 @@
     step 7  render           index.html + csv
 
 Every step is resumable and caches its HTTP calls, so re-running after a failure
-is cheap. A full cold run is roughly 2 hours of mostly-waiting at the default
-politeness settings; a warm weekly rebuild is far less.
+is cheap. A full cold run takes about 30 minutes of mostly-waiting on GitHub
+Actions at the default politeness settings (about 2 hours from a home
+connection in September 2026).
 """
 from __future__ import annotations
 

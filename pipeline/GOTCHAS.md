@@ -17,7 +17,7 @@ Consequences baked in:
   requests. Raising it is the fastest way to make a rebuild slower.
 - Every step is resumable and caches responses on disk, so a bad run costs
   minutes, not hours.
-- A full cold run is roughly 2 hours, almost all of it waiting.
+- A full cold run took roughly 2 hours from a home connection in September 2026 and about 30 minutes on GitHub Actions in October 2026, almost all of it waiting.
 
 ## The listings are AJAX, and `type=tv` doesn't filter radio
 
@@ -123,6 +123,15 @@ Failures like these are silent: every step "succeeds". `report_changes.py`
 now refuses to publish when more than 15 titles share one description or the
 list shrinks below 70% of the previous run. When a weekly review issue shows
 odd section moves, suspect RTP's markup first.
+
+## GitHub can switch off the weekly schedule
+
+In a public repository, GitHub disables scheduled workflows after 60 days with
+no repository activity. It isn't documented whether the weekly bot commit
+counts as activity. If the schedule is switched off, GitHub emails the repo's
+admins; turn it back on from the Actions tab (Rebuild and publish the site →
+Enable workflow), or push any commit. If the list's "checked" date on the page
+is more than a week or two old, check this first.
 
 ## Things done by hand that a rebuild should re-check
 
