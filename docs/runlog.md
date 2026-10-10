@@ -50,3 +50,8 @@ Format:
 - **Issues:** closed #5, #6, #7, #8, #9; #13 opened by the workflow (52 added, 37 removed titles to review for foreign-language ones).
 - **Next:** Jim adds the `ANTHROPIC_API_KEY` Actions secret (then run the workflow by hand to translate the 101 missing descriptions). Review #13. Then #10 (tests).
 - **Notes:** A full rebuild took 31 minutes, not the ~2 hours the pipeline docs predicted. The HTTP cache made the same-day re-run take 7 minutes. RTP placed GitHub's machine in Spain both times.
+
+## 2026-10-10 (translations on)
+- **Did:** Jim added the `ANTHROPIC_API_KEY` Actions secret. Ran the workflow by hand with translations: 101 titles and descriptions translated (claude-sonnet-5-5); live page now has English on all 664 titles and all 663 descriptions. Spot-checked new translations; they read well.
+- **Issues:** none opened or closed.
+- **Next:** Review #13 for foreign-language titles. Then #10 (tests).

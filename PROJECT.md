@@ -34,4 +34,4 @@ A single self-contained web page (`index.html`, no build step, no dependencies, 
 - How long should the old jamminalley.github.io forwarding site be kept?
 
 ## Current status
-The list rebuilds itself every Monday on GitHub Actions and publishes to professorcdp.github.io/rtp-legendado (the old jamminalley address forwards there). Live since 10 Oct 2026: 664 titles, in the Claude Design look, with a "Portugal-only licence" label. Translations are off until Jim adds the ANTHROPIC_API_KEY secret, so 52 new titles and 101 descriptions have no English yet. Each run that adds or removes titles opens a review issue (first one: #13).
+The list rebuilds itself every Monday on GitHub Actions and publishes to professorcdp.github.io/rtp-legendado (the old jamminalley address forwards there). Live since 10 Oct 2026: 664 titles, in the Claude Design look, with a "Portugal-only licence" label. Translations run through the ANTHROPIC_API_KEY Actions secret (added 10 Oct 2026); every title and description has English. Each run that adds or removes titles opens a review issue (first one: #13).
