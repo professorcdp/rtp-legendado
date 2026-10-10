@@ -33,7 +33,11 @@
     "14754",
     "15480",
     "16035",
-    "15993"
+    "15993",
+    "17199",
+    "15519",
+    "17114",
+    "15493"
   ],
   "international_documentary": [
     "10193",
@@ -77,7 +81,18 @@
     "16966",
     "14482",
     "8670",
-    "7391"
+    "7391",
+    "17137",
+    "17258",
+    "17142",
+    "17206",
+    "17138",
+    "17169",
+    "17136",
+    "17260",
+    "17209",
+    "17134",
+    "16826"
   ],
   "language_and_literature": [
     "3144",
@@ -97,7 +112,8 @@
     "7017": "Cape Verde setting, much Crioulo",
     "9769": "Partly in English (set in London)",
     "1305": "Daily soap, 300+ episodes",
-    "3019": "Daily sitcom, 300 episodes"
+    "3019": "Daily sitcom, 300 episodes",
+    "15107": "Brazilian film (Brazilian Portuguese)"
   },
   "rename": {
     "13427": "Uma Primavera Portuguesa"
