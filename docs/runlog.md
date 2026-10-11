@@ -87,3 +87,6 @@ Format:
 - **Did:** #16: added `page_notes` to overrides.json (Jim approved: Brazilian Portuguese ×3, Much Crioulo, Partly in English); shown as a lavender tag beside the title and in a new CSV "Note" column; the two daily soap/sitcom notes stay data-only. #14: embedded Inter (variable, Latin subset, OFL) in the page instead of loading it from Google; page 726 KB → 796 KB; checked in a browser that Inter loads and nothing outside the page is requested. #15: removed the September root index.html and CSV, removed the dead fallback in site.yml, rewrote README.md, updated METHOD.md and PROJECT.md. Ran the rebuild; live page checked (tags, font, CSV Note column, og.png, old jamminalley link).
 - **Issues:** closed #14, #15, #16. The rebuild opened #17 (4 new titles to review).
 - **Next:** Review #17. Then #10 (tests), #11, #12 when convenient.
+
+## 2026-10-11 (new-title review)
+- **Did:** Closed #17: Catatuas-Negras em Risco de Vida (17264) added to `international_documentary` (RTP2 nature doc about Western Australia); Uma Abelha na Chuva (9155) stays Portuguese. Rebuilt; live page shows it under International documentaries.
