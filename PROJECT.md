@@ -34,4 +34,4 @@ A single self-contained web page (no external requests, no tracking) served from
 - How long should the old jamminalley.github.io forwarding site be kept?
 
 ## Current status
-The list rebuilds itself every Monday on GitHub Actions and publishes to professorcdp.github.io/rtp-legendado (the old jamminalley address forwards there). Live since 10 Oct 2026: 664 titles, in the Claude Design look, with a "Portugal-only licence" label. Translations run through the ANTHROPIC_API_KEY Actions secret (added 10 Oct 2026); every title and description has English. Each run that adds or removes titles opens a review issue (first one: #13).
+The list rebuilds itself every Monday on GitHub Actions, translates anything new, and publishes to professorcdp.github.io/rtp-legendado (the old jamminalley address forwards there). As of 11 Oct 2026: 668 titles in the Claude Design look, with Portugal-only licence labels, learner notes (e.g. Brazilian Portuguese), English for every title and description, and an embedded font, so the page makes no outside requests. Each run that adds or removes titles opens a review issue (open: #17).

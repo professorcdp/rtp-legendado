@@ -82,3 +82,8 @@ Format:
 - **Did:** Reviewed the 28 new titles from #13 in series/films/documentaries/nature with Jim, using RTP's collection tags, descriptions and episode slugs (the .vtt sound-cue counts were near zero for everything, Portuguese-made included, so not a useful signal any more). Jim confirmed all: added 4 to `foreign_fiction` (Dalíland, O Caloiro, Cry Macho, A Febre), 11 to `international_documentary`, and a Brazilian Portuguese note for Bye Bye Brasil. Re-ran the workflow; the live page shows all 16 in the right sections.
 - **Issues:** closed #13; opened #16 (per-title notes such as "Brazilian Portuguese" are in the data but never shown on the page or in the CSV).
 - **Next:** #14 (Google font vs "no tracking") and #15 (stale repo root), both waiting on Jim's choice; #16; #10 (tests).
+
+## 2026-10-11 (notes, font, tidy-up)
+- **Did:** #16: added `page_notes` to overrides.json (Jim approved: Brazilian Portuguese ×3, Much Crioulo, Partly in English); shown as a lavender tag beside the title and in a new CSV "Note" column; the two daily soap/sitcom notes stay data-only. #14: embedded Inter (variable, Latin subset, OFL) in the page instead of loading it from Google; page 726 KB → 796 KB; checked in a browser that Inter loads and nothing outside the page is requested. #15: removed the September root index.html and CSV, removed the dead fallback in site.yml, rewrote README.md, updated METHOD.md and PROJECT.md. Ran the rebuild; live page checked (tags, font, CSV Note column, og.png, old jamminalley link).
+- **Issues:** closed #14, #15, #16. The rebuild opened #17 (4 new titles to review).
+- **Next:** Review #17. Then #10 (tests), #11, #12 when convenient.
