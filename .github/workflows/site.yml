@@ -144,18 +144,11 @@ jobs:
 
       - run: pip install requests
 
-      # Until the first rebuild has committed a list, publish the page that was
-      # live before the switch to GitHub Actions, unchanged.
       - name: Render the last committed list
+        working-directory: pipeline
         run: |
-          mkdir -p _site
-          if [ -f pipeline/data/dataset.json ]; then
-            (cd pipeline && python step07_render.py --out ../_site/index.html --csv ../_site/rtp-play-legendado.csv)
-          else
-            echo "::notice::No committed list yet; publishing the existing index.html and CSV unchanged."
-            cp index.html rtp-play-legendado.csv _site/
-          fi
-          cp og.png _site/
+          python step07_render.py --out ../_site/index.html --csv ../_site/rtp-play-legendado.csv
+          cp ../og.png ../_site/
 
       - uses: actions/upload-pages-artifact@v3
         with:

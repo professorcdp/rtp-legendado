@@ -19,6 +19,7 @@ can be re-rendered later from the committed dataset without contacting RTP.
 from __future__ import annotations
 
 import argparse
+import base64
 import csv
 import html
 import re
@@ -100,7 +101,8 @@ def eps_label(r) -> str:
 
 def row_html(r) -> str:
     search = " ".join(x for x in (r["n"], r.get("ne", ""), r["x"], r.get("xe", "")) if x).lower()
-    flag = '<span class="flag">Portugal-only licence</span>' if r.get("pt") else ""
+    flag = (f'<span class="flag tag">{esc(r["tag"])}</span>' if r.get("tag") else "") + \
+           ('<span class="flag">Portugal-only licence</span>' if r.get("pt") else "")
     out = [f'<article class="row" data-blocked="{1 if r.get("pt") else 0}" data-s="{esc(search)}">',
            '<div class="rowhead"><div class="rowtitle">',
            f'<a href="{esc(r["u"])}" target="_blank" rel="noopener">{esc(r["n"])}</a>{flag}</div>',
@@ -162,6 +164,8 @@ def main():
         raise SystemExit(f"rows in an unknown section: {unplaced[:5]}")
 
     head = (ROOT / "templates" / "page_head.html").read_text(encoding="utf-8")
+    font = base64.b64encode((ROOT / "templates" / "fonts" / "inter-latin.woff2").read_bytes()).decode()
+    head = head.replace("{{INTER_WOFF2}}", font)
     body = (ROOT / "templates" / "page_body.html").read_text(encoding="utf-8")
     fills = {
         "CHECKED_ON": checked_on,
@@ -193,11 +197,11 @@ def main():
     with csv_path.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["Section", "Programme", "English title", "Episodes", "Latest episode",
-                    "Portugal-only licence", "Description (PT)", "Description (EN)", "Link"])
+                    "Portugal-only licence", "Note", "Description (PT)", "Description (EN)", "Link"])
         for r in sorted(rows, key=lambda r: order[r["s"]]):
             eps = "film" if r["s"] == "film" else (("12+" if r["e"] >= 12 else r["e"]) if r["e"] else "special")
             w.writerow([CSV_LABELS.get(r["s"], r["s"]), r["n"], r.get("ne", ""), eps, r["d"],
-                        "yes" if r.get("pt") else "no", r["x"], r.get("xe", ""), r["u"]])
+                        "yes" if r.get("pt") else "no", r.get("tag", ""), r["x"], r.get("xe", ""), r["u"]])
     log(f"wrote {csv_path}")
 
 

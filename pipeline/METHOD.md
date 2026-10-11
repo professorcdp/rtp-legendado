@@ -219,21 +219,16 @@ flatten — *Música de Graça* ("free music" / "Graça's music") comes out as
 
 ## 7. The page
 
-`step07_render.py` concatenates `templates/page_head.html` (title, Google Fonts
-link, CSS with light/dark tokens) and `templates/page_body.html` (markup plus the
-~60 lines of vanilla JS that render the rows, the search box, the "hide blocked"
-and "show English" checkboxes), substituting the dataset JSON for the `__DATA__`
-placeholder, and wraps it in a `<head>` carrying the canonical URL and the
-social-card tags. The result is one self-contained HTML file with no runtime
-dependencies, deployable by copying it to GitHub Pages.
+`step07_render.py` builds the page in the Claude Design look (ported into
+`templates/` in October 2026). `templates/page_head.html` holds the CSS, and the
+Inter font from `templates/fonts/` is embedded in it as base64.
+`templates/page_body.html` holds the markup with `{{...}}` slots and a small
+script for the search box and the "Portugal-only licence" and "show English"
+checkboxes. Step 7 writes every row, section, chip and stat into the page as
+static markup, adds a `<head>` with the canonical URL and the social-card tags,
+and writes the CSV. The result is one self-contained HTML file that makes no
+requests to anyone else.
 
-`og.png` (1200×630 social card) is in the repo and is referenced by `og:image`.
-
-**Note on the live page:** the page currently published at
-jamminalley.github.io/rtp-legendado was restyled afterwards in Claude Design,
-which emitted static markup for the rows rather than rendering them from a data
-block. That file is not produced by this pipeline. Either keep the Design file
-and treat this pipeline as the data source (re-applying the design to each
-rebuild), or adopt `templates/` as the canonical page and port the Design
-styling into `page_head.html`. The second is what makes a scheduled rebuild
-actually automatic — see README.
+`og.png` (1200×630 social card) is in the repo root and is referenced by `og:image`.
+The weekly workflow (`.github/workflows/site.yml`) publishes `index.html`, the
+CSV and `og.png` to GitHub Pages.

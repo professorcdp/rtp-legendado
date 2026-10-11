@@ -9,7 +9,7 @@
 A reference list of the programmes on [RTP Play](https://www.rtp.pt/play/) that carry a Portuguese subtitle track. It's for learners of European Portuguese who want comprehensible input: shows they can watch while reading along in Portuguese. The first version was published on 12 September 2026 and has already been shared with students.
 
 ## Expected output
-A single self-contained web page (`index.html`, no build step, no dependencies, no tracking) served from GitHub Pages at https://professorcdp.github.io/rtp-legendado/, plus the same data as a spreadsheet (`rtp-play-legendado.csv`).
+A single self-contained web page (no external requests, no tracking) served from GitHub Pages at https://professorcdp.github.io/rtp-legendado/, plus the same data as a spreadsheet (`rtp-play-legendado.csv`). Both are rebuilt every week from `pipeline/` by `.github/workflows/site.yml`.
 
 ## Requirements
 ### Must have

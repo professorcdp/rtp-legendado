@@ -115,6 +115,14 @@
     "3019": "Daily sitcom, 300 episodes",
     "15107": "Brazilian film (Brazilian Portuguese)"
   },
+  "_comment_page_notes": "page_notes: the short, learner-facing label shown as a tag next to a title on the page and in the CSV's Note column. Keep it to a few words. `notes` above is the fuller, hand-written background and is not shown unless the pid also appears here.",
+  "page_notes": {
+    "16884": "Brazilian Portuguese",
+    "5725": "Brazilian Portuguese",
+    "15107": "Brazilian Portuguese",
+    "7017": "Much Crioulo",
+    "9769": "Partly in English"
+  },
   "rename": {
     "13427": "Uma Primavera Portuguesa"
   },

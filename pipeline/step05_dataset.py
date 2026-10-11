@@ -149,6 +149,7 @@ def main():
             "rights": (rights.get(pid) or {}).get("rights"),
             "pt_only": "/pt/" in (s.get("file_key") or ""),
             "note": ov["notes"].get(pid, ""),
+            "tag": ov.get("page_notes", {}).get(pid, ""),
         })
 
     if args.draft_only:
@@ -179,6 +180,7 @@ def main():
             "x": main_item["desc"],
             "xs": 1 if main_item["show_level"] else 0,
             "note": next((i["note"] for i in g["items"] if i["note"]), ""),
+            "tag": next((i["tag"] for i in g["items"] if i["tag"]), ""),
             "r": main_item["rights"],
             "ok": 1 if any(i["rights"] == 1 for i in g["items"]) else 0,
             "pt": 1 if all(i["pt_only"] for i in g["items"]) else 0,
