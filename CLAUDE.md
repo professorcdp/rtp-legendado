@@ -25,6 +25,9 @@ This file tells Claude how to work on this project. PROJECT.md says *what* we're
 3. If a significant decision was made (tech choice, architecture, a trade-off), record it as a new file in docs/decisions/ using the template there.
 4. Commit and push.
 
+## Working alongside the advisor chat
+Jim usually runs a second, read-only Claude chat for this folder, started with /advisor. It plans, weighs options and writes the instruction blocks Jim pastes here. It reads docs/runlog.md, git log, git status, git diff and `gh issue list` directly, so the handoff to it IS the runlog entry plus the commit and push. When Jim says "hand off", "I'm done" or similar: do the end-of-session steps, then reply with at most three lines (what was done, what's open, anything only Jim can do). Never write a summary for Jim to copy into the advisor chat. If you need a decision from Jim, ask it in one short question; if it's a planning or priority question, say "that's one for the advisor chat" and stop.
+
 ## Code reviews
 When Jim pastes a fix-it block from `/second-opinion`:
 1. Fix the **Must-fix** items first, before touching anything else in the block.
