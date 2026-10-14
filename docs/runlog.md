@@ -90,3 +90,6 @@ Format:
 
 ## 2026-10-11 (new-title review)
 - **Did:** Closed #17: Catatuas-Negras em Risco de Vida (17264) added to `international_documentary` (RTP2 nature doc about Western Australia); Uma Abelha na Chuva (9155) stays Portuguese. Rebuilt; live page shows it under International documentaries.
+
+## 2026-10-14 (new-title review)
+- **Did:** Closed #18: Beautiful Wedding (17253) → `foreign_fiction`, Expedição Quebeque-Labrador (16492) → `international_documentary`, A Ferro e Fogo (17310) stays Portuguese. Rebuilt; live page shows both in their new sections. The rebuild found further changes and opened #19.
