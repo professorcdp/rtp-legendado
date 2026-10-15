@@ -12,13 +12,18 @@
 
 <div class="band"><div class="wrap">{{STATS}}</div></div>
 
-<div class="controls"><div class="wrap">
-  <input id="q" type="search" placeholder="Filter by title or description — Açores, Abril, comédia, Lisboa…" autocomplete="off">
-  <div class="checks">
-    <label><input type="checkbox" id="blocked" checked> <span>Hide programmes with a Portugal-only licence ({{PT_ONLY_N}} hidden)</span></label>
-    <label><input type="checkbox" id="english" checked> <span>Show English translations</span></label>
+<div class="controls" id="controls"><div class="wrap">
+  <div class="bar">
+    <input id="q" type="search" placeholder="Filter by title or description — Açores, Abril, comédia, Lisboa…" autocomplete="off">
+    <button type="button" class="sections-btn" id="sections-btn" aria-expanded="false" aria-controls="panel">Sections <span aria-hidden="true">▾</span></button>
   </div>
-  <div class="chips">{{CHIPS}}</div>
+  <div class="panel" id="panel">
+    <div class="checks">
+      <label><input type="checkbox" id="blocked" checked> <span>Hide programmes with a Portugal-only licence ({{PT_ONLY_N}} hidden)</span></label>
+      <label><input type="checkbox" id="english" checked> <span>Show English translations</span></label>
+    </div>
+    <div class="chips">{{CHIPS}}</div>
+  </div>
   <div class="edge"></div>
 </div></div>
 
@@ -61,5 +66,13 @@
   var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(render,90);});
   cb.addEventListener('change',render); en.addEventListener('change',paint);
   render();paint();
+  // Phone layout: "Sections" opens the chips and checkboxes as a drop-down
+  // panel; a chip, a tap outside or Escape closes it. Desktop never shows the button.
+  var ctl=document.getElementById('controls'),btn=document.getElementById('sections-btn');
+  function setOpen(o){ctl.classList.toggle('open',o);btn.setAttribute('aria-expanded',o?'true':'false');}
+  btn.addEventListener('click',function(){setOpen(!ctl.classList.contains('open'));});
+  document.querySelector('.chips').addEventListener('click',function(e){if(e.target.closest('a'))setOpen(false);});
+  document.addEventListener('click',function(e){if(!ctl.contains(e.target))setOpen(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')setOpen(false);});
 })();
 </script>

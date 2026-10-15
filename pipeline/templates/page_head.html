@@ -56,6 +56,8 @@ h1{font-size:clamp(34px,6vw,56px);max-width:12em;margin-bottom:24px;text-wrap:ba
 .chip:hover{border-color:var(--a500);color:var(--a200);text-decoration:none}
 .chip b{font-weight:400;color:var(--a400);font-variant-numeric:tabular-nums}
 .edge{height:1px;background-image:var(--rule)}
+.panel{display:flex;flex-direction:column;gap:14px}
+.sections-btn{display:none}
 
 main{padding-bottom:8px}
 section{padding:44px 0 8px;scroll-margin-top:190px}
@@ -93,6 +95,22 @@ footer ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;
 @media (max-width:520px){
   header{padding-top:44px}
   .wrap{padding:0 18px}
-  section{scroll-margin-top:240px}
+}
+/* Phones: the pinned bar is one row (search + "Sections"); the chips and
+   checkboxes drop down as a panel when "Sections" is tapped (issue #22). */
+@media (max-width:640px){
+  .controls .wrap{position:relative;padding-top:12px;padding-bottom:12px;gap:12px}
+  .bar{display:flex;gap:8px}
+  #q{min-width:0;padding:11px 14px}
+  .sections-btn{display:flex;align-items:center;gap:6px;flex:none;font:inherit;font-size:14px;padding:0 14px;
+    border-radius:var(--rm);border:1px solid var(--n800);background:var(--surface);color:var(--n300);cursor:pointer}
+  .sections-btn span{transition:transform .15s}
+  .controls.open .sections-btn{border-color:var(--a500);color:var(--a200)}
+  .controls.open .sections-btn span{transform:rotate(180deg)}
+  .panel{display:none;position:absolute;left:0;right:0;top:100%;padding:16px 18px 18px;background:var(--bg);
+    border-bottom:1px solid var(--n800);box-shadow:0 18px 30px rgba(0,0,0,.45);
+    max-height:calc(100vh - 90px);overflow-y:auto}
+  .controls.open .panel{display:flex}
+  section{scroll-margin-top:56px}
 }
 </style>
