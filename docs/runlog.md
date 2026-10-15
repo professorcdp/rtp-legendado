@@ -93,3 +93,7 @@ Format:
 
 ## 2026-10-14 (new-title review)
 - **Did:** Closed #18: Beautiful Wedding (17253) → `foreign_fiction`, Expedição Quebeque-Labrador (16492) → `international_documentary`, A Ferro e Fogo (17310) stays Portuguese. Rebuilt; live page shows both in their new sections. The rebuild found further changes and opened #19.
+
+## 2026-10-15 (compare by pid)
+- **Did:** Fixed #20: `pipeline/report_changes.py` now matches this week's and last week's rows by RTP programme id (any shared pid, including merged seasons) instead of by title, and lists title changes under "Renamed" (renames alone don't open a review issue). Tested on the 12 Oct vs 14 Oct lists (c96be96 → b3ddaf7): A Minha Lancheira (17159) now shows as renamed; 1 added, 7 removed, 1 renamed.
+- **Issues:** closed #20. Open: #21 (grace period, needs Jim's decision), #10, #11, #12, #3.

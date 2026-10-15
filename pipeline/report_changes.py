@@ -5,8 +5,14 @@
 
 Reads data/dataset.json (this run) and PREVIOUS.json (the dataset committed by
 the last run, or the September snapshot the first time). Writes a Markdown
-summary of added and removed titles, with a reminder to check new titles for
-foreign-language ones, and prints `changed=true|false` for GitHub Actions.
+summary of added, removed and renamed titles, with a reminder to check new
+titles for foreign-language ones, and prints `changed=true|false` for GitHub
+Actions (renames alone don't count as a change).
+
+Rows are matched by RTP programme id (pid), not by title: a row matches if it
+shares any pid (its main link or a merged season) with a row in the other list.
+The title shown is often the latest episode's, so it can change from week to
+week while the programme stays the same (issue #20).
 
 Exits with an error if this run's list is much shorter than the previous one
 (under --min-ratio of it), which usually means RTP had a bad day rather than
@@ -48,6 +54,21 @@ def pid(url: str) -> str:
     return m.group(1) if m else "?"
 
 
+def pids(r) -> set[str]:
+    return {pid(u) for u in [r["u"]] + [m["u"] for m in r.get("more", [])]}
+
+
+def match(rows, others) -> dict[int, dict]:
+    """For each row (by index), the row in `others` sharing a pid with it, if any."""
+    by_pid = {p: o for o in others for p in pids(o)}
+    out = {}
+    for i, r in enumerate(rows):
+        hit = next((by_pid[p] for p in sorted(pids(r)) if p in by_pid), None)
+        if hit is not None:
+            out[i] = hit
+    return out
+
+
 def line(r) -> str:
     return f"- **{r['n']}** ({SECTION_NAMES.get(r['s'], r['s'])}, pid `{pid(r['u'])}`): {r['u']}"
 
@@ -80,12 +101,14 @@ def main():
 
     untranslated = sum(1 for r in new if not r.get("ne") or (r["x"] and not r.get("xe")))
 
-    old_names, new_names = {r["n"] for r in old}, {r["n"] for r in new}
-    added = sorted((r for r in new if r["n"] not in old_names), key=lambda r: (r["s"], r["n"]))
-    removed = sorted((r for r in old if r["n"] not in new_names), key=lambda r: (r["s"], r["n"]))
+    new_to_old, old_to_new = match(new, old), match(old, new)
+    added = sorted((r for i, r in enumerate(new) if i not in new_to_old), key=lambda r: (r["s"], r["n"]))
+    removed = sorted((r for i, r in enumerate(old) if i not in old_to_new), key=lambda r: (r["s"], r["n"]))
+    renamed = sorted(((o, r) for i, r in enumerate(new) if (o := new_to_old.get(i)) and o["n"] != r["n"]),
+                     key=lambda t: (t[1]["s"], t[1]["n"]))
 
     md = [f"Weekly rebuild on {date.today().isoformat()}: {len(old)} → {len(new)} titles, "
-          f"{len(added)} added, {len(removed)} removed. "
+          f"{len(added)} added, {len(removed)} removed, {len(renamed)} renamed. "
           f"{untranslated} title(s) still without English.", ""]
     if untranslated:
         md += [f"**{untranslated} title(s) have no English yet.** If the run had an API key, the "
@@ -102,6 +125,11 @@ def main():
                f"### Added ({len(added)})", ""] + [line(r) for r in added] + [""]
     if removed:
         md += [f"### Removed ({len(removed)})", ""] + [line(r) for r in removed] + [""]
+    if renamed:
+        md += [f"### Renamed ({len(renamed)})", "",
+               "Same programme, new title (usually the latest episode's). No action needed.", ""] + \
+              [f"- renamed: **{o['n']}** → **{r['n']}** ({SECTION_NAMES.get(r['s'], r['s'])}, "
+               f"pid `{pid(r['u'])}`): {r['u']}" for o, r in renamed] + [""]
     Path(args.out).write_text("\n".join(md), encoding="utf-8")
 
     print(md[0], file=sys.stderr)
