@@ -97,3 +97,8 @@ Format:
 ## 2026-10-15 (compare by pid)
 - **Did:** Fixed #20: `pipeline/report_changes.py` now matches this week's and last week's rows by RTP programme id (any shared pid, including merged seasons) instead of by title, and lists title changes under "Renamed" (renames alone don't open a review issue). Tested on the 12 Oct vs 14 Oct lists (c96be96 → b3ddaf7): A Minha Lancheira (17159) now shows as renamed; 1 added, 7 removed, 1 renamed.
 - **Issues:** closed #20. Open: #21 (grace period, needs Jim's decision), #10, #11, #12, #3.
+
+## 2026-10-15 (phone layout)
+- **Did:** Fixed #22: on screens up to 640px the pinned bar is now one row (search + "Sections ▾"); the chips and the two checkboxes drop down as a panel that closes on a chip, a tap outside or Escape; section headings land just below the bar. Desktop unchanged (measured against the previous page). Jim approved phone-width screenshots; published with the workflow's publish mode and tested on the live site with a scripted Chrome at 412px.
+- **Issues:** closed #22.
+- **Next:** Jim to try it on his Pixel 8. Open: #21 (needs Jim's decision), #10, #11, #12, #3.
