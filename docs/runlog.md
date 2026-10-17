@@ -102,3 +102,9 @@ Format:
 - **Did:** Fixed #22: on screens up to 640px the pinned bar is now one row (search + "Sections ▾"); the chips and the two checkboxes drop down as a panel that closes on a chip, a tap outside or Escape; section headings land just below the bar. Desktop unchanged (measured against the previous page). Jim approved phone-width screenshots; published with the workflow's publish mode and tested on the live site with a scripted Chrome at 412px.
 - **Issues:** closed #22.
 - **Next:** Jim to try it on his Pixel 8. Open: #21 (needs Jim's decision), #10, #11, #12, #3.
+
+## 2026-10-17 (spelling, copyright, custom domain prep)
+- **Did:** #23: American spelling in reader-facing text (page template, section labels, CSV header now "Program" and "Portugal-only license", review-issue text, README, PROJECT): program(s), license, catalog, Theater, labeling. The `#theatre` anchor id is unchanged so existing links keep working; step05/METHOD/GOTCHAS left as internal. #24: footer now reads "© {year} Jim Ranalli / Professor CDP. Program descriptions © RTP – Rádio e Televisão de Portugal; this page only links to their pages." with the year from the build date. #25: made the site address one setting (`SITE_URL` in site.yml, read by step07, which also writes a CNAME file for a custom domain); decision 0003 records the switch-over order.
+- **Not done, deliberately:** did not set the custom domain on Pages or repoint the jamminalley forwarding site. Setting it makes GitHub redirect the current address to legendado.professorcdp.com straight away, which would take the site offline until the DNS record exists. No workflow run: the spelling and copyright changes go live with the next run (scheduled Monday 19 Oct), which still uses the github.io address.
+- **Issues:** opened #23, #24, #25; closed #23, #24. #25 waits on Jim's DNS record.
+- **Next:** Jim adds DNS (CNAME, host `legendado`, value `professorcdp.github.io`); then follow the steps in decision 0003.

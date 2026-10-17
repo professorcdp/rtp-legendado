@@ -9,14 +9,14 @@ summary of added, removed and renamed titles, with a reminder to check new
 titles for foreign-language ones, and prints `changed=true|false` for GitHub
 Actions (renames alone don't count as a change).
 
-Rows are matched by RTP programme id (pid), not by title: a row matches if it
+Rows are matched by RTP program id (pid), not by title: a row matches if it
 shares any pid (its main link or a merged season) with a row in the other list.
 The title shown is often the latest episode's, so it can change from week to
-week while the programme stays the same (issue #20).
+week while the program stays the same (issue #20).
 
 Exits with an error if this run's list is much shorter than the previous one
 (under --min-ratio of it), which usually means RTP had a bad day rather than
-that half the catalogue vanished. Also exits with an error if more than
+that half the catalog vanished. Also exits with an error if more than
 --max-same-desc titles share one description, which means a scraping step has
 picked up page furniture (in October 2026 RTP's menu text landed on 200 rows),
 or if the Portugal-only count is zero or under --min-pt-ratio of the previous
@@ -40,7 +40,7 @@ from common import DATA
 
 SECTION_NAMES = {
     "series": "Portuguese TV series", "film": "Portuguese films", "fun": "Comedy & entertainment",
-    "lang": "Language & literature", "stage": "Theatre", "docs": "Documentaries (Portugal)",
+    "lang": "Language & literature", "stage": "Theater", "docs": "Documentaries (Portugal)",
     "nature": "Nature & science", "mag": "Magazines & reportage", "food": "Food",
     "kids": "Kids & animation", "music": "Music & concerts",
     "intl": "International documentaries", "foreign": "Foreign-language fiction",
@@ -96,7 +96,7 @@ def main():
     new_pt = sum(1 for r in new if r.get("pt"))
     old_pt = sum(1 for r in old if r.get("pt"))          # 0 for the September snapshot (no `pt` field)
     if new_pt == 0 or (old_pt and new_pt < args.min_pt_ratio * old_pt):
-        raise SystemExit(f"{new_pt} titles have a Portugal-only licence, against {old_pt} last time; "
+        raise SystemExit(f"{new_pt} titles have a Portugal-only license, against {old_pt} last time; "
                          f"the fileKey check is probably broken, so not publishing")
 
     untranslated = sum(1 for r in new if not r.get("ne") or (r["x"] and not r.get("xe")))
@@ -127,7 +127,7 @@ def main():
         md += [f"### Removed ({len(removed)})", ""] + [line(r) for r in removed] + [""]
     if renamed:
         md += [f"### Renamed ({len(renamed)})", "",
-               "Same programme, new title (usually the latest episode's). No action needed.", ""] + \
+               "Same program, new title (usually the latest episode's). No action needed.", ""] + \
               [f"- renamed: **{o['n']}** → **{r['n']}** ({SECTION_NAMES.get(r['s'], r['s'])}, "
                f"pid `{pid(r['u'])}`): {r['u']}" for o, r in renamed] + [""]
     Path(args.out).write_text("\n".join(md), encoding="utf-8")

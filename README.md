@@ -1,19 +1,19 @@
 # RTP Play Legendado
 
-**https://professorcdp.github.io/rtp-legendado/**
+**https://professorcdp.github.io/rtp-legendado/** (moving to **https://legendado.professorcdp.com/** once its DNS record is in place; see [docs/decisions/0003-custom-domain.md](docs/decisions/0003-custom-domain.md))
 
-A reference list of the programmes on [RTP Play](https://www.rtp.pt/play/) that carry a Portuguese
+A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry a Portuguese
 subtitle track, for learners of European Portuguese who want comprehensible input.
 
 ## What's on the page
 
-- Every RTP Play TV programme whose latest episode has a Portuguese subtitle track (the one RTP
+- Every RTP Play TV program whose latest episode has a Portuguese subtitle track (the one RTP
   calls *Português adaptado*), grouped by genre. Portuguese-language shows come first;
   international documentaries and foreign-language fiction, where the subtitles are a
   translation, are at the bottom.
 - **English translations** of every title and description, which can be hidden to read the
   Portuguese cold first.
-- A **Portugal-only licence** label and filter, for titles RTP licenses for Portugal only.
+- A **Portugal-only license** label and filter, for titles RTP licenses for Portugal only.
 - Short notes where they matter to a learner, such as *Brazilian Portuguese*.
 - The same data as a spreadsheet: [rtp-play-legendado.csv](https://professorcdp.github.io/rtp-legendado/rtp-play-legendado.csv).
 
@@ -26,7 +26,7 @@ The list rebuilds itself every Monday. A GitHub Actions workflow
 ([.github/workflows/site.yml](.github/workflows/site.yml)) runs the pipeline in
 [pipeline/](pipeline/), which:
 
-1. lists every TV programme in the RTP Play catalogue;
+1. lists every TV program in the RTP Play catalog;
 2. checks each one's latest episode for a subtitle track;
 3. sorts the titles into sections, using RTP's own tags plus a hand-kept list;
 4. translates new or changed text into English (through the Anthropic API);
@@ -59,14 +59,14 @@ The next weekly run, or a manual run of the workflow from the Actions tab, moves
 
 ## Caveats
 
-- Only the latest episode of each programme is checked, so a show may have subtitles on some
+- Only the latest episode of each program is checked, so a show may have subtitles on some
   episodes and not others.
 - Titles without the Portugal-only label usually play outside Portugal, but not always, and
   rights change over time.
 - For foreign-language films and series the Portuguese subtitles are a translation, not a
   transcription of the audio: useful for reading, not for listening.
-- RTP's catalogue changes constantly; treat the list as a weekly snapshot.
+- RTP's catalog changes constantly; treat the list as a weekly snapshot.
 
 Data belongs to RTP – Rádio e Televisão de Portugal. The page only links to their pages and
-quotes their programme descriptions, with attribution. The Inter font is used under the SIL Open
+quotes their program descriptions, with attribution. The Inter font is used under the SIL Open
 Font License (see [pipeline/templates/fonts/](pipeline/templates/fonts/)).
