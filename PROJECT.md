@@ -9,7 +9,7 @@
 A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry a Portuguese subtitle track. It's for learners of European Portuguese who want comprehensible input: shows they can watch while reading along in Portuguese. The first version was published on 12 September 2026 and has already been shared with students.
 
 ## Expected output
-A single self-contained web page (no external requests, no tracking) served from GitHub Pages at https://professorcdp.github.io/rtp-legendado/, plus the same data as a spreadsheet (`rtp-play-legendado.csv`). Both are rebuilt every week from `pipeline/` by `.github/workflows/site.yml`.
+A single self-contained web page (no external requests, no tracking) served from GitHub Pages at https://legendado.professorcdp.com/, plus the same data as a spreadsheet (`rtp-play-legendado.csv`). Both are rebuilt every week from `pipeline/` by `.github/workflows/site.yml`.
 
 ## Requirements
 ### Must have
@@ -31,8 +31,7 @@ A single self-contained web page (no external requests, no tracking) served from
 - Tracking or analytics on the page.
 
 ## Open questions
-- Custom domain legendado.professorcdp.com: waiting for Jim to add the DNS record (CNAME legendado → professorcdp.github.io), then the switch-over in docs/decisions/0003-custom-domain.md (#25).
 - How long should the old jamminalley.github.io forwarding site be kept?
 
 ## Current status
-The list rebuilds itself every Monday on GitHub Actions, translates anything new, and publishes to professorcdp.github.io/rtp-legendado (the old jamminalley address forwards there). As of 11 Oct 2026: 668 titles in the Claude Design look, with Portugal-only license labels, learner notes (e.g. Brazilian Portuguese), English for every title and description, and an embedded font, so the page makes no outside requests. Each run that adds or removes titles opens a review issue (open: #17).
+The list rebuilds itself every Monday on GitHub Actions, translates anything new, and publishes to legendado.professorcdp.com (the old professorcdp.github.io and jamminalley addresses forward there). As of 11 Oct 2026: 668 titles in the Claude Design look, with Portugal-only license labels, learner notes (e.g. Brazilian Portuguese), English for every title and description, and an embedded font, so the page makes no outside requests. Each run that adds or removes titles opens a review issue (open: #17).

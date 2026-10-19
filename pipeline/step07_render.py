@@ -125,7 +125,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="site/index.html")
     ap.add_argument("--csv", default="site/rtp-play-legendado.csv")
-    ap.add_argument("--site-url", default=os.environ.get("SITE_URL") or "https://professorcdp.github.io/rtp-legendado")
+    ap.add_argument("--site-url", default=os.environ.get("SITE_URL") or "https://legendado.professorcdp.com")
     ap.add_argument("--checked-on", help="date shown on the page, e.g. '11 Sep 2026' (default: today)")
     args = ap.parse_args()
 

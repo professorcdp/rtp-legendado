@@ -1,6 +1,6 @@
 # RTP Play Legendado
 
-**https://professorcdp.github.io/rtp-legendado/** (moving to **https://legendado.professorcdp.com/** once its DNS record is in place; see [docs/decisions/0003-custom-domain.md](docs/decisions/0003-custom-domain.md))
+**https://legendado.professorcdp.com/**
 
 A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry a Portuguese
 subtitle track, for learners of European Portuguese who want comprehensible input.
@@ -15,7 +15,7 @@ subtitle track, for learners of European Portuguese who want comprehensible inpu
   Portuguese cold first.
 - A **Portugal-only license** label and filter, for titles RTP licenses for Portugal only.
 - Short notes where they matter to a learner, such as *Brazilian Portuguese*.
-- The same data as a spreadsheet: [rtp-play-legendado.csv](https://professorcdp.github.io/rtp-legendado/rtp-play-legendado.csv).
+- The same data as a spreadsheet: [rtp-play-legendado.csv](https://legendado.professorcdp.com/rtp-play-legendado.csv).
 
 The page is one self-contained HTML file. It embeds its font and data, makes no requests to
 anyone else, and has no tracking.

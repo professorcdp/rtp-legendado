@@ -25,12 +25,10 @@ on:
         default: false
 
 # The site's public address, used for the canonical URL and social-card tags.
-# To switch to the custom domain, change this to https://legendado.professorcdp.com
-# only AFTER its DNS record resolves and the domain is set in the repo's Pages
-# settings (docs/decisions/0003-custom-domain.md); otherwise links on the page
-# point to an address that doesn't work yet.
+# It must match the custom domain in the repo's Pages settings
+# (docs/decisions/0003-custom-domain.md).
 env:
-  SITE_URL: https://professorcdp.github.io/rtp-legendado
+  SITE_URL: https://legendado.professorcdp.com
 
 permissions:
   contents: write     # commit the new list
