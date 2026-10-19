@@ -46,7 +46,55 @@ Return JSON only: a list of {"i": <same id>, "n_en": "...", "x_en": "..."} with 
 
 - n_en: a meaningful English title. "Bem-vindos a Beirais" -> "Welcome to Beirais"; "Pôr do Sol" -> "Sunset"; "Conta-me Como Foi" -> "Tell Me How It Was". Keep proper names as they are. If the title is already English or is only a name (e.g. "Taskmaster", "Elvis", "Sara"), repeat it unchanged. For a foreign film with a well-known English title, you may use that title.
 - x_en: a faithful, natural English translation of x. If x is cut off, translate what is there and end with "…". If x is empty, return "".
+- Use American English spelling in both n_en and x_en: program (not programme), license, color, center, theater, humor, neighbor, organize, realize, catalog, traveled, meters.
 - No commentary, no markdown fences."""
+
+
+# British -> American spellings seen in the translations (issue #26). Applied to
+# everything the translation step writes, including translations seeded from the
+# September snapshot, so the page reads consistently. Words are matched whole and
+# case is kept; official English names below are left alone.
+AMERICAN = {
+    "programme": "program", "programmes": "programs", "programmed": "programmed",
+    "licence": "license", "licences": "licenses", "catalogue": "catalog", "catalogues": "catalogs",
+    "theatre": "theater", "theatres": "theaters", "centre": "center", "centres": "centers",
+    "epicentre": "epicenter", "metre": "meter", "metres": "meters", "kilometre": "kilometer",
+    "kilometres": "kilometers", "litre": "liter", "litres": "liters",
+    "colour": "color", "colours": "colors", "coloured": "colored", "colourful": "colorful",
+    "humour": "humor", "humoured": "humored", "neighbour": "neighbor", "neighbours": "neighbors",
+    "neighbourhood": "neighborhood", "neighbourhoods": "neighborhoods", "labour": "labor",
+    "honour": "honor", "honours": "honors", "honoured": "honored", "splendour": "splendor",
+    "behaviour": "behavior", "behaviours": "behaviors", "valour": "valor", "flavour": "flavor",
+    "flavours": "flavors", "favourite": "favorite", "favourites": "favorites", "savour": "savor",
+    "glamourised": "glamorized", "realise": "realize", "realised": "realized", "realises": "realizes",
+    "realising": "realizing", "organise": "organize", "organised": "organized", "organises": "organizes",
+    "organising": "organizing", "organisation": "organization", "organisations": "organizations",
+    "civilisation": "civilization", "civilisations": "civilizations", "materialisation": "materialization",
+    "recognise": "recognize", "recognised": "recognized", "recognises": "recognizes",
+    "apologise": "apologize", "internalised": "internalized", "destabilised": "destabilized",
+    "democratises": "democratizes", "terrorised": "terrorized", "specialising": "specializing",
+    "specialised": "specialized", "criticised": "criticized", "modernised": "modernized",
+    "travelled": "traveled", "travelling": "traveling", "traveller": "traveler", "travellers": "travelers",
+    "unrivalled": "unrivaled", "defence": "defense", "offence": "offense",
+}
+AMERICAN_KEEP = ("Centre for Ecology, Evolution and Environmental Changes",)
+_BRITISH_RE = re.compile(r"\b(" + "|".join(sorted(AMERICAN, key=len, reverse=True)) + r")\b", re.I)
+
+
+def americanize(text: str) -> str:
+    if not text:
+        return text
+    kept = {f"\x00{i}\x00": k for i, k in enumerate(AMERICAN_KEEP) if k in text}
+    for ph, k in kept.items():
+        text = text.replace(k, ph)
+
+    def swap(m):
+        w = m.group(0); us = AMERICAN[w.lower()]
+        return us.upper() if w.isupper() else us[0].upper() + us[1:] if w[0].isupper() else us
+    text = _BRITISH_RE.sub(swap, text)
+    for ph, k in kept.items():
+        text = text.replace(ph, k)
+    return text
 
 
 def key_of(n: str, x: str) -> str:
@@ -61,7 +109,7 @@ def seed_from_snapshot(cache: dict) -> int:
     for r in json.loads(SNAPSHOT.read_text(encoding="utf-8")):
         k = key_of(r["n"], r["x"])
         if k not in cache and r.get("ne"):
-            cache[k] = {"n": r["n"], "n_en": r["ne"], "x_en": r.get("xe", "")}
+            cache[k] = {"n": r["n"], "n_en": americanize(r["ne"]), "x_en": americanize(r.get("xe", ""))}
             added += 1
     return added
 
@@ -118,7 +166,8 @@ def main():
             try:
                 for out in translate_batch(client, chunk):
                     src = next((t["n"] for t in chunk if t["i"] == out["i"]), "")
-                    cache[out["i"]] = {"n": src, "n_en": out.get("n_en", ""), "x_en": out.get("x_en", "")}
+                    cache[out["i"]] = {"n": src, "n_en": americanize(out.get("n_en", "")),
+                                       "x_en": americanize(out.get("x_en", ""))}
             except Exception as e:                # noqa: BLE001 - keep going, retry next run
                 failed += 1
                 log(f"  batch {start // BATCH} failed: {e}")
@@ -133,8 +182,8 @@ def main():
     title_en = {v["n"]: v["n_en"] for v in cache.values() if v.get("n") and v.get("n_en")}
     for r in rows:
         got = cache.get(key_of(r["n"], r["x"]), {})
-        r["ne"] = got.get("n_en", "") or title_en.get(r["n"], "")
-        r["xe"] = (got.get("x_en", "") or "").replace("�", "")
+        r["ne"] = americanize(got.get("n_en", "") or title_en.get(r["n"], ""))
+        r["xe"] = americanize((got.get("x_en", "") or "").replace("�", ""))
 
     save_json("dataset.json", rows)
     save_json("translations.json", cache)
