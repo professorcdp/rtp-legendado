@@ -117,3 +117,18 @@ Format:
 ## 2026-10-18 (American spelling in translations)
 - **Did:** Fixed #26: the translation prompt now asks for American spelling, and `americanize()` in step06 converts new, cached and September-seeded translations (whole words, case kept; the official name "Centre for Ecology, Evolution and Environmental Changes" is left alone). Converted the saved translations without re-translating: 95 of 761 cache entries, 82 rows of dataset.json. "dialogue" and "archaeology" left as they are (standard in American English too). Published (render only); live page has no programme/licence/catalogue in any English text.
 - **Issues:** closed #26.
+
+## 2026-10-18 (review)
+- **Reviewed:** 5d25b91..9b6977d (latest commit 9b6977d)
+- **Verdict:** Sound. Nothing must be fixed; two things worth tidying before building further on the spelling converter and the comparison logic.
+- **Findings (by rank):**
+  - Should fix:
+    - a) americanize() in pipeline/step06_translate.py lines 81-97 rewrites proper names ("Labour Party" → "Labor Party", "Lincoln Centre" → "Lincoln Center"); only one name is protected. No damage found in today's 660 rows.
+    - b) No automated tests for report_changes.py (added/removed/renamed and the three guards) or americanize(); verified by hand only.
+  - Could fix:
+    - c) Site address duplicated: SITE_URL in .github/workflows/site.yml line 31 and the fallback default in pipeline/step07_render.py line 128, though decision 0003 calls it one setting.
+    - d) report_changes.py pid() returns "?" for a link without an id, and two such rows would be treated as the same programme; every current row has an id.
+    - e) CSV "Note" column was inserted mid-row (step07_render.py lines 208-214), shifting the description columns for anyone using the September column order.
+  - Tests run by the reviewer: report_changes.py against b3ddaf7's list (0/0/0, untranslated 0), against a doctored list (1 added, 1 removed, 1 renamed as expected), and with the Portugal-only guard tripped (refused to publish); step07 renders 660 rows with no leftover placeholders and no outside hosts; last six workflow runs succeeded; git history clean of real keys. Phone "Sections" panel not re-checked in a browser this session.
+- **Fixed:** none in this session (no Must-fix items).
+- **Deferred:** a) #27 (bug, priority: next); b) test cases added as a comment on #10 (no new issue); c) #28 (chore, priority: later); d) #29 (chore, priority: later); e) #30 (chore, priority: later).
