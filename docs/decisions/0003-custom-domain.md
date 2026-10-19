@@ -1,7 +1,7 @@
 # 3. Serve the site at legendado.professorcdp.com
 
 **Date:** 2026-10-17
-**Status:** accepted (switch-over pending Jim's DNS record)
+**Status:** accepted; switched over on 2026-10-18
 
 ## Context
 The site lives at https://professorcdp.github.io/rtp-legendado/, with the original

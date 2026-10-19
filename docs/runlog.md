@@ -108,3 +108,8 @@ Format:
 - **Not done, deliberately:** did not set the custom domain on Pages or repoint the jamminalley forwarding site. Setting it makes GitHub redirect the current address to legendado.professorcdp.com straight away, which would take the site offline until the DNS record exists. No workflow run: the spelling and copyright changes go live with the next run (scheduled Monday 19 Oct), which still uses the github.io address.
 - **Issues:** opened #23, #24, #25; closed #23, #24. #25 waits on Jim's DNS record.
 - **Next:** Jim adds DNS (CNAME, host `legendado`, value `professorcdp.github.io`); then follow the steps in decision 0003.
+
+## 2026-10-18 (custom domain live)
+- **Did:** Jim added the DNS record in Squarespace Domains (professorcdp.com is managed there, reached from the Workspace Admin console via Manage domains → View details; Google's name servers): CNAME `legendado` → `professorcdp.github.io`. It resolved within a minute. Followed decision 0003: set the custom domain on Pages, switched `SITE_URL` to https://legendado.professorcdp.com and published (this also put #23's spelling and #24's copyright line live), certificate issued straight away, turned on Enforce HTTPS, and pointed the jamminalley forwarding site straight at the new domain. Checked in a browser: jamminalley.github.io/rtp-legendado (with query and #anchor), professorcdp.github.io/rtp-legendado and http:// all land on https://legendado.professorcdp.com/; the old jamminalley CSV link downloads the current CSV from the new address.
+- **Issues:** closed #25.
+- **Next:** Open: #21 (needs Jim's decision), #10, #11, #12, #3.
