@@ -2,12 +2,12 @@
 
 **https://legendado.professorcdp.com/**
 
-A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry a Portuguese
-subtitle track, for learners of European Portuguese who want comprehensible input.
+A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry Portuguese
+captions (same-language subtitles), for learners of European Portuguese who want comprehensible input.
 
 ## What's on the page
 
-- Every RTP Play TV program whose latest episode has a Portuguese subtitle track (the one RTP
+- Every RTP Play TV program whose latest episode has Portuguese captions (what RTP
   calls *Português adaptado*), grouped by genre. Portuguese-language shows come first;
   international documentaries and foreign-language fiction, where the subtitles are a
   translation, are at the bottom.
@@ -27,7 +27,7 @@ The list rebuilds itself every Monday. A GitHub Actions workflow
 [pipeline/](pipeline/), which:
 
 1. lists every TV program in the RTP Play catalog;
-2. checks each one's latest episode for a subtitle track;
+2. checks each one's latest episode for a caption track;
 3. sorts the titles into sections, using RTP's own tags plus a hand-kept list;
 4. translates new or changed text into English (through the Anthropic API);
 5. renders the page and the CSV, and publishes them to GitHub Pages.
@@ -43,8 +43,8 @@ Portugal-only labels disappearing).
 
 ## The weekly review
 
-RTP labels every subtitle track the same way, whether it's captions for Portuguese audio or a
-translation of a foreign film. So foreign-language titles can't be detected automatically.
+RTP labels every Portuguese text track the same way, whether it's captions for Portuguese audio or
+subtitles translating a foreign film. So foreign-language titles can't be detected automatically.
 
 When a weekly run adds or removes titles, it opens a GitHub issue listing them. Go through the
 new titles in the Portuguese series, films, documentaries and nature sections, and add any that
@@ -59,12 +59,12 @@ The next weekly run, or a manual run of the workflow from the Actions tab, moves
 
 ## Caveats
 
-- Only the latest episode of each program is checked, so a show may have subtitles on some
+- Only the latest episode of each program is checked, so a show may have captions on some
   episodes and not others.
 - Titles without the Portugal-only label usually play outside Portugal, but not always, and
   rights change over time.
-- For foreign-language films and series the Portuguese subtitles are a translation, not a
-  transcription of the audio: useful for reading, not for listening.
+- For foreign-language films and series the Portuguese subtitles are a translation, not
+  captions that transcribe the audio: useful for reading, not for listening.
 - RTP's catalog changes constantly; treat the list as a weekly snapshot.
 
 Data belongs to RTP – Rádio e Televisão de Portugal. The page only links to their pages and

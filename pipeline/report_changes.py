@@ -116,7 +116,7 @@ def main():
     to_check = [r for r in added if r["s"] in CHECK_SECTIONS]
     if added:
         md += ["### Please check for foreign-language titles", "",
-               "New titles are already published. RTP labels every subtitle track the same way, so "
+               "New titles are already published. RTP labels every Portuguese text track the same way (captions and translated subtitles alike), so "
                "foreign-language fiction and international documentaries can't be told apart automatically. "
                f"Look through the {len(to_check)} new title(s) in Portuguese series, films, documentaries and "
                "nature below. For any that aren't Portuguese-made, add the pid to `foreign_fiction` or "

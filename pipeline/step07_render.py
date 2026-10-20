@@ -37,7 +37,7 @@ SECTIONS = [
     ("series", "portuguese-tv-series", "Portuguese TV series",
      "The richest seam for comprehensible input: recurring characters, everyday speech and plenty of episodes."),
     ("film", "portuguese-films", "Portuguese films & TV films",
-     "One-offs. Harder going than series — no recurring vocabulary to settle into — but the subtitles match the audio."),
+     "One-offs. Harder going than series — no recurring vocabulary to settle into — but the captions match the audio."),
     ("fun", "comedy-entertainment", "Comedy, game shows & entertainment",
      "Fast, colloquial and full of interruption. Good listening practice once the basics are in place."),
     ("lang", "language-literature", "Language & literature",
@@ -55,7 +55,7 @@ SECTIONS = [
     ("kids", "kids-animation", "Kids & animation",
      "Slow, simple and repetitive — which is exactly what makes it useful early on."),
     ("music", "music-concerts", "Music, concerts & musicals",
-     "Performance, with the spoken sections subtitled."),
+     "Performance, with the spoken sections captioned."),
     ("intl", "international-documentaries", "International documentaries",
      "Foreign productions dubbed or narrated in Portuguese; the subtitles follow that track."),
     ("foreign", "foreign-language-fiction", "Foreign-language fiction",
@@ -74,13 +74,13 @@ CSV_LABELS = {
 }
 
 HEAD_META = """<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What on RTP Play has Portuguese subtitles?</title>
-<meta name="description" content="The programs on RTP Play that carry a Portuguese subtitle track — a reference list for learners of European Portuguese.">
+<title>What on RTP Play has Portuguese captions?</title>
+<meta name="description" content="The programs on RTP Play with Portuguese captions (same-language subtitles), a reference list for learners of European Portuguese.">
 <link rel="canonical" href="{site}/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{site}/">
-<meta property="og:title" content="What on RTP Play has Portuguese subtitles?">
-<meta property="og:description" content="{n} programs on RTP Play with a Portuguese subtitle track, for learners of European Portuguese.">
+<meta property="og:title" content="What on RTP Play has Portuguese captions?">
+<meta property="og:description" content="{n} programs on RTP Play with Portuguese captions (same-language subtitles), for learners of European Portuguese.">
 <meta property="og:image" content="{site}/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -148,7 +148,7 @@ def main():
     year_ago = (today - timedelta(days=365)).strftime("%Y%m%d")
     pt_only_n = sum(1 for r in rows if r.get("pt"))
     stats = [(f"{checked_n:,}", "TV programs checked"),
-             (f"{len(rows):,}", "with a subtitle track"),
+             (f"{len(rows):,}", "with a caption track"),
              (f"{pt_only_n:,}", "Portugal-only license"),
              (f"{sum(1 for r in portuguese if r['dk'] >= year_ago):,}", "updated in the last year")]
 
