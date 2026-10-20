@@ -164,3 +164,6 @@ Format:
   - a) The hash decode is wrapped in try/catch; a malformed hash means All. Tested in Chrome at 412px with "#100%": no script errors, all 662 rows shown, Sections button opens the panel. Published.
   - e) step05b docstring now says older merged seasons (`more`) are switched though the page no longer lists them; the kids blurb now says the links go to Zig Zag "wherever Zig Zag has the captions".
 - **Deferred:** b) test cases added as a comment on #10; c) #40 (chore, priority: later); d) #41 (chore, priority: later).
+
+## 2026-10-20 (new-title review)
+- **Did:** Closed #37: Espíritos do Deserto: Os Leões da Costa dos Esqueletos (16774, Namibia's desert lions) → `international_documentary`; Paixão Cigana (17196) checked: an RTP1 documentary series on Portugal's Roma community (Associação Letras Nómadas), so it stays Portuguese. Rebuilt; live page shows both in the right sections; no new review issue.
