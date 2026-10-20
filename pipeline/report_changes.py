@@ -50,7 +50,7 @@ CHECK_SECTIONS = {"series", "film", "docs", "nature"}
 
 
 def pid(url: str) -> str:
-    m = re.search(r"/play/p(\d+)/", url)
+    m = re.search(r"/play/(?:zigzag/)?p(\d+)/", url)
     return m.group(1) if m else "?"
 
 

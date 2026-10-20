@@ -7,6 +7,7 @@
     step 5a dataset --draft  decide sections (tells step 4 what to fetch)
     step 4  synopses         show-level descriptions for series/recurring strands
     step 5b dataset          merge seasons, fold in rights + synopses
+    step 5c zigzag           link kids rows to RTP Play Zig Zag where that works
     step 6  translate        English titles and descriptions (cached)
     step 7  render           index.html + csv
 
@@ -31,6 +32,7 @@ STEPS = [
     ("sections (draft)", [sys.executable, "step05_dataset.py", "--draft-only"]),
     ("synopses", [sys.executable, "step04_synopses.py"]),
     ("dataset", [sys.executable, "step05_dataset.py"]),
+    ("zigzag links", [sys.executable, "step05b_zigzag.py"]),
     ("translate", [sys.executable, "step06_translate.py"]),
     ("render", [sys.executable, "step07_render.py"]),
 ]
