@@ -147,3 +147,20 @@ Format:
 - **Did:** #38: section chips now filter the list to one section, with an "All" chip first, the active chip highlighted, re-tap = All, search always covering every section (with a brief "Searching all sections" note), and the section in the URL hash (#portuguese-tv-series or #series; old section links open that section). Decision 0006. #39: "Newest first | A–Z" switch (A–Z ignores accents, case and a leading article), remembered in localStorage. #12: accent-lenient search; English title line hidden when it repeats the Portuguese (66 rows). Tested locally and on the live site with a scripted Chrome at 1280px and 412px. Published (render only).
 - **Issues:** closed #38, #39, #12.
 - **Next:** Jim to run /second-opinion in a new chat. Open: #37 (2026-10-20 review), #27, #21, #10, #11, #28, #29, #30, #3.
+
+## 2026-10-20 (review)
+- **Reviewed:** bcb7c80..b385383 (latest commit b385383)
+- **Verdict:** Sound. Nothing must be fixed; one small robustness gap in the page script is worth closing, and the rest is tidy-ups.
+- **Findings (by rank):**
+  - Should fix:
+    - a) pipeline/templates/page_body.html line 84: decodeURIComponent on the URL hash throws on a malformed hash (e.g. "#100%"); confirmed in Chrome that this aborts the rest of the setup (lines 129-138), leaving the phone "Sections" button dead. Fix: wrap the decode in try/catch and treat failure as "All".
+    - b) No automated tests for the page script (filter, sort, search) or step05b_zigzag.py; verified by hand only. Add to #10 as a comment rather than a new issue.
+  - Could fix:
+    - c) page_body.html lines 91 and 104: every chip tap pushes a history entry, so Back walks through each tap. Reviewer not certain this is unwanted.
+    - d) page_body.html lines 77-78: if the Portugal-only box hides every title in the active section, the message reads "Nothing matches . Try a shorter word". Not reachable with today's data.
+    - e) step05b_zigzag.py line 8 (and the kids blurb in step07_render.py line 56): the docstring mentions "Also:" season links, which the page stopped showing in f01a5ff; the blurb promises Zig Zag links unconditionally while the step can fall back to /play/.
+- **Tests run by the reviewer:** local render of the committed list (662 rows, 53/53 kids links to Zig Zag, no unfilled slots, no outside hosts, byte-identical to the live page; og.png and CSV served); Zig Zag probes (real link has the caption track; made-up episode, made-up program and non-kids program all return 200 "not available" with no track); scripted Chrome at 1280px and 412px (chip filter, re-tap = All, URL hash, search across sections with note, no-match message, Portugal-only box inside a section, A-Z sort and localStorage memory, back button, phone Sections drop-down); malformed-hash load (found item a); secrets scan of the range (clean).
+- **Fixed:**
+  - a) The hash decode is wrapped in try/catch; a malformed hash means All. Tested in Chrome at 412px with "#100%": no script errors, all 662 rows shown, Sections button opens the panel. Published.
+  - e) step05b docstring now says older merged seasons (`more`) are switched though the page no longer lists them; the kids blurb now says the links go to Zig Zag "wherever Zig Zag has the captions".
+- **Deferred:** b) test cases added as a comment on #10; c) #40 (chore, priority: later); d) #41 (chore, priority: later).

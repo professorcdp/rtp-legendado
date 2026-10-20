@@ -81,7 +81,8 @@
   // Section filter, kept in the address: #all, a section id (#portuguese-tv-series, as in links
   // already shared) or its short key (#series).
   function fromHash(){
-    var h=decodeURIComponent(location.hash.slice(1));
+    var h=location.hash.slice(1);
+    try{h=decodeURIComponent(h);}catch(e){h='';}   // a malformed address (e.g. #100%) means All
     var s=secs.filter(function(x){return x.id===h||x.dataset.key===h;})[0];
     return s?s.id:'';
   }

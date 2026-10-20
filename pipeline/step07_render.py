@@ -53,7 +53,7 @@ SECTIONS = [
     ("food", "food", "Food",
      "Cooking and eating, mostly in the kitchen and at the table."),
     ("kids", "kids-animation", "Kids & animation",
-     "Slow, simple and repetitive — which is exactly what makes it useful early on. These are the same programs you'll find in RTP Play's children's area, Zig Zag, and the links go there."),
+     "Slow, simple and repetitive — which is exactly what makes it useful early on. These are the same programs you'll find in RTP Play's children's area, Zig Zag, and the links go there wherever Zig Zag has the captions."),
     ("music", "music-concerts", "Music, concerts & musicals",
      "Performance, with the spoken sections captioned."),
     ("intl", "international-documentaries", "International documentaries",

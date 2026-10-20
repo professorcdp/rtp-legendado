@@ -5,7 +5,8 @@ RTP Play Zig Zag (https://www.rtp.pt/play/zigzag/) is RTP's children's front
 door to the same catalogue: a programme has the same id there, at
 /play/zigzag/p<pid>/e<eid>/<slug> as well as /play/p<pid>/e<eid>/<slug>. The
 Zig Zag page is the child-friendly one, so rows in the kids section link there
-(main link and "Also:" seasons; the CSV uses the same links).
+where it works (the CSV uses the same links). Older seasons merged into a row
+(`more` in the dataset) are switched too, though the page no longer lists them.
 
 Each Zig Zag address is fetched first (politely, cached for a day) and only
 used if that page carries the Portuguese caption track itself; otherwise the row
