@@ -21,6 +21,9 @@
     <div class="checks">
       <label><input type="checkbox" id="blocked"> <span>Hide the {{PT_ONLY_N}} programs with a Portugal-only license</span></label>
       <label><input type="checkbox" id="english" checked> <span>Show English translations</span></label>
+      <div class="sort" role="group" aria-label="Sort titles">
+        <button type="button" data-sort="new" aria-pressed="true">Newest first</button><button type="button" data-sort="az" aria-pressed="false">A–Z</button>
+      </div>
     </div>
     <div class="chips">{{CHIPS}}</div>
   </div>
@@ -28,6 +31,7 @@
 </div></div>
 
 <main class="wrap">
+  <p id="searchnote" class="searchnote" hidden>Searching all sections.</p>
   <p id="empty">Nothing matches <b></b>. Try a shorter word, or part of a description.</p>
 {{SECTIONS}}
 </main>
@@ -47,25 +51,83 @@
 <script>
 (function(){
   var q=document.getElementById('q'),cb=document.getElementById('blocked'),en=document.getElementById('english'),
-      empty=document.getElementById('empty'),secs=[].slice.call(document.querySelectorAll('main section'));
-  secs.forEach(function(s){s._rows=[].slice.call(s.querySelectorAll('.row'));s._shown=s.querySelector('.shown');});
+      empty=document.getElementById('empty'),note=document.getElementById('searchnote'),
+      main=document.querySelector('main'),secs=[].slice.call(document.querySelectorAll('main section')),
+      chips=[].slice.call(document.querySelectorAll('.chip')),sortBtns=[].slice.call(document.querySelectorAll('.sort button'));
+  // Accent- and case-insensitive text: "preco" finds "Preço", "acores" finds "Açores" (issue #12).
+  function norm(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
+  // A–Z key: Portuguese title without accents, case or a leading article (issue #39).
+  function azKey(t){return norm(t).replace(/^(os|as|o|a)\s+/,'').trim();}
+  secs.forEach(function(s){
+    s._rows=[].slice.call(s.querySelectorAll('.row'));s._shown=s.querySelector('.shown');s._list=s._rows.length?s._rows[0].parentNode:s;
+    s._rows.forEach(function(r,i){r._s=norm(r.dataset.s);r._new=i;r._az=azKey(r.querySelector('.rowtitle a').textContent);});
+  });
+  var active='';                                   // '' = All; otherwise a section id
   function render(){
-    var term=q.value.trim().toLowerCase(),hide=cb.checked,any=0;
+    var term=norm(q.value.trim()),hide=cb.checked,any=0;
     secs.forEach(function(s){
-      var n=0;
+      var n=0,off=active&&s.id!==active;
       s._rows.forEach(function(r){
-        var ok=(!hide||r.dataset.blocked==='0')&&(!term||r.dataset.s.indexOf(term)>-1);
+        var ok=!off&&(!hide||r.dataset.blocked==='0')&&(!term||r._s.indexOf(term)>-1);
         r.classList.toggle('hide',!ok); if(ok)n++;
       });
       s._shown.textContent=n; s.classList.toggle('hide',n===0); any+=n;
     });
+    chips.forEach(function(c){c.classList.toggle('active',(c.dataset.sec||'')===active);});
     empty.querySelector('b').textContent=q.value.trim();
     empty.classList.toggle('show',any===0);
   }
   function paint(){document.body.classList.toggle('no-en',!en.checked);}
-  var t;q.addEventListener('input',function(){clearTimeout(t);t=setTimeout(render,90);});
+  // Section filter, kept in the address: #all, a section id (#portuguese-tv-series, as in links
+  // already shared) or its short key (#series).
+  function fromHash(){
+    var h=decodeURIComponent(location.hash.slice(1));
+    var s=secs.filter(function(x){return x.id===h||x.dataset.key===h;})[0];
+    return s?s.id:'';
+  }
+  function setActive(id,push){
+    active=id||'';
+    var h=active?'#'+active:'#all';
+    if(location.hash!==h){ if(push) history.pushState(null,'',h); else history.replaceState(null,'',h); }
+    render();
+  }
+  function toList(){
+    var bar=document.getElementById('controls').getBoundingClientRect().height;
+    window.scrollTo({top:main.getBoundingClientRect().top+window.scrollY-bar,behavior:'instant'});
+  }
+  document.querySelector('.chips').addEventListener('click',function(e){
+    var c=e.target.closest('.chip'); if(!c) return;
+    e.preventDefault();
+    var id=c.dataset.sec||'';
+    if(id&&id===active) id='';                     // tapping the active chip again = All
+    if(q.value){q.value='';note.hidden=true;}       // a chip means "show me this section", not a search
+    setActive(id,true); toList();
+  });
+  window.addEventListener('popstate',function(){setActive(fromHash(),false);});
+  window.addEventListener('hashchange',function(){setActive(fromHash(),false);});
+  // Search always covers every section.
+  var t,nt;q.addEventListener('input',function(){
+    clearTimeout(t);t=setTimeout(function(){
+      if(q.value.trim()&&active){setActive('',false);note.hidden=false;clearTimeout(nt);nt=setTimeout(function(){note.hidden=true;},4000);}
+      if(!q.value.trim())note.hidden=true;
+      render();
+    },90);
+  });
   cb.addEventListener('change',render); en.addEventListener('change',paint);
-  render();paint();
+  // Sort switch: Newest first (as built) or A–Z; remembered in this browser if possible.
+  function sortBy(mode){
+    secs.forEach(function(s){
+      s._rows.slice().sort(mode==='az'?function(a,b){return a._az.localeCompare(b._az,'pt');}:function(a,b){return a._new-b._new;})
+        .forEach(function(r){s._list.appendChild(r);});
+    });
+    sortBtns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.sort===mode?'true':'false');});
+    try{localStorage.setItem('rtp-legendado-sort',mode);}catch(e){}
+  }
+  sortBtns.forEach(function(b){b.addEventListener('click',function(){sortBy(b.dataset.sort);});});
+  var saved='new';try{saved=localStorage.getItem('rtp-legendado-sort')||'new';}catch(e){}
+  if(saved==='az')sortBy('az');
+  active=fromHash(); render(); paint();
+  if(active) toList();
   // Phone layout: "Sections" opens the chips and checkboxes as a drop-down
   // panel; a chip, a tap outside or Escape closes it. Desktop never shows the button.
   var ctl=document.getElementById('controls'),btn=document.getElementById('sections-btn');

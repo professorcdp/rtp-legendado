@@ -55,6 +55,12 @@ h1{font-size:clamp(34px,6vw,56px);max-width:12em;margin-bottom:24px;text-wrap:ba
   border:1px solid var(--n800);color:var(--n300);text-decoration:none}
 .chip:hover{border-color:var(--a500);color:var(--a200);text-decoration:none}
 .chip b{font-weight:400;color:var(--a400);font-variant-numeric:tabular-nums}
+.chip.active{border-color:var(--a500);background:var(--a900);color:var(--a200)}
+.sort{display:inline-flex;border:1px solid var(--n800);border-radius:var(--rs);overflow:hidden;align-self:center}
+.sort button{font:inherit;font-size:13px;padding:5px 12px;border:0;background:none;color:var(--n400);cursor:pointer}
+.sort button+button{border-left:1px solid var(--n800)}
+.sort button[aria-pressed="true"]{background:var(--a900);color:var(--a200)}
+.searchnote{font-size:13px;color:var(--a300);margin:16px 0 0}
 .edge{height:1px;background-image:var(--rule)}
 .panel{display:flex;flex-direction:column;gap:14px}
 .sections-btn{display:none}

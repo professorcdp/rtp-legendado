@@ -111,7 +111,8 @@ def row_html(r) -> str:
            '<div class="rowhead"><div class="rowtitle">',
            f'<a href="{esc(r["u"])}" target="_blank" rel="noopener">{esc(r["n"])}</a>{flag}</div>',
            f'<div class="rowmeta">{eps_label(r)} · {esc(r["d"])}</div></div>']
-    if r.get("ne"):
+    # skip the English title when it just repeats the Portuguese one (e.g. "Habitat"; issue #12)
+    if r.get("ne") and r["ne"].strip().lower() != r["n"].strip().lower():
         out.append(f'<div class="en entitle">{esc(r["ne"])}</div>')
     if r["x"]:
         out.append(f'<p class="desc">{esc(r["x"])}</p>')
@@ -152,14 +153,16 @@ def main():
              (f"{pt_only_n:,}", "Portugal-only license"),
              (f"{sum(1 for r in portuguese if r['dk'] >= year_ago):,}", "updated in the last year")]
 
-    chips, sections = [], []
+    # Chips filter the list to one section (issue #38); "All" comes first.
+    chips, sections = [f'<a class="chip active" href="#all" data-sec="">All<b>{len(rows)}</b></a>'], []
     for key, anchor, title, blurb in SECTIONS:
         sec_rows = [r for r in rows if r["s"] == key]
         if not sec_rows:
             continue
-        chips.append(f'<a class="chip" href="#{anchor}">{esc(title)}<b>{len(sec_rows)}</b></a>')
+        chips.append(f'<a class="chip" href="#{anchor}" data-sec="{anchor}" data-key="{key}">'
+                     f'{esc(title)}<b>{len(sec_rows)}</b></a>')
         sections.append(
-            f'  <section id="{anchor}" data-total="{len(sec_rows)}"><h2>{esc(title)}</h2>'
+            f'  <section id="{anchor}" data-key="{key}" data-total="{len(sec_rows)}"><h2>{esc(title)}</h2>'
             f'<p class="blurb">{esc(blurb)}</p>'
             f'<p class="range"><span class="shown">{len(sec_rows)}</span> of {len(sec_rows)} titles</p>'
             + "".join(row_html(r) for r in sec_rows) + "</section>")
