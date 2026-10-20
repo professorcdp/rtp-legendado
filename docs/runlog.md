@@ -132,3 +132,8 @@ Format:
   - Tests run by the reviewer: report_changes.py against b3ddaf7's list (0/0/0, untranslated 0), against a doctored list (1 added, 1 removed, 1 renamed as expected), and with the Portugal-only guard tripped (refused to publish); step07 renders 660 rows with no leftover placeholders and no outside hosts; last six workflow runs succeeded; git history clean of real keys. Phone "Sections" panel not re-checked in a browser this session.
 - **Fixed:** none in this session (no Must-fix items).
 - **Deferred:** a) #27 (bug, priority: next); b) test cases added as a comment on #10 (no new issue); c) #28 (chore, priority: later); d) #29 (chore, priority: later); e) #30 (chore, priority: later).
+
+## 2026-10-20 (captions, not subtitles)
+- **Did:** Fixed #32 and recorded the rule in decision 0004: the page says captions / caption track / captioned for Portuguese-language shows, and keeps subtitles for International documentaries and Foreign-language fiction (translations); the lede explains "captions (same-language subtitles, what RTP calls Português adaptado)"; meta and og:description use both words for search. Also updated the stat label, section blurbs, the review-issue text, README and PROJECT. Published (render only); live page checked: every remaining "subtitle" is one of the allowed uses.
+- **Issues:** closed #32; opened #33 (og.png social card still shows the September design and wording).
+- **Next:** #27 (spelling converter and proper names), #33, #10.
