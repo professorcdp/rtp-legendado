@@ -167,3 +167,8 @@ Format:
 
 ## 2026-10-20 (new-title review)
 - **Did:** Closed #37: Espíritos do Deserto: Os Leões da Costa dos Esqueletos (16774, Namibia's desert lions) → `international_documentary`; Paixão Cigana (17196) checked: an RTP1 documentary series on Portugal's Roma community (Associação Letras Nómadas), so it stays Portuguese. Rebuilt; live page shows both in the right sections; no new review issue.
+
+## 2026-10-20 (azulejo palette)
+- **Did:** Fixed #42: restyled the page in the azulejo palette from Jim's NúmerosPT project (decision 0007). Light = cream tile with cobalt lettering, dark = cobalt glaze with cream lettering, gold accent (cobalt in light, gold in dark, as in NúmerosPT). The scheme follows the device; a sun/moon button switches it, remembered in localStorage and applied before first paint. Fonts: Space Grotesk (UI and body) and Instrument Serif (title and section headings), embedded as Latin subsets with their OFL files; Inter removed; step07 now embeds any `{{FONT:file}}` the stylesheet names. Page size 792 KB → 782 KB; no outside requests. Measured contrast in a browser, live: every text pair 6.0:1 or better in both schemes. og.png redrawn in the dark scheme by `pipeline/tools/make_og.py`. Jim approved screenshots (1280px and 412px, both schemes) before publishing.
+- **Issues:** closed #42.
+- **Next:** Jim to run /second-opinion in a new chat. Open: #27, #21, #10, #11, #28, #29, #30, #40, #41, #3.
