@@ -98,6 +98,7 @@ h1{font-size:clamp(40px,7vw,68px);max-width:12em;margin-bottom:24px;text-wrap:ba
 .chip b{font-weight:500;color:var(--ink-soft);font-variant-numeric:tabular-nums}
 .chip.active{border-color:var(--accent);background:var(--accent);color:var(--on-accent)}
 .chip.active b{color:var(--on-accent)}
+.chip.zero:not(.active){color:var(--ink-soft);border-style:dashed}   /* no matches: dimmed, still readable */
 .sort{display:inline-flex;border:1px solid var(--hair);border-radius:var(--rs);overflow:hidden;align-self:center}
 .sort button{font:inherit;font-size:13px;padding:5px 12px;border:0;background:none;color:var(--ink);cursor:pointer}
 .sort button+button{border-left:1px solid var(--hair)}

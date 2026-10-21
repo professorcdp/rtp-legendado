@@ -64,16 +64,22 @@
     s._rows.forEach(function(r,i){r._s=norm(r.dataset.s);r._new=i;r._az=azKey(r.querySelector('.rowtitle a').textContent);});
   });
   var active='';                                   // '' = All; otherwise a section id
+  // Chip counts follow the Portugal-only box and the search (issue #44): each chip counts
+  // its section's matching rows whichever section is chosen, and All is their sum.
+  var chipBySec={};chips.forEach(function(c){chipBySec[c.dataset.sec||'']=c;});
+  function setCount(c,n){if(!c)return;c.querySelector('b').textContent=n.toLocaleString('en-US');c.classList.toggle('zero',n===0);}
   function render(){
-    var term=norm(q.value.trim()),hide=cb.checked,any=0;
+    var term=norm(q.value.trim()),hide=cb.checked,any=0,total=0;
     secs.forEach(function(s){
-      var n=0,off=active&&s.id!==active;
+      var n=0,m=0,off=active&&s.id!==active;
       s._rows.forEach(function(r){
-        var ok=!off&&(!hide||r.dataset.blocked==='0')&&(!term||r._s.indexOf(term)>-1);
-        r.classList.toggle('hide',!ok); if(ok)n++;
+        var match=(!hide||r.dataset.blocked==='0')&&(!term||r._s.indexOf(term)>-1),ok=match&&!off;
+        r.classList.toggle('hide',!ok); if(ok)n++; if(match)m++;
       });
-      s._shown.textContent=n; s.classList.toggle('hide',n===0); any+=n;
+      s._shown.textContent=n; s.classList.toggle('hide',n===0); any+=n; total+=m;
+      setCount(chipBySec[s.id],m);
     });
+    setCount(chipBySec[''],total);
     chips.forEach(function(c){c.classList.toggle('active',(c.dataset.sec||'')===active);});
     empty.querySelector('b').textContent=q.value.trim();
     empty.classList.toggle('show',any===0);
