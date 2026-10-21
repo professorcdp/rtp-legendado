@@ -219,9 +219,9 @@ flatten — *Música de Graça* ("free music" / "Graça's music") comes out as
 
 ## 7. The page
 
-`step07_render.py` builds the page in the Claude Design look (ported into
-`templates/` in October 2026). `templates/page_head.html` holds the CSS, and the
-Inter font from `templates/fonts/` is embedded in it as base64.
+`step07_render.py` builds the page in the "azulejo" look shared with Jim's NúmerosPT
+project (docs/decisions/0007-azulejo-palette.md; Claude Design layout ported in October 2026). `templates/page_head.html` holds the CSS, and the
+Space Grotesk and Instrument Serif fonts from `templates/fonts/` are embedded in it as base64.
 `templates/page_body.html` holds the markup with `{{...}}` slots and a small
 script for the search box and the "Portugal-only licence" and "show English"
 checkboxes. Step 7 writes every row, section, chip and stat into the page as

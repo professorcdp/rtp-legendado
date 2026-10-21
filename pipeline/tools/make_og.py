@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Draw og.png, the 1200x630 social-card image shown when the page is shared.
 
-The card is laid out as HTML in the page's own look (the Claude Design colours
-from templates/page_head.html and the embedded Inter font from
-templates/fonts/) and photographed with a headless Chrome. It carries no
+The card is laid out as HTML in the page's own look (the dark "azulejo" scheme
+from templates/page_head.html: cobalt, cream and gold; Instrument Serif and Space
+Grotesk from templates/fonts/) and photographed with a headless Chrome. It carries no
 numbers, so it doesn't go stale when the list changes (issue #33).
 
 Run by hand, from the pipeline folder, when the wording or look changes:
@@ -22,27 +22,30 @@ import base64
 from pathlib import Path
 
 PIPELINE = Path(__file__).resolve().parent.parent
-FONT = PIPELINE / "templates" / "fonts" / "inter-latin.woff2"
+FONTS = PIPELINE / "templates" / "fonts"
 
 HEADLINE = "What on RTP Play has Portuguese captions?"
 KICKER = "European Portuguese · comprehensible input"
 LINE = "A reference list for learners of European Portuguese, rebuilt weekly"
 ADDRESS = "legendado.professorcdp.com"
 
-# Colours from templates/page_head.html (:root)
+# Dark azulejo colours from templates/page_head.html: paper #0C1D6B, sunk #081546,
+# ink #F4F0E6, gold #F2C829.
 CARD = """<!doctype html><html><head><meta charset="utf-8"><style>
-@font-face{{font-family:Inter;font-weight:100 900;src:url(data:font/woff2;base64,{font}) format("woff2")}}
+@font-face{{font-family:"Space Grotesk";font-weight:300 700;src:url(data:font/woff2;base64,{grotesk}) format("woff2")}}
+@font-face{{font-family:"Instrument Serif";font-weight:400;src:url(data:font/woff2;base64,{serif}) format("woff2")}}
 *{{box-sizing:border-box;margin:0}}
 html,body{{width:1200px;height:630px}}
-body{{background:#161826;color:#e9e9ed;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;
-  display:flex;flex-direction:column;padding:72px 84px 0;position:relative;overflow:hidden}}
-.kicker{{font-size:20px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#b5abfc;margin-bottom:34px}}
-h1{{font-size:84px;font-weight:500;line-height:1.04;letter-spacing:-.035em;max-width:13em;margin-bottom:34px}}
-p{{font-size:31px;line-height:1.4;color:#cfd3e5;max-width:28em}}
-.foot{{position:absolute;left:0;right:0;bottom:0;height:96px;background:#262a60;display:flex;align-items:center;
-  padding:0 84px;justify-content:space-between}}
-.foot b{{font-size:26px;font-weight:500;color:#e7e5fe;letter-spacing:-.01em}}
-.foot span{{font-size:18px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#d2cefd}}
+body{{background:#0C1D6B;color:#F4F0E6;font-family:"Space Grotesk",sans-serif;-webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;padding:68px 84px 0;position:relative;overflow:hidden}}
+body::before{{content:"";position:absolute;inset:22px;border:2px solid #F2C829;border-radius:6px;pointer-events:none}}
+.kicker{{font-size:20px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#F2C829;margin-bottom:26px}}
+h1{{font-family:"Instrument Serif",serif;font-size:104px;font-weight:400;line-height:.98;letter-spacing:-.01em;max-width:11em;margin-bottom:28px}}
+p{{font-size:30px;line-height:1.4;color:rgba(244,240,230,.78);max-width:28em}}
+.foot{{position:absolute;left:24px;right:24px;bottom:24px;height:88px;background:#081546;display:flex;align-items:center;
+  padding:0 60px;justify-content:space-between;border-radius:0 0 4px 4px}}
+.foot b{{font-size:26px;font-weight:500;color:#F4F0E6;letter-spacing:-.01em}}
+.foot span{{font-size:17px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#F2C829}}
 </style></head><body>
 <div class="kicker">{kicker}</div>
 <h1>{headline}</h1>
@@ -59,7 +62,8 @@ def main():
 
     from playwright.sync_api import sync_playwright
 
-    page_html = CARD.format(font=base64.b64encode(FONT.read_bytes()).decode(), kicker=KICKER,
+    b64 = lambda name: base64.b64encode((FONTS / name).read_bytes()).decode()
+    page_html = CARD.format(grotesk=b64("space-grotesk-latin.woff2"), serif=b64("instrument-serif-latin.woff2"), kicker=KICKER,
                             headline=HEADLINE, line=LINE, address=ADDRESS)
     with sync_playwright() as p:
         browser = (p.chromium.launch(channel="chrome") if args.browser == "chrome" else p.chromium.launch())

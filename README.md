@@ -68,5 +68,5 @@ The next weekly run, or a manual run of the workflow from the Actions tab, moves
 - RTP's catalog changes constantly; treat the list as a weekly snapshot.
 
 Data belongs to RTP – Rádio e Televisão de Portugal. The page only links to their pages and
-quotes their program descriptions, with attribution. The Inter font is used under the SIL Open
+quotes their program descriptions, with attribution. The Space Grotesk and Instrument Serif fonts are used under the SIL Open
 Font License (see [pipeline/templates/fonts/](pipeline/templates/fonts/)).

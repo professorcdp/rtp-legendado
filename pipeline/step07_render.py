@@ -171,8 +171,9 @@ def main():
         raise SystemExit(f"rows in an unknown section: {unplaced[:5]}")
 
     head = (ROOT / "templates" / "page_head.html").read_text(encoding="utf-8")
-    font = base64.b64encode((ROOT / "templates" / "fonts" / "inter-latin.woff2").read_bytes()).decode()
-    head = head.replace("{{INTER_WOFF2}}", font)
+    # Embed every font the stylesheet names as {{FONT:file.woff2}} (templates/fonts/)
+    head = re.sub(r"\{\{FONT:([\w.-]+)\}\}",
+                  lambda m: base64.b64encode((ROOT / "templates" / "fonts" / m.group(1)).read_bytes()).decode(), head)
     body = (ROOT / "templates" / "page_body.html").read_text(encoding="utf-8")
     fills = {
         "CHECKED_ON": checked_on,

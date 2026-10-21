@@ -16,6 +16,7 @@
   <div class="bar">
     <input id="q" type="search" placeholder="Filter by title or description — Açores, Abril, comédia, Lisboa…" autocomplete="off">
     <button type="button" class="sections-btn" id="sections-btn" aria-expanded="false" aria-controls="panel">Sections <span aria-hidden="true">▾</span></button>
+    <button type="button" class="theme-btn" id="theme-btn" aria-label="Switch to dark colors"></button>
   </div>
   <div class="panel" id="panel">
     <div class="checks">
@@ -129,6 +130,21 @@
   if(saved==='az')sortBy('az');
   active=fromHash(); render(); paint();
   if(active) toList();
+  // Light/dark: follow the device until the reader picks one with the sun/moon button;
+  // the choice is remembered (and applied before first paint by the script in <head>).
+  var tb=document.getElementById('theme-btn'),dm=window.matchMedia('(prefers-color-scheme: dark)');
+  var SUN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>';
+  var MOON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>';
+  function scheme(){var t=document.documentElement.getAttribute('data-theme');return t||(dm.matches?'dark':'light');}
+  function paintToggle(){var d=scheme()==='dark';tb.innerHTML=d?SUN:MOON;tb.setAttribute('aria-label',d?'Switch to light colors':'Switch to dark colors');tb.title=tb.getAttribute('aria-label');}
+  tb.addEventListener('click',function(){
+    var next=scheme()==='dark'?'light':'dark';
+    document.documentElement.setAttribute('data-theme',next);
+    try{localStorage.setItem('rtp-legendado-theme',next);}catch(e){}
+    paintToggle();
+  });
+  if(dm.addEventListener)dm.addEventListener('change',paintToggle);
+  paintToggle();
   // Phone layout: "Sections" opens the chips and checkboxes as a drop-down
   // panel; a chip, a tap outside or Escape closes it. Desktop never shows the button.
   var ctl=document.getElementById('controls'),btn=document.getElementById('sections-btn');
