@@ -6,7 +6,7 @@
 **GitHub:** the repo is owned by the professorcdp organization (business). Work is done while signed in as jamminalley, Jim's own GitHub login, which is an admin of that organization. That is intended (confirmed by Jim, 2026-10-09; see docs/decisions/0001-move-to-professorcdp-org.md).
 
 ## Overview
-A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry Portuguese captions (same-language subtitles). It's for learners of European Portuguese who want comprehensible input: shows they can watch while reading along in Portuguese. The first version was published on 12 September 2026 and has already been shared with students.
+A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry Portuguese captions (same-language subtitles). It's for learners of European Portuguese who want to watch while reading along. The first version was published on 12 September 2026 and has already been shared with students.
 
 ## Expected output
 A single self-contained web page (no external requests, no tracking) served from GitHub Pages at https://legendado.professorcdp.com/, plus the same data as a spreadsheet (`rtp-play-legendado.csv`). Both are rebuilt every week from `pipeline/` by `.github/workflows/site.yml`.

@@ -35,7 +35,7 @@ from common import ROOT, load_json, log, save_json
 # Page sections in display order: (section key, anchor id, heading, blurb).
 SECTIONS = [
     ("series", "portuguese-tv-series", "Portuguese TV series",
-     "The richest seam for comprehensible input: recurring characters, everyday speech and plenty of episodes."),
+     "The richest seam: recurring characters, everyday speech and plenty of episodes."),
     ("film", "portuguese-films", "Portuguese films & TV films",
      "One-offs. Harder going than series — no recurring vocabulary to settle into — but the captions match the audio."),
     ("fun", "comedy-entertainment", "Comedy, game shows & entertainment",

@@ -3,7 +3,7 @@
 **https://legendado.professorcdp.com/**
 
 A reference list of the programs on [RTP Play](https://www.rtp.pt/play/) that carry Portuguese
-captions (same-language subtitles), for learners of European Portuguese who want comprehensible input.
+captions (same-language subtitles), for learners of European Portuguese who want to watch while reading along.
 
 ## What's on the page
 

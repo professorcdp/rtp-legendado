@@ -25,7 +25,7 @@ PIPELINE = Path(__file__).resolve().parent.parent
 FONTS = PIPELINE / "templates" / "fonts"
 
 HEADLINE = "What on RTP Play has Portuguese captions?"
-KICKER = "European Portuguese · comprehensible input"
+KICKER = "For learners of European Portuguese"
 LINE = "A reference list for learners of European Portuguese, rebuilt weekly"
 ADDRESS = "legendado.professorcdp.com"
 
