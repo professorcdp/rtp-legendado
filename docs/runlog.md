@@ -176,3 +176,7 @@ Format:
 ## 2026-10-21 (wording)
 - **Did:** Fixed #43: removed "comprehensible input" from reader-facing text: page kicker ("For learners of European Portuguese · checked <date>"), Portuguese TV series blurb, social card (og.png regenerated), README and PROJECT. Published (render only); live page checked. The card's kicker and the line under the headline now repeat "for learners of European Portuguese"; left as specified.
 - **Issues:** closed #43.
+
+## 2026-10-21 (live chip counts)
+- **Did:** Fixed #44: section chip counts (and All) now follow the Portugal-only box and the search, computed in the same render pass that shows and hides rows; each chip counts its own section's matches whichever section is chosen, All is the sum, and a chip at 0 stays, shown in faded ink with a dashed border (still 6.3:1 or better). Tested locally and live at 1280px and 412px: unfiltered = build numbers (662); ticked → 426 = sum; "lisboa" → 26 across 6 sections; clearing restores the originals.
+- **Issues:** closed #44.
