@@ -23,11 +23,6 @@ on:
         description: "Skip translations (also skipped automatically while there's no ANTHROPIC_API_KEY secret)"
         type: boolean
         default: false
-      notify_test:   # TEMPORARY (issue #45): remove after testing the notifications
-        description: "TEST ONLY: force a review issue, or a failure"
-        type: choice
-        options: [none, review, failure]
-        default: none
 
 # The site's public address, used for the canonical URL and social-card tags.
 # It must match the custom domain in the repo's Pages settings
@@ -57,12 +52,6 @@ jobs:
       RTP_WORKERS: "4"          # keep at 4 or below: RTP slows down silently (GOTCHAS.md)
       RTP_DELAY: "0.2"
     steps:
-      - name: TEMPORARY failure test (issue #45)
-        if: inputs.notify_test == 'failure'
-        run: |
-          echo "::error::Deliberate failure to test the FAILED notification"
-          exit 1
-
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -139,7 +128,7 @@ jobs:
       # A failure here must not stop the site being published: the list is
       # already committed.
       - name: Open a review issue for added and removed titles
-        if: steps.compare.outputs.changed == 'true' || steps.translations.outputs.failed == 'true' || inputs.notify_test == 'review'
+        if: steps.compare.outputs.changed == 'true' || steps.translations.outputs.failed == 'true'
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}

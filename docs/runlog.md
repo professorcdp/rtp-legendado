@@ -180,3 +180,8 @@ Format:
 ## 2026-10-21 (live chip counts)
 - **Did:** Fixed #44: section chip counts (and All) now follow the Portugal-only box and the search, computed in the same render pass that shows and hides rows; each chip counts its own section's matches whichever section is chosen, All is the sum, and a chip at 0 stays, shown in faded ink with a dashed border (still 6.3:1 or better). Tested locally and live at 1280px and 412px: unfiltered = build numbers (662); ticked → 426 = sum; "lisboa" → 26 across 6 sections; clearing restores the originals.
 - **Issues:** closed #44.
+
+## 2026-10-22 (notifications)
+- **Did:** #45: the weekly "Review the weekly rebuild" issue is now assigned to @jamminalley (so GitHub emails and notifies Jim outside VS Code) and starts with a "What to do" line naming its own number. New `notify-failure` job: if the rebuild or publish fails, it opens "Weekly rebuild FAILED (<date>)" (bug, priority: now, assigned to Jim) with a link to the run, or comments on the one already open from the past week. Tested with a temporary `notify_test` input (now removed): two deliberate failures → one issue, #46 (closed), plus a comment; a forced review run → #47, assigned, "Review issue #47". The live site was unaffected by the failure tests.
+- **Issues:** closed #45, #46 (test). #47 left open: today's rebuild found real changes (4 added, 4 removed, 1 renamed), so it is a genuine review.
+- **Next:** #47.
