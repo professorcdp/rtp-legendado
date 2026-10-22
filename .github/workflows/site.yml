@@ -23,6 +23,11 @@ on:
         description: "Skip translations (also skipped automatically while there's no ANTHROPIC_API_KEY secret)"
         type: boolean
         default: false
+      notify_test:   # TEMPORARY (issue #45): remove after testing the notifications
+        description: "TEST ONLY: force a review issue, or a failure"
+        type: choice
+        options: [none, review, failure]
+        default: none
 
 # The site's public address, used for the canonical URL and social-card tags.
 # It must match the custom domain in the repo's Pages settings
@@ -52,6 +57,12 @@ jobs:
       RTP_WORKERS: "4"          # keep at 4 or below: RTP slows down silently (GOTCHAS.md)
       RTP_DELAY: "0.2"
     steps:
+      - name: TEMPORARY failure test (issue #45)
+        if: inputs.notify_test == 'failure'
+        run: |
+          echo "::error::Deliberate failure to test the FAILED notification"
+          exit 1
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -124,18 +135,28 @@ jobs:
             echo "failed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # Assigned to Jim so GitHub emails and notifies him outside VS Code (issue #45).
       # A failure here must not stop the site being published: the list is
       # already committed.
       - name: Open a review issue for added and removed titles
-        if: steps.compare.outputs.changed == 'true' || steps.translations.outputs.failed == 'true'
+        if: steps.compare.outputs.changed == 'true' || steps.translations.outputs.failed == 'true' || inputs.notify_test == 'review'
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue create \
+          { echo "### What to do"
+            echo ""
+            echo "Open the advisor chat for rtp-legendado in VS Code and say: 'Review issue #__N__'. It drafts the block; confirm the language calls; the coder does the rest. Usually 5 minutes."
+            echo ""
+            cat "$RUNNER_TEMP/changes.md"; } > "$RUNNER_TEMP/issue.md"
+          url=$(gh issue create \
             --title "Review the weekly rebuild ($(date -u +%Y-%m-%d))" \
-            --label chore --label "priority: next" \
-            --body-file "$RUNNER_TEMP/changes.md"
+            --label chore --label "priority: next" --assignee jamminalley \
+            --body-file "$RUNNER_TEMP/issue.md")
+          n=${url##*/}
+          sed -i "s/__N__/$n/" "$RUNNER_TEMP/issue.md"
+          gh issue edit "$n" --body-file "$RUNNER_TEMP/issue.md"
+          echo "opened $url"
 
   render:
     if: github.event_name == 'workflow_dispatch' && inputs.mode == 'publish'
@@ -159,6 +180,36 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
+  # If the rebuild or the publish fails, open one assigned issue per week so Jim hears
+  # about it (issue #45). A second failure in the same week comments on that issue.
+  notify-failure:
+    needs: [rebuild, render, deploy]
+    if: failure()
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Open or update the FAILED issue
+        run: |
+          week_ago=$(date -u -d '7 days ago' +%Y-%m-%d)
+          open=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search 'in:title "Weekly rebuild FAILED"' \
+                   --json number,createdAt --jq "[.[] | select(.createdAt >= \"$week_ago\")][0].number // empty")
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --repo "$GITHUB_REPOSITORY" --body "Failed again: $RUN_URL"
+            echo "commented on #$open"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "Weekly rebuild FAILED ($(date -u +%Y-%m-%d))" \
+              --label bug --label "priority: now" --assignee jamminalley \
+              --body "The rebuild-and-publish workflow failed: $RUN_URL
+
+          The live site still shows the last good list; nothing was published from this run.
+
+          ### What to do
+          Open the advisor chat for rtp-legendado in VS Code and say: 'Look at the failed weekly rebuild'. It will read the run log and draft a fix for the coder."
+          fi
 
   deploy:
     needs: [rebuild, render]
