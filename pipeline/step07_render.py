@@ -91,6 +91,14 @@ HEAD_META = """<meta name="viewport" content="width=device-width, initial-scale=
 MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
+def grace_label(r) -> str:
+    """'captions last confirmed 15 Oct' for a row kept by step06b_grace.py, else ''."""
+    if not r.get("grace"):
+        return ""
+    y, m, d = (int(x) for x in r["grace"].split("-"))
+    return f"captions last confirmed {d} {MONTHS_EN[m - 1]}"
+
+
 def esc(s) -> str:
     return html.escape(str(s or ""), quote=False).replace('"', "&quot;")
 
@@ -111,6 +119,8 @@ def row_html(r) -> str:
            '<div class="rowhead"><div class="rowtitle">',
            f'<a href="{esc(r["u"])}" target="_blank" rel="noopener">{esc(r["n"])}</a>{flag}</div>',
            f'<div class="rowmeta">{eps_label(r)} · {esc(r["d"])}</div></div>']
+    if r.get("grace"):                    # kept for 28 days after captions were last seen (#21)
+        out.append(f'<div class="grace">{grace_label(r)}</div>')
     # skip the English title when it just repeats the Portuguese one (e.g. "Habitat"; issue #12)
     if r.get("ne") and r["ne"].strip().lower() != r["n"].strip().lower():
         out.append(f'<div class="en entitle">{esc(r["ne"])}</div>')
@@ -149,7 +159,7 @@ def main():
     year_ago = (today - timedelta(days=365)).strftime("%Y%m%d")
     pt_only_n = sum(1 for r in rows if r.get("pt"))
     stats = [(f"{checked_n:,}", "TV programs checked"),
-             (f"{len(rows):,}", "with a caption track"),
+             (f"{sum(1 for r in rows if not r.get('grace')):,}", "with a caption track"),
              (f"{pt_only_n:,}", "Portugal-only license"),
              (f"{sum(1 for r in portuguese if r['dk'] >= year_ago):,}", "updated in the last year")]
 
@@ -215,7 +225,8 @@ def main():
         for r in sorted(rows, key=lambda r: order[r["s"]]):
             eps = "film" if r["s"] == "film" else (("12+" if r["e"] >= 12 else r["e"]) if r["e"] else "special")
             w.writerow([CSV_LABELS.get(r["s"], r["s"]), r["n"], r.get("ne", ""), eps, r["d"],
-                        "yes" if r.get("pt") else "no", r.get("tag", ""), r["x"], r.get("xe", ""), r["u"]])
+                        "yes" if r.get("pt") else "no", "; ".join(x for x in (r.get("tag", ""), grace_label(r)) if x),
+                        r["x"], r.get("xe", ""), r["u"]])
     log(f"wrote {csv_path}")
 
 

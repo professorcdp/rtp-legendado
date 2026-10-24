@@ -9,6 +9,7 @@
     step 5b dataset          merge seasons, fold in rights + synopses
     step 5c zigzag           link kids rows to RTP Play Zig Zag where that works
     step 6  translate        English titles and descriptions (cached)
+    step 6b grace            keep titles 28 days after captions were last seen
     step 7  render           index.html + csv
 
 Every step is resumable and caches its HTTP calls, so re-running after a failure
@@ -34,6 +35,7 @@ STEPS = [
     ("dataset", [sys.executable, "step05_dataset.py"]),
     ("zigzag links", [sys.executable, "step05b_zigzag.py"]),
     ("translate", [sys.executable, "step06_translate.py"]),
+    ("grace period", [sys.executable, "step06b_grace.py"]),
     ("render", [sys.executable, "step07_render.py"]),
 ]
 

@@ -102,13 +102,21 @@ def main():
     untranslated = sum(1 for r in new if not r.get("ne") or (r["x"] and not r.get("xe")))
 
     new_to_old, old_to_new = match(new, old), match(old, new)
-    added = sorted((r for i, r in enumerate(new) if i not in new_to_old), key=lambda r: (r["s"], r["n"]))
+    # a row kept in its grace period is never new; it is listed under "Not seen with captions" instead
+    added = sorted((r for i, r in enumerate(new) if i not in new_to_old and not r.get("grace")),
+                   key=lambda r: (r["s"], r["n"]))
     removed = sorted((r for i, r in enumerate(old) if i not in old_to_new), key=lambda r: (r["s"], r["n"]))
     renamed = sorted(((o, r) for i, r in enumerate(new) if (o := new_to_old.get(i)) and o["n"] != r["n"]),
                      key=lambda t: (t[1]["s"], t[1]["n"]))
+    # Titles kept for 28 days after their captions were last seen (step06b_grace.py, #21). They
+    # are still published, so they count in the totals and the guards above, and only count as
+    # removed once they actually drop.
+    grace = sorted((r for r in new if r.get("grace")), key=lambda r: (r["grace"], r["s"], r["n"]))
+    newly_grace = [r for i, r in enumerate(new) if r.get("grace") and not (new_to_old.get(i) or {}).get("grace")]
 
     md = [f"Weekly rebuild on {date.today().isoformat()}: {len(old)} → {len(new)} titles, "
-          f"{len(added)} added, {len(removed)} removed, {len(renamed)} renamed. "
+          f"{len(added)} added, {len(removed)} removed, {len(renamed)} renamed, "
+          f"{len(grace)} kept without captions this week. "
           f"{untranslated} title(s) still without English.", ""]
     if untranslated:
         md += [f"**{untranslated} title(s) have no English yet.** If the run had an API key, the "
@@ -125,6 +133,12 @@ def main():
                f"### Added ({len(added)})", ""] + [line(r) for r in added] + [""]
     if removed:
         md += [f"### Removed ({len(removed)})", ""] + [line(r) for r in removed] + [""]
+    if grace:
+        md += [f"### Not seen with captions since … ({len(grace)})", "",
+               "Still listed, marked \"captions last confirmed <date>\": their newest episode has no captions. "
+               "Each drops off 28 days after that date unless captions come back. No action needed.", ""] + \
+              [f"- **{r['n']}** ({SECTION_NAMES.get(r['s'], r['s'])}): not seen with captions since {r['grace']}"
+               + (" (new this week)" if r in newly_grace else "") for r in grace] + [""]
     if renamed:
         md += [f"### Renamed ({len(renamed)})", "",
                "Same program, new title (usually the latest episode's). No action needed.", ""] + \
@@ -133,7 +147,7 @@ def main():
     Path(args.out).write_text("\n".join(md), encoding="utf-8")
 
     print(md[0], file=sys.stderr)
-    print(f"changed={'true' if (added or removed) else 'false'}")
+    print(f"changed={'true' if (added or removed or newly_grace) else 'false'}")
     print(f"untranslated={untranslated}")
 
 

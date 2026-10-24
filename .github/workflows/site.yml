@@ -99,7 +99,7 @@ jobs:
         run: |
           git config user.name "rtp-legendado bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/dataset.json data/translations.json data/build_info.json
+          git add data/dataset.json data/translations.json data/build_info.json data/seen.json
           git diff --cached --quiet || git commit -m "Weekly rebuild of the list ($(date -u +%Y-%m-%d))"
           git pull --rebase
           git push
