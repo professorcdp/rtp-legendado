@@ -91,6 +91,17 @@ HEAD_META = """<meta name="viewport" content="width=device-width, initial-scale=
 MONTHS_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
+def coverage_label(r) -> str:
+    """'Captions on 9 of the last 10 episodes' etc., from step05c_coverage.py (#49); '' if unknown."""
+    cov = r.get("cov")
+    if not cov or cov[1] <= 1:
+        return ""
+    cap, checked = cov
+    if checked >= 10:
+        return "Captions on all of the last 10 episodes" if cap == checked else f"Captions on {cap} of the last 10 episodes"
+    return f"Captions on all {checked} episodes" if cap == checked else f"Captions on {cap} of {checked} episodes"
+
+
 def grace_label(r) -> str:
     """'captions last confirmed 15 Oct' for a row kept by step06b_grace.py, else ''."""
     if not r.get("grace"):
@@ -121,6 +132,8 @@ def row_html(r) -> str:
            f'<div class="rowmeta">{eps_label(r)} · {esc(r["d"])}</div></div>']
     if r.get("grace"):                    # kept for 28 days after captions were last seen (#21)
         out.append(f'<div class="grace">{grace_label(r)}</div>')
+    elif coverage_label(r):              # captions on how many recent episodes (#49)
+        out.append(f'<div class="grace cov">{coverage_label(r)}</div>')
     # skip the English title when it just repeats the Portuguese one (e.g. "Habitat"; issue #12)
     if r.get("ne") and r["ne"].strip().lower() != r["n"].strip().lower():
         out.append(f'<div class="en entitle">{esc(r["ne"])}</div>')
@@ -221,12 +234,14 @@ def main():
     with csv_path.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["Section", "Program", "English title", "Episodes", "Latest episode",
-                    "Portugal-only license", "Note", "Description (PT)", "Description (EN)", "Link"])
+                    "Portugal-only license", "Note", "Description (PT)", "Description (EN)", "Link",
+                    "Recent episodes captioned"])
         for r in sorted(rows, key=lambda r: order[r["s"]]):
             eps = "film" if r["s"] == "film" else (("12+" if r["e"] >= 12 else r["e"]) if r["e"] else "special")
             w.writerow([CSV_LABELS.get(r["s"], r["s"]), r["n"], r.get("ne", ""), eps, r["d"],
                         "yes" if r.get("pt") else "no", "; ".join(x for x in (r.get("tag", ""), grace_label(r)) if x),
-                        r["x"], r.get("xe", ""), r["u"]])
+                        r["x"], r.get("xe", ""), r["u"],
+                        f"{r['cov'][0]}/{r['cov'][1]}" if r.get("cov") else ""])
     log(f"wrote {csv_path}")
 
 

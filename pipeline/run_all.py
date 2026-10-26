@@ -9,6 +9,7 @@
     step 5b dataset          merge seasons, fold in rights + synopses
     step 5c zigzag           link kids rows to RTP Play Zig Zag where that works
     step 6  translate        English titles and descriptions (cached)
+    step 5c coverage         captions on how many of the last 10 episodes
     step 6b grace            keep titles 28 days after captions were last seen
     step 7  render           index.html + csv
 
@@ -34,6 +35,7 @@ STEPS = [
     ("synopses", [sys.executable, "step04_synopses.py"]),
     ("dataset", [sys.executable, "step05_dataset.py"]),
     ("zigzag links", [sys.executable, "step05b_zigzag.py"]),
+    ("episode coverage", [sys.executable, "step05c_coverage.py"]),
     ("translate", [sys.executable, "step06_translate.py"]),
     ("grace period", [sys.executable, "step06b_grace.py"]),
     ("render", [sys.executable, "step07_render.py"]),
