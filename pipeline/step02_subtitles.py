@@ -65,6 +65,9 @@ def check_one(rec: dict, want_vtt_stats: bool) -> dict:
     if track:
         out["label"], out["vtt"] = track
     out["file_key"] = file_key(page)
+    # RTP blanks the player's video key when it pulls a programme (`fileKey: "",`); step 6b
+    # uses this to drop the title at once instead of keeping it in its grace period (#50)
+    out["file_key_empty"] = bool(re.search(r'fileKey\s*:\s*["\']\s*["\']', page))
 
     kw = KEYWORDS_RE.search(page)
     desc = DESC_RE.search(page)

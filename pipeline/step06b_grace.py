@@ -15,8 +15,14 @@ then (link, translations and all). Rows are matched across runs by RTP
 programme id: a stored row and a current row are the same programme if they
 share any pid (main link or merged seasons), as in report_changes.py.
 
+Titles RTP has pulled are not kept: before a title enters or stays in its grace
+period, its stored episode page and its programme page are fetched. If the
+player's video key is empty (`fileKey: ""`) and the programme page lists no
+episodes, the title is "pulled": dropped at once and written to
+data/pulled.json for the weekly review ("Removed by RTP", issue #50).
+
 Runs after step 6 (so stored rows carry their English) and before step 7.
-Reads and rewrites data/dataset.json; writes data/seen.json.
+Reads and rewrites data/dataset.json; writes data/seen.json and data/pulled.json.
 
     python step06b_grace.py                    # today's run
     python step06b_grace.py --date 2026-10-22  # pretend the run happened that day
@@ -30,7 +36,7 @@ import re
 from datetime import date, timedelta
 from pathlib import Path
 
-from common import load_json, log, save_json
+from common import fetch, load_json, log, save_json
 from step06_translate import americanize
 
 GRACE_DAYS = 28
@@ -72,6 +78,24 @@ def update(seen: dict, rows: list, day: str) -> list:
     return grace
 
 
+def is_pulled(row: dict, subs: dict) -> bool:
+    """True if RTP has removed the programme: empty video key and no episodes listed."""
+    p = pid(row["u"])
+    if not p:
+        return False
+    try:
+        known = (subs.get(p) or {}).get("file_key_empty")
+        if known is None:
+            page = fetch(row["u"].replace("/play/zigzag/", "/play/"), use_cache=False)
+            known = bool(re.search(r'fileKey\s*:\s*["\']\s*["\']', page))
+        if not known:
+            return False
+        prog = fetch(f"/play/p{p}/", use_cache=False)
+        return not re.search(rf"/play/(?:zigzag/)?p{p}/e\d+", prog)
+    except Exception:                             # noqa: BLE001 - can't tell: keep it
+        return False
+
+
 def freshen(row: dict, ov: dict) -> dict:
     """Bring a stored row up to today's conventions (fields added since it was stored)."""
     for k, v in (("tag", ""), ("note", ""), ("pt", 0), ("more", []), ("ne", ""), ("xe", ""), ("xs", 0)):
@@ -94,7 +118,17 @@ def main():
     seen = (load_json("seen.json") or {}).get("rows", {})
     ov = json.loads(CONFIG.read_text(encoding="utf-8"))
 
-    grace = [freshen(r, ov) for r in update(seen, rows, args.date)]
+    subs = load_json("subtitles.json") or {}
+    grace, pulled = [], []
+    for r in update(seen, rows, args.date):
+        if is_pulled(r, subs):
+            pulled.append(r)
+            seen.pop(pid(r["u"]) or r["n"], None)
+        else:
+            grace.append(freshen(r, ov))
+    save_json("pulled.json", [{k: r[k] for k in ("n", "s", "u", "grace")} for r in pulled])
+    if pulled:
+        log(f"pulled by RTP (dropped, not kept): {', '.join(r['n'] for r in pulled)}")
     out = rows + grace
     out.sort(key=lambda o: (o["s"], -int(o["dk"] or 0)))
     save_json("dataset.json", out)

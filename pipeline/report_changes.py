@@ -105,7 +105,12 @@ def main():
     # a row kept in its grace period is never new; it is listed under "Not seen with captions" instead
     added = sorted((r for i, r in enumerate(new) if i not in new_to_old and not r.get("grace")),
                    key=lambda r: (r["s"], r["n"]))
-    removed = sorted((r for i, r in enumerate(old) if i not in old_to_new), key=lambda r: (r["s"], r["n"]))
+    # titles step 6b found pulled by RTP (empty video key, no episodes listed; #50)
+    pulled_pids = {pid(r["u"]) for r in json.loads((DATA / "pulled.json").read_text(encoding="utf-8"))} \
+        if (DATA / "pulled.json").exists() else set()
+    gone = [r for i, r in enumerate(old) if i not in old_to_new]
+    by_rtp = sorted((r for r in gone if pids(r) & pulled_pids), key=lambda r: (r["s"], r["n"]))
+    removed = sorted((r for r in gone if not pids(r) & pulled_pids), key=lambda r: (r["s"], r["n"]))
     renamed = sorted(((o, r) for i, r in enumerate(new) if (o := new_to_old.get(i)) and o["n"] != r["n"]),
                      key=lambda t: (t[1]["s"], t[1]["n"]))
     # Titles kept for 28 days after their captions were last seen (step06b_grace.py, #21). They
@@ -115,7 +120,7 @@ def main():
     newly_grace = [r for i, r in enumerate(new) if r.get("grace") and not (new_to_old.get(i) or {}).get("grace")]
 
     md = [f"Weekly rebuild on {date.today().isoformat()}: {len(old)} → {len(new)} titles, "
-          f"{len(added)} added, {len(removed)} removed, {len(renamed)} renamed, "
+          f"{len(added)} added, {len(removed)} removed, {len(by_rtp)} removed by RTP, {len(renamed)} renamed, "
           f"{len(grace)} kept without captions this week. "
           f"{untranslated} title(s) still without English.", ""]
     if untranslated:
@@ -133,6 +138,11 @@ def main():
                f"### Added ({len(added)})", ""] + [line(r) for r in added] + [""]
     if removed:
         md += [f"### Removed ({len(removed)})", ""] + [line(r) for r in removed] + [""]
+    if by_rtp:
+        md += [f"### Removed by RTP ({len(by_rtp)})", "",
+               "RTP has pulled these: the player has no video and the program page lists no episodes. "
+               "Dropped at once rather than kept in the grace period. No action needed.", ""] + \
+              [line(r) for r in by_rtp] + [""]
     if grace:
         md += [f"### Not seen with captions since … ({len(grace)})", "",
                "Still listed, marked \"captions last confirmed <date>\": their newest episode has no captions. "
@@ -147,7 +157,7 @@ def main():
     Path(args.out).write_text("\n".join(md), encoding="utf-8")
 
     print(md[0], file=sys.stderr)
-    print(f"changed={'true' if (added or removed or newly_grace) else 'false'}")
+    print(f"changed={'true' if (added or removed or by_rtp or newly_grace) else 'false'}")
     print(f"untranslated={untranslated}")
 
 
