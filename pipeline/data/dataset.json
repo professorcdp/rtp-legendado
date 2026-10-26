@@ -1,55 +1,10 @@
 [
 {
 "s": "docs",
-"n": "Paixão Cigana",
-"u": "https://www.rtp.pt/play/p17196/e961495/paixao-cigana",
-"d": "19 out. 2026",
-"dk": "20261019",
-"e": 3,
-"c": "RTP1",
-"x": "O absentismo da educação na comunidade cigana e a luta para mudar mentalidades. Bruno Gonçalves, da Associação Letras Nómadas, representante e m",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "Gypsy Passion",
-"xe": "School absenteeism in the Roma community and the struggle to change mindsets. Bruno Gonçalves, from the Letras Nómadas Association, a representative and m…"
-},
-{
-"s": "docs",
-"n": "Portuguese Soul",
-"u": "https://www.rtp.pt/play/p9462/e961461/portuguese-soul",
-"d": "19 out. 2026",
-"dk": "20261019",
-"e": 6,
-"c": "RTP2",
-"x": "Madeira - O que é que os nossos bisavós calçavam? Socos de Madeira, certamente.Muito mudou desde esses tempos. A madeira foi completamente reinvent",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p16871/e949558/portuguese-soul",
-"d": "21 ago. 2026",
-"r": 1,
-"pt": 0
-}
-],
-"ne": "Portuguese Soul",
-"xe": "Madeira - What did our great-grandparents wear on their feet? Wooden clogs, surely. A lot has changed since those times. Wood has been completely reinvent…"
-},
-{
-"s": "docs",
 "n": "Hora dos Portugueses",
-"u": "https://www.rtp.pt/play/p16132/e961326/hora-dos-portugueses",
-"d": "17 out. 2026",
-"dk": "20261017",
+"u": "https://www.rtp.pt/play/p16132/e962906/hora-dos-portugueses",
+"d": "24 out. 2026",
+"dk": "20261024",
 "e": 12,
 "c": "RTP Mundo",
 "x": "A portugalidade sob diferentes olhares.",
@@ -79,8 +34,65 @@
 "pt": 0
 }
 ],
+"cov": [
+9,
+10
+],
 "ne": "The Portuguese Hour",
 "xe": "Portuguese identity seen from different points of view."
+},
+{
+"s": "docs",
+"n": "Paixão Cigana",
+"u": "https://www.rtp.pt/play/p17196/e961495/paixao-cigana",
+"d": "19 out. 2026",
+"dk": "20261019",
+"e": 4,
+"c": "RTP1",
+"x": "O absentismo da educação na comunidade cigana e a luta para mudar mentalidades. Bruno Gonçalves, da Associação Letras Nómadas, representante e m",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+1,
+3
+],
+"ne": "Gypsy Passion",
+"xe": "School absenteeism in the Roma community and the struggle to change mindsets. Bruno Gonçalves, from the Letras Nómadas Association, a representative and m…"
+},
+{
+"s": "docs",
+"n": "Portuguese Soul",
+"u": "https://www.rtp.pt/play/p9462/e961461/portuguese-soul",
+"d": "19 out. 2026",
+"dk": "20261019",
+"e": 6,
+"c": "RTP2",
+"x": "Madeira - O que é que os nossos bisavós calçavam? Socos de Madeira, certamente.Muito mudou desde esses tempos. A madeira foi completamente reinvent",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p16871/e949558/portuguese-soul",
+"d": "21 ago. 2026",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+6,
+6
+],
+"ne": "Portuguese Soul",
+"xe": "Madeira - What did our great-grandparents wear on their feet? Wooden clogs, surely. A lot has changed since those times. Wood has been completely reinvent…"
 },
 {
 "s": "docs",
@@ -124,6 +136,10 @@
 "r": 0,
 "pt": 1
 }
+],
+"cov": [
+0,
+10
 ],
 "ne": "Always in Time",
 "xe": "Divided into three different segments: the Index, which tests your general knowledge, the Cabinet of Curiosities, a showcase of culture, and Reading by Ear, which presents the great works of world literature…"
@@ -184,6 +200,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "RTP Forever",
 "xe": "A series of 26 episodes that mark Portuguese identity…"
 },
@@ -203,6 +223,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "Geography of Discontent",
 "xe": ""
 },
@@ -222,6 +246,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+4
+],
 "ne": "Heirs of the Neighborhood",
 "xe": "We entered the Bairro 6 de Maio and find it hard to call it a neighborhood. Few buildings are still inhabited, and what remains of most of the houses of the…"
 },
@@ -261,6 +289,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Breath",
 "xe": "A documentary that spends time with Marion and Peter, a Dutch couple who lost their farm in the fire that devastated Pedrógão Grande in the summer of 201…"
 },
@@ -280,6 +312,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+8
+],
 "ne": "Web",
 "xe": "A documentary series of 8 episodes that sets out to reflect on the presence of textiles in contemporary artistic creation in dialogue with traditional practices…"
 },
@@ -299,6 +335,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "The Easter Slaughter - Memories of 11 March 1975",
 "xe": "Featuring Otelo Saraiva de Carvalho, Francisco da Costa Gomes, António de Spínola, Vasco Lourenço, Salgueiro Maia, Diniz de Almeida,…"
 },
@@ -331,6 +371,10 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Guided Tour",
 "xe": "Written and presented by Paula Moura Pinheiro, Visita Guiada tells the history of the Portuguese territory and its relations with the rest of the world through its historical heritage, both tangible and intangible…"
 },
@@ -350,6 +394,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Habitat",
 "xe": "Islands - In this episode, we travel through the Islands of Portugal, where we meet three different people who passionately live their relationship with natu…"
 },
@@ -369,6 +417,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The First Alentejans",
 "xe": "This documentary travels back to the Neolithic, 7,000 years before the present, to explore the transformation of the Alentejo landscape. Based on the monu…"
 },
@@ -388,6 +440,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Tales of Forgetting",
 "xe": "Recent archaeological finds in Lagos, in southern Portugal, have revealed the forgotten past of Portugal's role in the transatlantic trafficking of Africa…"
 },
@@ -407,6 +463,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Bartolomeu Cid dos Santos - Through Devastated Lands",
 "xe": "Bartolomeu Cid dos Santos (1931-2008), engraver and painter, is one of the great artists of the 20th century. His is the twilight world of the end of the Empire, he…"
 },
@@ -426,6 +486,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Repopulators",
 "xe": "An inspiring portrait of those who traded life in the big city for a fresh start in the interior of Portugal…"
 },
@@ -445,6 +509,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Othon",
 "xe": "When the first man realized that, with the help of other men, he could do more and better, things would never be the same again. Cities were born…"
 },
@@ -464,6 +532,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "Portugal in the World - St John's Festival in Clermont-Ferrand",
 "xe": "On the second day of the St John's celebrations in Clermont-Ferrand, we walk through the city's main streets, in the company of the Portuguese folk groups…"
 },
@@ -490,6 +562,10 @@
 "pt": 0
 }
 ],
+"cov": [
+3,
+10
+],
 "ne": "Portuguese Around the World - Communities",
 "xe": "The stories of the Portuguese communities living abroad and their connection to Portugal…"
 },
@@ -509,6 +585,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Another Goa",
 "xe": "Part II - In this Other Goa, Hinduism coexists with Catholicism; Islam, resurgent in the State, engages in dialogue with both, and they also dialogue…"
 },
@@ -528,6 +608,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Churchill in Madeira",
 "xe": "The Visit - 1 January 1950. Winston Churchill arrives in Madeira for a 16-day holiday. At this point he is 75 years old. He plans to rest, pai…"
 },
@@ -547,6 +631,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+7
+],
 "ne": "Journey Through My Homeland",
 "xe": "José Cid - Catarina Furtado takes a journey with José Cid through the places of the singer's childhood and youth, from the Ribatejo town of Chamusca, where…"
 },
@@ -566,6 +654,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+10
+],
 "ne": "We Are Academia",
 "xe": "100 Years of the Portuguese Diabetics' Protection Association - Insulin for All…"
 },
@@ -585,6 +677,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "10,000 Km, Back to Japan",
 "xe": "A four-episode series exploring the historical, cultural and human ties that have linked Portugal and Japan for more than four centuries. Far be…"
 },
@@ -604,6 +700,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+6
+],
 "ne": "Internees - The German Internment Depot on Terceira Island (1916-1919)",
 "xe": "A documentary by José Vieira Mendes, based on a study by researcher Sérgio Rezendes, which reveals the little-known historical episode of the De…"
 },
@@ -623,6 +723,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Longest Journey",
 "xe": "In the near future, a group of women and men will make a journey into the unknown. This journey will be an enormous human and technological challenge... To…"
 },
@@ -642,6 +746,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "José Fonseca e Costa - The Light in His Eyes",
 "xe": "At 82, director José Fonseca e Costa is a leading filmmaker in national cinema and a symbol of a generation known as the new…"
 },
@@ -661,6 +769,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Daniel Faria: Silence and the Word",
 "xe": "A documentary work that seeks to uncover what was left unsaid about Daniel Faria (1971-1999). Were he alive, Daniel would have turned 50 in…"
 },
@@ -680,6 +792,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Exile in the Atlantic",
 "xe": "'At the start of the Second World War, the Rock of Gibraltar was a heavily protected British Fortress. With the imminent threats of attac…"
 },
@@ -699,6 +815,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "BIAL: 100 Years Inspired by the Future",
 "xe": "Presented by acclaimed international actor Pêpê Rapazote, Ricardo Clara Couto's documentary invites us to follow the unique path that the…"
 },
@@ -718,6 +838,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Jack's Ride",
 "xe": "Premiered at the Berlin Film Festival in 2021, 'Jack's Ride' has been shown at more than 25 national and international festivals and won four awa…"
 },
@@ -737,6 +861,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Talking About António Campos",
 "xe": "This documentary talks about António Campos, revisiting his career as an exceptional filmmaker who was called an amateur, one of the most singular directors…"
 },
@@ -756,6 +884,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Submerged in the Indian Ocean",
 "xe": "The coast of the Island of Mozambique, a World Heritage Site, is also an underwater cemetery that preserves centuries of maritime history. Si…"
 },
@@ -775,6 +907,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Wenceslau de Moraes",
 "xe": "In 1854, Wenceslau de Moraes is born in Lisbon, author of the celebrated 'The Cult of Tea', one of his books in which he writes in detail about a country he admired…"
 },
@@ -794,6 +930,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+3
+],
 "ne": "Polio: The Road to Eradication",
 "xe": "For many, polio is a disease of the past. But for Africa, the announcement of the eradication of wild poliovirus was a victory only a…"
 },
@@ -813,6 +953,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Time Travel, in Search of Socialism",
 "xe": "A documentary by journalists Alípio Freitas and Mário Lindolfo on the contemporary history of Portugal in the period after 25 April…"
 },
@@ -832,6 +976,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Dissident Publisher",
 "xe": "Before 25 April 1974, Fernando Ribeiro de Mello's Edições Afrodite published a vast collection of banned books, seized and destroy…"
 },
@@ -858,6 +1006,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+6
+],
 "ne": "Fotobox",
 "xe": "Fotobox is a program about photography. Technology, photographers and their photographs are guaranteed a presence in this program."
 },
@@ -877,6 +1029,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Paulo Rocha - Memories",
 "xe": "An interview with filmmaker Paulo Rocha, directed and filmed in 2010 by Edgar Feldman."
 },
@@ -896,6 +1052,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Running the Bridge",
 "xe": "Credits: RTP 2 Program Director Gonçalo Madaíl; Author Rui Alves; Voice Paulo Sérgio; Editing and Research Rui Alves; Titles and Graphics Margarida Rodri…"
 },
@@ -915,6 +1075,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+8
+],
 "ne": "The Portuguese in New England",
 "xe": "A four-episode series portraying the saga of emigration from the Azores to New England - the East Coast of the Unit…"
 },
@@ -947,6 +1111,10 @@
 "pt": 1
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Between Sea and Land",
 "xe": "100 Years of the Portuguese Diabetics' Protection Association - Insulin for All…"
 },
@@ -966,6 +1134,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "Without Making Plans for What Comes Next",
 "xe": "In May 2017, 'Amar Pelos Dois', sung by Salvador Sobral, gave Portugal its first victory in the Eurovision Song Contest. It was the opposite of the song…"
 },
@@ -985,6 +1157,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Life Is Not All Night: Vitorino Nemésio",
 "xe": "On 19 December 1901, at 4 a.m., Vitorino Nemésio Mendes Pinheiro da Silva was born in Praia da Vitória (Terceira Island, Azores). His literary work…"
 },
@@ -1004,6 +1180,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+9
+],
 "ne": "I Can Do It",
 "xe": "Programs promoting citizenship and community development in the world of the African Countries with Portuguese as an Official…"
 },
@@ -1023,6 +1203,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Commercial Break",
 "xe": "In the sixth and final episode of 'Intervalo para Publicidade', we reflect on the present and future of advertising in a world marked by saturation…"
 },
@@ -1042,6 +1226,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+5
+],
 "ne": "Eugénio de Andrade",
 "xe": "The son of peasants, Eugénio de Andrade (1923-2005) spent his childhood in a village in Beira Baixa. As the poet himself says, 'the earth and the …"
 },
@@ -1061,6 +1249,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "João Ayres - Independent Painter",
 "xe": "A documentary with several layers of stories about the Portuguese painter João Ayres (1921-2001), a figure moving between Mozambique and Portugal wh…"
 },
@@ -1080,6 +1272,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "How I Crossed Africa",
 "xe": "Video Editing and Post-Production - Sérgio Alexandre. Audio Mixing and Post-Production - Rui Soares"
 },
@@ -1099,6 +1295,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Sousa Martins - Life and Cult",
 "xe": "An excellent physician, master teacher, intellectual and man of charity, José Tomás de Sousa Martins became a saint in the eyes of the people. 'Life …"
 },
@@ -1118,6 +1318,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "My Thesis - Raúl Saraiva",
 "xe": "He is doing his PhD in Molecular Microbiology and Immunology. The work he is developing aims to prevent the direct transmission of disea…"
 },
@@ -1137,6 +1341,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "At the Table with Them",
 "xe": "Serenella Andrade and Inês Carranca are keen eaters and invite the Portuguese to sit down 'At the Table with Them'! From north to south of the country, they serve us a…"
 },
@@ -1156,6 +1364,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Sea, the Last Frontier - Best Of",
 "xe": "An RTP project, developed in partnership with the Lisbon Oceanarium and the Oceano Azul Foundation and directed by the underwater photographer and filmmaker…"
 },
@@ -1182,6 +1394,10 @@
 "pt": 0
 }
 ],
+"cov": [
+5,
+6
+],
 "ne": "Phenomenal Portugal",
 "xe": "In this episode we travel to Loriga, where in 1944 a British Royal Air Force bomber crashed in the middle of the Serra da Estrela. It may have been s…"
 },
@@ -1201,6 +1417,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Sibyls of Passo",
 "xe": "The Agustina Bessa-Luís Literary Circle, as part of the celebrations of the writer's 95th birthday in 2017, made three documentaries about…"
 },
@@ -1227,6 +1447,10 @@
 "pt": 0
 }
 ],
+"cov": [
+8,
+10
+],
 "ne": "Jobs of the Month",
 "xe": "A monthly magazine program about work in the vegetable garden and the flower garden…"
 },
@@ -1246,6 +1470,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Breakfast",
 "xe": "The people, the stories and the produce behind cachupas, muambas, calulus, curries and so many other dishes that bring Africa to the table…"
 },
@@ -1265,6 +1493,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "If the Sea Allows",
 "xe": "'Se o Mar Deixar' is the result of 15 years of filming by Pedro Aguilar. During this period he built an increasingly close relationship…"
 },
@@ -1284,6 +1516,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+6
+],
 "ne": "Perspectives - Afro-descendants in Contemporary Portugal",
 "xe": "Racism - How Do We Experience Racism on Our Skin, Day to Day? - This episode delves into the different feelings that the weight of racism, still present,…"
 },
@@ -1303,6 +1539,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Mirror, Mirror",
 "xe": "The documentary 'Espelho Meu, Espelho Meu' reveals Joana Vasconcelos's major solo exhibition 'I'm Your Mirror' at the Guggenheim Museum Bilbao, showing the…"
 },
@@ -1322,6 +1562,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "Frias Martins: Scientist, Teacher, Communicator and Man of Faith",
 "xe": "A documentary about the scientist, researcher, university professor and science communicator. Frias Martins was one of the first collaborators of the…"
 },
@@ -1341,6 +1585,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Ready for the Tsunami?",
 "xe": "The Iberian Peninsula is one of the places at greatest risk of tsunamis in the Atlantic Ocean. What scientific evidence do we have? What does history…"
 },
@@ -1360,6 +1608,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "ModaLisboa Base - Highlights",
 "xe": "The highlights of the 65th Lisbon Fashion Week, which set out to reflect on the materialization of designer fashion and on new paths for fash…"
 },
@@ -1379,6 +1631,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "My Indonesia - Making Of",
 "xe": "The making of the documentary 'A Minha Indonésia', which introduces Indonesia through the eyes of Ana Gomes, former Portuguese Ambassador in Jak…"
 },
@@ -1398,6 +1654,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "João de Lacerda - The Visionary Collector",
 "xe": "With testimonies from: Adelino Dinis (journalist), António José Veloso (doctor), Artur Santos Silva (friend), Carlos Seruya (friend), João Lacerda (grandson)…"
 },
@@ -1417,6 +1677,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Guitar Barrel Project",
 "xe": "A luthier's unexpected discovery of wood from wine barrels that supposedly belonged to the Marquis of Pombal sets the challenge for…"
 },
@@ -1443,6 +1707,10 @@
 "pt": 0
 }
 ],
+"cov": [
+8,
+8
+],
 "ne": "For the Love of Tradition",
 "xe": "Inês Carranca takes us to meet the guardians of Portuguese traditions…"
 },
@@ -1462,6 +1730,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Sete Cidades: From Legend to Reality",
 "xe": "'Sete Cidades: Da Lenda à Realidade' is a documentary portraying the traditions, practices and customs of the inhabitants of the parish of Sete Cidades, in…"
 },
@@ -1481,6 +1753,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "That's Why I'm From the Misty Isles",
 "xe": "A documentary about the writer and composer of the song 'Ilhas de Bruma'."
 },
@@ -1500,6 +1776,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Sorcerer's Apprentice - A Journey into the Imagination of Zeca Medeiros",
 "xe": "The artist's series such as 'Mau Tempo no Canal', 'Xailes Negros', 'Gente Feliz com Lágrimas' or, also, works such as 'O Feiticeiro do Vento' and 'A Ilh…"
 },
@@ -1519,6 +1799,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Mists of Memory: The Portuguese Against the Third Reich",
 "xe": "In the year marking 80 years since the liberation of France, we remember the roughly 500 compatriots who, as part of the Resistance or the a…"
 },
@@ -1538,6 +1822,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "Wines of Portugal",
 "xe": "Douro - The River of Wine - A documentary series by José António Salvador about some of the most important wines of Portugal. These three documentaries…"
 },
@@ -1557,6 +1845,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "In the Secret Kingdom of the Bijagós",
 "xe": "The Sculptors of Spirits - The relationship with nature through rituals, dance masks and other works of sculpture."
 },
@@ -1576,6 +1868,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Douro - A History of Centuries",
 "xe": "Douro - Uma História de Séculos is a documentary by José António Salvador about wine production in the Douro region. Throu…"
 },
@@ -1602,6 +1898,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+1
+],
 "ne": "Exit Diploma",
 "xe": "Low wages, loss of purchasing power and the lack of career progression have led many young people to emigrate. Between 10 and 15 thousand Portu…"
 },
@@ -1621,6 +1921,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Plateau",
 "xe": "Plateau is a de-glamorized version of the world of show business and the people in it. It starts from the play 'Durações de um minuto' by Clara Anderma…"
 },
@@ -1640,6 +1944,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Island in Color",
 "xe": "Praia da Vitória - 'Ilha a Cores' is a program that shows the Azores as they have never been seen, municipality by municipality. This episode focuses…"
 },
@@ -1659,6 +1967,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Children of Tugas",
 "xe": "The Journey - Salvina Sousa Silva, the wife of a Portuguese veteran who served in Angola during the Colonial War, always heard her husband talk about the…"
 },
@@ -1678,6 +1990,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Sérgio Varella Cid - A Prodigy on the Razor's Edge - Private Vices",
 "xe": "Private Vices - Sérgio Varella Cid's double life becomes increasingly evident as he wins over the world's greatest concert halls and critics."
 },
@@ -1697,6 +2013,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "And After the Revolution?",
 "xe": "How Do We Experience Culture? - Fifty years of democracy have profoundly transformed cultural habits in Portugal. With the end of censorship, the country op…"
 },
@@ -1716,6 +2036,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+5
+],
 "ne": "The 5 Portuguese Revolutions",
 "xe": "1974 - The Carnation Revolution - In 1974, all the countries of Western Europe and NATO are pluralist democracies, with the exception of Spain, Greece…"
 },
@@ -1735,6 +2059,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Labor Is Not a Commodity",
 "xe": "Could we live in a society where work was done with pleasure, where it was not just a commodity and people just labor? What is the future of…"
 },
@@ -1754,6 +2082,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Those Who Stayed (Everywhere, Everyone Has One)",
 "xe": "Portugal lived for 41 years under the Estado Novo political regime, which imprisoned, tortured and exiled those who opposed it. Through the direct testimonies…"
 },
@@ -1773,6 +2105,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Hostages in Paradise",
 "xe": "In August 1975, in the middle of the 'Hot Summer' in Portugal, civil war broke out in the then colony of Timor, now East Timor. The military coup by the UD…"
 },
@@ -1792,6 +2128,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Antero de Quental: Living Word of Azorean Culture",
 "xe": "A documentary about the writer and poet Antero de Quental to mark the anniversary of his death."
 },
@@ -1817,6 +2157,10 @@
 "r": 0,
 "pt": 1
 }
+],
+"cov": [
+2,
+2
 ],
 "ne": "Portugal in the World - Círio de Nazaré",
 "xe": "Tiago Góes Ferreira takes us on a journey through Belém do Pará. We'll get to know the city, the large Portuguese community that settled there and the devo…"
@@ -1850,6 +2194,10 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Women Who Tell",
 "xe": "Maria Helena Mendes Pinto - A Life in the Decorative Arts in Portugal…"
 },
@@ -1869,6 +2217,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+6
+],
 "ne": "21st-Century Hotels",
 "xe": "Escape from Routine - Between the spheres of leisure and work, culturally representative of the tensions of the modern age, the escape from everyday life and the search…"
 },
@@ -1888,6 +2240,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Luiza de Jesus - The Macabre Story of the Greatest Portuguese Serial Killer",
 "xe": "A documentary about the life and death of Luiza de Jesus (1748-1772), the only known Portuguese 'serial killer', who, in the late 18th century, ki…"
 },
@@ -1907,6 +2263,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Freemasonry in Portugal - A History",
 "xe": "A unique documentary that reveals the truth behind facts lost in time..."
 },
@@ -1926,6 +2286,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "ModaLisboa Singular - Highlights",
 "xe": "Shows, presentations, interviews, backstage and exhibitions. The highlights of the 63rd edition of Lisbon Fashion Week. Sílvia Alberto is the…"
 },
@@ -1945,6 +2309,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "The Diaries of Thomaz de Mello Breyner",
 "xe": "1921 - 1933: The Rise of the Estado Novo - The troubled end of the First Republic, the constant fight to improve his wards at Desterro,…"
 },
@@ -1964,6 +2332,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "In Alice's Country",
 "xe": "Director Rui Simões and his daughter Alice set off on a journey around the country, beginning an intergenerational exchange through meetings with peo…"
 },
@@ -1983,6 +2355,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Salazar Didn't Go to the Football",
 "xe": "This is a documentary about football. About the History of Football in Portugal. For more than a century, football and life have walked side by side,…"
 },
@@ -2002,6 +2378,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "In Praise of Passion",
 "xe": "A program about our emotional lives, hosted by the psychologist Gabriela Moita."
 },
@@ -2021,6 +2401,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "From the Neighborhood",
 "xe": "In the beating heart of the city, the neighborhoods of Alfama and Mouraria come together to tell their stories. With a mix of authenticity, roots…"
 },
@@ -2040,6 +2424,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Naçara: Again and Again",
 "xe": "Encouraged by two great-aunts who lived in Silves, a young Portuguese woman crosses the country of nomads in search of the tribe of a distant grandfather. Return…"
 },
@@ -2059,6 +2447,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The World of Irreversível",
 "xe": "Margarida Vila-Nova, Rafael Morais, Soraia Chaves, Laura Dutra, Helena Caldeira, Paula de Magalhães and many others invite you to explore 'The World…"
 },
@@ -2084,6 +2476,10 @@
 "r": 0,
 "pt": 1
 }
+],
+"cov": [
+8,
+8
 ],
 "ne": "Alexandria",
 "xe": "A space for conversation, but never forgetting the things that unite us all, such as culture, history and music…"
@@ -2117,6 +2513,10 @@
 "pt": 0
 }
 ],
+"cov": [
+8,
+10
+],
 "ne": "Portuguese Table... with Stars, Of Course!",
 "xe": "Chefs from Michelin-starred restaurants working in Portugal travel in search of the best of our cuisine…"
 },
@@ -2136,6 +2536,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Portugal According To... Best Of",
 "xe": "'Portugal de...' dives into the different perspectives of Portugal through the stories of 10 notable figures of a generation, in a documentary approach…"
 },
@@ -2155,6 +2559,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "This Is My Body - Female Genital Mutilation",
 "xe": "The documentary 'This Is My Body' addresses the reality of women who are victims of genital mutilation in Portugal. Three women recount their experience…"
 },
@@ -2174,6 +2582,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "The Survivors at the Zoo",
 "xe": "This is a journey that lets the viewer get up close to some endangered animal species, which are protected under the European Program…"
 },
@@ -2193,6 +2605,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Pilgrimage of My Heart",
 "xe": "The festivals and religious pilgrimages of Portugal…"
 },
@@ -2212,6 +2628,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Fanny and Melancholy",
 "xe": "A documentary by Adriano Nazareth that evokes Porto and a nineteenth-century Douro, held captive by the current of the river and the mysteries it hides. Fanny…"
 },
@@ -2231,6 +2651,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "50 | 50",
 "xe": "A documentary by Mafalda Rebelo that takes a close look at the frustrations and achievements of couples trying to reconcile parenthood with a profes…"
 },
@@ -2250,6 +2674,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Carlos Lopes - The Marathon Man",
 "xe": "- PERSONAL BESTS: 5000 meters: 13:16.38 (Oslo - 1984); 10000 meters: 27:17.48 (Stockholm - 1984); Marathon: 2:07:12 (Rotterdam Marathon - 1985); 3000 me…"
 },
@@ -2269,6 +2697,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Roses of Ermera (Film)",
 "xe": "This documentary includes testimonies from Maria das Dores and João Afonso dos Santos and visits places in Timor where the family lived, the town of Erm…"
 },
@@ -2288,6 +2720,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Journey to the Center of My Homeland: Popular Saints Special",
 "xe": "On the night of 12 to 13 June, Lisbon takes to the streets to join in and watch the Parade of the Popular Marches in honor of Saint Anthony, who has hon…"
 },
@@ -2307,6 +2743,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Earth: Stories of Ceramics",
 "xe": "An 8-episode documentary series following ceramicists, artists, artisans and designers through their creative process in ceramics…"
 },
@@ -2326,6 +2766,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Wine, the Blood of the Earth",
 "xe": "A documentary by Carlos Fraga that follows the annual cycle of the vineyard, showing the emotional and human side that drives and sustains those behind…"
 },
@@ -2345,6 +2789,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "... And Before April?",
 "xe": "In this episode we hear three testimonies from people born without freedom under a fascist regime. The murder of José Ribeiro dos Santos, a yo…"
 },
@@ -2364,6 +2812,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+5
+],
 "ne": "Wines with History",
 "xe": "Red Vinho Verde - In the north of Portugal, in the Minho region, the vines mark out the edges of the fields, in a lacework of tall vine trellises."
 },
@@ -2383,6 +2835,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Eyes of the Revolution",
 "xe": "In 1974, it was an RTP camera operator, prevented from entering the premises, who saved the 25th of April on television. At the Hotel Avenida Palace…"
 },
@@ -2402,6 +2858,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Salgueiro Maia - Towards Eternity",
 "xe": "On 1 July 2019, Salgueiro Maia, the iconic name of one of the captains of the 25 April Revolution, would have turned 75. He was born in Castelo de Vide and there…"
 },
@@ -2421,6 +2881,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "José Medeiros Ferreira: A Brilliant Mind",
 "xe": "A documentary by Miguel Costa about the life of José Medeiros Ferreira (1942-2014), a figure of great importance in the history of the second half…"
 },
@@ -2440,6 +2904,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Maria Helena Mendes Pinto - A Life in the Decorative Arts in Portugal",
 "xe": "After completing the Decorative Arts Course at the Ricardo do Espírito Santo Silva Foundation in Lisbon, Maria Helena Mendes Pinto began her collaboration…"
 },
@@ -2459,6 +2927,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Long Live Democracy - 50 Years and the Future",
 "xe": "Part Two - Choice and Participation - Portugal celebrates 50 years of life in democracy - a political system that has profoundly changed our country…"
 },
@@ -2478,6 +2950,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Portugal According To...",
 "xe": "Different perspectives on Portugal through the stories of ten remarkable figures…"
 },
@@ -2497,6 +2973,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+5
+],
 "ne": "Portugu Esses",
 "xe": "The Inheritance Split - The Man Who Saw Everything - A look at contemporary Portuguese society through the way we deal with one another and how we man…"
 },
@@ -2516,6 +2996,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+10
+],
 "ne": "Constitutional Court: 40 Years Fulfilling the Future",
 "xe": "The laws that shook the country and whose constitutionality was examined by the Court…"
 },
@@ -2535,6 +3019,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+8
+],
 "ne": "An Acquired Taste",
 "xe": "A celebration of the legacy and resilience of the brands that have become an integral part of Portugal's identity…"
 },
@@ -2554,6 +3042,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Museum of the Presidency of the Republic",
 "xe": "A documentary on the celebration of the 10th anniversary of the Museum of the Presidency of the Republic, centred on the lives and work of the presidents of the republic. Clothes…"
 },
@@ -2573,6 +3065,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "A Body That Dances - Gulbenkian Ballet 1965-2005",
 "xe": "Using previously unseen archive footage and interviews with various choreographers and dancers, we follow the path of an extraordinary company, thro…"
 },
@@ -2592,6 +3088,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "Roots and Fruits",
 "xe": "100 Years of the Portuguese Diabetics' Protection Association - Insulin for All…"
 },
@@ -2611,6 +3111,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Bem Bom - Reality and Fiction",
 "xe": "A documentary about the shooting of the film Bem Bom, a biopic about the biggest Portuguese girl band, Doce, who in the early 1980s left their mark on music…"
 },
@@ -2630,6 +3134,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Zero Poverty - Building the Future",
 "xe": "One million 700 thousand people in Portugal live in poverty, that is, on an income of less than 551 euros a month. They are mainly…"
 },
@@ -2649,6 +3157,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "Towers & Kites",
 "xe": "A celebration of symbols, with the city of Guimarães as its theme. In the context of its celebration as European Capital of Culture 2012, this is one of…"
 },
@@ -2668,6 +3180,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Guinea-Bissau Carnival - From Peak to Revival",
 "xe": "In the expression and celebration of the cultures of the peoples of Guinea, the essence of traditions and the value of artistic creations are expressed through the exu…"
 },
@@ -2687,6 +3203,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Life Is an Empty Bus",
 "xe": "An essential figure in 20th-century Portuguese literature, Maria Judite de Carvalho always preferred observing to being exposed. Nicknamed by Agustina…"
 },
@@ -2706,6 +3226,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+10
+],
 "ne": "Destination: Portugal",
 "xe": "Impressions of the East: The Voyages of Fernão Mendes Pinto from Goa to Malacca…"
 },
@@ -2725,6 +3249,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Resisting the Blindness of the World - Eduardo Prado Coelho",
 "xe": "A professor, writer and literary critic, Eduardo Prado Coelho was a regular presence in public life, where he took an active part in debates…"
 },
@@ -2744,6 +3272,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+7
+],
 "ne": "Somersault",
 "xe": "Sport Club do Porto - Sport Club do Porto, founded in 1904, was born in the heart of the city, on Rua de Santa Catarina. It is the oldest club…"
 },
@@ -2763,6 +3295,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Conceição Matos: Courage Today, Hugs Tomorrow",
 "xe": "Conceição Matos was born in 1936 in São Pedro do Sul; at just 3 years old she moved to Barreiro, to a 'wooden shack' that she shared…"
 },
@@ -2782,6 +3318,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "Bom Jesus do Monte",
 "xe": "Declared a UNESCO World Heritage Site in 2019, Bom Jesus do Monte is the most complete and complex sacred mount in the world. The history…"
 },
@@ -2808,6 +3348,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+1
+],
 "ne": "Portugal, A Home for Everyone",
 "xe": "We are the country in Europe where young people leave their parents' home the latest, on average: only at 34. At the same time, the property market in…"
 },
@@ -2827,6 +3371,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Fajãs of Time",
 "xe": "A journey through the local landscapes and the people of the fajãs, showing the sustainable relationship between Man and Nature."
 },
@@ -2846,6 +3394,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Echoes of the Earth",
 "xe": "Ecos da Terra is a multicultural festival of alternative, Portuguese and world music, organized since 2014 by Mescla de Sons, an association…"
 },
@@ -2865,6 +3417,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Bread the Devil Kneaded",
 "xe": "The film is an open door into a mountain village called Adsamo. It is built with the four seasons as a backdrop and tells us the story…"
 },
@@ -2884,6 +3440,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Prisoners of War",
 "xe": "In 1961, the Indian Union put an end to 451 years of Portuguese presence in Goa, Daman and Diu. The small Portuguese military garrison surrendered in less…"
 },
@@ -2903,6 +3463,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "An Imagined City",
 "xe": "20 years on, what remains of Expo 98? What changed in the city, in the country, in the lives and minds of the Portuguese? The vision, the work and the legacy of the…"
 },
@@ -2922,6 +3486,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "Impressions of the Orient: The Travels of Fernão Mendes Pinto from Goa to Malacca",
 "xe": "From Chengdu, still in China, back to Macau and finally to Japan, where the Portuguese brought the first gun."
 },
@@ -2941,6 +3509,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "The Art of Healing",
 "xe": "A 13-episode series in which Rita Saldanha portrays the development of medicine in Portugal…"
 },
@@ -2960,6 +3532,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "The Life and Work of José Luís Tinoco",
 "xe": "A graduate of the Faculty of Architecture of the University of Porto, a painter, poet and musician, José Luís Tinoco was born in Leiria 84 years ago. He was part of…"
 },
@@ -2979,6 +3555,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Laurinha",
 "xe": "Laura Alves was a great star of show business in Portugal, the true pop star of Portuguese theater. People went to the theater just to see Laura Alves."
 },
@@ -3011,6 +3591,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+10
+],
 "ne": "Nothing Will Be Like Dante",
 "xe": "A literature program made in the certain knowledge that, however good it may be, nothing will ever be like Dante…"
 },
@@ -3030,6 +3614,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Meeting of Waters - Secrets of the Ria and the Lower Vouga Lagoon",
 "xe": "Produced by the Municipality of Estarreja, this documentary reveals nature in all its splendor and uncovers a setting that not everyone is aware…"
 },
@@ -3049,6 +3637,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "João Villaret - The Tamer of the Voice",
 "xe": "João Villaret celebrated poetry and left an unrivaled legacy in theater, cinema and television. We remember one of the greatest figures of Portuguese…"
 },
@@ -3068,6 +3660,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Maria Gabriela Llansol - An Intense Gaze Can Set the Text on Fire",
 "xe": "'Writing is the double of living', or: 'My greatest responsibility is to help a book become a being', says the author in her book 'Falcão…"
 },
@@ -3087,6 +3683,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Journey to Portugal",
 "xe": "The Great and Burning Land of Alentejo - of Algarve and Sun, Dry Bread and Soft Bread - Porchat heads south: he 'embroiders' rugs in Arraiolos, uses a megaphone in M…"
 },
@@ -3113,6 +3713,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+1
+],
 "ne": "Longevity - Economic and Social Challenges",
 "xe": "The Portuguese are living longer and longer, having fewer and fewer children, and there is a need for increasingly qualified immigration. This reality…"
 },
@@ -3132,6 +3736,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Olympic Heroes",
 "xe": "A two-part documentary film project about seven Portuguese Olympic medallists, developed for the Programming Directorate…"
 },
@@ -3151,6 +3759,10 @@
 "ok": 1,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "12 October 1972: The Day We Lost Our Fear",
 "xe": "On 12 October 1972, during a student meeting at what was then the Higher Institute of Economic and Financial Sciences, an agent of the PIDE…"
 },
@@ -3170,6 +3782,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Laji, Stories of Refugees in Portugal",
 "xe": "Amir was persecuted for religious reasons, Lana for her views on women's rights; Ahmed and Naji fled war. Portugal took in…"
 },
@@ -3189,6 +3805,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Unique & Singular",
 "xe": "Filmed in three major mental-health institutions, Casa de Saúde do Telhal (Belas, Sintra), the Centro Hospitalar Psiquiátrico de Lisboa…"
 },
@@ -3208,6 +3828,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Francisco Lyon de Castro: Greater Than Censorship",
 "xe": "Interweaving fiction with individual testimonies, the documentary provides the historical and political context of Lyon de Castro's life, from…"
 },
@@ -3227,6 +3851,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Eunice & Ruy - Journey to the Beginning",
 "xe": "Starring Eunice Muñoz and Ruy de Carvalho, this is a unique documentary. Filmed on historic stages such as the Teatro Nacional D. Maria II…"
 },
@@ -3246,6 +3874,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Lisbon: Sad and Joyful City",
 "xe": "In the 1950s, Victor Palla and Manuel Costa Martins, two architect friends, portrayed the city of Lisbon in more than 6,000 photographs. These were published…"
 },
@@ -3265,6 +3897,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Elizabeth II and Portugal",
 "xe": "Portugal received a visit from Queen Elizabeth II at two defining moments for the country. The first, in 1957, led Salazar to put on a staged version of the country…"
 },
@@ -3284,6 +3920,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "A Mountain the Size of Man",
 "xe": "A documentary by João Nuno Brochado introducing the unusual village of Drave. An uninhabited village where modernity has not yet arrived. In…"
 },
@@ -3303,6 +3943,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Contemporary Portuguese Composers: António Ferreira dos Santos",
 "xe": "Canon Ferreira dos Santos is a reference in the history of 20th-century sacred music. Author of the 'Requiem in Memory of Prince Henry the Navigator' (1995…"
 },
@@ -3322,6 +3966,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Youths",
 "xe": "There are fewer and fewer of them and they make up about 21% of the Portuguese population. Young Portuguese people today face major challenges: building…"
 },
@@ -3341,6 +3989,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Puppet-Makers of Folia",
 "xe": "Two artists who wanted more from acting and sculpture... That is how Folia came about, combining the traditional art of puppet manipulation with…"
 },
@@ -3360,6 +4012,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Inatel Foundation - A Long History (60' Version)",
 "xe": "The INATEL Foundation, formerly FNAT, is one of the few national public institutions dating from the beginning of the Estado Novo that has carried on well into Democracy…"
 },
@@ -3379,6 +4035,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+10
+],
 "ne": "The Things Around Us: The Mysterious Life of Objects",
 "xe": "Discovering the historical evolution of everyday objects…"
 },
@@ -3398,6 +4058,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+10
+],
 "ne": "Ni Hao China",
 "xe": "Discover the mysteries of China's thousand-year-old civilization…"
 },
@@ -3417,6 +4081,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Jornal do Fundão: The Dream and the Causes",
 "xe": "From the 1960s onwards, a weekly newspaper from a small town in Beira Interior called 'Jornal do Fundão' managed to captivate…"
 },
@@ -3436,6 +4104,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "António Coimbra de Matos: Looking at Others",
 "xe": "The story of António Coimbra de Matos (1929-2021), a doctor and a key figure in mental health. He was born in 1929 in a legendary village above the Douro…"
 },
@@ -3455,6 +4127,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Beatriz Costa: Joy Is My Religion",
 "xe": "Sovereign and defiant, with unforgettable expressiveness, a contagious smile and a heart as big as the world, Beatriz Costa was a…"
 },
@@ -3474,6 +4150,10 @@
 "ok": 1,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "It Sounds",
 "xe": "Silence in Times of Crisis - A crisis is a decisive and difficult moment in society, when structural changes become unavoidable. Many of the crises that…"
 },
@@ -3493,6 +4173,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Future Makers",
 "xe": "The real-life testimony of young independent creatives living in Lisbon. In a cocktail of opportunity, luck, effort and ambition, the documentary…"
 },
@@ -3512,6 +4196,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "In Praise of Light",
 "xe": "Lighting for Learning - In teaching environments, lighting should provide a sense of comfort so that students can learn well."
 },
@@ -3531,6 +4219,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "History of Revue Theater in Portugal - The Revue after 25 April 1974",
 "xe": "The Revue after 25 April 1974 - With the freedom to say anything and with the audience divided by their ideological and party loyalties, both…"
 },
@@ -3550,6 +4242,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "100 Years Ago, Seara Nova",
 "xe": "The 2 episodes of the documentary '100 Years Ago, Seara Nova' trace the history of this 'magazine of doctrine and criticism', in which many of the…"
 },
@@ -3569,6 +4265,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+7
+],
 "ne": "Six Decades of Television (Minidocs)",
 "xe": "Maria Elisa - For RTP's 60th anniversary celebrations, leading figures of the small screen recall the history of the TV station of all the Portuguese…"
 },
@@ -3588,6 +4288,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "On the Wine Route of Pico Island",
 "xe": "On the Wine Route of Pico Island aims to promote and showcase the unique characteristics that set Pico apart from all the other wine-growing regions…"
 },
@@ -3607,6 +4311,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Bow",
 "xe": "After times of physical and social isolation, the time has come to move towards the 'new normal'. But how do we define this new normal? The documentary by…"
 },
@@ -3626,6 +4334,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "Starting Over",
 "xe": "Stories of refugees and migrants of various nationalities forced to start over…"
 },
@@ -3645,6 +4357,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "I Am the Author of My Name - Mia Couto",
 "xe": "A documentary by Solveig Nordlund that follows, with a documentary eye, the life and work of the Mozambican writer Mia Couto."
 },
@@ -3664,6 +4380,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Savage Islands",
 "xe": "The National Geographic Society visited the Savage Islands, Portugal's southernmost point, and produced a scientific report and a documentary of the expedition. Mo…"
 },
@@ -3683,6 +4403,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Iron Brothers - Brotherhood of Iron",
 "xe": "Miguel and Pedro Ferreira Pinto are brothers and have been inseparable since birth; always together, always companions, these brothers never let…"
 },
@@ -3702,6 +4426,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Portuguese Quarter of Malacca",
 "xe": "Interviewees: Marina Danker, Michael Singho, Martin Theseira, Cipriano, Noel Felix"
 },
@@ -3721,6 +4449,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Women in Portugal",
 "xe": "Being a woman in Portugal today. What opportunities? What challenges? RTP and the Francisco Manuel dos Santos Foundation try to answer these questions…"
 },
@@ -3740,6 +4472,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Lady Dona Amélia",
 "xe": "Amélia Rey Colaço married the actor Robles Monteiro in December 1920. The following year the two entered the competition for the concession of the National Theater…"
 },
@@ -3759,6 +4495,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Women in the Resistance",
 "xe": "Glória Marreiros - The fourth episode of the series 'Women in the Resistance', entitled 'Glória Marreiros', is based on a conversation/interview carried out…"
 },
@@ -3778,6 +4518,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Yes, I Can - Ayham - My New Life",
 "xe": "Ayham - My New Life - In this episode we get to know the story of a young refugee, Ayham, and how he adapts to his new life in Switzerland. The beginning…"
 },
@@ -3797,6 +4541,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "We, the Portuguese - A Future Yet to Be Drawn",
 "xe": "The growing automation that will shape the Portuguese economy in the coming decades will be one of the main answers to its low productivity. M…"
 },
@@ -3816,6 +4564,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+0,
+10
+],
 "ne": "International Manufacturing",
 "xe": "A portrait of the Portuguese companies winning over international markets with their products and services…"
 },
@@ -3835,6 +4587,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Long-Distance Migrants: Between the Tagus and the Arctic",
 "xe": "In this documentary we follow the migration of black-tailed godwits between the Tagus estuary and the sub-Arctic region of Iceland. And the…"
 },
@@ -3854,6 +4610,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Francisco de Holanda - The Forgotten Light of the Renaissance",
 "xe": "A documentary featuring Sylvie Deswarte-Rosa, Joaquim Caetano, Rafael Moreira, Isabel Almeida, Manuel Parada López de Corselas, José C…"
 },
@@ -3873,6 +4633,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Impossible Choice",
 "xe": "A portrait of the Portuguese community in the Limousin region, The Impossible Choice strives to capture the variety and complexity of the situations…"
 },
@@ -3892,6 +4656,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Hotels with History",
 "xe": "The Hotel Palácio Estoril was a place of exile for many of Europe's royal families during the Second World War, against the backdrop of Portugal's neutrality. Located…"
 },
@@ -3918,6 +4686,10 @@
 "pt": 0
 }
 ],
+"cov": [
+5,
+10
+],
 "ne": "Princes of Nothing",
 "xe": "Promoting citizenship and human rights, leaving no one behind…"
 },
@@ -3937,6 +4709,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Take Me With You - The Documentary",
 "xe": "Author of 'O Meu Irmão' (Leya Prize 2014) and 'Pão de Açúcar' (José Saramago Prize 2019), Afonso Reis Cabral traveled almost 739 kilometers…"
 },
@@ -3956,6 +4732,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Special Envoy",
 "xe": "The life story of Aquino de Bragança, an Indian intellectual and journalist whose life's goal was to fight colonialism and help Goa…"
 },
@@ -3975,6 +4755,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "In Search of Young Dorita",
 "xe": "Dorita de Castel-Branco was born in Lisbon on 13 September 1936 and died in September 1996. In 1962 she completed the higher degree in Sculpture at the School…"
 },
@@ -3994,6 +4778,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Carquejeiras - The Slaves of Porto",
 "xe": "At a time when survival was a real struggle, women of all ages were forced to carry up to 60 kilos of…"
 },
@@ -4013,6 +4801,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "From Stones Came Land: Stories of Beira Baixa",
 "xe": "Deeply shaped by the age-old dialogue between water and rock, the Beira Baixa region holds some of the oldest natural and archaeological treasures…"
 },
@@ -4032,6 +4824,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Beyond Our Means",
 "xe": "This documentary is part of the collective work 'Projecto Troika'."
 },
@@ -4051,6 +4847,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "We, the Portuguese - Born Not to Die",
 "xe": "In the demographic crisis that Portugal is already beginning to face, it is important to think about how we can deal with the decline and ageing…"
 },
@@ -4070,6 +4870,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Júlio Isidro - 60 Years of Television",
 "xe": "A documentary about Júlio Isidro's 60-year career, told in the first person, with testimonies from José Cid, João David Nunes, Lídia Fra…"
 },
@@ -4089,6 +4893,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Beautiful Madeira",
 "xe": "Young Emily Shore, ill as she was, was enchanted by Madeira's natural beauty when she landed in Funchal in December 1838. Picturesque…"
 },
@@ -4115,6 +4923,10 @@
 "pt": 0
 }
 ],
+"cov": [
+0,
+10
+],
 "ne": "Portuguese Around the World",
 "xe": "Everywhere you go, there are always Portuguese around the world..."
 },
@@ -4134,6 +4946,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Worker's Voice",
 "xe": "A documentary directed by Miguel Costa about the history of the Education and Welfare Society 'A Voz do Operário' and its…"
 },
@@ -4153,6 +4969,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Ole António Ole",
 "xe": "A documentary by Portuguese filmmaker Rui Simões about the life and work of António Ole, one of the most important Angolan visual artists of…"
 },
@@ -4172,6 +4992,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Cesina Bermudes - One Life Is Not Enough",
 "xe": "Born in 1908, Cesina Bermudes soon stood out for her irreverent attitude and her ethical values. An obstetrician, she had an important scientific…"
 },
@@ -4191,6 +5015,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Tarrafal",
 "xe": "An intense journey through the past and future of the Bairro São João de Deus, Tarrafal is a living document of the recent history of the city of Porto. The…"
 },
@@ -4210,6 +5038,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Islands of Macaronesia (Madeira and Cape Verde)",
 "xe": "Madeira - II - Biodiversity; Survival of some endemic species; Ecosystem protection; Laurisilva forest; Atmospheric humidity;…"
 },
@@ -4229,6 +5061,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "The People Who Still Sing",
 "xe": "O Povo Que Ainda Canta is a documentary series about traditional and folk music, created by Tiago Pereira."
 },
@@ -4248,6 +5084,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "In Search of António Botto",
 "xe": "A 'cursed' writer, António Botto created a body of work considered controversial. 'Canções', his best-known book, was published by Fernando Pessoa, but…"
 },
@@ -4267,6 +5107,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "Stages Now - Discovering the Eugénio de Almeida Foundation in Évora",
 "xe": "Discovering the Eugénio de Almeida Foundation in Évora - This week we begin our journey in Évora and show a little more of the work that the Foundation…"
 },
@@ -4286,6 +5130,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Roses of Ermera",
 "xe": "'This is the story of a family that gained some notoriety because of Zeca Afonso, but it is also a piece of our history that was hidden…"
 },
@@ -4305,6 +5153,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Architect of Lisbon: Pardal Monteiro",
 "xe": "A disciple of Miguel Ventura Terra, another important architect who influenced the capital's urban image, Pardal Monteiro was one of the pioneers of mo…"
 },
@@ -4324,6 +5176,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "Women of April",
 "xe": "The New Millennium - Dinner is almost over. Luísa remembers the millennium New Year's Eve, from 1999 to 2000, at Ana's house, the night when Ana…"
 },
@@ -4343,6 +5199,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Voice and Ears of the MFA",
 "xe": "A documentary about the acquisition of telephones for the MFA Command Post, as well as the installation of a communications cable that would have to be extended…"
 },
@@ -4362,6 +5222,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "When the Army Ran RTP",
 "xe": "A report by journalist Jacinto Godinho on the importance and role of RTP in Portuguese political events at the time of the Revolution. The…"
 },
@@ -4381,6 +5245,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Pope Who Came from the South",
 "xe": "We learn that Pope Francis, when he lived in Argentina, only traveled by public transport, did not watch television and loved listening to classical…"
 },
@@ -4400,6 +5268,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Camilo de Oliveira",
 "xe": "Popular, versatile, charismatic, Camilo de Oliveira is a landmark in the history of comedy and variety theater in Portugal. A native of Fi…"
 },
@@ -4419,6 +5291,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Love Me Love Me Not",
 "xe": "A documentary about Sindika's exhibition of contemporary African art at the Galeria Municipal Almeida Garrett in Porto, with the special participation…"
 },
@@ -4438,6 +5314,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Pena Park",
 "xe": "Pena Park is a journey through the Romantic imagination of the Sintra area. Through the figure of the creator of the Pena park and palace, King Fernando…"
 },
@@ -4457,6 +5337,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Show Me Lisbon",
 "xe": "The documentary 'Show me Lisbon' presents Lisbon from the perspective of a group of locals and Lisbon lovers from different fields…"
 },
@@ -4476,6 +5360,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Eunice Muñoz - The 'Me' in Eunice",
 "xe": "11550024004"
 },
@@ -4495,6 +5383,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "World of the Senses",
 "xe": "Intuiting - Intuition is an unconscious process that leads human beings to conclusions. It allows knowledge to be acquired and action to be taken without…"
 },
@@ -4514,6 +5406,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Water Goes, Stone Carries",
 "xe": "The history of the levadas is intertwined with the settlement of the island of Madeira itself. Early on, the settlers realized that the south of the island was more fertile…"
 },
@@ -4533,8 +5429,50 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "The House and the City",
 "xe": "The City after the City - This episode looks at the evolution of Portuguese urban space after the establishment of the democratic regime on 25 April…"
+},
+{
+"s": "film",
+"n": "Jogos de Traições",
+"u": "https://www.rtp.pt/play/p17167/e962962/jogos-de-traicoes",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 1,
+"c": "RTP1",
+"x": "Depois de sair da prisão, Rudy Duncan assume a identidade do seu falecido companheiro de cela para conhecer Ashley, com quem este mantinha uma relaç",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"ne": "Con Games",
+"xe": "After getting out of prison, Rudy Duncan takes on the identity of his deceased cellmate in order to meet Ashley, with whom he had been in a relation…"
+},
+{
+"s": "film",
+"n": "Motel Destino",
+"u": "https://www.rtp.pt/play/p14889/e962985/motel-destino",
+"d": "24 out. 2026",
+"dk": "20261024",
+"e": 1,
+"c": "RTP2",
+"x": "No nordeste brasileiro, nas imediações de uma cidade do Ceará, o Motel Destino é palco de jogos perigosos de desejo, poder e violência. Dayana vi",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"ne": "Motel Destino",
+"xe": "In northeastern Brazil, on the outskirts of a city in Ceará, Motel Destino is the setting for dangerous games of desire, power and violence. Dayana vi…"
 },
 {
 "s": "film",
@@ -4610,7 +5548,8 @@
 "pt": 0,
 "more": [],
 "ne": "Dancing Hangover - Concert Film",
-"xe": "A large house worn down by time, set on an imposing, untouchable pedestal. The film follows individuals who relate to one another freely, a…"
+"xe": "A large house worn down by time, set on an imposing, untouchable pedestal. The film follows individuals who relate to one another freely, a…",
+"grace": "2026-10-24"
 },
 {
 "s": "film",
@@ -4638,7 +5577,7 @@
 "u": "https://www.rtp.pt/play/p6242/e957728/sul",
 "d": "02 out. 2026",
 "dk": "20261002",
-"e": 2,
+"e": 1,
 "c": "RTP África",
 "x": "Humberto confronta o assassino do Tejo, mas é demasiado tarde para prender os mandantes dos crimes. O inspector tem uma ideia para resolver o problem",
 "xs": 0,
@@ -5733,6 +6672,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+10
+],
 "ne": "Local Gastronomy",
 "xe": "Presented by Chef Júlio Pereira"
 },
@@ -5752,6 +6695,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Home Chefs",
 "xe": "Find out what they eat in the homes of Portuguese chefs and learn the recipes as a family…"
 },
@@ -5771,6 +6718,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Instruction Manual",
 "xe": "An instruction manual with practical everyday recipes given a professional touch…"
 },
@@ -5790,6 +6741,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+5
+],
 "ne": "In the Kitchen with Henrique Sá Pessoa",
 "xe": "A series of 5 special episodes leading up to the launch of Henrique Sá Pessoa's new cookery project."
 },
@@ -5809,6 +6764,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Collateral Beauty",
 "xe": "Howard Inlet is a brilliant advertising executive. After the death of his daughter, he is deeply shaken and withdrawn from life. His friends and colleagues, worr…"
 },
@@ -5828,6 +6787,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Overcoat at Night",
 "xe": "The plot revolves around Vera's search for her biological son, whom she gave up for adoption because she was not in a position to raise him. When questioning the…"
 },
@@ -5847,6 +6810,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Beautiful Wedding",
 "xe": "Abby and Travis wake up after a wild night in Las Vegas and realize they have just got married. Accompanied by their best friends and with hundreds of …"
 },
@@ -5866,6 +6833,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Dalíland",
 "xe": "James is put in charge of accompanying Salvador Dalí, one of the most extravagant and controversial figures of 20th-century art, in preparing an exhibition…"
 },
@@ -5885,6 +6856,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "The Fever",
 "xe": "As the controversy over gun ownership intensifies, Sam continues to bet on unity and dialogue, with the support of Racing Paris, which…"
 },
@@ -5944,6 +6919,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "This Is Not Sweden",
 "xe": "Everything Passes in the End - The Swedes' house is full of moving boxes. They are leaving the neighborhood. Two months later, the lives of Mariana and Samue…"
 },
@@ -5963,6 +6942,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Zorras",
 "xe": "Alicia realizes that her life in Madrid has become unbearable. Diana tells her parents the truth and leaves home. It seems the three friends are about…"
 },
@@ -5982,6 +6965,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "The Age of Anger",
 "xe": "Marcos - Days before his father's murder, Marcos is living the best days of his life with his friends. In the wake of the event, the teacher of…"
 },
@@ -6001,6 +6988,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Eighteen",
 "xe": "Months later, Moha and Cèlia carry on with their lives, now separated by distance."
 },
@@ -6020,6 +7011,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "HIT",
 "xe": "Lena, Andrés, Darío, Erika, Gus, Jaco, Marga, Nourdin and Silvia experience an emotional final gathering. It is the last class, the last time they will be to…"
 },
@@ -6039,6 +7034,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Népia",
 "xe": "Pete gives up on his goal of staying sober and ends up taking drugs with an old friend."
 },
@@ -6058,6 +7057,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Sheltering Sky",
 "xe": "1947. Port Moresby (John Malkovich) and his wife Kit (Debra Winger) arrive by steamboat in North Africa. Married for ten years, they are seeking harmo…"
 },
@@ -6077,6 +7080,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Addicts",
 "xe": "Five students with chemical dependency try new ways of taking cocaine, methamphetamine and MDMA, from which they cannot recover…"
 },
@@ -6096,6 +7103,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Nothing's Going On",
 "xe": "Zofie and Andrea start creating paid content for adult entertainment platforms. Although they follow similar paths, their motivations…"
 },
@@ -6115,6 +7126,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Little Kings",
 "xe": "The End - Thanks to Bee, Adaboy and Julep now know who the brave one is, but they can't catch him! Despite all their efforts, the attacker…"
 },
@@ -6134,6 +7149,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Escape Plan",
 "xe": "As planned, Alice cuts off the electricity from the punishment cell, but she is condemned to stay locked up while the others escape. However, Hac…"
 },
@@ -6153,6 +7172,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "You and Me",
 "xe": "A romantic comedy-drama about finding love when you least expect it. Three people go through tragedies they believe to be insurmountable."
 },
@@ -6172,6 +7195,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "On the Run",
 "xe": "Some Things Last a Long Time - After five years on the run, Brenden's luck is running out. Will he finally manage to flee the country with Jackie,…"
 },
@@ -6191,6 +7218,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "After the Party",
 "xe": "Penny tries to apologize to Grace and Phil, but finds out they are moving to Scotland. Ollie disappears. Penny asks Tom to look for Ollie…"
 },
@@ -6210,6 +7241,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "The Hack",
 "xe": "Nick, Dave and their allies face new and worrying threats as the phone-hacking scandal explodes and Rupert Murdoch…"
 },
@@ -6229,6 +7264,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Erotic Stories",
 "xe": "Mask Up - A young non-binary lesbian who prides herself on her sexual prowess confronts her internalized insecurities when she has…"
 },
@@ -6248,6 +7287,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "The Scammers",
 "xe": "It's the day of the heist. Sam and Bert must keep calm for the plan to succeed, with tension in the air, deep resentments and plans for re…"
 },
@@ -6267,6 +7310,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Drop Dead Gorgeous",
 "xe": "Will Will, Elliot and Jess survive long enough to find out who was to blame?"
 },
@@ -6286,6 +7333,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "The Couple Next Door - Fatal Attraction",
 "xe": "Charlotte and Jacob's marriage falls apart. Alan takes drastic measures in an attempt to save Mia. Gemma and Leo race against time to find out…"
 },
@@ -6305,6 +7356,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "The Couple Next Door",
 "xe": "Secrets are revealed during a violent confrontation in the Yorkshire Dales. Will any relationship survive?"
 },
@@ -6331,6 +7386,10 @@
 "pt": 1
 }
 ],
+"cov": [
+6,
+6
+],
 "ne": "We Are Lady Parts",
 "xe": "The Lady Parts project becomes frustrating when the record label starts interfering with their debut album. The band reaches breaking point and decides…"
 },
@@ -6350,6 +7409,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Rye Horn",
 "xe": "Arousa Island, 1971. María is a Galician woman who makes a living from shellfish gathering, but she is also known in the community for her work as a midwife,…"
 },
@@ -6369,6 +7432,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "Everything I Know About Love",
 "xe": "When a work trip to New York turns into a solo holiday, Maggie unexpectedly finds herself caught up in a turbulent romance…"
 },
@@ -6388,6 +7455,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Logout",
 "xe": "Giulia and Achille discover the hideout of the man who has been pursuing them from the start: Jezebel, a criminal who manipulates them from his bunker. After a confr…"
 },
@@ -6427,6 +7498,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Catch Me If You Can",
 "xe": "RTP's new game show, presented by José Pedro Vasconcelos…"
 },
@@ -6446,6 +7521,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+10
+],
 "ne": "Wardrobe",
 "xe": "A magazine program where fashion lives, inspires and transforms itself, presented by Sílvia Alberto…"
 },
@@ -6465,6 +7544,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "The Floor",
 "xe": "The biggest board game in the world returns, more vibrant than ever, with new knowledge duels, plenty of competition and lots of fun…"
 },
@@ -6514,7 +7597,7 @@
 "u": "https://www.rtp.pt/play/p15334/e958325/o-preco-certo",
 "d": "05 out. 2026",
 "dk": "20261005",
-"e": 8,
+"e": 7,
 "c": "RTP1",
 "x": "No \"Preço Certo\", as emoções são garantidas!",
 "xs": 1,
@@ -6524,6 +7607,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+7
+],
 "ne": "The Price Is Right",
 "xe": "On \"O Preço Certo\", emotions are guaranteed!"
 },
@@ -6543,6 +7630,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Mission: 100% Portuguese",
 "xe": "João Paulo Rodrigues and Catarina Maia set out to discover the best that Portugal has to offer…"
 },
@@ -6574,6 +7665,10 @@
 "r": 1,
 "pt": 0
 }
+],
+"cov": [
+1,
+1
 ],
 "ne": "Caixa Alfama - Live at Amália's House",
 "xe": "The Caixa Alfama Festival paid tribute to Rodrigo in a special, \"Live at Amália's House\", which featured the fado singer himself, Ricardo Ribeiro and Kátia Guerreiro."
@@ -6607,6 +7702,10 @@
 "pt": 0
 }
 ],
+"cov": [
+5,
+9
+],
 "ne": "At Amália's House",
 "xe": "A program inspired by the famous evenings when Amália Rodrigues welcomed poets, singers, painters, musicians and actors into her home for endless get-togethers…"
 },
@@ -6626,6 +7725,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Door to the Million",
 "xe": "A Porta dos Fundos special promising unfiltered humor and a satire of everything that unites and divides Portugal and Brazil…"
 },
@@ -6652,6 +7755,10 @@
 "pt": 0
 }
 ],
+"cov": [
+2,
+10
+],
 "ne": "National Hero",
 "xe": "Fernando Alvim travels the length and breadth of the country to meet our nation's heroes and heroines…"
 },
@@ -6671,6 +7778,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "IPMA - International Portuguese Music Awards 2026",
 "xe": "IPMA - International Portuguese Music Awards 2026 - a show celebrating Portuguese artists from all over the world."
 },
@@ -6696,6 +7807,10 @@
 "r": 1,
 "pt": 0
 }
+],
+"cov": [
+3,
+6
 ],
 "ne": "Tradition Z",
 "xe": "Lara Lopes travels the country in search of young people who are keeping our traditions alive or reinventing them…"
@@ -6729,6 +7844,10 @@
 "pt": 1
 }
 ],
+"cov": [
+1,
+1
+],
 "ne": "Taskmaster - Best Moments",
 "xe": "Look back at the best moments of the 7th season of Taskmaster…"
 },
@@ -6755,6 +7874,10 @@
 "pt": 1
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Taskmaster",
 "xe": "Taskmaster is back with plenty of madness and fun!"
 },
@@ -6774,6 +7897,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+10
+],
 "ne": "Joker",
 "xe": "A single contestant, with no opponents, uses every card up their sleeve to win the top prize of 50,000 euros…"
 },
@@ -6793,6 +7920,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+6
+],
 "ne": "A World in the Village",
 "xe": "Hélder Reis and Vanessa Oliveira take us to discover 12 thoroughly Portuguese villages…"
 },
@@ -6819,6 +7950,10 @@
 "pt": 0
 }
 ],
+"cov": [
+8,
+8
+],
 "ne": "Somebody Has to Do It",
 "xe": "José Pedro Vasconcelos sets off on a journey into the world of work, from the most ordinary jobs to the most extraordinary…"
 },
@@ -6838,6 +7973,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+8
+],
 "ne": "Rewind Portugal",
 "xe": "Between memories, big surprises and plenty of laughter, Vanessa Oliveira and José Carlos Malato take us on a dive into the RTP archives…"
 },
@@ -6857,6 +7996,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Taskmaster - New Year's Eve Special",
 "xe": "Taskmaster welcomes in 2026 in style with a brand-new episode!"
 },
@@ -6876,6 +8019,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "At Amália's House - Brejão",
 "xe": "Live from Amália Rodrigues's holiday home in Brejão."
 },
@@ -6895,6 +8042,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Portuguese Around the World - Beirais Special",
 "xe": "In this special episode we cross the border between reality and fiction through the worlds of two hugely successful RTP programs: \"Portugueses pelo Mundo\" and \"Bem-vindos a Beirais\"!"
 },
@@ -6914,6 +8065,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+0,
+10
+],
 "ne": "Whoever Wants to Play",
 "xe": "Playing and learning with the quiz show…"
 },
@@ -6933,6 +8088,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Portuguese Table... with Stars, Of Course! - 1974 Special",
 "xe": "Meet the chefs of the restaurants awarded Michelin stars since 25 April 1974…"
 },
@@ -6952,6 +8111,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Curral de Moinas - The People's Bankers",
 "xe": "The hilarious return to Curral de Moinas with Quim Roscas and Zé Estacionâncio…"
 },
@@ -6971,6 +8134,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Then You Look and It's Nothing",
 "xe": "From Póvoa de Varzim to Portimão, and joined by some very special guests, Zé Pedro Vasconcelos throws the party, sets off the fireworks and runs himself ragged to catch every last prize…"
 },
@@ -6990,6 +8157,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Nelo & Idália",
 "xe": "Nelo and Idália promise alternative comedy on RTP, in an explosive and biting series…"
 },
@@ -7016,6 +8187,10 @@
 "pt": 0
 }
 ],
+"cov": [
+8,
+10
+],
 "ne": "United by the Club",
 "xe": "A magazine program showcasing the heroes who build a sense of community, whether on the playing field or in the local square…"
 },
@@ -7035,6 +8210,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+5
+],
 "ne": "Year in Review 2019",
 "xe": "At the end of another year, a look back at the most important events in politics, culture, the economy, health and sport…"
 },
@@ -7067,6 +8246,10 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "#NOT",
 "xe": "Ten new protagonists who talk, without interruption, about their lives as members of groups that face prejudice from society at large…"
 },
@@ -7086,6 +8269,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Sunset",
 "xe": "Love, passion, mystery and betrayal fill the days at the Pôr do Sol estate…"
 },
@@ -7105,6 +8292,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Night Patrol - Special",
 "xe": "The funniest program on Portuguese television, in a special edition dedicated to New Year's Eve…"
 },
@@ -7124,6 +8315,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Turn Off the TV",
 "xe": "Best moments of the comedy series featuring various comic sketches, which jump from one to the next as the viewer channel-hops,…"
 },
@@ -7143,6 +8338,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Eduardo Madeira Invites",
 "xe": "A show full of comedy, music and plenty of fun…"
 },
@@ -7175,6 +8374,10 @@
 "pt": 1
 }
 ],
+"cov": [
+0,
+10
+],
 "ne": "Rear Window",
 "xe": "Rear Window with Mário Augusto!"
 },
@@ -7194,6 +8397,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Air Lino Excursions",
 "xe": "Excursões AirLino - they even lie to you about the destination!"
 },
@@ -7213,6 +8420,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "1986",
 "xe": "The election of a President. The search for love. At school and outside it. Life is hard, but in 1986 it was even harder!"
 },
@@ -7239,6 +8450,10 @@
 "pt": 0
 }
 ],
+"cov": [
+8,
+10
+],
 "ne": "Anonymous Animals",
 "xe": "Nuno Markl and Ana Galvão celebrating the love of pets…"
 },
@@ -7258,6 +8473,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "How to Swindle Half the World",
 "xe": "Welcome to the world of art forgery. Over the last ten years, the name Giuliano Ruffini has been mentioned in connection with investigations…"
 },
@@ -7284,6 +8503,10 @@
 "pt": 1
 }
 ],
+"cov": [
+5,
+6
+],
 "ne": "Castles in the Air",
 "xe": "Germany - Germany has more than 20,000 castles and palaces within its borders. This journey will take us from the mountains of the south to the…"
 },
@@ -7303,6 +8526,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Quebec-Labrador Expedition - On the Trail of the Polar Bear",
 "xe": "An expedition into the heart of polar bear territory to observe Canada's largest land predator in the Arctic region. How do they survive…"
 },
@@ -7322,6 +8549,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Spirits of the Desert: The Lions of the Skeleton Coast",
 "xe": "Lion researcher Philip Stander follows three orphaned coastal desert lion cubs as they fight for survival in one of the environment…"
 },
@@ -7341,6 +8572,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Tropical Australia Original",
 "xe": "Along Australia's east coast, facing the Great Barrier Reef, vast wetlands stretch out, where tropical forests coexist…"
 },
@@ -7360,6 +8595,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Statue of Liberty - Secrets of an Icon",
 "xe": "This iconic statue was a gift from France to the newly born Republic of the United States and became the first monument in history financ…"
 },
@@ -7379,6 +8618,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Alone on a Secret Atoll",
 "xe": "Marine biologist Matthieu Juncker spent more than 200 days alone on an uninhabited atoll in French Polynesia to study and document one of the ecosyst…"
 },
@@ -7398,6 +8641,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Long Live Microbes!",
 "xe": "Over the last 50 years, the striking increase in the number of cases of allergies and asthma has mobilized many scientists around the world. Through en…"
 },
@@ -7417,6 +8664,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Air War - The Story",
 "xe": "Wars of the Future Past - In the 1990s, the era of high-tech warfare begins. Death from the air now arrives almost without warning to…"
 },
@@ -7436,6 +8687,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Black Cockatoos at Risk",
 "xe": "Western Australia's iconic black cockatoos are in danger. Their numbers have fallen dramatically in recent decades and the three species…"
 },
@@ -7455,6 +8710,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "The War of the Worlds: The Prophetic Novel",
 "xe": "Published in 1898, H.G. Wells's The War of the Worlds was a true literary and cultural revolution. The book laid the foundations of science fic…"
 },
@@ -7474,6 +8733,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The DNA Business - The New Eldorado",
 "xe": "Curious to learn about their origins or their medical predispositions, around 50 million people worldwide have already succumbed to the allure of the…"
 },
@@ -7493,6 +8756,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Homo Gastronomicus - Rediscovering Flavor",
 "xe": "In Colombia, Paul Galand sets off in search of vanilla pods deep in the jungle, looking for rare and unknown varieties. Maxence Barbo…"
 },
@@ -7512,6 +8779,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Iberia: A Land of Passions",
 "xe": "According to several sociological studies, Spain is the most passionate country in the world. Its wildlife also seems to experience love in the same way…"
 },
@@ -7531,6 +8802,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Athens: Cradle of Democracy",
 "xe": "Twenty-five centuries ago, in the heart of Ancient Greece, a political idea was to change the course of human history forever: citizens…"
 },
@@ -7570,6 +8845,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Mao: Life and Legacy",
 "xe": "Cultural Revolution - After the disaster of the 'Great Leap Forward', Mao finds himself surrounded by enemies within the party. He plans a counterattack: …"
 },
@@ -7589,6 +8868,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "The Living",
 "xe": "From the infinitely small to the apex predator, from the earthworm to the whale, from the blade of grass to the giant tree, this documentary takes us on a journey of discovery…"
 },
@@ -7608,6 +8891,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Long Live Varda!",
 "xe": "A leading post-war film director, a pioneer of the 'Nouvelle Vague', recognized by Hollywood in her lifetime, Agnès Varda produced a…"
 },
@@ -7627,6 +8914,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Renoir, An Ode to Love",
 "xe": "'It is with my brush that I love,' the French painter Auguste Renoir (1841-1919) is said to have declared. Through the unique eyes of his son Jean, and the testimony…"
 },
@@ -7673,6 +8964,10 @@
 "pt": 1
 }
 ],
+"cov": [
+6,
+6
+],
 "ne": "Secrets of Great British Houses and Gardens",
 "xe": "A mysterious portrait of a servant reveals its secrets and two rare hidden treasures are brought back into the light of day."
 },
@@ -7682,7 +8977,7 @@
 "u": "https://www.rtp.pt/play/p16964/e952137/uma-vida-em-dez-imagens",
 "d": "07 set. 2026",
 "dk": "20260907",
-"e": 5,
+"e": 4,
 "c": "RTP2",
 "x": "Nelson Mandela - A imagem de Nelson Mandela é famosa em todo o mundo. No entanto, apenas um punhado de fotografias icónicas e instantâneos privados",
 "xs": 0,
@@ -7692,6 +8987,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "A Life in Ten Pictures",
 "xe": "Nelson Mandela - The image of Nelson Mandela is famous all over the world. However, only a handful of iconic photographs and private snapshots…"
 },
@@ -7711,6 +9010,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Cities of Gold: The Great Misunderstanding",
 "xe": "Five hundred years after the discovery of America, French, Colombian and English archaeologists joined forces to investigate the dark history of the…"
 },
@@ -7730,6 +9033,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Frontiers of History",
 "xe": "NATO Against Milosevic - The Balkan Powder Keg - In March 1999, an international agreement, led by the United States, launched an oper…"
 },
@@ -7749,6 +9056,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Voyage of Ulysses in the Mediterranean",
 "xe": "Homer's Odyssey is among the oldest and most studied literary works of civilization. Its pages tell the epic story of the journey…"
 },
@@ -7768,6 +9079,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+6
+],
 "ne": "The Naked Truth",
 "xe": "Sex - Bold, revealing and based on science, not on myths or marketing strategies. From brain chemistry to behavior in…"
 },
@@ -7787,6 +9102,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "The Origin of Motorcycles",
 "xe": "BMW - Still image. Founded in 1916 by Gustav Otto and Karl Friedrich Rapp, BMW is a company that originally made aircraft engines. After the F…"
 },
@@ -7806,6 +9125,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Rosenbergs: Atomic Spies",
 "xe": "1950. With the USA in the grip of McCarthyism, Julius and Ethel Rosenberg, a seemingly ordinary couple, become the target of anti-communist hatred. Based on the testi…"
 },
@@ -7825,6 +9148,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "From Istanbul to Cairo: A Thousand and One Ways to Be Modern",
 "xe": "Istanbul, Beirut, Baghdad, Cairo. From the late 19th century onwards, artists of the former Ottoman Empire set out to conquer the power of the imag…"
 },
@@ -7844,6 +9171,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Humanity's Last Secrets",
 "xe": "An epic journey spanning more than a million years of Asian prehistory, through stunning landscapes, from the borders of Mong…"
 },
@@ -7863,6 +9194,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Renaissance: Blood and Beauty",
 "xe": "Redemption - The rivalry between Michelangelo and Raphael reaches new heights in Rome, while a violent religious schism engulfs Europe and causes…"
 },
@@ -7882,6 +9217,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Great Smog",
 "xe": "London, December 1952: A dense, acrid layer of fog covers the city, seeping into homes and workplaces and leaving a trail of dea…"
 },
@@ -7901,6 +9240,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Last Footprints of the Neanderthal",
 "xe": "This documentary reveals recent discoveries that change our understanding of the Neanderthals and of humanity. This is the story of our…"
 },
@@ -7920,6 +9263,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Berlin's Museum Island: The Story of a Nation",
 "xe": "Berlin's Museum Island is one of the five largest museum complexes in the world. A UNESCO World Heritage Site, it welcomes more than…"
 },
@@ -7939,6 +9286,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Japanese Islands from Above",
 "xe": "Japan has more than 6,800 islands. From abandoned coastal forts to rugged volcanic outcrops and unusual geological formations, the islands…"
 },
@@ -7958,6 +9309,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "How Money Shaped the World",
 "xe": "Virtual Money - How did Europe and America come to use paper money? In 1688, in England, the Bill of Rights gave statu…"
 },
@@ -7977,6 +9332,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Cambodia from the Sky",
 "xe": "Cambodia is a country of breathtaking beauty and deep cultural heritage, best known for the iconic Angkor Wat, the largest religious monument…"
 },
@@ -7996,6 +9355,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "Sussex, the Jewel of England",
 "xe": "In this episode, we explore the stunning landscapes of Sussex and its sun-drenched coast, meeting those who look after these places. At sea,…"
 },
@@ -8015,6 +9378,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "The Curse of Sugar",
 "xe": "At the dawn of the 20th century, sugar ties its fate to that of the rapidly expanding American empire... With the massive rural exodus caused by the re…"
 },
@@ -8034,6 +9401,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Supercity: Bangkok",
 "xe": "Bangkok attracts 22 million visitors a year. Why? What makes this city a tourist attraction, and what is it like to live in a metropolis like th…"
 },
@@ -8053,6 +9424,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Ida Lupino: Hollywood's Rebel Bride",
 "xe": "Ida Lupino (1918-1995), a young star from a long line of English actors, arrives in Hollywood in 1933 as 'the English Jean Harlow'. In the documen…"
 },
@@ -8072,6 +9447,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Supercity: Tokyo",
 "xe": "Reporter Elena Bruhn takes us on an inspiring exploration of a metropolis with almost 38 million inhabitants, while also revealing the…"
 },
@@ -8091,6 +9470,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Impossible Cities",
 "xe": "Ricardo Moreira introduces us to five cities that are solving major world problems: Berlin, Brussels, Barcelona, Luxembourg and Helsink…"
 },
@@ -8110,6 +9493,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Timex: An Untold Revolution",
 "xe": "Timex Portugal was a bastion of technological innovation in our country in the 1970s and 80s. We set out to tell part of the stor…"
 },
@@ -8129,6 +9516,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Dystopia",
 "xe": "A documentary by Porto-born director Tiago Afonso that follows, over thirteen years, from 2007 to 2020, the urban transformations in Porto,…"
 },
@@ -8148,6 +9539,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Padura's Havana",
 "xe": "A historical and travel documentary based on the books of Cuban writer Leonardo Padura (Princess of Asturias Award), presented by the histori…"
 },
@@ -8167,6 +9562,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "In the Kingdom of the Dragon",
 "xe": "The mysterious and almost mythical Tibet remained unknown to the Western world until the early 17th century, when a group of Jesuits…"
 },
@@ -8186,6 +9585,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Big Cities",
 "xe": "Porto, Portugal - A two-episode documentary miniseries about the cities of Lisbon and Porto, telling stories of innovative experiences and ideas…"
 },
@@ -8205,8 +9608,173 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Mega-Operation",
 "xe": "More than designing infrastructure, engineering is about building dreams, overcoming obstacles, and having the ambition to grow and go further. …"
+},
+{
+"s": "kids",
+"n": "Vizinhos da Realeza",
+"u": "https://www.rtp.pt/play/zigzag/p13602/e962927/vizinhos-da-realeza",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "A Princesa Stella acaba de receber a melhor notícia de todas! Devido aos danos causados ??por uma inundação no castelo, a família real terá de mudar de residência. A Rainha Kat vê esta situação como a oportunidade perfeita para se modernizar. De acordo com o lema real do Rei Bob, \"Mais perto das pessoas\", eles decidem morar numa casa normal num subúrbio comum. É hora de mostrar ao povo que a famíl…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Royal Neighbors",
+"xe": "Princess Stella has just received the best news of all! Due to damage caused by a flood in the castle, the royal family will have to move house. Queen Kat sees this situation as the perfect opportunity to modernise. In keeping with King Bob's royal motto, \"Closer to the people\", they decide to live in an ordinary house in an ordinary suburb. It's time to show the people that the fam…"
+},
+{
+"s": "kids",
+"n": "Da Vinci - O Grande Inventor",
+"u": "https://www.rtp.pt/play/zigzag/p17341/e962939/da-vinci-o-grande-inventor",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Jim Capobianco dá vida ao universo de Leonardo da Vinci em \"Da Vinci - O Grande Inventor\", uma longa-metragem de animação que combina marionetas em stop motion com animação 2D desenhada à mão Jim Capobianco dá vida ao universo de Leonardo da Vinci num novo filme de animação para toda a família, que combina marionetas em stop motion, num estilo visual singular, com animação 2D desenhada à mão. Desc…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Da Vinci - The Great Inventor",
+"xe": "Jim Capobianco brings the world of Leonardo da Vinci to life in \"Da Vinci - The Great Inventor,\" a feature-length animated film that combines stop-motion puppets with hand-drawn 2D animation. Jim Capobianco brings the world of Leonardo da Vinci to life in a new animated film for the whole family, which combines stop-motion puppets, in a unique visual style, with hand-drawn 2D animation. Desc…"
+},
+{
+"s": "kids",
+"n": "Leo da Vinci",
+"u": "https://www.rtp.pt/play/zigzag/p15890/e962925/leo-da-vinci",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Leo da Vinci está de volta para mais aventuras emocionantes com os seus amigos, desta vez em busca do rubi mais deslumbrante e misterioso do mundo! O fenomenal menino-génio está de volta para mais aventuras emocionantes com os seus amigos, enquanto se envolvem numa missão emocionante e perigosa para localizar o rubi mais deslumbrante e misterioso do mundo, revelado por Marco Polo nas suas Viagens.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+10,
+10
+],
+"ne": "Leo da Vinci",
+"xe": "Leo da Vinci is back for more exciting adventures with his friends, this time in search of the most dazzling and mysterious ruby in the world! The phenomenal boy genius is back for more exciting adventures with his friends, as they get involved in an exciting and dangerous mission to locate the most dazzling and mysterious ruby in the world, revealed by Marco Polo in his Travels."
+},
+{
+"s": "kids",
+"n": "O Refúgio da Audrey",
+"u": "https://www.rtp.pt/play/zigzag/p13603/e962924/audreys-shelter",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Junta-te à aventura! Este é o refúgio da Audrey! Audrey, uma menina de 8 anos, mora num refúgio para espécies ameaçadas de extinção gerida pela sua família. Ela sabe por experiência própria que gerir um refúgio para animais selvagens não é uma tarefa fácil, mas sabe que vale muito a pena! Basta um pouco de empatia e um grande senso de humor. Desde descobrir como fazer um bebé rinoceronte feliz até…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+9,
+10
+],
+"ne": "Audrey's Sanctuary",
+"xe": "Join the adventure! This is Audrey's sanctuary! Audrey, an 8-year-old girl, lives in a sanctuary for endangered species run by her family. She knows from experience that running a wildlife sanctuary is not an easy task, but she knows it's well worth it! All it takes is a little empathy and a great sense of humor. From figuring out how to make a baby rhino happy to…"
+},
+{
+"s": "kids",
+"n": "Power Players",
+"u": "https://www.rtp.pt/play/zigzag/p8699/e962922/power-players",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Axel consegue fazer uma coisa que muitos meninos também gostariam: consegue transformar-se num mini super-herói! Axel é um menino de 9 anos que pode transformar-se num brinquedo vivo! Com a sua impressionante altura de brinquedo de 20 cm, este mini super-herói lidera um esquadrão de coloridos brinquedos animados.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 0,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Power Players",
+"xe": "Axel can do something many boys would also like to do: he can turn into a mini superhero! Axel is a 9-year-old boy who can turn into a living toy! At an impressive toy height of 20 cm, this mini superhero leads a squad of colorful animated toys."
+},
+{
+"s": "kids",
+"n": "Pompon, O Pequeno Urso",
+"u": "https://www.rtp.pt/play/zigzag/p14751/e962919/pompon-o-pequeno-urso",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "Pompon",
+"x": "Pompon é um ursinho de 6 anos travesso, alegre e brincalhão, com um talento incrível e precioso Na idade de um ursinho de pelúcia, Pompon tem 6 anos. Ele é travesso, alegre e brincalhão, mas acima de tudo, tem um talento incrível e precioso que faz a alegria da sua melhor amiga Rita e dos seus pais: ele sabe fazer algo extraordinário com algo comum... Graças às mil reviravoltas que a sua imaginaçã…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Pompon, the Little Bear",
+"xe": "Pompon is a mischievous, cheerful and playful 6-year-old little bear with an incredible and precious talent. At teddy bear age, Pompon is 6 years old. He is mischievous, cheerful and playful, but above all, he has an incredible and precious talent that brings joy to his best friend Rita and her parents: he can make something extraordinary out of something ordinary... Thanks to the countless twists his imaginatio…"
+},
+{
+"s": "kids",
+"n": "Petit",
+"u": "https://www.rtp.pt/play/zigzag/p14897/e962877/petit",
+"d": "24 out. 2026",
+"dk": "20261024",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Descobre a perspetiva única e imaginativa de Petit sobre situações do quotidiano que se transformam em aventuras fantásticas que ele irá viver, juntamente com os seus amigos. Baseado no premiado livro \"Petit El Monstruo\" de Isol.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Petit",
+"xe": "Discover Petit's unique and imaginative view of everyday situations that turn into the fantastic adventures he will live through, together with his friends. Based on the award-winning book \"Petit El Monstruo\" by Isol."
 },
 {
 "s": "kids",
@@ -8231,6 +9799,10 @@
 "pt": 1
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Superhero Academy",
 "xe": "The new season brings an unforgettably busy school year at the Superhero Academy! It's a new school year at the Superhero Academy! The new first-year students are about to face a series of challenges. Who will spend the Christmas holidays alone at school? How can the students save a kidnapped immortal hamster? And is it possible to fall in love on Friday the 13th? Meanwhile…"
 },
@@ -8250,6 +9822,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Leonel the Fly",
 "xe": "Follow the adventures of Leonel, a housefly and the middle child of many siblings. Lloyd lives with his parents, his little sister and his larva brothers inside a compost bin they call home. Leonel and his little sister have great adventures with their friends as they explore the strange world beyond the compost bin, where there are plenty of lessons for Lloyd to learn... Almost!"
 },
@@ -8269,6 +9845,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Always Late",
 "xe": "Nuno and Malika have great adventures on their way to school, and that's why they are always late! Every morning, Nuno and Malika take the same route to school. And yet they are always late! That's because along the way they get caught up in extraordinary adventures! But Prudence, the head teacher, never believes a single word of their extraordinary stories..."
 },
@@ -8288,6 +9868,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Mouk",
 "xe": "Mouk and Chavapa, our globetrotters, are off on new adventures cycling around the world! From Spain to Russia, from Mongolia to Turkey, by way of Bhutan, these two friends of ours meet people from all over the planet. Hop on a bike and join them to discover a realistic, modern and colorful world! Incredible people, unbelievable landscapes and unfamiliar custo…"
 },
@@ -8307,6 +9891,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Pirate & Captain",
 "xe": "There's nothing better than being a pirate and a captain! Being a pirate and a captain means an endless hunt for treasure, great adventures, fun and team spirit."
 },
@@ -8325,13 +9913,10 @@
 "r": 0,
 "ok": 0,
 "pt": 1,
-"more": [
-{
-"u": "https://www.rtp.pt/play/zigzag/p13280/e961665/jasmine-e-jambo",
-"d": "20 out. 2026",
-"r": 0,
-"pt": 1
-}
+"more": [],
+"cov": [
+2,
+2
 ],
 "ne": "Jasmine and Jambo",
 "xe": "Jasmine and Jambo are crazy about music…"
@@ -8352,6 +9937,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+10
+],
 "ne": "My Lunchbox - My Shooting Stars Lunchbox",
 "xe": "Pilar and Kate are ready to turn every snack into an adventure! Pilar and Kate are ready to turn every snack into an adventure! Amid laughter, colors, and plenty of imagination, the sisters show how to prepare fun, delicious lunchboxes full of personality, encouraging every child to create their own combinations. With a spontaneous, kid-to-kid way of speaking…"
 },
@@ -8372,123 +9961,8 @@
 "pt": 1,
 "more": [],
 "ne": "Nefertine on the Nile",
-"xe": "Nefertine is a girl full of courage and curiosity who has great adventures with her best friend Piramsés and the cat Micerina. Nefertine is an eight-year-old girl who lives in ancient Egypt and has endless curiosity and courage. She aspires to be the first female scribe in Egyptian history and is constantly recording her exciting adventures in her papyrus diary. From time to…"
-},
-{
-"s": "kids",
-"n": "Leo da Vinci",
-"u": "https://www.rtp.pt/play/zigzag/p15890/e961337/leo-da-vinci",
-"d": "18 out. 2026",
-"dk": "20261018",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Leo da Vinci está de volta para mais aventuras emocionantes com os seus amigos, desta vez em busca do rubi mais deslumbrante e misterioso do mundo! O fenomenal menino-génio está de volta para mais aventuras emocionantes com os seus amigos, enquanto se envolvem numa missão emocionante e perigosa para localizar o rubi mais deslumbrante e misterioso do mundo, revelado por Marco Polo nas suas Viagens.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "Leo da Vinci",
-"xe": "Leo da Vinci is back for more exciting adventures with his friends, this time in search of the most dazzling and mysterious ruby in the world! The phenomenal boy genius is back for more exciting adventures with his friends, as they get involved in an exciting and dangerous mission to locate the most dazzling and mysterious ruby in the world, revealed by Marco Polo in his Travels."
-},
-{
-"s": "kids",
-"n": "Vizinhos da Realeza",
-"u": "https://www.rtp.pt/play/zigzag/p13602/e961342/vizinhos-da-realeza",
-"d": "18 out. 2026",
-"dk": "20261018",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "A Princesa Stella acaba de receber a melhor notícia de todas! Devido aos danos causados ??por uma inundação no castelo, a família real terá de mudar de residência. A Rainha Kat vê esta situação como a oportunidade perfeita para se modernizar. De acordo com o lema real do Rei Bob, \"Mais perto das pessoas\", eles decidem morar numa casa normal num subúrbio comum. É hora de mostrar ao povo que a famíl…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "Royal Neighbors",
-"xe": "Princess Stella has just received the best news of all! Due to damage caused by a flood in the castle, the royal family will have to move house. Queen Kat sees this situation as the perfect opportunity to modernise. In keeping with King Bob's royal motto, \"Closer to the people\", they decide to live in an ordinary house in an ordinary suburb. It's time to show the people that the fam…",
-"grace": "2026-10-22"
-},
-{
-"s": "kids",
-"n": "O Refúgio da Audrey",
-"u": "https://www.rtp.pt/play/zigzag/p13603/e961653/audreys-shelter",
-"d": "17 out. 2026",
-"dk": "20261017",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Junta-te à aventura! Este é o refúgio da Audrey! Audrey, uma menina de 8 anos, mora num refúgio para espécies ameaçadas de extinção gerida pela sua família. Ela sabe por experiência própria que gerir um refúgio para animais selvagens não é uma tarefa fácil, mas sabe que vale muito a pena! Basta um pouco de empatia e um grande senso de humor. Desde descobrir como fazer um bebé rinoceronte feliz até…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "Audrey's Sanctuary",
-"xe": "Join the adventure! This is Audrey's sanctuary! Audrey, an 8-year-old girl, lives in a sanctuary for endangered species run by her family. She knows from experience that running a wildlife sanctuary is not an easy task, but she knows it's well worth it! All it takes is a little empathy and a great sense of humor. From figuring out how to make a baby rhino happy to…"
-},
-{
-"s": "kids",
-"n": "Power Players",
-"u": "https://www.rtp.pt/play/zigzag/p8699/e961647/power-players",
-"d": "17 out. 2026",
-"dk": "20261017",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Axel consegue fazer uma coisa que muitos meninos também gostariam: consegue transformar-se num mini super-herói! Axel é um menino de 9 anos que pode transformar-se num brinquedo vivo! Com a sua impressionante altura de brinquedo de 20 cm, este mini super-herói lidera um esquadrão de coloridos brinquedos animados.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 0,
-"more": [],
-"ne": "Power Players",
-"xe": "Axel can do something many boys would also like to do: he can turn into a mini superhero! Axel is a 9-year-old boy who can turn into a living toy! At an impressive toy height of 20 cm, this mini superhero leads a squad of colorful animated toys."
-},
-{
-"s": "kids",
-"n": "Pompon, O Pequeno Urso",
-"u": "https://www.rtp.pt/play/zigzag/p14751/e961639/pompon-o-pequeno-urso",
-"d": "17 out. 2026",
-"dk": "20261017",
-"e": 0,
-"c": "Pompon",
-"x": "Pompon é um ursinho de 6 anos travesso, alegre e brincalhão, com um talento incrível e precioso Na idade de um ursinho de pelúcia, Pompon tem 6 anos. Ele é travesso, alegre e brincalhão, mas acima de tudo, tem um talento incrível e precioso que faz a alegria da sua melhor amiga Rita e dos seus pais: ele sabe fazer algo extraordinário com algo comum... Graças às mil reviravoltas que a sua imaginaçã…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "Pompon, the Little Bear",
-"xe": "Pompon is a mischievous, cheerful and playful 6-year-old little bear with an incredible and precious talent. At teddy bear age, Pompon is 6 years old. He is mischievous, cheerful and playful, but above all, he has an incredible and precious talent that brings joy to his best friend Rita and her parents: he can make something extraordinary out of something ordinary... Thanks to the countless twists his imaginatio…"
-},
-{
-"s": "kids",
-"n": "Petit",
-"u": "https://www.rtp.pt/play/zigzag/p14897/e960834/petit",
-"d": "16 out. 2026",
-"dk": "20261016",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Descobre a perspetiva única e imaginativa de Petit sobre situações do quotidiano que se transformam em aventuras fantásticas que ele irá viver, juntamente com os seus amigos. Baseado no premiado livro \"Petit El Monstruo\" de Isol.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "Petit",
-"xe": "Discover Petit's unique and imaginative view of everyday situations that turn into the fantastic adventures he will live through, together with his friends. Based on the award-winning book \"Petit El Monstruo\" by Isol.",
-"grace": "2026-10-22"
+"xe": "Nefertine is a girl full of courage and curiosity who has great adventures with her best friend Piramsés and the cat Micerina. Nefertine is an eight-year-old girl who lives in ancient Egypt and has endless curiosity and courage. She aspires to be the first female scribe in Egyptian history and is constantly recording her exciting adventures in her papyrus diary. From time to…",
+"grace": "2026-10-24"
 },
 {
 "s": "kids",
@@ -8512,6 +9986,10 @@
 "r": 0,
 "pt": 1
 }
+],
+"cov": [
+4,
+5
 ],
 "ne": "Yes, I Can",
 "xe": "Children and young people from different countries tell the story of their lives and say what their dreams are. A set of documentaries from several countries in which children and young people tell their stories and set themselves a challenge. Throughout each documentary we find out where they live, what their family is like and what their dreams are."
@@ -8552,6 +10030,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Simplify It - Food of the Future",
 "xe": "If you like to know how the world around you works, your body and everyday emotions, join the \"Descomplica\" team! Why do we feel embarrassed? What will the food of the future be? Sleeping well is essential for humans, but why? Why are the oceans so important for our planet? Which animals live in them and what do they hide in the depths? And microbes, are they really po…"
 },
@@ -8571,6 +10053,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Dream Factory",
 "xe": "Mina, a 12-year-old girl used to living only with her father, sees her life transformed with the arrival of Jenny, the daughter of her father's girlfriend and her new \"sister\". But everything can change... Mina, aged 12, has always been very close to her father. Despite having lost her mother, she is a happy, well-adjusted child. Everything changes when he decides to start a new life with his girlfriend and her daughter, Jenny. The adults, jul…"
 },
@@ -8590,6 +10076,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Yes, I Can: Gonçalo, Mission Kickflip",
 "xe": "\"Mission: Kickflip\" is the documentary that gets our adrenaline going and is contagiously good-humored \"Mission: Kickflip\" is the title of the documentary that introduces Gonçalo, an amazing 11-year-old skater. Skateboarding is his greatest passion, but when we get to know him better we discover a smiling, generous child who, above all, wants to help his friends and classmates make progress and achieve their dreams…"
 },
@@ -8609,6 +10099,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Tom Sawyer",
 "xe": "With Tom Sawyer you'll have lots of adventures full of freedom and friendship. Tom Sawyer lives out every child's fantasy: to be free as a bird, daring, curious and brave. Every Tom Sawyer story is packed with adventure: what child wouldn't dream of defying their parents and a raging storm to go looking for treasure with a best friend like Huckleberry Finn? Through his adventures, T…"
 },
@@ -8628,6 +10122,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Nicholas's Holidays",
 "xe": "Nicolau and his friends have great adventures in the summer! Join Nicolau and his cheerful gang on their holidays as they build sandcastles, explore new playgrounds and go treasure hunting! They will whisk you off into their charming world, full of mischief and adventure. What a fantastic summer for Nicolau and his friends!"
 },
@@ -8667,6 +10165,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "The Argonauts and the Gold Coin",
 "xe": "Alba arrives in Rodas, a small fishing village, to spend the summer at her aunt Helena's house. Alba is convinced it will be a boring, lonely summer... She couldn't be more wrong! She soon makes wonderful new friends: Lucas, Sali, Olivia and Nil. Together they make an extraordinary discovery: a gold coin from Roman times. This discovery will lead them on the hunt for a treasu…"
 },
@@ -8686,6 +10188,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "The River That Flows Backwards",
 "xe": "Adapted from the books by Jean-Claude Mourlevat, \"The River That Flows Backwards\" is the story of two journeys that complement each other. An animated series telling the story of the meeting between Tomek and Hannah on the way to the river Qjar. Hannah hopes to collect a magic drop of water to save her bird, while Tomek joins the adventure in search of a lost memory. Their quests follow one another, overlap…"
 },
@@ -8705,6 +10211,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Anselmo Wannabe - The Teacher",
 "xe": "Anselmo is going to explore all sorts of jobs and have lots of adventures and comic mishaps. Letizia, who always has the right answer, puts her hand straight up. The teacher's finger moves along the children until it points at a terrified \"Anselmo!\". Anselmo is a 10-year-old boy in his final year of primary school. This is the age of that fateful question: \"What do you want to be when you grow up?"
 },
@@ -8724,6 +10234,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Mune: Guardian of the Moon",
 "xe": "An animated film for the whole family directed by Alexandre Heboyan and Benoît Philippon In a mythical world, Mune, who has a somewhat wild streak, is named guardian of the moon against his will. His job is to bring the night and to look after the world of dreams. But a series of disasters, one after another, gives the guardian of darkness the chance to steal the sun. With the help of Sohone, the…"
 },
@@ -8743,6 +10257,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Heart of Fire",
 "xe": "Georgia is a 16-year-old girl who dreams of following in her father's footsteps and becoming the first woman firefighter Ever since she was 16, Georgia has dreamed of being a firefighter like her father, Shawn Nolan, a retired captain of the New York Fire Department, but unfortunately in 1928 women were not allowed to be firefighters. But when a fire starts destroying the Broadway theaters…"
 },
@@ -8762,6 +10280,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Tiddler",
 "xe": "A little fish with a big imagination gets lost in the vast ocean, until he is saved by his great gift for telling stories A children's animated film, based on the children's book by Julia Donaldson and Axel Scheffler, following the adventures of a little fish with a big imagination who entertains his friends with fantastic stories. One day, Tiddler gets lost in the vastness of the ocean, but he is saved by his…"
 },
@@ -8781,6 +10303,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Dogtanian and the Three Muskehounds",
 "xe": "The adventures of D'Artacão, a young swordsman who joined the royal guard thanks to his valor, cunning, courage and, above all, his incredible skill with a sword The young swordsman D'Artacão dreams of joining the legendary Muskehounds and serving His Majesty. After proving his skill and earning their trust, he and the Muskehounds fight against the wicked Cardinal Richelieu to defend the king and preven…"
 },
@@ -8800,6 +10326,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Tabby McTat",
 "xe": "Based on the children's book written by Julia Donaldson and illustrated by Axel Scheffler In the beating heart of London, Tabby McTat, a singing cat, and his busker friend Fred entertain the passers-by, and the pair are \"perfectly happy\". One day, while Tabby McTat is out for a walk, he meets a cat called Sock. Fate has a surprise in store for him when a thief steals the buskers' money…"
 },
@@ -8819,6 +10349,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Riding Along with Science - A Dose of Measles",
 "xe": "The adventures of a family of scientists through the mysteries of Science in their very special van. You can't miss this ride! In this animated series, we follow a family of scientists and their special van on their adventures through the mysteries of Science: from the wonders of the universe to microscopic puzzles, nothing is impossible for our characters' curiosity. Let's dive into the fir…"
 },
@@ -8838,6 +10372,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Yes, I Can - Kika Plays Jazz",
 "xe": "Children and young people from various countries tell the story of their lives and say what their dreams are A collection of documentaries from several countries in which children and young people tell the story of their lives and set out to complete a challenge. Over the course of each documentary we find out where they live, what their family is like and what their dreams are."
 },
@@ -8857,6 +10395,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Gruffalo's Child",
 "xe": "An animated film based on the famous children's book by Julia Donaldson When the Gruffalo's daughter is feeling brave, she ignores her father's warnings and tiptoes out into the snow and the forest, looking for the Big Bad Mouse. Does he really exist, or is he a story made up by her father?"
 },
@@ -8876,6 +10418,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "In the World of Animals - Coati",
 "xe": "You are going to have great adventures and make new friends in the world of animals. What is your favorite animal? \"In the World of Animals\" is a program about animals and their world. Each episode is devoted to a different animal, on a journey into its world so that we can get to know it better. We are going to find out where they live, what their characteristics are, how they organize themselves, what they eat, how they reproduce, how they contribu…"
 },
@@ -8895,6 +10441,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "25 Curiosities, 25th of April - The Day of the Revolution",
 "xe": "25 episodes, 25 curious facts about what life in Portugal was like before the revolution of 25 April and how freedom changed our lives In each episode we discover a curious fact about what life in Portugal was like before the revolution of 25 April and how freedom changed our lives, the lives of adults, but also and above all the lives of children. Come with us on a journey to the zigza…"
 },
@@ -8914,6 +10464,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Yes, I Can: Game Over",
 "xe": "A documentary about Simão, a boy who sets out to create a comic book Simão is a boy who sets out to use his imagination and create an original comic book called Game Over."
 },
@@ -8933,6 +10487,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Smeds and the Smoos",
 "xe": "An animated film based on the children's book by Julia Donaldson and Axel Scheffler On a distant planet, two families avoid meeting each other. The Smeds, who are red, never mix with the Smoos, who are blue. When, in a chance encounter, young Janet, a Smed, becomes friends with Bill, a young Smoo, their families immediately try to put a stop to the friendship. But Janet and Bill miss each ot…"
 },
@@ -8952,6 +10510,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+9,
+9
+],
 "ne": "Yes, I Can - Hanka, the Falconer",
 "xe": "Hend is an eleven-year-old girl originally from Yemen. She recently moved to Dublin after living in a refugee shelter in Ballyhaunis, Ireland, for four years. Hend wants to write and perform a poem for her new friends at school in order to tell them her story, her background and her culture, and to overcome her fear of performing in front of a crowd. MORE INFO…"
 },
@@ -8971,6 +10533,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "In the World of Animals - Lion",
 "xe": "You are going to have great adventures and make new friends in the world of animals. What is your favorite animal? \"In the World of Animals\" is a program about animals and their world. Each episode is devoted to a different animal, on a journey into its world so that we can get to know it better. We are going to find out where they live, what their characteristics are, how they organize themselves, what they eat, how they reproduce, how they contribu…"
 },
@@ -8990,6 +10556,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Yes, I Can: Ana Beatriz, A Special Walk",
 "xe": "Ana Beatriz is a scout, she plays volleyball at school and she is a girl who cares a lot about the environment, but... there is one more thing she has recently discovered that she loves doing: running, and she wants to do it for a good cause! Ana Beatriz is 10 years old and lives in Famalicão, in the north of the country. She is a scout, she plays volleyball at school and she is a girl who cares a lot about the environment, but... there is one more thin…"
 },
@@ -9009,6 +10579,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "The Panda and the Rooster",
 "xe": "A panda and a Barcelos rooster have great adventures and will have plenty of stories to tell! An unlikely friendship comes about: a panda and a Barcelos rooster are best friends. What stories will the Panda, his friends from the woods and his new Portuguese friend tell?"
 },
@@ -9028,6 +10602,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Yes, I Can: Miriam, The Perfect Wave",
 "xe": "Miriam's goal is to overcome a challenge: finding her wave! Miriam loves surfing and goes in search of the perfect wave. On a trip along the Vicentine coast, where she has never surfed before, she counts on her parents' support in this adventure to discover her wave. From beach to beach and wave to wave, to improve and train but also to discover new spots and make new friends."
 },
@@ -9047,6 +10625,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+6
+],
 "ne": "Yes, I Can - Luka - The Rainbow Warrior",
 "xe": "Children and young people from various countries tell the story of their lives and say what their dreams are A collection of documentaries from several countries in which children and young people tell the story of their lives and set out to complete a challenge. Over the course of each documentary we find out where they live, what their family is like and what their dreams are. In this edition, 7 countries take part: Portugal, Croatia, Ireland, Slovenia, Japan, Sco…"
 },
@@ -9066,6 +10648,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Story Time",
 "xe": "Traditional tales from Portugal and from around the world, told by Filó and Gabi!"
 },
@@ -9085,6 +10671,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "Back When We Saw Cities Through the Window",
 "xe": "Today I am 10 years old. How will I look back on these days when I am 30? These days, in 2020, we are living through singular times. The streets all over the world have closed in on themselves and pushed us inside our homes. Hugs, running around, torn trousers and football games in the rain are all on hold now. We have discovered new corners within our four walls, and cooking talents we never imagined we had…"
 },
@@ -9104,6 +10694,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Zig Zag Magazine Christmas Special",
 "xe": "A Christmas tale, Zig Zag style! The residents of the Zig Zag House liked the Christmas story written by Charles Dickens so much that they decided to make their own version of it, with everyone taking part. They don't promise it will be better than the original, but it will definitely be fun!"
 },
@@ -9123,6 +10717,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Yes, I Can: Tiago, Hands That Speak",
 "xe": "Come and meet Tiago's Sign Language Club! Tiago was born deaf. He can easily communicate with his family, who use sign language, but out in the wider world Tiago feels isolated. He knows that many other deaf people feel this way, so Tiago refuses to accept this feeling any longer and has come up with a plan: to teach Portuguese sign language to other hearing children, live and online. That is how…"
 },
@@ -9142,6 +10740,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Yes, I Can: Rafael, The Bird Watcher",
 "xe": "Rafael is an 11-year-old boy who lives in Campo Maior and has a dream: to go to Sweden to do what he loves most: watching birds. A documentary about children made by children, as part of Eurovision."
 },
@@ -9161,6 +10763,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "This Is Not a Hat",
 "xe": "Foxy and Meg are going to have a great adventure! This is the story of Foxy the fox, an efficient professional in the art of stealing chickens, who one day is forced to break into the Palace of L'Éclair and snatch the crown of Abat-Jour. During the robbery Foxy meets Meg, a young blue, vegetarian hen who leads the fox to change her life."
 },
@@ -9180,6 +10786,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+9
+],
 "ne": "Yes, I Can - Jaka - Motocross and Me",
 "xe": "Children from various countries tell the story of their lives and say what their dreams are A collection of documentaries from several countries in which children between the ages of 8 and 12 tell the story of their lives and set out to complete a challenge. Over the course of each documentary we find out where they live, what their family is like and what their dreams are."
 },
@@ -9199,6 +10809,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Tell a Tale - The Widow and the Parrot",
 "xe": "A Christmas present packed with tales full of magic, kindness and gentleness This Christmas comes packed with 10 tales to cradle dreams full of magic, kindness and gentleness. They are tales written by Portuguese and foreign authors and they will be told in Portuguese and in Portuguese Sign Language."
 },
@@ -9218,6 +10832,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+5
+],
 "ne": "Ziguipedia Monuments",
 "xe": "This is a quiz show presented by the fantastic, marvellous... well... I think we are overdoing it, we had better stop there... Starting again, Filó and Gabi will ask the Zig Zag Band, Zig, Zag and Zzz questions about well-known monuments. Let's see how they get on..."
 },
@@ -9237,6 +10855,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Room on the Broom",
 "xe": "An animated film based on the wonderful children's book written by Julia Donaldson and illustrated by Axel Scheffler, a magical tale about friendship and family The story of a kind-hearted witch who invites a surprising group of animals to join her on her broomstick, much to her cat's great frustration. The group ends up saving the witch from a terrible dragon and, as a way of thanking th…"
 },
@@ -9256,6 +10878,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Gruffalo",
 "xe": "An animated film based on the classic picture book by Julia Donaldson about a brave and clever little mouse An animated film based on the classic picture book written by Julia Donaldson. A magical tale about a little mouse who, while walking through the forest in search of nuts, meets three predators who want to eat him: a fox, an owl and a snake. To survive, the brave little mouse u…"
 },
@@ -9275,6 +10901,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Yes, I Can: Maria's Wave",
 "xe": "Maria is twelve years old and an environmentally aware teenager Maria is twelve years old, lives on Faial and loves the sea. Plastic in the oceans is something that deeply troubles her, and so she decides to create something that will alert people to the scale of this problem: a sculpture, made with plastic collected from the beaches of her island. MORE INFO…"
 },
@@ -9294,6 +10924,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+10
+],
 "ne": "Tell a Story - Lena the Hyena's Rhyme!",
 "xe": "Lena the Hyena's Rhyme! Twenty stories that promote Kindness, Inclusion and Diversity! MORE INFO Stories that promote Kindness, Inclusion and Diversity. There are 20 stories narrated at the same time by actors, artists and storytellers in Portuguese and in Portuguese Sign Language. The stories were written by several Portuguese authors: Ana Luísa Amaral, Afonso Cruz, Isabel Minhó…"
 },
@@ -9313,6 +10947,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+9
+],
 "ne": "Yes, I Can - Jonas (Switzerland)",
 "xe": "Hannah is ten years old, lives in the suburbs of Cologne and loves playing chess, as does her whole family. This year, she qualified for the German Championship for the first time. She is not one of the favorites, but she is working hard to be as good as she possibly can. She wants to finish in the top 7 — an ambitious goal, but a possible one. Her grandfather is her greatest inspiration. He was a chess champion in Russia when he was young and…"
 },
@@ -9332,6 +10970,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "The Little Library",
 "xe": "Because books are not measured by the handspan. Nor by applause."
 },
@@ -9351,6 +10993,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "They Do Read After All - National Reading Competition 2022",
 "xe": "The 15th edition of the National Reading Competition ran from 8 October 2021, the official opening date, to 4 Ju…"
 },
@@ -9370,6 +11016,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "National Reading Plan 2018",
 "xe": "The 13th edition of the National Reading Competition ran from 3 October 2018, the official opening date, to 25 Ma…"
 },
@@ -9395,6 +11045,10 @@
 "r": 1,
 "pt": 0
 }
+],
+"cov": [
+9,
+10
 ],
 "ne": "Mind Your Language!",
 "xe": "\"Cuidado com a Língua!\", where you can learn Portuguese in a fun way…"
@@ -9428,6 +11082,10 @@
 "pt": 0
 }
 ],
+"cov": [
+7,
+10
+],
 "ne": "Literature Here",
 "xe": "Literatura Aqui: the program that invents itself to bring Literature to television…"
 },
@@ -9447,6 +11105,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+10
+],
 "ne": "Literature Now",
 "xe": "A program about literature presented by Pedro Lamares…"
 },
@@ -9466,72 +11128,19 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Container 13",
 "xe": "Contentor 13 is a series of 13 episodes revealing the life and work of 13 writers. At the start of the program the author talks abou…"
 },
 {
 "s": "mag",
-"n": "Negócio Fechado",
-"u": "https://www.rtp.pt/play/p17246/e962515/negocio-fechado",
-"d": "23 out. 2026",
-"dk": "20261023",
-"e": 12,
-"c": "RTP1",
-"x": "Cada objeto tem uma história, cada história tem um valor e cada negociação pode acabar num Negócio Fechado…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 0,
-"more": [],
-"ne": "Deal Closed",
-"xe": "Every object has a story, every story has a value, and every negotiation can end in a Closed Deal…"
-},
-{
-"s": "mag",
-"n": "Grande Reportagem RTP",
-"u": "https://www.rtp.pt/play/p17170/e962230/grande-reportagem-rtp",
-"d": "22 out. 2026",
-"dk": "20261022",
-"e": 3,
-"c": "RTP1",
-"x": "\"Grande Reportagem RTP\" é o novo espaço de informação semanal da RTP.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "RTP Big Report",
-"xe": "\"Grande Reportagem RTP\" is RTP's new weekly news program."
-},
-{
-"s": "mag",
-"n": "Parte de Nós",
-"u": "https://www.rtp.pt/play/p17248/e962252/parte-de-nos",
-"d": "21 out. 2026",
-"dk": "20261021",
-"e": 2,
-"c": "RTP1",
-"x": "A vida e a história de oito imigrantes que escolheram Portugal para viver e trabalhar…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "Part of Us",
-"xe": "The lives and stories of eight immigrants who chose Portugal to live and work…"
-},
-{
-"s": "mag",
 "n": "Faça Chuva Faça Sol",
-"u": "https://www.rtp.pt/play/p16210/e961373/faca-chuva-faca-sol",
-"d": "17 out. 2026",
-"dk": "20261017",
+"u": "https://www.rtp.pt/play/p16210/e962931/faca-chuva-faca-sol",
+"d": "25 out. 2026",
+"dk": "20261025",
 "e": 12,
 "c": "RTP2",
 "x": "10 temporada do programa que nos abre horizontes para uma nova visão do mundo rural e da economia de futuro…",
@@ -9555,8 +11164,104 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Come Rain or Shine",
 "xe": "The 10th season of the program that opens up our horizons to a new view of rural life and the economy of the future…"
+},
+{
+"s": "mag",
+"n": "Ouvir Quem Vê Num Minuto",
+"u": "https://www.rtp.pt/play/p16483/e962788/grande-debate",
+"d": "24 out. 2026",
+"dk": "20261024",
+"e": 12,
+"c": "RTP1",
+"x": "A opinião dos telespetadores conta…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+7,
+10
+],
+"ne": "Listening to the Viewers in One Minute",
+"xe": "The opinion of viewers counts…"
+},
+{
+"s": "mag",
+"n": "Negócio Fechado",
+"u": "https://www.rtp.pt/play/p17246/e962515/negocio-fechado",
+"d": "23 out. 2026",
+"dk": "20261023",
+"e": 12,
+"c": "RTP1",
+"x": "Cada objeto tem uma história, cada história tem um valor e cada negociação pode acabar num Negócio Fechado…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 0,
+"more": [],
+"cov": [
+3,
+10
+],
+"ne": "Deal Closed",
+"xe": "Every object has a story, every story has a value, and every negotiation can end in a Closed Deal…"
+},
+{
+"s": "mag",
+"n": "Grande Reportagem RTP",
+"u": "https://www.rtp.pt/play/p17170/e962230/grande-reportagem-rtp",
+"d": "22 out. 2026",
+"dk": "20261022",
+"e": 3,
+"c": "RTP1",
+"x": "\"Grande Reportagem RTP\" é o novo espaço de informação semanal da RTP.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+1,
+3
+],
+"ne": "RTP Big Report",
+"xe": "\"Grande Reportagem RTP\" is RTP's new weekly news program."
+},
+{
+"s": "mag",
+"n": "Parte de Nós",
+"u": "https://www.rtp.pt/play/p17248/e962252/parte-de-nos",
+"d": "21 out. 2026",
+"dk": "20261021",
+"e": 2,
+"c": "RTP1",
+"x": "A vida e a história de oito imigrantes que escolheram Portugal para viver e trabalhar…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Part of Us",
+"xe": "The lives and stories of eight immigrants who chose Portugal to live and work…"
 },
 {
 "s": "mag",
@@ -9605,28 +11310,12 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "First Person",
 "xe": "Distinct and varied perspectives from different figures in our society, with Fátima Campos Ferreira…"
-},
-{
-"s": "mag",
-"n": "Ouvir Quem Vê Num Minuto",
-"u": "https://www.rtp.pt/play/p16483/e959568/grande-debate",
-"d": "10 out. 2026",
-"dk": "20261010",
-"e": 12,
-"c": "RTP1",
-"x": "A opinião dos telespetadores conta…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "Listening to the Viewers in One Minute",
-"xe": "The opinion of viewers counts…",
-"grace": "2026-10-14"
 },
 {
 "s": "mag",
@@ -9644,6 +11333,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+6
+],
 "ne": "Listening to the Viewers",
 "xe": "The opinion of viewers counts…"
 },
@@ -9663,6 +11356,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+5
+],
 "ne": "Investigation Europe",
 "xe": "Investigação Europa, a series of documentaries produced by Investigate Europe for RTP. Each episode deals with…"
 },
@@ -9707,6 +11404,10 @@
 "pt": 0
 }
 ],
+"cov": [
+6,
+10
+],
 "ne": "Other Stories",
 "xe": "Stories of surprising lives that touch and inspire us…"
 },
@@ -9726,6 +11427,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "ANACOM Tips",
 "xe": "A Safe Account on Social Media - The aim is to provide, in a simple and accessible way, useful information to empower people and support…"
 },
@@ -9770,6 +11475,10 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Front Line",
 "xe": "The in-depth report that portrays every reality!"
 },
@@ -9802,6 +11511,10 @@
 "pt": 0
 }
 ],
+"cov": [
+6,
+10
+],
 "ne": "We Have a Program",
 "xe": "A journey through RTP2's programming, hosted by Maria João Gama…"
 },
@@ -9821,6 +11534,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Angola, Half a Century of Life",
 "xe": "100 Years of the Portuguese Diabetics' Protective Association - Insulin for All…"
 },
@@ -9871,6 +11588,10 @@
 "pt": 0
 }
 ],
+"cov": [
+6,
+10
+],
 "ne": "Citizen's Voice",
 "xe": "Viewers' opinions count…"
 },
@@ -9890,6 +11611,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "What's Up - Looking at Fashion",
 "xe": "What's Up - Olhar a Moda, a fortnightly magazine show about fashion, footwear and lifestyle in Portugal…"
 },
@@ -9909,6 +11634,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "The Truth About Wine",
 "xe": "A program that will tell the \"tales\" and the histories behind wine production in Portugal."
 },
@@ -9928,6 +11657,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "The Other Side of Patrick - Making Of",
 "xe": "The making of the documentary by Rui Pedro Tendinha."
 },
@@ -9947,6 +11680,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+0,
+10
+],
 "ne": "The Essence",
 "xe": "Portuguese wine and its market…"
 },
@@ -9966,6 +11703,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+10
+],
 "ne": "ABC of European Law",
 "xe": "In its 3rd season, \"ABC Direito\" aims to inform citizens about their rights and responsibilities under European legislation…"
 },
@@ -9985,6 +11726,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Spas at the Center of Yourself",
 "xe": "Your health and well-being run through the spas. Marvel at the invigorating power of natural mineral water and set off on a journey of fou…"
 },
@@ -10004,6 +11749,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Red Harvest - The Reaper of Baleizão",
 "xe": "A documentary by José Manuel Portugal about Catarina Eufémia…"
 },
@@ -10023,6 +11772,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "A Portuguese Spring",
 "xe": "A documentary with previously unseen footage from East German television in 1974…"
 },
@@ -10042,6 +11795,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Far from Kabul",
 "xe": "The story of young Afghan musicians exiled in Portugal…"
 },
@@ -10061,6 +11818,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+0,
+10
+],
 "ne": "Mythos",
 "xe": "A series written and presented by José Pedro Serra about the great myths of the classical tradition…"
 },
@@ -10080,6 +11841,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "European Parliament - Myths Made and Busted",
 "xe": "The European Parliament demystified and explained…"
 },
@@ -10099,6 +11864,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+10
+],
 "ne": "New Digital World",
 "xe": "The television and internet audience in a single channel…"
 },
@@ -10118,6 +11887,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Desert Herders",
 "xe": "Discover the history and the customs of a unique people of the Namibe: the Mucubal."
 },
@@ -10137,6 +11910,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "What Will Remain of the European Funds",
 "xe": "By the end of this decade we will receive the largest wave of funding ever. Will we know how to use it in a way that reverses the trend of weak growth?"
 },
@@ -10156,6 +11933,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Salvador - It Could Be You",
 "xe": "A series of 13 programs dealing with the subject of disability."
 },
@@ -10175,6 +11956,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Without Borders",
 "xe": "Galicia and Portugal have never been so closely united…"
 },
@@ -10194,6 +11979,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "A Day in a Year of Pandemic",
 "xe": "Life in lockdown during a year of the pandemic…"
 },
@@ -10213,6 +12002,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Ferdinand Magellan 2020",
 "xe": "Commemorations of the 500th anniversary of Ferdinand Magellan's circumnavigation voyage…"
 },
@@ -10232,6 +12025,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Stories of the Sea",
 "xe": "Let yourself be guided by the skill and knowledge of the fishing communities of the Setúbal Peninsula, to learn about the relationship between Man and the Sea."
 },
@@ -10251,6 +12048,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "We, the Portuguese - Leaving Without Arriving",
 "xe": "The economic and social inequalities of Portugal…"
 },
@@ -10270,6 +12071,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "All About Food",
 "xe": "All together, let's go round the Food Wheel!"
 },
@@ -10289,6 +12094,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Conspiracy Theories",
 "xe": "It could be true, but it is all fiction…"
 },
@@ -10308,6 +12117,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Streets with History and Memory",
 "xe": "Over 13 episodes we are going to discover the origin of the names, the distinctive features and the curious facts about the streets, avenues and alleyways of Portugal…"
 },
@@ -10327,6 +12140,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Image of April",
 "xe": "The 25th of April through the eyes of the photographer Alfredo Cunha…"
 },
@@ -10346,6 +12163,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Raw Wood",
 "xe": "A documentary series about the art of working with wood…"
 },
@@ -10365,6 +12186,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+0,
+10
+],
 "ne": "Civil Society",
 "xe": "5 days a week, 5 topics of interest, presented by Luís de Castro…"
 },
@@ -10384,6 +12209,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Kevinho - O Sol da Caparica",
 "xe": "Kevinho concert recorded at the O Sol da Caparica festival."
 },
@@ -10403,6 +12232,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Napa Live at the Coliseu de Lisboa",
 "xe": "The band from Madeira performed for the first time under their own name after the success of the Festival da Canção with the song Deslocado. A journey through the …"
 },
@@ -10422,6 +12255,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Sounds of Victory - New Generations - Part II",
 "xe": "New Generations - Part II - Between the sounds of the past and the demands of the present, the new generations of Portuguese-speaking African musicians t…"
 },
@@ -10441,6 +12278,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Resistência - New Year's Concert",
 "xe": "Show recorded at the Coliseu Porto Ageas in January 2025. Resistência has a career spanning more than three decades, presenting in this concert …"
 },
@@ -10460,6 +12301,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Fernando Pereira & The New Age Band: Momentum - From the Valley to the Moon",
 "xe": "On stage, Fernando Pereira revisits 40 years of his career in a show accompanied by musicians, singers, dancers, VJs, the Polish soprano Patrycja…"
 },
@@ -10479,6 +12324,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Caixa Ribeira 2026 - Jorge Fernando and Fábia Rebordão",
 "xe": "A concert by Jorge Fernando and Fábia Rebordão at the Caixa Ribeira Festival in Porto."
 },
@@ -10498,6 +12347,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Caixa Ribeira - At Amália's House Live",
 "xe": "José Gonçalez hosted 'Em Casa d'Amália' live, featuring Paulo de Carvalho, Lenita Gentil, Anabela, Teresinha Landeiro, Rui Vaz and José …"
 },
@@ -10517,6 +12370,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "D.A.M.A Live at the MEO Arena",
 "xe": "A concert by D.A.M.A recorded at the MEO Arena on 14 February 2025. A true phenomenon of their generation, D.A.M.A stand out for their song…"
 },
@@ -10543,6 +12400,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+1
+],
 "ne": "At Amália's House Live in Estremoz",
 "xe": "'Em Casa d'Amália' gathers in Estremoz for a live get-together. The host, José Gonçalez, invited Fernando Pereira, Gonçalo Salgueiro, Ana…"
 },
@@ -10562,6 +12423,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Seara - Portuguese Music in Evolution",
 "xe": "A concert under the Clube Raiz program of Braga 25 - Portuguese Capital of Culture, bringing together on stage Amélia Muge, Daniel Pereira Cristo, …"
 },
@@ -10594,6 +12459,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+1
+],
 "ne": "Play - Portuguese Music Awards - Best Moments",
 "xe": "Relive the best moments of the 8th edition of the Play - Portuguese Music Awards, which honored the best of Portuguese music."
 },
@@ -10613,6 +12482,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Capitão Fausto - A Rehearsal for the Future",
 "xe": "The Lisbon band Capitão Fausto has a concert booked at the biggest venue in the country, with the support of Antena 3. After a series of dates…"
 },
@@ -10632,6 +12505,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "La Meccanica del Colore - Documentary",
 "xe": "A documentary directed by Tiago Pereira about 'La Meccanica del Colore', a chamber opera by Nuno Costa with a libretto by Madalena dos Santos."
 },
@@ -10651,6 +12528,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Sleeping Beauty - The Musical",
 "xe": "A story of love and courage, a lesson that opens the magical doors of fantasy with a message of humanity and the eternal values of li…"
 },
@@ -10670,6 +12551,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Festival F - Tiago Nacarato & Orquestra Bamba Social in Concert",
 "xe": "The Last Great Summer Festival took place on 4, 5, 6 and 7 September 2025 in the historic center of Faro. Tiago Nacarato & Orquestra Bamba S…"
 },
@@ -10689,6 +12574,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Pedro Abrunhosa - Journeys 3.0",
 "xe": "Pedro Abrunhosa presented 'Viagens 3.0' at the Super Bock Arena in Porto, celebrating 30 years since the release of his first album. From the mysterious face…"
 },
@@ -10708,6 +12597,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Laura - The Musical",
 "xe": "Laura Alves was the greatest comic actress of the 20th century. Her legend lives on in the memory of the Portuguese across several generations. 'Laura - The M…"
 },
@@ -10727,6 +12620,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "David Fonseca - Still 25",
 "xe": "David Fonseca returned to the Coliseu dos Recreios for a journey through his 25-year career in an original and surprising way: a show that cr…"
 },
@@ -10746,6 +12643,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "José Afonso and the Generations of April",
 "xe": "In 2024 we celebrated a memorable gathering: the Casa da Imprensa awards ceremony of 29 March 1974. With many m…"
 },
@@ -10785,6 +12686,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "At Amália's House Live",
 "xe": "Over the last few months, Casa d'Amália has toured the most beautiful squares in the country. You can now revisit Estremoz, Viseu, Montemor-o-Novo, Santa…"
 },
@@ -10804,6 +12709,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Zé Amaro - Portuguese Cowboy Tour",
 "xe": "A concert by Zé Amaro, the 'Portuguese cowboy', recorded at the Coliseu de Lisboa as part of the 'Portuguese Cowboy Tour', with the songs that have become true…"
 },
@@ -10823,6 +12732,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Graça's Music",
 "xe": "Fernando Lopes-Graça, born in Tomar on 17 December 1906, was perhaps the most complete Portuguese composer of the 20th century, with a wide ran…"
 },
@@ -10842,6 +12755,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Axel - My Christmas Live in São Paulo",
 "xe": "Singer and presenter Axel celebrates Christmas with a special concert that brings together Portuguese, Brazilian and international songbooks - traditional…"
 },
@@ -10861,6 +12778,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Music to Change the World: Light, Peace, Faith, Love",
 "xe": "Luís Pedro Fonseca wrote the timeless song 'Sempre que o Amor me Quiser', performed by Lena D'Água, with versions by current bands. It was part of the…"
 },
@@ -10880,6 +12801,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "Music Maestro - The Nutcracker - Tchaikovsky",
 "xe": "The Nutcracker - Tchaikovsky - Composer: Tchaikovsky Work: The Nutcracker City: Castelo Branco Tchaikovsky wrote operas, symphonies, concertos…"
 },
@@ -10899,6 +12824,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Little Mermaid: The Musical",
 "xe": "'The Little Mermaid' is the wonderful story of the youngest daughter of the Sea King, who longed to turn fifteen so she could rise to the surface of the…"
 },
@@ -10918,6 +12847,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+2
+],
 "ne": "Singing the Kings",
 "xe": "Cantar os Reis (Singing the Kings) is a Portuguese tradition celebrated around Epiphany (Three Kings' Day). In it, a group of locals called reiseiros play and sing at the door…"
 },
@@ -10937,6 +12870,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Pimba Is Ours",
 "xe": "Since the early 2010s, pimba music has been influenced by dance genres such as funaná (usually called 'kuduro'). Many m…"
 },
@@ -10956,6 +12893,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+6
+],
 "ne": "Stories of Fado - New Wave: Gaspar Varela, João Filipe and Teresinha Landeiro",
 "xe": "New Wave: Gaspar Varela, João Filipe and Teresinha Landeiro - It's time to introduce the youngest: Teresinha Landeiro (fado singer), João Filipe …"
 },
@@ -10975,6 +12916,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+3
+],
 "ne": "The Coimbra Guitar",
 "xe": "An unrestricted personal reflection, in which the representation of women, the most important guitar makers, the bohemian life, Coimbra's history and the div…"
 },
@@ -10994,6 +12939,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Romani",
 "xe": "A people with spirit defends its cultural identity - and that of the Roma population is unshakeable, built on visceral bonds. This fibre takes the stage …"
 },
@@ -11013,6 +12962,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Kota Bonga",
 "xe": "Brought up in a time when respect for elders was essential, he learned from those kotas to be the Kota he is. Bonga has never held back from saying …"
 },
@@ -11032,8 +12985,89 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Electric Art in Portugal - Adulthood",
 "xe": "Adulthood - The 90s are the culmination of a process that began in the 60s. These years are marked by the closure of Rock Rendez-Vou…"
+},
+{
+"s": "nature",
+"n": "Floresta Selvagem",
+"u": "https://www.rtp.pt/play/p17322/e962783/floresta-selvagem",
+"d": "24 out. 2026",
+"dk": "20261024",
+"e": 1,
+"c": "RTP1",
+"x": "Os protagonistas deste documentário são os habitantes selvagens da Westerwald, a floresta ocidental da Alemanha. Alguns, como o picanço-de-dorso-ru",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Wild Forest",
+"xe": "The protagonists of this documentary are the wild inhabitants of the Westerwald, the western forest of Germany. Some, like the red-backed shrike, …"
+},
+{
+"s": "nature",
+"n": "Biosfera",
+"u": "https://www.rtp.pt/play/p16211/e962765/biosfera",
+"d": "24 out. 2026",
+"dk": "20261024",
+"e": 12,
+"c": "RTP2",
+"x": "Um magazine que marca a agenda ambiental portuguesa…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p14287/e909046/biosfera",
+"d": "14 fev. 2026",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p11190/e735544/biosfera",
+"d": "16 dez. 2023",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p8304/e589057/biosfera",
+"d": "30 dez. 2021",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p3148/e323390/biosfera",
+"d": "30 dez. 2017",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p2841/e269455/biosfera",
+"d": "14 jan. 2017",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+5,
+10
+],
+"ne": "Biosphere",
+"xe": "A magazine program that sets the Portuguese environmental agenda…"
 },
 {
 "s": "nature",
@@ -11051,6 +13085,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Forest",
 "xe": "When the renowned ecologist Tom Crowther estimated that our planet has room for another trillion trees, which could absorb carbon …"
 },
@@ -11070,6 +13108,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Breath of the Earth",
 "xe": "Of the four elements of nature, wind is the most mysterious, but also the one that most sparks the imagination. Thanks to the latest research…"
 },
@@ -11089,6 +13131,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "The Return of Nature",
 "xe": "The natural world seems to be ruled by constant change, with life full of unexpected twists. Whether influenced by human…"
 },
@@ -11108,6 +13154,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "China's Wild Secrets",
 "xe": "An extraordinary journey through China's majestic National Parks in a 5-episode documentary series…"
 },
@@ -11127,6 +13177,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "The World's Straits",
 "xe": "Pas-de-Calais: A Passage in Perpetual Motion - The Strait of Pas-de-Calais, or Strait of Dover, connects the North Sea to the Atlantic and separates the U…"
 },
@@ -11146,6 +13200,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Traps and Ambushes",
 "xe": "Ambushes - Going unnoticed is the main survival tactic. Hunters and prey frequently turn to this maxim to survive…"
 },
@@ -11165,6 +13223,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Handle with Care: The Ponds of Brenne",
 "xe": "Brenne, the land of a thousand lakes, located in the heart of France, between Berry, Touraine and Poitou, is home to one of the largest inland wetlands…"
 },
@@ -11204,6 +13266,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "And the Dung So Close By",
 "xe": "Ignored, avoided or undervalued in our modern societies, dung deserves to be rediscovered. A source of inspiration, of games or of artistic creat…"
 },
@@ -11223,6 +13289,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Land of Legends",
 "xe": "Under the Reign of Air - An invisible and intangible element, air creates spectacular events, such as the powerful tornadoes in the United States, the violent …"
 },
@@ -11242,6 +13312,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Glaciers - A Race Against Time",
 "xe": "Collapsing glaciers, glacial lake outburst floods, rising sea levels, destabilized ocean currents… …"
 },
@@ -11261,6 +13335,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Saving the European Mink",
 "xe": "Since November 2011, the European mink has been classified by the International Union for Conservation of Nature (IUCN) as critically en…"
 },
@@ -11281,7 +13359,8 @@
 "pt": 1,
 "more": [],
 "ne": "Leopard Game of Thrones",
-"xe": "In the previous episode, Thandi, the new queen of Djuma, had to raise Tlalamba, the restless princess. Meanwhile, Hosana, the young prince, is lear…"
+"xe": "In the previous episode, Thandi, the new queen of Djuma, had to raise Tlalamba, the restless princess. Meanwhile, Hosana, the young prince, is lear…",
+"grace": "2026-10-24"
 },
 {
 "s": "nature",
@@ -11399,6 +13478,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Savé Valley: A Wild Miracle",
 "xe": "In Zimbabwe, there is a vast valley which, after generations of farming and livestock rearing, has seen its natural environment restored and wildlife return…"
 },
@@ -11418,6 +13501,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Where Is the Water?",
 "xe": "Part 2 - The village of Pisão, in Portalegre, has been waiting for a dam for 70 years. After advances and setbacks, the works moved forward in the last year. Still…"
 },
@@ -11437,6 +13524,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Greenland Under Pressure",
 "xe": "With glaciers melting and permafrost thawing, animals and humans face drastic changes. While some benefit from this…"
 },
@@ -11456,6 +13547,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+5
+],
 "ne": "Portuguese Intelligence",
 "xe": "More Ethical and Transparent Banking - Goparity democratizes sustainable investment with crowdlending accessible from 10 euros. Transparency…"
 },
@@ -11475,6 +13570,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Nicobar Islands - The Resurrection of an Archipelago",
 "xe": "The Nicobar Islands were deeply affected by the devastating 2004 tsunami. This documentary offers a view of nature's capacity to adapt…"
 },
@@ -11494,6 +13593,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "A Restless Planet",
 "xe": "The Great Collision - This episode looks at the formation of the Isthmus of Panama between South America and North America, a profound geological event…"
 },
@@ -11513,52 +13616,12 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+2,
+4
+],
 "ne": "Nature: A Call for Reconciliation",
 "xe": "Combining poetry, science and emotion, the documentary traces, over 2 episodes, the history of life, from its cosmic origins to evolution in…"
-},
-{
-"s": "nature",
-"n": "Biosfera",
-"u": "https://www.rtp.pt/play/p14287/e909046/biosfera",
-"d": "14 fev. 2026",
-"dk": "20260214",
-"e": 12,
-"c": "RTP2",
-"x": "Um magazine que marca a agenda ambiental portuguesa…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p11190/e735544/biosfera",
-"d": "16 dez. 2023",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p8304/e589057/biosfera",
-"d": "30 dez. 2021",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p3148/e323390/biosfera",
-"d": "30 dez. 2017",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p2841/e269455/biosfera",
-"d": "14 jan. 2017",
-"r": 1,
-"pt": 0
-}
-],
-"ne": "Biosphere",
-"xe": "A magazine program that sets the Portuguese environmental agenda…"
 },
 {
 "s": "nature",
@@ -11576,6 +13639,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Sharks: Killing Machines",
 "xe": "With the help of local shark hunters and experts in tracking this species, follow this three-day journey in pursuit of some…"
 },
@@ -11595,6 +13662,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Sea of Our Future",
 "xe": "Portugal, a country shaped by the ocean, now faces the challenge of balancing economic growth and marine conservation. The documentary 'The…"
 },
@@ -11614,6 +13685,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "It Was Beautiful to Watch Her Think",
 "xe": "The life and career of Paula Coutinho (1941-2022), a neurologist, lecturer and researcher, pioneer of neurogenetics in Portugal, internationally recognized…"
 },
@@ -11653,6 +13728,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+2
+],
 "ne": "Furnas - The Water Volcano",
 "xe": "It was water that drew people to the Furnas Volcano and led them to settle inside it. This documentary helps us understand the attraction that…"
 },
@@ -11672,6 +13751,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Beyond the Brain",
 "xe": "The most intriguing and challenging discoveries about the human mind, from Psychology to Parapsychology…"
 },
@@ -11691,6 +13774,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Natural Parks of the Azores - 10 Years",
 "xe": "In 2018 the Autonomous Region of the Azores began setting up 9 natural parks, in order to ensure integrated, coherent and sustainable management…"
 },
@@ -11710,6 +13797,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Lisbon, Other Forms of Life",
 "xe": "With millennia of human occupation, Lisbon has grown to meet the needs of its population. The city may seem an unlikely refuge…"
 },
@@ -11729,6 +13820,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+7,
+8
+],
 "ne": "Portugal, a Natural History",
 "xe": "A great journey through the wild heart of Portugal…"
 },
@@ -11755,6 +13850,10 @@
 "pt": 0
 }
 ],
+"cov": [
+1,
+1
+],
 "ne": "The Clean Energy Revolution",
 "xe": "Can we live without fossil fuels? Portugal believes so: sun and wind already outstrip national investment in gas and coal, and there is…"
 },
@@ -11774,6 +13873,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Iberian Wildlife",
 "xe": "Species that coexist in the same area often compete for resources and are frequently food for others. But there are cases where they cooperate…"
 },
@@ -11793,6 +13896,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Gorongosa - Return to a Wild Paradise",
 "xe": "It is the largest wildlife recovery program on the entire African continent. Gorongosa National Park, in Mozambique, is getting a new lease of life…"
 },
@@ -11812,6 +13919,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "The Peninsula",
 "xe": "From the Mountains to the Coast - Because of the geographical barriers that separate the Iberian Peninsula from the rest of the world, life has evolved in a very distinctive way…"
 },
@@ -11831,6 +13942,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+10
+],
 "ne": "Medical Secrets of Lisbon",
 "xe": "A journey to discover the heritage and curiosities of the city of Lisbon connected with the history of Medicine…"
 },
@@ -11850,6 +13965,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The World of Woodpeckers",
 "xe": "Woodpeckers are the greatest builders in the bird world. With surprising discoveries, this documentary reveals the ins and outs of the property market…"
 },
@@ -11869,6 +13988,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "White Stork - Between the Church and the Cliff",
 "xe": "This documentary introduces the life cycle of one of Portugal's most iconic birds: the white stork. With special focus on a rarity…"
 },
@@ -11888,6 +14011,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Warriors for Nature",
 "xe": "The return of the Iberian lynx to the wild was only possible thanks to the work of Joana Pechem and her colleagues at the Breeding Center in the Algarve…"
 },
@@ -11907,6 +14034,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Deep Madeira",
 "xe": "Getting to know another side of this archipelago…"
 },
@@ -11926,6 +14057,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "Viruses - Obligate Parasites",
 "xe": "How It All Began - Pandemics happen because of the relationship human beings have with nature. The imbalances we are causing lead…"
 },
@@ -11945,6 +14080,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Island of Giants",
 "xe": "Underwater cameraman Nuno Sá and scientific researcher Jorge Fontes join forces to try to uncover a secret hidden by the small…"
 },
@@ -11964,6 +14103,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Ecomare - Research and Rescue of Marine Species",
 "xe": "Inaugurated by Marcelo Rebelo de Sousa in 2017, Ecomare is a Laboratory for Innovation and Sustainability of Marine Biological Resources…"
 },
@@ -11983,6 +14126,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Portuguese Sardines - A Natural Treasure",
 "xe": "Today, fishery products are practically the only 'wild' foods regularly eaten in Portugal and in many other countries…"
 },
@@ -12002,6 +14149,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+9
+],
 "ne": "Planet A",
 "xe": "A documentary series about the challenge of sustainability that aims to show that it is still possible to build a sustainab…"
 },
@@ -12021,6 +14172,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "The New Philosophical Journeys",
 "xe": "A documentary series of 13 episodes about the work carried out by Portuguese scientists in 14 countries…"
 },
@@ -12040,6 +14195,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "A Year in Gorongosa",
 "xe": "'A Year in Gorongosa' takes viewers on a beautiful safari through the spectacular natural landscape of Gorongosa National Park. With a local woman…"
 },
@@ -12059,6 +14218,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Our Gorongosa",
 "xe": "Gorongosa National Park, in Mozambique, has become one of the most celebrated wildlife restoration stories in Africa. After a…"
 },
@@ -12078,6 +14241,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Fevers of the Century",
 "xe": "Pandemics are nothing new for humanity. The one closest to COVID-19 in scale and severity was the Spanish flu of 1918/1919. A number…"
 },
@@ -12097,6 +14264,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Brain God",
 "xe": "Inexhaustible - The fusion of the human brain and technology has already begun. Neuroscience and cybernetics are joining forces to create a new cyborg species…"
 },
@@ -12116,6 +14287,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "Ahh! Science in the Azores",
 "xe": "Over seven episodes, visit the Science Centers of the Azores."
 },
@@ -12135,6 +14310,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+7
+],
 "ne": "The Sea, the Last Frontier",
 "xe": "Porto Santo and the Savage Islands - The team of 'The Sea, the Last Frontier' sets out to discover a vast marine protected area off the sunny…"
 },
@@ -12154,6 +14333,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Big Is Beautiful",
 "xe": "The world is full of giants, enormous animals that fill us with fear and awe but also with fascination. There are various ways to define 'big'…"
 },
@@ -12173,6 +14356,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "Isaura the Slave Girl",
 "xe": "A remake of the soap opera that left its mark on Portuguese television. A young enslaved woman fights for freedom and for love in a world shaped by injustice, passion and power…"
 },
@@ -12199,6 +14386,10 @@
 "pt": 0
 }
 ],
+"cov": [
+3,
+3
+],
 "ne": "Noise",
 "xe": "The regime has fallen. Free from prison and from hiding, the group realizes how successful their sketches were all over the country. The…"
 },
@@ -12218,6 +14409,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "Jones",
 "xe": "A murder. A family full of secrets. And an inspector who talks to the dead. Created and directed by Bruno Gascon, the series combines crime mystery, black humor and the supernatural in a story starring José Pimentão, Laura Dutra and Amanda Abbington…"
 },
@@ -12237,6 +14432,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "If I Want To, I'll Cry",
 "xe": "Series directed by Carolina Aguiar, featuring Filipa Saavedra, Francisco Pereira de Almeida, Lúcia Moniz, Inês Sá Frias..."
 },
@@ -12256,6 +14455,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "By Iron and Fire",
 "xe": "A young man from the poor neighborhoods of Cape Town discovers in spinning a chance to escape crime and change his life…"
 },
@@ -12275,6 +14478,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "The Courtyard of Longing",
 "xe": "A miniseries by Leonel Vieira starring Sara Matos, Ana Guiomar, Manuel Marques, José Pedro Vasconcelos, José Raposo, Gilmário Vemba, Alexandra Lencastre and Aldo Lima…"
 },
@@ -12294,6 +14501,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Escapees",
 "xe": "In a dystopian country marked by the repression of a dictatorship, Mário lives in the shadows and, driven by a deep thirst for just…"
 },
@@ -12326,6 +14537,10 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Leap of Faith",
 "xe": "The adventures and misadventures of a young, idealistic priest, unable to tell lies, who is sent to parishes where all his Christian optimism and natural naivety are put to the test by flocks of sinners…"
 },
@@ -12345,6 +14560,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "Millennial Mal",
 "xe": "Judith, a library assistant in her forties, unexpectedly receives a grant she applied for twenty years ago. Although at fir…"
 },
@@ -12371,6 +14590,10 @@
 "pt": 0
 }
 ],
+"cov": [
+6,
+6
+],
 "ne": "The High Ground",
 "xe": "The story of an aristocratic family who, after returning from exile, find a completely different Portugal…"
 },
@@ -12390,6 +14613,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Echoes of the Sea",
 "xe": "Aurora and Armindo, an elderly couple, decide to give up on life by walking into the sea, but when they come back up they discover that they have grown young again. Young once more, they fa…"
 },
@@ -12409,6 +14636,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Adonis",
 "xe": "A comedy starring Renato Godinho, with Lídia Franco, Custódia Gallego, Valerie Braddel, Paula Guedes, Maria Emília Correia, Paula Mora, Paula Só, Cristina Cavalinhos, Paula de Magalhães and Sílvia Rizzo…"
 },
@@ -12435,6 +14666,10 @@
 "pt": 0
 }
 ],
+"cov": [
+6,
+6
+],
 "ne": "The Comedy Neighborhood",
 "xe": "A portrait of a Portugal that is in fashion, but where the visit of an American television crew gives rise to comical situations…"
 },
@@ -12454,6 +14689,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "New Hunting Narratives",
 "xe": "A series of 7 standalone episodes exploring the search for identity and belonging of Black characters, Portuguese people of African descent…"
 },
@@ -12473,6 +14712,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Dirty Dawn",
 "xe": "A dramatic thriller in which corruption, power, crime and justice intertwine in a deeply human and timely story…"
 },
@@ -12492,6 +14735,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "Finisterra",
 "xe": "A story of mystery, superstition and resistance to oppression, with Leonor Vasconcelos, Miguel Guilherme, Rui Pedro Silva and Gonçalo Waddington in the leading roles…"
 },
@@ -12511,6 +14758,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Fernão Lopes: The Renegade",
 "xe": "Portuguese squire. Renegade mercenary. Exiled Muslim. Ecological mystic. Who is Fernão Lopes?"
 },
@@ -12530,6 +14781,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "3000 AD",
 "xe": "\"3000 Depois de Cristo\" is an anthology series made up of 10 separate stories, all set in the year 3000, and…"
 },
@@ -12549,6 +14804,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Cold Cotton",
 "xe": "A series directed by Ricardo Leite with Diana Sousa Lara, Vítor Silva Costa, Paulo Calatré, Catarina Avelar, Dinarte Branco, Rodrigo Saraiva and Ana Marta Ferreira…"
 },
@@ -12568,6 +14827,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "One Hell of a Film",
 "xe": "A miniseries by Hugo Diogo with Pedro Alves, Eduardo Madeira, Ana Arrebentinha, António Machado, Herman José..."
 },
@@ -12587,6 +14850,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Men of Honor",
 "xe": "Two men. Two paths. Two struggles. The lives of Álvaro Cunhal and Mário Soares, key figures in the birth of Portuguese democracy…"
 },
@@ -12606,6 +14873,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "Blood & Marble",
 "xe": "A noir musical soap opera inspired by David Bruno's album of the same name."
 },
@@ -12625,6 +14896,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Refuge of Fear",
 "xe": "An intense thriller that blends mystery, trauma and drama in a co-production bringing together Portugal and Iceland. Maria João Bastos, Catarina Rebelo and Ivo Canelas are part of the main cast…"
 },
@@ -12644,6 +14919,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Safe House",
 "xe": "A series inspired by the true stories of women who are victims of domestic violence, starring Maria João Pinho, Leonor Silveira, Filomena Gigante, Rita Cabaço and Ana Sofia Martins…"
 },
@@ -12663,6 +14942,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Pedro and Inês",
 "xe": "The impossible love shared by King Pedro and Inês de Castro will win over Portuguese hearts in this series by Moita Flores…"
 },
@@ -12682,6 +14965,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "Spies",
 "xe": "An espionage thriller set in Portugal during the Second World War, starring Madalena Almeida, Maria João Bastos, Ana Vilela da Costa, Lúcia Moniz, Gabriela Barros, Kelly Bailey and Daniela Ruah…"
 },
@@ -12701,6 +14988,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Filming for the Puppet",
 "xe": "100 Years of the Portuguese Diabetics' Protection Association - Insulin for All…"
 },
@@ -12720,6 +15011,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Delicate Situations",
 "xe": "Three friends with ordinary lives, until a moment of panic changes everything…"
 },
@@ -12739,6 +15034,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Felp",
 "xe": "A comedy about difference, identity and empathy. But with stuffing. And plastic eyes."
 },
@@ -12758,6 +15057,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Fire",
 "xe": "A journalistic thriller that dives into the origins of the fires that ravage the border area between Galicia and Portugal every year…"
 },
@@ -12777,6 +15080,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Until Life Do Us Part",
 "xe": "A family united in joy and in sorrow, in sickness and in health, until life brings them together or pulls them apart…"
 },
@@ -12796,6 +15103,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "There Was Resistance Here",
 "xe": "A series based on real events and real people, about anti-fascist resistance and struggle, centred on the north of Portugal, during the thirteen years leading up to 25 April 1974…"
 },
@@ -12815,6 +15126,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "The American",
 "xe": "The story of a gang that, in the early 1980s, terrorized the Algarve, committing more than twenty bank robberies…"
 },
@@ -12834,6 +15149,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+0,
+4
+],
 "ne": "Salgueiro Maia - The Implicated",
 "xe": "The story of Salgueiro Maia. A miniseries directed by Sérgio Graciano, starring Tomás Alves and featuring Catarina Wallenstein, Filipa Areosa, José Condessa..."
 },
@@ -12853,6 +15172,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+4,
+4
+],
 "ne": "River Hotel",
 "xe": "A series by João Canijo with Anabela Moreira, Rita Blanco, Beatriz Batarda, Madalena Almeida, Cleia Almeida, Nuno Lopes..."
 },
@@ -12872,6 +15195,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+5
+],
 "ne": "Ministry of Time",
 "xe": "\"The time machine doesn't exist. What exists are the doors of time!\"…"
 },
@@ -12891,6 +15218,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+5
+],
 "ne": "Paths of the Soul - Fátima",
 "xe": "The journey of 11 women over nine days and 400km until they reach Fátima…"
 },
@@ -12910,6 +15241,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "KM 224",
 "xe": "A miniseries directed by António-Pedro Vasconcelos, with José Fidalgo and Ana Varela in the leading roles…"
 },
@@ -12929,6 +15264,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Lusitania",
 "xe": "Portuguese legends inspired by our vast and rich folklore…"
 },
@@ -12948,6 +15287,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Codex 632",
 "xe": "A series inspired by the novel of the same name by José Rodrigues dos Santos, directed by Sérgio Graciano, featuring Paulo Pires, Deborah Secco, Ana Sofia Martins, Betty Faria..."
 },
@@ -12967,6 +15310,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+9,
+10
+],
 "ne": "Return to Ithaca",
 "xe": "Written and directed by Ricardo Cabaça, \"Regresso a Ítaca\" is a reworking of Homer's Odyssey, in which a man who felt fear during the war returns to a city that no longer belongs to him, in a contemporary story far removed from Ancient Greece."
 },
@@ -12986,6 +15333,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Offshore",
 "xe": "The fates of a family and of a small community are in the hands of a woman on the run and a father in trouble…"
 },
@@ -13005,6 +15356,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Sara",
 "xe": "The first television series by director Marco Martins, based on an original idea by Bruno Nogueira…"
 },
@@ -13024,6 +15379,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Sugar Captains",
 "xe": "A series directed by Ricardo Leite with Tiago Sarmento, Diana Sousa Lara, Vicente Wallenstein, Igor Regalla and José Mata in the leading roles…"
 },
@@ -13043,6 +15402,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Emília",
 "xe": "A series about the anxiety of growing up in the digital age…"
 },
@@ -13062,6 +15425,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Valkyries Motel",
 "xe": "A drama telling the story of three women with serious financial and personal problems, whose paths cross by chance, set in a motel on the border between Galicia and Portugal…"
 },
@@ -13081,6 +15448,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+5,
+5
+],
 "ne": "Operation Black Tide",
 "xe": "Second season of the series Operação Maré Negra, an RTP and Prime Video co-production, featuring Soraia Chaves and Pêpê Rapazote…"
 },
@@ -13100,6 +15471,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+7,
+7
+],
 "ne": "Abandoned",
 "xe": "A story of courage and superhuman sacrifice that took place in Timor during the Second World War, with the Japanese invasion. A series by Francisco Manso with Marco Delgado, António Pedro Cerdeira, Chico Diaz, Elmano Sancho, Francisco Froes, Joaquim Nicolau, among others…"
 },
@@ -13119,6 +15494,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Submerged Crimes",
 "xe": "Crimes Submersos portrays the investigation of a crime that remained hidden for years, and its cast includes names such as Marco D´Almeida, Elena Rivera, Guilherme Filipe, Rodolfo Sancho, Margarida Marinho, Soraia Chaves, Paula Lobo Antunes and Rita Loureiro…"
 },
@@ -13138,6 +15517,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Cuba Libre",
 "xe": "The troubled struggle of Annie Silva Pais, the only daughter of the last director of Salazar's political police, in love with Che Guevara and with Fidel Castro's Cuba…"
 },
@@ -13157,6 +15540,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "3 Women - After the Revolution",
 "xe": "3 Mulheres - Pós-Revolução is an original idea by Fernando Vendrell and Elsa Garcia, starring Soraia Chaves, Maria João Bastos and Victoria Guerra, telling the story of Natália Correia, Snu Abecassis and Maria Armanda Falcão/Vera Lagoa…"
 },
@@ -13176,6 +15563,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "Soft Drinks and Love Songs",
 "xe": "Original title: Refrigerantes e Canções de Amor - Miniseries…"
 },
@@ -13195,6 +15586,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Coming Home",
 "xe": "A project directed by Sérgio Graciano that brings together Portuguese and Spanish actors, written by Filipa Poppe and Joana Andrade…"
 },
@@ -13214,6 +15609,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+8
+],
 "ne": "Chronicle of the Good Rascals",
 "xe": "A series based on the famous book by Mário Zambujal…"
 },
@@ -13233,6 +15632,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "North Wind",
 "xe": "A historical romance, rich in intrigue and drama, that gives us a view of a Portugal on the brink of dictatorship, in the midst of the roaring twenties, when everything seemed possible…"
 },
@@ -13252,6 +15655,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+2,
+3
+],
 "ne": "Moral Order",
 "xe": "Based on a real case, the story of the heiress of the Diário de Notícias…"
 },
@@ -13271,6 +15678,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "The Attack",
 "xe": "A Portuguese series of 10 episodes, based on real events, telling the story of the 1937 assassination attempt on Oliveira Salazar…"
 },
@@ -13290,6 +15701,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+7,
+10
+],
 "ne": "Tell Me How It Was",
 "xe": "Meet the Lopes family again as they live through the whirlwind that Portugal is going through in the 1980s…"
 },
@@ -13309,6 +15724,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+0,
+10
+],
 "ne": "5-Star Hotel",
 "xe": "As time goes by, the hotel loses its excellence and, consequently, its stars..."
 },
@@ -13328,6 +15747,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+3,
+3
+],
 "ne": "The Song of Lisbon - Miniseries",
 "xe": "A miniseries remaking the popular 1933 comedy starring Vasco Santana, Beatriz Costa and António Silva."
 },
@@ -13347,6 +15770,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+3,
+4
+],
 "ne": "The Maias",
 "xe": "\"Os Maias\" in an adaptation by João Botelho…"
 },
@@ -13366,6 +15793,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+6,
+10
+],
 "ne": "Paradise Circus",
 "xe": "Day-to-day life at a circus in a small, quiet town…"
 },
@@ -13385,6 +15816,10 @@
 "ok": 0,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Summer M",
 "xe": "A summer holiday full of friendship, passion and adventure…"
 },
@@ -13404,6 +15839,10 @@
 "ok": 0,
 "pt": 1,
 "more": [],
+"cov": [
+6,
+6
+],
 "ne": "Vidago Palace",
 "xe": "Romance, passions, hatreds, betrayals, mystery and suspense in the glamorous 1930s…"
 },
@@ -13423,6 +15862,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+8,
+10
+],
 "ne": "The Children of Rock",
 "xe": "Rock is making history again!... in RTP's new period series telling the story of the generation that lived through the best years of rock in Portugal..."
 },
@@ -13442,6 +15885,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+4,
+10
+],
 "ne": "The Wise One",
 "xe": "The story of a man who reappears in a city where he mysteriously disappeared 20 years ago…"
 },
@@ -13461,6 +15908,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Inside",
 "xe": "Pedro, a young psychology graduate, is placed as an intern in a women's prison…"
 },
@@ -13480,6 +15931,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "4Play",
 "xe": "A comedy series full of sex, drugs and rock'n'roll, set against the backdrop of an underground Porto…"
 },
@@ -13506,6 +15961,10 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Yes, Chef!",
 "xe": "\"Yes, Chef!\", a delicious comedy and a true feast of stories, to everyone's delight…"
 },
@@ -13525,6 +15984,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Grown-Up Kid",
 "xe": "A child prodigy invents a time machine capable of bringing him into the present 20 years older…"
 },
@@ -13557,6 +16020,10 @@
 "pt": 0
 }
 ],
+"cov": [
+2,
+10
+],
 "ne": "Welcome to Beirais",
 "xe": "When you can't afford to fail again, success is the only way forward."
 },
@@ -13583,6 +16050,10 @@
 "pt": 0
 }
 ],
+"cov": [
+7,
+10
+],
 "ne": "Our Days",
 "xe": "It is more than a story of revenge. A constant fight for truth and justice. A game where no one can trust anyone…"
 },
@@ -13602,6 +16073,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+10,
+10
+],
 "ne": "Now Seriously",
 "xe": "A sitcom portraying the daily lives of a group of journalists…"
 },
@@ -13634,6 +16109,10 @@
 "pt": 0
 }
 ],
+"cov": [
+10,
+10
+],
 "ne": "Sea Water",
 "xe": "Água de Mar is an urban series whose main setting is the Academia das Artes. In the third season, every secret will be revealed and every lie uncovered. But will every crime committed receive its due punishment?"
 },
@@ -13653,6 +16132,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "Júlia",
 "xe": "The point is to reflect on the human being itself, in its promiscuity, in its intimacy, in its totality. To strip Jean and Júlia bare as a way of…"
 },
@@ -13672,6 +16155,10 @@
 "ok": 1,
 "pt": 0,
 "more": [],
+"cov": [
+1,
+1
+],
 "ne": "See More About You",
 "xe": "Three women work on a privacy control and data policy system. They monitor the people who view an advert, while at the same time…"
 }
