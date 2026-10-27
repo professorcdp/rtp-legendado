@@ -23,28 +23,6 @@
 "xe": "Ricardo Henriques - When Science Reveals the Invisible - Ricardo Henriques is a principal investigator at ITQB NOVA, where he leads research in bi…"
 }
 },
-"17150": {
-"last_seen": "2026-10-19",
-"row": {
-"s": "fun",
-"n": "Break The Wall",
-"u": "https://www.rtp.pt/play/p17150/e959782/break-the-wall",
-"d": "12 out. 2026",
-"dk": "20261012",
-"e": 5,
-"c": "RTP2",
-"x": "Talk show visualmente imersivo que explora a literacia mediática e a memória histórica, conduzido por Tomás Duran…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "Break The Wall",
-"xe": "A visually immersive talk show that explores media literacy and historical memory, hosted by Tomás Duran…"
-}
-},
 "17159": {
 "last_seen": "2026-10-19",
 "row": {
@@ -133,8 +111,171 @@
 "xe": "Nefertine is a girl full of courage and curiosity who has great adventures with her best friend Piramsés and the cat Micerina. Nefertine is an eight-year-old girl who lives in ancient Egypt and has endless curiosity and courage. She aspires to be the first female scribe in Egyptian history and is constantly recording her exciting adventures in her papyrus diary. From time to…"
 }
 },
-"16132": {
+"17196": {
 "last_seen": "2026-10-26",
+"row": {
+"s": "docs",
+"n": "Paixão Cigana",
+"u": "https://www.rtp.pt/play/p17196/e961495/paixao-cigana",
+"d": "19 out. 2026",
+"dk": "20261019",
+"e": 4,
+"c": "RTP1",
+"x": "O absentismo da educação na comunidade cigana e a luta para mudar mentalidades. Bruno Gonçalves, da Associação Letras Nómadas, representante e m",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+1,
+3
+],
+"ne": "Gypsy Passion",
+"xe": "School absenteeism in the Roma community and the struggle to change mindsets. Bruno Gonçalves, from the Letras Nómadas Association, a representative and m…"
+}
+},
+"16636": {
+"last_seen": "2026-10-26",
+"row": {
+"s": "fun",
+"n": "Guarda-Roupa",
+"u": "https://www.rtp.pt/play/p16636/e961494/guarda-roupa",
+"d": "19 out. 2026",
+"dk": "20261019",
+"e": 12,
+"c": "RTP1",
+"x": "Um magazine onde a moda vive, inspira e se transforma, com apresentação de Sílvia Alberto…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+4,
+10
+],
+"ne": "Wardrobe",
+"xe": "A magazine program where fashion lives, inspires and transforms itself, presented by Sílvia Alberto…"
+}
+},
+"13864": {
+"last_seen": "2026-10-26",
+"row": {
+"s": "kids",
+"n": "O Leonel das Moscas",
+"u": "https://www.rtp.pt/play/zigzag/p13864/e963020/o-leonel-das-moscas",
+"d": "26 out. 2026",
+"dk": "20261026",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Acompanha as aventuras de Leonel, uma mosca doméstica e filho do meio de muitos irmãos. Lloyd mora com os seus pais, a sua irmãzinha e os seus irmãos larvas dentro de um compostor a que chamam lar. Leonel e a sua irmãzinha vivem grandes aventuras com os seus amigos ao explorar o estranho mundo para lá do compostor, onde não faltam lições para Lloyd aprender... Quase!",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+9,
+10
+],
+"ne": "Leonel the Fly",
+"xe": "Follow the adventures of Leonel, a housefly and the middle child of many siblings. Lloyd lives with his parents, his little sister and his larva brothers inside a compost bin they call home. Leonel and his little sister have great adventures with their friends as they explore the strange world beyond the compost bin, where there are plenty of lessons for Lloyd to learn... Almost!"
+}
+},
+"17246": {
+"last_seen": "2026-10-26",
+"row": {
+"s": "mag",
+"n": "Negócio Fechado",
+"u": "https://www.rtp.pt/play/p17246/e962515/negocio-fechado",
+"d": "23 out. 2026",
+"dk": "20261023",
+"e": 12,
+"c": "RTP1",
+"x": "Cada objeto tem uma história, cada história tem um valor e cada negociação pode acabar num Negócio Fechado…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 0,
+"more": [],
+"cov": [
+3,
+10
+],
+"ne": "Deal Closed",
+"xe": "Every object has a story, every story has a value, and every negotiation can end in a Closed Deal…"
+}
+},
+"17189": {
+"last_seen": "2026-10-26",
+"row": {
+"s": "series",
+"n": "Jones",
+"u": "https://www.rtp.pt/play/p17189/e960910/jones",
+"d": "19 out. 2026",
+"dk": "20261019",
+"e": 4,
+"c": "RTP1",
+"x": "Um homicídio. Uma família cheia de segredos. E um inspetor que fala com os mortos. Criada e realizada por Bruno Gascon, a série combina mistério policial, humor negro e sobrenatural numa história protagonizada por José Pimentão, Laura Dutra e Amanda Abbington…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+4,
+4
+],
+"ne": "Jones",
+"xe": "A murder. A family full of secrets. And an inspector who talks to the dead. Created and directed by Bruno Gascon, the series combines crime mystery, black humor and the supernatural in a story starring José Pimentão, Laura Dutra and Amanda Abbington…"
+}
+},
+"9462": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "docs",
+"n": "Portuguese Soul",
+"u": "https://www.rtp.pt/play/p9462/e963025/portuguese-soul",
+"d": "26 out. 2026",
+"dk": "20261026",
+"e": 7,
+"c": "RTP2",
+"x": "Ouro - Há milénios que o Ouro é objeto de desejo, o verdadeiro símbolo da riqueza e da perfeição.Viajamos para norte, para conhecer mais de pert",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p16871/e949558/portuguese-soul",
+"d": "21 ago. 2026",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+7,
+7
+],
+"ne": "Portuguese Soul",
+"xe": "Gold - For millennia, gold has been an object of desire, the true symbol of wealth and perfection. We travel north to learn more about…"
+}
+},
+"16132": {
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Hora dos Portugueses",
@@ -178,67 +319,8 @@
 "xe": "Portuguese identity seen from different points of view."
 }
 },
-"17196": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "docs",
-"n": "Paixão Cigana",
-"u": "https://www.rtp.pt/play/p17196/e961495/paixao-cigana",
-"d": "19 out. 2026",
-"dk": "20261019",
-"e": 4,
-"c": "RTP1",
-"x": "O absentismo da educação na comunidade cigana e a luta para mudar mentalidades. Bruno Gonçalves, da Associação Letras Nómadas, representante e m",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-1,
-3
-],
-"ne": "Gypsy Passion",
-"xe": "School absenteeism in the Roma community and the struggle to change mindsets. Bruno Gonçalves, from the Letras Nómadas Association, a representative and m…"
-}
-},
-"9462": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "docs",
-"n": "Portuguese Soul",
-"u": "https://www.rtp.pt/play/p9462/e961461/portuguese-soul",
-"d": "19 out. 2026",
-"dk": "20261019",
-"e": 6,
-"c": "RTP2",
-"x": "Madeira - O que é que os nossos bisavós calçavam? Socos de Madeira, certamente.Muito mudou desde esses tempos. A madeira foi completamente reinvent",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p16871/e949558/portuguese-soul",
-"d": "21 ago. 2026",
-"r": 1,
-"pt": 0
-}
-],
-"cov": [
-6,
-6
-],
-"ne": "Portuguese Soul",
-"xe": "Madeira - What did our great-grandparents wear on their feet? Wooden clogs, surely. A lot has changed since those times. Wood has been completely reinvent…"
-}
-},
 "16137": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sempre a Tempo",
@@ -271,7 +353,7 @@
 }
 },
 "13007": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "RTP Sempre",
@@ -297,7 +379,7 @@
 }
 },
 "13652": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Geografia do Descontentamento",
@@ -323,7 +405,7 @@
 }
 },
 "10400": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Herdeiros do Bairro",
@@ -349,7 +431,7 @@
 }
 },
 "15079": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sopro",
@@ -375,7 +457,7 @@
 }
 },
 "16890": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Teia",
@@ -401,7 +483,7 @@
 }
 },
 "12222": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Matança da Páscoa - Memórias do 11 de Março de 1975",
@@ -427,7 +509,7 @@
 }
 },
 "13200": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Visita Guiada",
@@ -466,7 +548,7 @@
 }
 },
 "14791": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Habitat",
@@ -492,7 +574,7 @@
 }
 },
 "17100": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Os Primeiros Alentejanos",
@@ -517,34 +599,8 @@
 "xe": "This documentary travels back to the Neolithic, 7,000 years before the present, to explore the transformation of the Alentejo landscape. Based on the monu…"
 }
 },
-"17065": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "docs",
-"n": "Contos do Esquecimento",
-"u": "https://www.rtp.pt/play/p17065/e950594/contos-do-esquecimento",
-"d": "27 ago. 2026",
-"dk": "20260827",
-"e": 1,
-"c": "RTP2",
-"x": "Achados arqueológicos recentes em Lagos, no sul de Portugal, revelaram o passado esquecido do papel de Portugal no tráfico transatlântico de africa",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Tales of Forgetting",
-"xe": "Recent archaeological finds in Lagos, in southern Portugal, have revealed the forgotten past of Portugal's role in the transatlantic trafficking of Africa…"
-}
-},
 "15433": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Bartolomeu Cid dos Santos -  Por Terras Devastadas",
@@ -570,7 +626,7 @@
 }
 },
 "16302": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Repovoadores",
@@ -596,7 +652,7 @@
 }
 },
 "9121": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Othon",
@@ -622,7 +678,7 @@
 }
 },
 "16980": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugal no Mundo - Festa de São João em Clermont Ferrand",
@@ -648,7 +704,7 @@
 }
 },
 "10520": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugueses pelo Mundo - Comunidades",
@@ -681,7 +737,7 @@
 }
 },
 "14202": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Outra Goa",
@@ -707,7 +763,7 @@
 }
 },
 "11847": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Churchill na Madeira",
@@ -733,7 +789,7 @@
 }
 },
 "16770": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Viagem na Minha Terra",
@@ -759,7 +815,7 @@
 }
 },
 "16654": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Somos Academia",
@@ -785,7 +841,7 @@
 }
 },
 "16834": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "10 Mil Km, De Regresso ao Japão",
@@ -811,7 +867,7 @@
 }
 },
 "12690": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Concentrados - Depósito de Concentrados Alemães na Ilha Terceira (1916-1919)",
@@ -837,7 +893,7 @@
 }
 },
 "12413": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Mais Longa Jornada",
@@ -863,7 +919,7 @@
 }
 },
 "13598": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "José Fonseca e Costa - A Luz no Olhar",
@@ -889,7 +945,7 @@
 }
 },
 "12630": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Daniel Faria: O Silêncio e a Palavra",
@@ -915,7 +971,7 @@
 }
 },
 "7533": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Exílio no Atlântico",
@@ -941,7 +997,7 @@
 }
 },
 "14796": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "BIAL: 100 Anos Inspirados Pelo Futuro",
@@ -967,7 +1023,7 @@
 }
 },
 "14728": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "No Táxi do Jack",
@@ -993,7 +1049,7 @@
 }
 },
 "15022": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Falamos de António Campos",
@@ -1019,7 +1075,7 @@
 }
 },
 "16717": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Submersos no Índico",
@@ -1045,7 +1101,7 @@
 }
 },
 "16692": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Wenceslau de Moraes",
@@ -1071,7 +1127,7 @@
 }
 },
 "9205": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Pólio: O Caminho Para a Erradicação",
@@ -1097,7 +1153,7 @@
 }
 },
 "16602": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Viagem no tempo, à Procura do Socialismo",
@@ -1123,7 +1179,7 @@
 }
 },
 "13315": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Editor Contra",
@@ -1149,7 +1205,7 @@
 }
 },
 "16322": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Fotobox",
@@ -1182,7 +1238,7 @@
 }
 },
 "16471": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Paulo Rocha - Memórias",
@@ -1208,7 +1264,7 @@
 }
 },
 "16423": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Correr a Ponte",
@@ -1234,7 +1290,7 @@
 }
 },
 "15580": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugueses na Nova Inglaterra",
@@ -1260,7 +1316,7 @@
 }
 },
 "15757": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Entre o Mar e a Terra",
@@ -1299,7 +1355,7 @@
 }
 },
 "4196": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sem Fazer Planos do Que Virá Depois",
@@ -1325,7 +1381,7 @@
 }
 },
 "14592": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Nem Toda a Noite a Vida: Vitorino Nemésio",
@@ -1351,7 +1407,7 @@
 }
 },
 "16326": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sou Capaz",
@@ -1377,7 +1433,7 @@
 }
 },
 "16142": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Intervalo para Publicidade",
@@ -1403,7 +1459,7 @@
 }
 },
 "5416": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Eugénio de Andrade",
@@ -1429,7 +1485,7 @@
 }
 },
 "14178": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "João Ayres - Pintor Independente",
@@ -1455,7 +1511,7 @@
 }
 },
 "15587": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Como Eu Atravessei África",
@@ -1481,7 +1537,7 @@
 }
 },
 "7720": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sousa Martins - Vida e Culto",
@@ -1507,7 +1563,7 @@
 }
 },
 "16051": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Minha Tese - Raúl Saraiva",
@@ -1533,7 +1589,7 @@
 }
 },
 "15804": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "À Mesa com Elas",
@@ -1559,7 +1615,7 @@
 }
 },
 "15978": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mar, a Última Fronteira - Best Of",
@@ -1585,7 +1641,7 @@
 }
 },
 "15768": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugal Fenomenal",
@@ -1618,7 +1674,7 @@
 }
 },
 "15917": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "As Sibilas do Passo",
@@ -1644,7 +1700,7 @@
 }
 },
 "14279": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Afazeres do Mês",
@@ -1677,7 +1733,7 @@
 }
 },
 "15150": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mata-Bicho",
@@ -1703,7 +1759,7 @@
 }
 },
 "15522": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Se o Mar Deixar",
@@ -1729,7 +1785,7 @@
 }
 },
 "15664": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Olhares - Afrodescendentes no Portugal Contemporâneo",
@@ -1755,7 +1811,7 @@
 }
 },
 "12627": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Espelho Meu, Espelho Meu",
@@ -1781,7 +1837,7 @@
 }
 },
 "10382": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Frias Martins: Cientista, Professor, Divulgador e Homem de Fé",
@@ -1807,7 +1863,7 @@
 }
 },
 "15758": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Preparados para o Tsunami?",
@@ -1833,7 +1889,7 @@
 }
 },
 "15695": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "ModaLisboa Base - Melhores Momentos",
@@ -1859,7 +1915,7 @@
 }
 },
 "15687": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Minha Indonésia - Making Of",
@@ -1885,7 +1941,7 @@
 }
 },
 "15269": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "João de Lacerda - O Colecionador Visionário",
@@ -1911,7 +1967,7 @@
 }
 },
 "15573": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "The Guitar Barrel Project",
@@ -1937,7 +1993,7 @@
 }
 },
 "15331": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Por Amor à Tradição",
@@ -1970,7 +2026,7 @@
 }
 },
 "10718": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sete Cidades: Da Lenda à Realidade",
@@ -1996,7 +2052,7 @@
 }
 },
 "9010": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Por Isso é que Sou das Ilhas de Bruma",
@@ -2022,7 +2078,7 @@
 }
 },
 "15466": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Aprendiz de Feiticeiro - Uma Viagem ao Imaginário de Zeca Medeiros",
@@ -2048,7 +2104,7 @@
 }
 },
 "15152": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Brumas da Memória: Os Portugueses Contra o III Reich",
@@ -2074,7 +2130,7 @@
 }
 },
 "14647": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Vinhos de Portugal",
@@ -2100,7 +2156,7 @@
 }
 },
 "9042": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "No Reino Secreto dos Bijagós",
@@ -2126,7 +2182,7 @@
 }
 },
 "1025": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Douro - Uma História de Séculos",
@@ -2152,7 +2208,7 @@
 }
 },
 "15384": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Diploma de Saída",
@@ -2185,7 +2241,7 @@
 }
 },
 "11794": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Plateau",
@@ -2211,7 +2267,7 @@
 }
 },
 "15237": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Ilha a Cores",
@@ -2237,7 +2293,7 @@
 }
 },
 "15169": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Filhos de Tuga",
@@ -2263,7 +2319,7 @@
 }
 },
 "15195": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sérgio Varella Cid - Um Prodígio no Fio da Navalha - Vícios Privados",
@@ -2289,7 +2345,7 @@
 }
 },
 "14990": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "E Depois da Revolução?",
@@ -2315,7 +2371,7 @@
 }
 },
 "14784": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "As 5 Revoluções Portuguesas",
@@ -2341,7 +2397,7 @@
 }
 },
 "14894": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Trabalho Não É Mercadoria",
@@ -2367,7 +2423,7 @@
 }
 },
 "14847": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Aqueles que Ficaram (Em Toda a Parte Todo o Mundo Tem)",
@@ -2393,7 +2449,7 @@
 }
 },
 "14853": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Reféns no Paraíso",
@@ -2419,7 +2475,7 @@
 }
 },
 "10189": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Antero de Quental: Verbo Vivo da Cultura Açoriana",
@@ -2445,7 +2501,7 @@
 }
 },
 "14415": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugal no Mundo - Círio de Nazaré",
@@ -2478,7 +2534,7 @@
 }
 },
 "12977": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mulheres Que Contam",
@@ -2517,7 +2573,7 @@
 }
 },
 "14205": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Hotéis XXI",
@@ -2543,7 +2599,7 @@
 }
 },
 "14620": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Luiza de Jesus - A Macabra História da Maior Serial Killer Portuguesa",
@@ -2569,7 +2625,7 @@
 }
 },
 "14617": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Maçonaria em Portugal - Uma História",
@@ -2595,7 +2651,7 @@
 }
 },
 "14117": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "ModaLisboa Singular - Melhores Momentos",
@@ -2621,7 +2677,7 @@
 }
 },
 "14359": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Os Diários de Thomaz de Mello Breyner",
@@ -2647,7 +2703,7 @@
 }
 },
 "11032": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "No País de Alice",
@@ -2673,7 +2729,7 @@
 }
 },
 "13434": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Salazar Não ia à Bola",
@@ -2699,7 +2755,7 @@
 }
 },
 "11348": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Elogio da Paixão",
@@ -2725,7 +2781,7 @@
 }
 },
 "11189": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Do Bairro",
@@ -2751,7 +2807,7 @@
 }
 },
 "14159": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Naçara: Uma e Outra Vez",
@@ -2777,7 +2833,7 @@
 }
 },
 "14151": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Mundo de Irreversível",
@@ -2803,7 +2859,7 @@
 }
 },
 "13932": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Alexandria",
@@ -2836,7 +2892,7 @@
 }
 },
 "13631": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mesa Portuguesa... com Estrelas Com Certeza!",
@@ -2875,7 +2931,7 @@
 }
 },
 "13924": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugal de... Best Of",
@@ -2901,7 +2957,7 @@
 }
 },
 "10172": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Este é o Meu Corpo - Mutilação Genital Feminina",
@@ -2927,7 +2983,7 @@
 }
 },
 "13397": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Os Sobreviventes no Zoo",
@@ -2953,7 +3009,7 @@
 }
 },
 "8080": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Romaria do Meu Coração",
@@ -2979,7 +3035,7 @@
 }
 },
 "14697": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Fanny e a Melancolia",
@@ -3005,7 +3061,7 @@
 }
 },
 "11005": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "50 | 50",
@@ -3031,7 +3087,7 @@
 }
 },
 "10476": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Carlos Lopes - O Homem da Maratona",
@@ -3057,7 +3113,7 @@
 }
 },
 "13721": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Rosas de Ermera (Filme)",
@@ -3083,7 +3139,7 @@
 }
 },
 "13698": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Viagem ao Centro da Minha Terra: Especial Santos Populares",
@@ -3109,7 +3165,7 @@
 }
 },
 "10004": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Terra: Histórias da Cerâmica",
@@ -3135,7 +3191,7 @@
 }
 },
 "13186": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Vinho, O Sangue da Terra",
@@ -3161,7 +3217,7 @@
 }
 },
 "13366": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "... E Antes de Abril?",
@@ -3187,7 +3243,7 @@
 }
 },
 "13170": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Vinhos com História",
@@ -3213,7 +3269,7 @@
 }
 },
 "13273": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Os Olhos da Revolução",
@@ -3239,7 +3295,7 @@
 }
 },
 "5993": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Salgueiro Maia - Rumo à Eternidade",
@@ -3265,7 +3321,7 @@
 }
 },
 "11508": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "José Medeiros Ferreira: Um Pensamento Cintilante",
@@ -3291,7 +3347,7 @@
 }
 },
 "8818": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Maria Helena Mendes Pinto - Uma Vida nas Artes Decorativas em Portugal",
@@ -3317,7 +3373,7 @@
 }
 },
 "13161": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Viva a Democracia - 50 Anos e o Futuro",
@@ -3343,7 +3399,7 @@
 }
 },
 "12233": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugal de...",
@@ -3369,7 +3425,7 @@
 }
 },
 "7273": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugu Esses",
@@ -3395,7 +3451,7 @@
 }
 },
 "11787": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Tribunal Constitucional: 40 Anos a Cumprir o Futuro",
@@ -3421,7 +3477,7 @@
 }
 },
 "12437": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Primeiro Estranha Depois Entranha",
@@ -3447,7 +3503,7 @@
 }
 },
 "12781": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Museu da Presidência da República",
@@ -3473,7 +3529,7 @@
 }
 },
 "12617": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Um Corpo que Dança - Ballet Gulbenkian 1965-2005",
@@ -3499,7 +3555,7 @@
 }
 },
 "12293": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Raízes e Frutos",
@@ -3525,7 +3581,7 @@
 }
 },
 "9038": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Bem Bom - Realidade e Ficção",
@@ -3551,7 +3607,7 @@
 }
 },
 "12427": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Pobreza Zero - O Futuro a Construir",
@@ -3577,7 +3633,7 @@
 }
 },
 "7749": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Torres & Cometas",
@@ -3603,7 +3659,7 @@
 }
 },
 "10171": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Carnaval Guiné-Bissau - Do Auge ao Resgate",
@@ -3629,7 +3685,7 @@
 }
 },
 "12231": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Vida é um Autocarro Vazio",
@@ -3655,7 +3711,7 @@
 }
 },
 "12107": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Destino: Portugal",
@@ -3681,7 +3737,7 @@
 }
 },
 "6866": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Resistir à Cegueira do Mundo - Eduardo Prado Coelho",
@@ -3707,7 +3763,7 @@
 }
 },
 "12035": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Salto Mortal",
@@ -3733,7 +3789,7 @@
 }
 },
 "11662": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Conceição Matos: Coragem Hoje, Abraços Amanhã",
@@ -3759,7 +3815,7 @@
 }
 },
 "8946": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Bom Jesus do Monte",
@@ -3785,7 +3841,7 @@
 }
 },
 "11945": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugal, Uma Casa Para Todos",
@@ -3818,7 +3874,7 @@
 }
 },
 "11935": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Fajãs do Tempo",
@@ -3844,7 +3900,7 @@
 }
 },
 "11933": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Ecos da Terra",
@@ -3870,7 +3926,7 @@
 }
 },
 "11870": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Pão que o Diabo Amassou",
@@ -3896,7 +3952,7 @@
 }
 },
 "11840": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Prisioneiros de Guerra",
@@ -3922,7 +3978,7 @@
 }
 },
 "11795": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Uma Cidade Imaginada",
@@ -3948,7 +4004,7 @@
 }
 },
 "11589": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Impressões do Oriente: As Viagens de Fernão Mendes Pinto de Goa a Malaca",
@@ -3974,7 +4030,7 @@
 }
 },
 "9539": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Arte da Cura",
@@ -4000,7 +4056,7 @@
 }
 },
 "9030": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Vida e Obra de José Luís Tinoco",
@@ -4026,7 +4082,7 @@
 }
 },
 "10459": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Laurinha",
@@ -4052,7 +4108,7 @@
 }
 },
 "8322": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Nada Será Como Dante",
@@ -4091,7 +4147,7 @@
 }
 },
 "8001": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Encontro D´Águas - Segredos da Ria e do Baixo Vouga Lagunar",
@@ -4117,7 +4173,7 @@
 }
 },
 "8366": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "João Villaret - O Domador da Voz",
@@ -4143,7 +4199,7 @@
 }
 },
 "8602": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Maria Gabriela Llansol - Um Olhar Intenso Pode Incendiar o Texto",
@@ -4169,7 +4225,7 @@
 }
 },
 "10829": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Viagem a Portugal",
@@ -4195,7 +4251,7 @@
 }
 },
 "10795": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Longevidade - Desafios Económicos e Sociais",
@@ -4228,7 +4284,7 @@
 }
 },
 "10770": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Heróis Olímpicos",
@@ -4254,7 +4310,7 @@
 }
 },
 "10769": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "12 de Outubro de 1972: O Dia em que Perdemos o Medo",
@@ -4280,7 +4336,7 @@
 }
 },
 "10660": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Laji, Histórias de Refugiados em Portugal",
@@ -4306,7 +4362,7 @@
 }
 },
 "10630": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Únicos & Singulares",
@@ -4332,7 +4388,7 @@
 }
 },
 "9366": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Francisco Lyon de Castro: Maior que a Censura",
@@ -4358,7 +4414,7 @@
 }
 },
 "10436": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Eunice & Ruy - Viagem ao Princípio",
@@ -4384,7 +4440,7 @@
 }
 },
 "10399": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Lisboa: Cidade Triste e Alegre",
@@ -4410,7 +4466,7 @@
 }
 },
 "10368": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Isabel II e Portugal",
@@ -4436,7 +4492,7 @@
 }
 },
 "2958": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Uma Montanha do Tamanho do Homem",
@@ -4462,7 +4518,7 @@
 }
 },
 "10262": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Compositores Portugueses Contemporâneos: António Ferreira dos Santos",
@@ -4488,7 +4544,7 @@
 }
 },
 "10252": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Juventudes",
@@ -4514,7 +4570,7 @@
 }
 },
 "10170": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Bonecreiros da Folia",
@@ -4540,7 +4596,7 @@
 }
 },
 "10174": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Fundação Inatel - Uma Longa História (Versão 60´)",
@@ -4566,7 +4622,7 @@
 }
 },
 "9808": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "As Coisas em Volta: A Vida Misteriosa dos Objectos",
@@ -4592,7 +4648,7 @@
 }
 },
 "8458": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Ni Hao China",
@@ -4618,7 +4674,7 @@
 }
 },
 "9614": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Jornal do Fundão: O Sonho e as Causas",
@@ -4644,7 +4700,7 @@
 }
 },
 "9732": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "António Coimbra de Matos: O Olhar Nos Outros",
@@ -4670,7 +4726,7 @@
 }
 },
 "9694": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Beatriz Costa: A Alegria é a Minha Religião",
@@ -4696,7 +4752,7 @@
 }
 },
 "9402": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Soa",
@@ -4722,7 +4778,7 @@
 }
 },
 "9398": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Future Makers",
@@ -4748,7 +4804,7 @@
 }
 },
 "9267": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Elogio da Luz",
@@ -4774,7 +4830,7 @@
 }
 },
 "9305": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "História do Teatro de Revista em Portugal - A Revista após o 25 de Abril de 1974",
@@ -4800,7 +4856,7 @@
 }
 },
 "9338": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Há 100 Anos, A Seara Nova",
@@ -4826,7 +4882,7 @@
 }
 },
 "9099": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Seis Décadas de Televisão (Minidocs)",
@@ -4852,7 +4908,7 @@
 }
 },
 "9197": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Na Rota dos Vinhos da Ilha do Pico",
@@ -4878,7 +4934,7 @@
 }
 },
 "8795": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Bow",
@@ -4904,7 +4960,7 @@
 }
 },
 "8940": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Começar de Novo",
@@ -4930,7 +4986,7 @@
 }
 },
 "9043": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sou Autor do Meu Nome - Mia Couto",
@@ -4956,7 +5012,7 @@
 }
 },
 "9013": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Selvagens",
@@ -4982,7 +5038,7 @@
 }
 },
 "8451": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Iron Brothers - Irmandade de Ferro",
@@ -5008,7 +5064,7 @@
 }
 },
 "8943": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Bairro Português de Malaca",
@@ -5034,7 +5090,7 @@
 }
 },
 "8902": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mulheres em Portugal",
@@ -5060,7 +5116,7 @@
 }
 },
 "8868": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Senhora Dona Amélia",
@@ -5086,7 +5142,7 @@
 }
 },
 "8770": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mulheres na Resistência",
@@ -5112,7 +5168,7 @@
 }
 },
 "4648": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Sim, Eu Consigo - Ayham - My New Life",
@@ -5138,7 +5194,7 @@
 }
 },
 "8072": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Nós, Portugueses - Um Futuro por Desenhar",
@@ -5164,7 +5220,7 @@
 }
 },
 "6943": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Fabrico Internacional",
@@ -5190,7 +5246,7 @@
 }
 },
 "8028": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Migradores de Longa Distância: Entre o Tejo e o Ártico",
@@ -5216,7 +5272,7 @@
 }
 },
 "7665": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Francisco de Holanda - A Luz Esquecida do Renascimento",
@@ -5242,7 +5298,7 @@
 }
 },
 "7607": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Escolha Impossível",
@@ -5268,7 +5324,7 @@
 }
 },
 "7594": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Hotéis com História",
@@ -5294,7 +5350,7 @@
 }
 },
 "7360": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Príncipes do Nada",
@@ -5327,7 +5383,7 @@
 }
 },
 "7368": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Leva-me Contigo - O Documentário",
@@ -5353,7 +5409,7 @@
 }
 },
 "6274": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Enviado Especial",
@@ -5379,7 +5435,7 @@
 }
 },
 "6910": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "À Procura da Moça Dorita",
@@ -5405,7 +5461,7 @@
 }
 },
 "6919": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Carquejeiras - As Escravas do Porto",
@@ -5431,7 +5487,7 @@
 }
 },
 "7056": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Das Pedras Fez-se Terra: Histórias da Beira Baixa",
@@ -5457,7 +5513,7 @@
 }
 },
 "7020": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Acima das Nossas Possibilidades",
@@ -5483,7 +5539,7 @@
 }
 },
 "6829": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Nós, Portugueses - Nascer Para Não Morrer",
@@ -5509,7 +5565,7 @@
 }
 },
 "6729": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Júlio Isidro - 60 Anos de Televisão",
@@ -5535,7 +5591,7 @@
 }
 },
 "6668": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Beautiful Madeira",
@@ -5561,7 +5617,7 @@
 }
 },
 "4677": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Portugueses pelo Mundo",
@@ -5594,7 +5650,7 @@
 }
 },
 "6252": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Voz do Operário",
@@ -5620,7 +5676,7 @@
 }
 },
 "6110": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Ole António Ole",
@@ -5646,7 +5702,7 @@
 }
 },
 "5545": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Cesina Bermudes - Uma Vida Só Não Basta",
@@ -5672,7 +5728,7 @@
 }
 },
 "4680": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Tarrafal",
@@ -5698,7 +5754,7 @@
 }
 },
 "5900": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Ilhas da Macaronésia (Madeira e Cabo Verde)",
@@ -5724,7 +5780,7 @@
 }
 },
 "1687": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Povo Que Ainda Canta",
@@ -5750,7 +5806,7 @@
 }
 },
 "5584": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "À Procura de António Botto",
@@ -5776,7 +5832,7 @@
 }
 },
 "1786": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Palcos Agora - Conhecer a Fundação Eugénio de Almeida em Évora",
@@ -5802,7 +5858,7 @@
 }
 },
 "4488": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Rosas de Ermera",
@@ -5828,7 +5884,7 @@
 }
 },
 "4533": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Arquiteto de Lisboa: Pardal Monteiro",
@@ -5854,7 +5910,7 @@
 }
 },
 "1522": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mulheres de Abril",
@@ -5880,7 +5936,7 @@
 }
 },
 "3438": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Voz e os Ouvidos do MFA",
@@ -5906,7 +5962,7 @@
 }
 },
 "3436": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Quando a Tropa Mandou na RTP",
@@ -5932,7 +5988,7 @@
 }
 },
 "3477": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "O Papa Que Veio do Sul",
@@ -5958,7 +6014,7 @@
 }
 },
 "2576": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Camilo de Oliveira",
@@ -5984,7 +6040,7 @@
 }
 },
 "2148": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Love Me Love Me Not",
@@ -6010,7 +6066,7 @@
 }
 },
 "2130": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Parque da Pena",
@@ -6036,7 +6092,7 @@
 }
 },
 "2095": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Show Me Lisbon",
@@ -6062,7 +6118,7 @@
 }
 },
 "15349": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Eunice Muñoz - Eu de Eunice",
@@ -6088,7 +6144,7 @@
 }
 },
 "1948": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Mundo dos Sentidos",
@@ -6114,7 +6170,7 @@
 }
 },
 "1926": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "Água Vai, Pedra Leva",
@@ -6140,7 +6196,7 @@
 }
 },
 "660": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "docs",
 "n": "A Casa e a Cidade",
@@ -6165,30 +6221,8 @@
 "xe": "The City after the City - This episode looks at the evolution of Portuguese urban space after the establishment of the democratic regime on 25 April…"
 }
 },
-"17167": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "film",
-"n": "Jogos de Traições",
-"u": "https://www.rtp.pt/play/p17167/e962962/jogos-de-traicoes",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 1,
-"c": "RTP1",
-"x": "Depois de sair da prisão, Rudy Duncan assume a identidade do seu falecido companheiro de cela para conhecer Ashley, com quem este mantinha uma relaç",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "Con Games",
-"xe": "After getting out of prison, Rudy Duncan takes on the identity of his deceased cellmate in order to meet Ashley, with whom he had been in a relation…"
-}
-},
 "7986": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Vida Invisível",
@@ -6210,7 +6244,7 @@
 }
 },
 "14889": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Motel Destino",
@@ -6221,8 +6255,8 @@
 "c": "RTP2",
 "x": "No nordeste brasileiro, nas imediações de uma cidade do Ceará, o Motel Destino é palco de jogos perigosos de desejo, poder e violência. Dayana vi",
 "xs": 0,
-"note": "",
-"tag": "",
+"note": "Brazilian film (Brazilian Portuguese)",
+"tag": "Brazilian Portuguese",
 "r": 0,
 "ok": 0,
 "pt": 1,
@@ -6232,7 +6266,7 @@
 }
 },
 "11632": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Sombra - Uma Mãe Sabe",
@@ -6254,7 +6288,7 @@
 }
 },
 "9155": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Uma Abelha na Chuva",
@@ -6275,30 +6309,8 @@
 "xe": "Maria dos Prazeres (Laura Soveral) and Álvaro Silvestre (João Guedes) are married and live in a rural community that they socially dominate. However, their rela…"
 }
 },
-"17214": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "film",
-"n": "Sob a Chama da Candeia",
-"u": "https://www.rtp.pt/play/p17214/e961377/sob-a-chama-da-candeia",
-"d": "18 out. 2026",
-"dk": "20261018",
-"e": 1,
-"c": "RTP2",
-"x": "Norte de Portugal. Uma casa de azulejos verdes, um jardim, uma magnólia. Quartos cheios de objetos de vidas ali passadas. Traços do tempo, gestos e ",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "Under the Flame of the Oil Lamp",
-"xe": "Northern Portugal. A house with green tiles, a garden, a magnolia. Rooms full of objects from lives once lived there. Traces of time, gestures and…"
-}
-},
 "6242": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Sul",
@@ -6320,7 +6332,7 @@
 }
 },
 "13855": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Palavra Mágica",
@@ -6342,7 +6354,7 @@
 }
 },
 "11595": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Vencidos da Vida",
@@ -6364,7 +6376,7 @@
 }
 },
 "13120": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Pê",
@@ -6386,7 +6398,7 @@
 }
 },
 "16978": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Correr o Fado",
@@ -6408,7 +6420,7 @@
 }
 },
 "16957": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Teu Rosto Será o Último",
@@ -6430,7 +6442,7 @@
 }
 },
 "7347": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Pedro e Inês",
@@ -6452,7 +6464,7 @@
 }
 },
 "8208": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Ego de Egas",
@@ -6474,7 +6486,7 @@
 }
 },
 "8776": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Protagonista",
@@ -6496,7 +6508,7 @@
 }
 },
 "12558": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Nunca Nada Aconteceu",
@@ -6518,7 +6530,7 @@
 }
 },
 "9064": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Impossibilidade de Estar Só",
@@ -6540,7 +6552,7 @@
 }
 },
 "8807": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Uma Vida à Espera",
@@ -6562,7 +6574,7 @@
 }
 },
 "15991": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Idade da Pedra",
@@ -6584,7 +6596,7 @@
 }
 },
 "15954": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Sibila",
@@ -6606,7 +6618,7 @@
 }
 },
 "15725": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Minha Casinha",
@@ -6628,7 +6640,7 @@
 }
 },
 "15572": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Bela América",
@@ -6650,7 +6662,7 @@
 }
 },
 "15487": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "As Noites Ainda Cheiram a Pólvora",
@@ -6672,7 +6684,7 @@
 }
 },
 "13632": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "2 Duros de Roer",
@@ -6694,7 +6706,7 @@
 }
 },
 "13098": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "KM 224",
@@ -6716,7 +6728,7 @@
 }
 },
 "15074": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Excelência",
@@ -6738,7 +6750,7 @@
 }
 },
 "7707": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Uma SMS para Antígona",
@@ -6760,7 +6772,7 @@
 }
 },
 "15046": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Légua",
@@ -6782,7 +6794,7 @@
 }
 },
 "14992": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Anjo do Tesouro de Mafra",
@@ -6804,7 +6816,7 @@
 }
 },
 "14919": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Aplaudido Dramaturgo Curado Pelas Pílulas Pink",
@@ -6826,7 +6838,7 @@
 }
 },
 "14641": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Um Filme do Caraças",
@@ -6848,7 +6860,7 @@
 }
 },
 "14269": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Pôr do Sol - O Mistério do Colar de São Cajó",
@@ -6870,7 +6882,7 @@
 }
 },
 "2495": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Leão da Estrela - Minissérie",
@@ -6892,7 +6904,7 @@
 }
 },
 "12857": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Os Fotocines",
@@ -6914,7 +6926,7 @@
 }
 },
 "13943": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Anel",
@@ -6936,7 +6948,7 @@
 }
 },
 "13902": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Conto do Nadador",
@@ -6958,7 +6970,7 @@
 }
 },
 "13823": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Bully",
@@ -6980,7 +6992,7 @@
 }
 },
 "13828": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Ponte Atlântico",
@@ -7002,7 +7014,7 @@
 }
 },
 "13811": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Chefe do Meu Pai Era um Democrata e Ninguém Sabia",
@@ -7024,7 +7036,7 @@
 }
 },
 "12557": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Criança",
@@ -7046,7 +7058,7 @@
 }
 },
 "7747": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Praia da Amália",
@@ -7068,7 +7080,7 @@
 }
 },
 "13683": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Restos do Vento",
@@ -7090,7 +7102,7 @@
 }
 },
 "13612": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Curral de Moinas - Os Banqueiros do Povo",
@@ -7112,7 +7124,7 @@
 }
 },
 "13272": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Salgueiro Maia - O Implicado",
@@ -7134,7 +7146,7 @@
 }
 },
 "10828": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Cuba Libre nos Bastidores",
@@ -7156,7 +7168,7 @@
 }
 },
 "12186": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Abandonados",
@@ -7178,7 +7190,7 @@
 }
 },
 "12048": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Pôr do Sol - Episódio Especial Bloopers",
@@ -7200,7 +7212,7 @@
 }
 },
 "10580": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Uma Conversa em Família",
@@ -7222,7 +7234,7 @@
 }
 },
 "8764": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Variações",
@@ -7244,7 +7256,7 @@
 }
 },
 "10186": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Juventudes",
@@ -7266,7 +7278,7 @@
 }
 },
 "10062": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Máscara e as Aldeias",
@@ -7288,7 +7300,7 @@
 }
 },
 "9769": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Listen",
@@ -7310,7 +7322,7 @@
 }
 },
 "7017": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Djon Africa",
@@ -7332,7 +7344,7 @@
 }
 },
 "8204": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Próximo Futuro",
@@ -7354,7 +7366,7 @@
 }
 },
 "7314": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Escola das Artes",
@@ -7376,7 +7388,7 @@
 }
 },
 "7574": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Até que o Porno nos Separe",
@@ -7398,7 +7410,7 @@
 }
 },
 "3525": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Amor é Lindo... Porque Sim!",
@@ -7420,7 +7432,7 @@
 }
 },
 "3915": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "A Canção de Lisboa",
@@ -7442,7 +7454,7 @@
 }
 },
 "4132": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Pátio das Cantigas",
@@ -7464,7 +7476,7 @@
 }
 },
 "2534": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "O Pátio das Cantigas - Minissérie",
@@ -7486,7 +7498,7 @@
 }
 },
 "1886": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "film",
 "n": "Os Filhos do Rock - Making Of",
@@ -7508,7 +7520,7 @@
 }
 },
 "9023": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "food",
 "n": "Gastronomia Local",
@@ -7534,7 +7546,7 @@
 }
 },
 "7193": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "food",
 "n": "Chefs de Casa",
@@ -7560,7 +7572,7 @@
 }
 },
 "2545": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "food",
 "n": "Manual de Instruções",
@@ -7586,7 +7598,7 @@
 }
 },
 "2398": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "food",
 "n": "Na Cozinha com Henrique Sá Pessoa",
@@ -7611,8 +7623,34 @@
 "xe": "A series of 5 special episodes leading up to the launch of Henrique Sá Pessoa's new cookery project."
 }
 },
+"17167": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "foreign",
+"n": "Jogos de Traições",
+"u": "https://www.rtp.pt/play/p17167/e962962/jogos-de-traicoes",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 1,
+"c": "RTP1",
+"x": "Depois de sair da prisão, Rudy Duncan assume a identidade do seu falecido companheiro de cela para conhecer Ashley, com quem este mantinha uma relaç",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Con Games",
+"xe": "After getting out of prison, Rudy Duncan takes on the identity of his deceased cellmate in order to meet Ashley, with whom he had been in a relation…"
+}
+},
 "17296": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Beleza Colateral",
@@ -7638,7 +7676,7 @@
 }
 },
 "17297": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Sobretudo de Noite",
@@ -7664,7 +7702,7 @@
 }
 },
 "17253": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Beautiful Wedding: Um Casamento Maravilhoso",
@@ -7690,7 +7728,7 @@
 }
 },
 "17199": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Dalíland",
@@ -7716,7 +7754,7 @@
 }
 },
 "15493": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "A Febre",
@@ -7742,7 +7780,7 @@
 }
 },
 "16906": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Isto Não é a Suécia",
@@ -7768,7 +7806,7 @@
 }
 },
 "17008": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Zorras",
@@ -7794,7 +7832,7 @@
 }
 },
 "17001": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "A Idade da Ira",
@@ -7820,7 +7858,7 @@
 }
 },
 "16907": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Dezoito",
@@ -7846,7 +7884,7 @@
 }
 },
 "16905": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "HIT",
@@ -7872,7 +7910,7 @@
 }
 },
 "16926": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Népia",
@@ -7898,7 +7936,7 @@
 }
 },
 "15480": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Um Chá no Deserto",
@@ -7924,7 +7962,7 @@
 }
 },
 "16711": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Viciados",
@@ -7950,7 +7988,7 @@
 }
 },
 "16712": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Não Se Passa Nada",
@@ -7976,7 +8014,7 @@
 }
 },
 "16625": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Pequenos Reis",
@@ -8002,7 +8040,7 @@
 }
 },
 "16624": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Plano de Fuga",
@@ -8028,7 +8066,7 @@
 }
 },
 "16477": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Tu e Eu",
@@ -8054,7 +8092,7 @@
 }
 },
 "16573": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Em Fuga",
@@ -8080,7 +8118,7 @@
 }
 },
 "16570": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Depois da Festa",
@@ -8106,7 +8144,7 @@
 }
 },
 "16482": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "À Escuta",
@@ -8132,7 +8170,7 @@
 }
 },
 "16480": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Histórias Eróticas",
@@ -8158,7 +8196,7 @@
 }
 },
 "16479": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "As Golpistas",
@@ -8184,7 +8222,7 @@
 }
 },
 "16476": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Lindos de Morrer",
@@ -8210,7 +8248,7 @@
 }
 },
 "16270": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "O Casal da Porta ao Lado - Atração Fatal",
@@ -8236,7 +8274,7 @@
 }
 },
 "16269": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "O Casal da Porta ao Lado",
@@ -8262,7 +8300,7 @@
 }
 },
 "15980": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Somos As Lady Parts",
@@ -8295,7 +8333,7 @@
 }
 },
 "16035": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "O Corno do Centeio",
@@ -8321,7 +8359,7 @@
 }
 },
 "15981": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Tudo O Que Sei Sobre O Amor",
@@ -8347,7 +8385,7 @@
 }
 },
 "15870": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "foreign",
 "n": "Logout",
@@ -8372,14 +8410,40 @@
 "xe": "Giulia and Achille discover the hideout of the man who has been pursuing them from the start: Jezebel, a criminal who manipulates them from his bunker. After a confr…"
 }
 },
+"17150": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "fun",
+"n": "Break The Wall",
+"u": "https://www.rtp.pt/play/p17150/e963036/break-the-wall",
+"d": "26 out. 2026",
+"dk": "20261026",
+"e": 7,
+"c": "RTP2",
+"x": "Talk show visualmente imersivo que explora a literacia mediática e a memória histórica, conduzido por Tomás Duran…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+3,
+7
+],
+"ne": "Break The Wall",
+"xe": "A visually immersive talk show that explores media literacy and historical memory, hosted by Tomás Duran…"
+}
+},
 "16549": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Agarra-me Se Puderes",
-"u": "https://www.rtp.pt/play/p16549/e962529/agarra-me-se-puderes",
-"d": "23 out. 2026",
-"dk": "20261023",
+"u": "https://www.rtp.pt/play/p16549/e963051/agarra-me-se-puderes",
+"d": "26 out. 2026",
+"dk": "20261026",
 "e": 12,
 "c": "RTP1",
 "x": "O novo concurso da RTP com apresentação de José Pedro Vasconcelos…",
@@ -8391,41 +8455,15 @@
 "pt": 0,
 "more": [],
 "cov": [
-9,
+7,
 10
 ],
 "ne": "Catch Me If You Can",
 "xe": "RTP's new game show, presented by José Pedro Vasconcelos…"
 }
 },
-"16636": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "fun",
-"n": "Guarda-Roupa",
-"u": "https://www.rtp.pt/play/p16636/e961494/guarda-roupa",
-"d": "19 out. 2026",
-"dk": "20261019",
-"e": 12,
-"c": "RTP1",
-"x": "Um magazine onde a moda vive, inspira e se transforma, com apresentação de Sílvia Alberto…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-4,
-10
-],
-"ne": "Wardrobe",
-"xe": "A magazine program where fashion lives, inspires and transforms itself, presented by Sílvia Alberto…"
-}
-},
 "17048": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "The Floor",
@@ -8451,14 +8489,14 @@
 }
 },
 "15334": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "O Preço Certo",
 "u": "https://www.rtp.pt/play/p15334/e958325/o-preco-certo",
 "d": "05 out. 2026",
 "dk": "20261005",
-"e": 7,
+"e": 6,
 "c": "RTP1",
 "x": "No \"Preço Certo\", as emoções são garantidas!",
 "xs": 1,
@@ -8477,7 +8515,7 @@
 }
 },
 "15726": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Missão: 100% Português",
@@ -8503,7 +8541,7 @@
 }
 },
 "17153": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Caixa Alfama - Em Casa d´Amália ao Vivo",
@@ -8542,7 +8580,7 @@
 }
 },
 "16913": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Em Casa d´ Amália",
@@ -8581,7 +8619,7 @@
 }
 },
 "16775": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Porta Pró Milhão",
@@ -8607,7 +8645,7 @@
 }
 },
 "16661": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Herói Nacional",
@@ -8640,7 +8678,7 @@
 }
 },
 "16886": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "IPMA - International Portuguese Music Awards 2026",
@@ -8666,7 +8704,7 @@
 }
 },
 "16606": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Tradição Z",
@@ -8699,7 +8737,7 @@
 }
 },
 "16745": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Taskmaster - Melhores Momentos",
@@ -8738,7 +8776,7 @@
 }
 },
 "16438": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Taskmaster",
@@ -8771,7 +8809,7 @@
 }
 },
 "15601": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Joker",
@@ -8797,7 +8835,7 @@
 }
 },
 "16439": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Um Mundo na Aldeia",
@@ -8823,7 +8861,7 @@
 }
 },
 "16275": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Alguém Tem de o Fazer",
@@ -8856,7 +8894,7 @@
 }
 },
 "15902": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Rebobinar Portugal",
@@ -8882,7 +8920,7 @@
 }
 },
 "16036": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Taskmaster - Especial de Fim de Ano",
@@ -8908,7 +8946,7 @@
 }
 },
 "14673": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Em Casa d´ Amália - Brejão",
@@ -8934,7 +8972,7 @@
 }
 },
 "1399": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Portugueses Pelo Mundo - Especial Beirais",
@@ -8960,7 +8998,7 @@
 }
 },
 "9223": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Joga Quem Quizzer",
@@ -8986,7 +9024,7 @@
 }
 },
 "13306": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Mesa Portuguesa... com Estrelas Com Certeza! - Especial 1974",
@@ -9012,7 +9050,7 @@
 }
 },
 "12144": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Curral de Moinas - Os Banqueiros do Povo",
@@ -9038,7 +9076,7 @@
 }
 },
 "10389": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Depois, Vai-se a Ver e Nada",
@@ -9064,7 +9102,7 @@
 }
 },
 "2069": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Nelo & Idália",
@@ -9090,7 +9128,7 @@
 }
 },
 "9468": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Unidos ao Clube",
@@ -9123,7 +9161,7 @@
 }
 },
 "6631": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Ano em Revista 2019",
@@ -9149,7 +9187,7 @@
 }
 },
 "9531": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "#SÓQNÃO",
@@ -9188,7 +9226,7 @@
 }
 },
 "9165": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Pôr do Sol",
@@ -9214,7 +9252,7 @@
 }
 },
 "8194": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Patrulha da Noite - Especial",
@@ -9240,7 +9278,7 @@
 }
 },
 "7402": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Desliga a Televisão",
@@ -9266,7 +9304,7 @@
 }
 },
 "7647": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Eduardo Madeira Convida",
@@ -9292,7 +9330,7 @@
 }
 },
 "4249": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Janela Indiscreta",
@@ -9331,7 +9369,7 @@
 }
 },
 "4287": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Excursões Air Lino",
@@ -9357,7 +9395,7 @@
 }
 },
 "4460": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "1986",
@@ -9383,7 +9421,7 @@
 }
 },
 "2882": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "fun",
 "n": "Animais Anónimos",
@@ -9415,8 +9453,34 @@
 "xe": "Nuno Markl and Ana Galvão celebrating the love of pets…"
 }
 },
+"17322": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "intl",
+"n": "Floresta Selvagem",
+"u": "https://www.rtp.pt/play/p17322/e962783/floresta-selvagem",
+"d": "24 out. 2026",
+"dk": "20261024",
+"e": 1,
+"c": "RTP1",
+"x": "Os protagonistas deste documentário são os habitantes selvagens da Westerwald, a floresta ocidental da Alemanha. Alguns, como o picanço-de-dorso-ru",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Wild Forest",
+"xe": "The protagonists of this documentary are the wild inhabitants of the Westerwald, the western forest of Germany. Some, like the red-backed shrike, …"
+}
+},
 "17258": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Como Burlar Meio Mundo",
@@ -9442,7 +9506,7 @@
 }
 },
 "17135": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Castelos do Ar",
@@ -9475,7 +9539,7 @@
 }
 },
 "16492": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Expedição Quebeque-Labrador - No Rasto do Urso-Polar",
@@ -9501,7 +9565,7 @@
 }
 },
 "16774": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Espíritos do Deserto: Os Leões da Costa dos Esqueletos",
@@ -9527,7 +9591,7 @@
 }
 },
 "17281": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Austrália Tropical Original",
@@ -9553,7 +9617,7 @@
 }
 },
 "17304": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Estátua da Liberdade - Segredos de um Ícone",
@@ -9579,7 +9643,7 @@
 }
 },
 "17303": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Sozinho num Atol Secreto",
@@ -9605,7 +9669,7 @@
 }
 },
 "17302": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Vivam os Micróbios!",
@@ -9631,7 +9695,7 @@
 }
 },
 "17137": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Guerra Aérea - A História",
@@ -9657,7 +9721,7 @@
 }
 },
 "17264": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Catatuas-Negras em Risco de Vida",
@@ -9683,7 +9747,7 @@
 }
 },
 "16726": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "A Guerra dos Mundos: O Romance Profético",
@@ -9709,7 +9773,7 @@
 }
 },
 "17260": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "O Negócio do ADN - O Novo Eldorado",
@@ -9735,7 +9799,7 @@
 }
 },
 "17142": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Homo Gastronomicus - Redescobrir o Sabor",
@@ -9761,7 +9825,7 @@
 }
 },
 "17209": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Ibéria: Uma Terra de Paixões",
@@ -9787,7 +9851,7 @@
 }
 },
 "17206": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Atenas: Berço da Democracia",
@@ -9813,7 +9877,7 @@
 }
 },
 "17138": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Mao: Vida e Legado",
@@ -9839,7 +9903,7 @@
 }
 },
 "17134": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "O Vivente",
@@ -9865,7 +9929,7 @@
 }
 },
 "17169": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Viva Varda!",
@@ -9891,7 +9955,7 @@
 }
 },
 "17136": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Renoir, A Ode ao Amor",
@@ -9917,7 +9981,7 @@
 }
 },
 "15137": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Segredos das Casas e Jardins Históricos da Grã-Bretanha",
@@ -9950,7 +10014,7 @@
 }
 },
 "16964": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Uma Vida em Dez Imagens",
@@ -9976,7 +10040,7 @@
 }
 },
 "16560": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Cidades de Ouro: O Grande Mal-Entendido",
@@ -10002,7 +10066,7 @@
 }
 },
 "15809": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Fronteiras da História",
@@ -10028,7 +10092,7 @@
 }
 },
 "16399": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "A Viagem de Ulisses no Mediterrâneo",
@@ -10054,7 +10118,7 @@
 }
 },
 "16937": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "A Verdade Nua e Crua",
@@ -10080,7 +10144,7 @@
 }
 },
 "16643": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "A Origem das Motas",
@@ -10106,7 +10170,7 @@
 }
 },
 "16557": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Os Rosenberg: Espiões Atómicos",
@@ -10132,7 +10196,7 @@
 }
 },
 "16617": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "De Istambul ao Cairo: Mil e Uma Maneiras de Ser Moderno",
@@ -10158,7 +10222,7 @@
 }
 },
 "16554": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Os Últimos Segredos da Humanidade",
@@ -10183,34 +10247,8 @@
 "xe": "An epic journey spanning more than a million years of Asian prehistory, through stunning landscapes, from the borders of Mong…"
 }
 },
-"16146": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "intl",
-"n": "Renascimento: Sangue e Beleza",
-"u": "https://www.rtp.pt/play/p16146/e945250/renascimento-sangue-e-beleza",
-"d": "28 jul. 2026",
-"dk": "20260728",
-"e": 1,
-"c": "RTP2",
-"x": "Redenção - A rivalidade entre Michelangelo e Rafael atinge novos patamares em Roma, enquanto um violento cisma religioso envolve a Europa e faz com ",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Renaissance: Blood and Beauty",
-"xe": "Redemption - The rivalry between Michelangelo and Raphael reaches new heights in Rome, while a violent religious schism engulfs Europe and causes…"
-}
-},
 "16966": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "O Grande Nevoeiro",
@@ -10236,7 +10274,7 @@
 }
 },
 "16918": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "As Últimas Pegadas do Neandertal",
@@ -10262,7 +10300,7 @@
 }
 },
 "16449": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "A Ilha dos Museus de Berlim: A História de uma Nação",
@@ -10288,7 +10326,7 @@
 }
 },
 "16447": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Ilhas Japonesas Vistas do Ar",
@@ -10314,7 +10352,7 @@
 }
 },
 "16694": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Como o Dinheiro Moldou o Mundo",
@@ -10340,7 +10378,7 @@
 }
 },
 "16372": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Camboja Visto do Céu",
@@ -10366,7 +10404,7 @@
 }
 },
 "15193": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Sussex, a Joia de Inglaterra",
@@ -10392,7 +10430,7 @@
 }
 },
 "16015": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "A Maldição do Açúcar",
@@ -10418,7 +10456,7 @@
 }
 },
 "15174": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Supercidade: Banguecoque",
@@ -10444,7 +10482,7 @@
 }
 },
 "15638": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Ida Lupino: A Noiva Rebelde de Hollywood",
@@ -10470,7 +10508,7 @@
 }
 },
 "15177": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Supercidade: Tóquio",
@@ -10496,7 +10534,7 @@
 }
 },
 "12990": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Cidades Impossíveis",
@@ -10522,7 +10560,7 @@
 }
 },
 "14482": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Timex: Uma Revolução Por Contar",
@@ -10548,7 +10586,7 @@
 }
 },
 "10836": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Distopia",
@@ -10574,7 +10612,7 @@
 }
 },
 "13562": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Havana de Padura",
@@ -10600,7 +10638,7 @@
 }
 },
 "10193": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "No Reino do Dragão",
@@ -10626,7 +10664,7 @@
 }
 },
 "8670": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Big Cities",
@@ -10652,7 +10690,7 @@
 }
 },
 "7391": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "intl",
 "n": "Megaoperação",
@@ -10677,17 +10715,17 @@
 "xe": "More than designing infrastructure, engineering is about building dreams, overcoming obstacles, and having the ambition to grow and go further. …"
 }
 },
-"13864": {
-"last_seen": "2026-10-26",
+"3280": {
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
-"n": "O Leonel das Moscas",
-"u": "https://www.rtp.pt/play/zigzag/p13864/e963020/o-leonel-das-moscas",
-"d": "26 out. 2026",
-"dk": "20261026",
+"n": "A Grande Descoberta",
+"u": "https://www.rtp.pt/play/zigzag/p3280/e951176/whats-the-big-idea",
+"d": "27 out. 2026",
+"dk": "20261027",
 "e": 0,
 "c": "RTP Zig Zag",
-"x": "Acompanha as aventuras de Leonel, uma mosca doméstica e filho do meio de muitos irmãos. Lloyd mora com os seus pais, a sua irmãzinha e os seus irmãos larvas dentro de um compostor a que chamam lar. Leonel e a sua irmãzinha vivem grandes aventuras com os seus amigos ao explorar o estranho mundo para lá do compostor, onde não faltam lições para Lloyd aprender... Quase!",
+"x": "Uma série infantil sobre emoções e sentimentos baseada na obra \"O Livro dos Grandes Opostos Filosóficos\" de Oscar Brenifier e Jacques Després Quem sou eu? O que sou eu? Quando eu acordar de manhã estará o mundo exatamente igual como eu o deixei na noite passada? O que é um amigo ou um animal de estimação? Serei apenas pequeno por comparação com algo maior, porque brinco ou choro ou faço perguntas?",
 "xs": 1,
 "note": "",
 "tag": "",
@@ -10696,21 +10734,21 @@
 "pt": 1,
 "more": [],
 "cov": [
-9,
-10
+1,
+1
 ],
-"ne": "Leonel the Fly",
-"xe": "Follow the adventures of Leonel, a housefly and the middle child of many siblings. Lloyd lives with his parents, his little sister and his larva brothers inside a compost bin they call home. Leonel and his little sister have great adventures with their friends as they explore the strange world beyond the compost bin, where there are plenty of lessons for Lloyd to learn... Almost!"
+"ne": "The Great Discovery",
+"xe": "A children's series about emotions and feelings based on the work \"The Book of Great Philosophical Opposites\" by Oscar Brenifier and Jacques Després. Who am I? What am I? When I wake up in the morning, will the world be exactly the same as I left it last night? What is a friend or a pet? Am I only small by comparison with something bigger, because I play or cry or ask questions?"
 }
 },
 "9289": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sempre Atrasados",
-"u": "https://www.rtp.pt/play/zigzag/p9289/e963019/nate-is-late",
-"d": "26 out. 2026",
-"dk": "20261026",
+"u": "https://www.rtp.pt/play/zigzag/p9289/e963292/nate-is-late",
+"d": "27 out. 2026",
+"dk": "20261027",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Nuno e Malika vivem grandes aventuras a caminho da escola e, por isso, chegam sempre atrasados! Todas as manhãs, Nuno e Malika fazem o mesmo caminho para a escola. E, no entanto, eles chegam sempre atrasados! Isso acontece porque, pelo caminho, envolvem-se em aventuras extraordinárias! Mas Prudence, a diretora da escola, nunca acredita numa única palavra das suas extraordinárias histórias...",
@@ -10730,13 +10768,13 @@
 }
 },
 "12334": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Mouk",
-"u": "https://www.rtp.pt/play/zigzag/p12334/e963105/mouk",
-"d": "26 out. 2026",
-"dk": "20261026",
+"u": "https://www.rtp.pt/play/zigzag/p12334/e963282/mouk",
+"d": "27 out. 2026",
+"dk": "20261027",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Mouk e Chavapa, os nossos viajantes globais, continuam vivem novas aventuras a viajar de bicicleta pelo mundo! Da Espanha à Rússia, da Mongólia à Turquia, passando pelo Butão, estes dois nossos amigos conhecem habitantes de todo o planeta. Sobe numa bicicleta e junta-te a eles para descobrires um mundo realista, moderno e colorido! Pessoas incríveis, paisagens inacreditáveis e costumes desconhecid…",
@@ -10756,13 +10794,13 @@
 }
 },
 "11989": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Pirata & Capitão",
-"u": "https://www.rtp.pt/play/zigzag/p11989/e963107/pirata-capitao",
-"d": "26 out. 2026",
-"dk": "20261026",
+"u": "https://www.rtp.pt/play/zigzag/p11989/e963281/pirata-capitao",
+"d": "27 out. 2026",
+"dk": "20261027",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Não há nada melhor que ser pirata e capitão! Ser pirata e capitão é uma busca sem fim por tesouros, viver grandes aventuras, diversão e espírito de equipa.",
@@ -10782,14 +10820,14 @@
 }
 },
 "13503": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Jasmine e Jambo",
-"u": "https://www.rtp.pt/play/p13503/e963013/jasmine-e-jambo",
-"d": "26 out. 2026",
-"dk": "20261026",
-"e": 3,
+"u": "https://www.rtp.pt/play/p13503/e963275/jasmine-e-jambo",
+"d": "27 out. 2026",
+"dk": "20261027",
+"e": 4,
 "c": "RTP2",
 "x": "Jasmine e Jambo são loucos por música…",
 "xs": 1,
@@ -10800,180 +10838,24 @@
 "pt": 1,
 "more": [],
 "cov": [
-3,
-3
+4,
+4
 ],
 "ne": "Jasmine and Jambo",
 "xe": "Jasmine and Jambo are crazy about music…"
 }
 },
-"13602": {
-"last_seen": "2026-10-26",
+"17339": {
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
-"n": "Vizinhos da Realeza",
-"u": "https://www.rtp.pt/play/zigzag/p13602/e962927/vizinhos-da-realeza",
-"d": "25 out. 2026",
-"dk": "20261025",
+"n": "Descomplica",
+"u": "https://www.rtp.pt/play/zigzag/p17339/e963045/descomplica",
+"d": "26 out. 2026",
+"dk": "20261026",
 "e": 0,
 "c": "RTP Zig Zag",
-"x": "A Princesa Stella acaba de receber a melhor notícia de todas! Devido aos danos causados ??por uma inundação no castelo, a família real terá de mudar de residência. A Rainha Kat vê esta situação como a oportunidade perfeita para se modernizar. De acordo com o lema real do Rei Bob, \"Mais perto das pessoas\", eles decidem morar numa casa normal num subúrbio comum. É hora de mostrar ao povo que a famíl…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-2,
-2
-],
-"ne": "Royal Neighbors",
-"xe": "Princess Stella has just received the best news of all! Due to damage caused by a flood in the castle, the royal family will have to move house. Queen Kat sees this situation as the perfect opportunity to modernise. In keeping with King Bob's royal motto, \"Closer to the people\", they decide to live in an ordinary house in an ordinary suburb. It's time to show the people that the fam…"
-}
-},
-"17341": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "kids",
-"n": "Da Vinci - O Grande Inventor",
-"u": "https://www.rtp.pt/play/zigzag/p17341/e962939/da-vinci-o-grande-inventor",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Jim Capobianco dá vida ao universo de Leonardo da Vinci em \"Da Vinci - O Grande Inventor\", uma longa-metragem de animação que combina marionetas em stop motion com animação 2D desenhada à mão Jim Capobianco dá vida ao universo de Leonardo da Vinci num novo filme de animação para toda a família, que combina marionetas em stop motion, num estilo visual singular, com animação 2D desenhada à mão. Desc…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Da Vinci - The Great Inventor",
-"xe": "Jim Capobianco brings the world of Leonardo da Vinci to life in \"Da Vinci - The Great Inventor,\" a feature-length animated film that combines stop-motion puppets with hand-drawn 2D animation. Jim Capobianco brings the world of Leonardo da Vinci to life in a new animated film for the whole family, which combines stop-motion puppets, in a unique visual style, with hand-drawn 2D animation. Desc…"
-}
-},
-"15890": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "kids",
-"n": "Leo da Vinci",
-"u": "https://www.rtp.pt/play/zigzag/p15890/e962925/leo-da-vinci",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Leo da Vinci está de volta para mais aventuras emocionantes com os seus amigos, desta vez em busca do rubi mais deslumbrante e misterioso do mundo! O fenomenal menino-génio está de volta para mais aventuras emocionantes com os seus amigos, enquanto se envolvem numa missão emocionante e perigosa para localizar o rubi mais deslumbrante e misterioso do mundo, revelado por Marco Polo nas suas Viagens.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-10,
-10
-],
-"ne": "Leo da Vinci",
-"xe": "Leo da Vinci is back for more exciting adventures with his friends, this time in search of the most dazzling and mysterious ruby in the world! The phenomenal boy genius is back for more exciting adventures with his friends, as they get involved in an exciting and dangerous mission to locate the most dazzling and mysterious ruby in the world, revealed by Marco Polo in his Travels."
-}
-},
-"13603": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "kids",
-"n": "O Refúgio da Audrey",
-"u": "https://www.rtp.pt/play/zigzag/p13603/e962924/audreys-shelter",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Junta-te à aventura! Este é o refúgio da Audrey! Audrey, uma menina de 8 anos, mora num refúgio para espécies ameaçadas de extinção gerida pela sua família. Ela sabe por experiência própria que gerir um refúgio para animais selvagens não é uma tarefa fácil, mas sabe que vale muito a pena! Basta um pouco de empatia e um grande senso de humor. Desde descobrir como fazer um bebé rinoceronte feliz até…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-9,
-10
-],
-"ne": "Audrey's Sanctuary",
-"xe": "Join the adventure! This is Audrey's sanctuary! Audrey, an 8-year-old girl, lives in a sanctuary for endangered species run by her family. She knows from experience that running a wildlife sanctuary is not an easy task, but she knows it's well worth it! All it takes is a little empathy and a great sense of humor. From figuring out how to make a baby rhino happy to…"
-}
-},
-"8699": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "kids",
-"n": "Power Players",
-"u": "https://www.rtp.pt/play/zigzag/p8699/e962922/power-players",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Axel consegue fazer uma coisa que muitos meninos também gostariam: consegue transformar-se num mini super-herói! Axel é um menino de 9 anos que pode transformar-se num brinquedo vivo! Com a sua impressionante altura de brinquedo de 20 cm, este mini super-herói lidera um esquadrão de coloridos brinquedos animados.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 0,
-"more": [],
-"cov": [
-2,
-2
-],
-"ne": "Power Players",
-"xe": "Axel can do something many boys would also like to do: he can turn into a mini superhero! Axel is a 9-year-old boy who can turn into a living toy! At an impressive toy height of 20 cm, this mini superhero leads a squad of colorful animated toys."
-}
-},
-"14751": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "kids",
-"n": "Pompon, O Pequeno Urso",
-"u": "https://www.rtp.pt/play/zigzag/p14751/e962919/pompon-o-pequeno-urso",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "Pompon",
-"x": "Pompon é um ursinho de 6 anos travesso, alegre e brincalhão, com um talento incrível e precioso Na idade de um ursinho de pelúcia, Pompon tem 6 anos. Ele é travesso, alegre e brincalhão, mas acima de tudo, tem um talento incrível e precioso que faz a alegria da sua melhor amiga Rita e dos seus pais: ele sabe fazer algo extraordinário com algo comum... Graças às mil reviravoltas que a sua imaginaçã…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-2,
-2
-],
-"ne": "Pompon, the Little Bear",
-"xe": "Pompon is a mischievous, cheerful and playful 6-year-old little bear with an incredible and precious talent. At teddy bear age, Pompon is 6 years old. He is mischievous, cheerful and playful, but above all, he has an incredible and precious talent that brings joy to his best friend Rita and her parents: he can make something extraordinary out of something ordinary... Thanks to the countless twists his imaginatio…"
-}
-},
-"14897": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "kids",
-"n": "Petit",
-"u": "https://www.rtp.pt/play/zigzag/p14897/e962877/petit",
-"d": "24 out. 2026",
-"dk": "20261024",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Descobre a perspetiva única e imaginativa de Petit sobre situações do quotidiano que se transformam em aventuras fantásticas que ele irá viver, juntamente com os seus amigos. Baseado no premiado livro \"Petit El Monstruo\" de Isol.",
+"x": "Se gostas de saber como funciona o mundo que te rodeia, o teu corpo e as emoções do dia a dia, junta-te à equipa \"Descomplica\"! Porque é que as coisas caem ao chão? O nosso corpo tem vontade de se mexer quando ouvimos música, mas porquê? Afinal de que é feito o Sol? E porque é que ficamos doentes? Estas e muitas mais perguntas... Queres descobrir as respostas? Se gostas de saber como funciona o mu…",
 "xs": 1,
 "note": "",
 "tag": "",
@@ -10983,20 +10865,20 @@
 "more": [],
 "cov": [
 1,
-1
+2
 ],
-"ne": "Petit",
-"xe": "Discover Petit's unique and imaginative view of everyday situations that turn into the fantastic adventures he will live through, together with his friends. Based on the award-winning book \"Petit El Monstruo\" by Isol."
+"ne": "Simplify It",
+"xe": "If you like knowing how the world around you works, your body and everyday emotions, join the \"Descomplica\" team! Why do things fall to the ground? Our body feels like moving when we hear music, but why? What is the Sun actually made of? And why do we get sick? These and many more questions... Do you want to find out the answers? If you like knowing how the wor…"
 }
 },
 "14029": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Academia de Super-Heróis",
-"u": "https://www.rtp.pt/play/zigzag/p14029/e962483/academia-de-super-herois",
-"d": "23 out. 2026",
-"dk": "20261023",
+"u": "https://www.rtp.pt/play/zigzag/p14029/e963031/academia-de-super-herois",
+"d": "26 out. 2026",
+"dk": "20261026",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "A nova temporada traz um ano letivo inesquecivelmente agitado na Academia de Super-Heróis! É um novo ano letivo na Academia de Super-Heróis! Os novos alunos do primeiro ano estão prestes a enfrentar uma série de desafios. Quem irá passar o feriado de Natal sozinho na escola? Como poderão os alunos salvar um hamster imortal sequestrado? E é possível apaixonarmo-nos na sexta-feira 13? Enquanto isso…",
@@ -11022,8 +10904,190 @@
 "xe": "The new season brings an unforgettably busy school year at the Superhero Academy! It's a new school year at the Superhero Academy! The new first-year students are about to face a series of challenges. Who will spend the Christmas holidays alone at school? How can the students save a kidnapped immortal hamster? And is it possible to fall in love on Friday the 13th? Meanwhile…"
 }
 },
+"13602": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "Vizinhos da Realeza",
+"u": "https://www.rtp.pt/play/zigzag/p13602/e962927/vizinhos-da-realeza",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "A Princesa Stella acaba de receber a melhor notícia de todas! Devido aos danos causados ??por uma inundação no castelo, a família real terá de mudar de residência. A Rainha Kat vê esta situação como a oportunidade perfeita para se modernizar. De acordo com o lema real do Rei Bob, \"Mais perto das pessoas\", eles decidem morar numa casa normal num subúrbio comum. É hora de mostrar ao povo que a famíl…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Royal Neighbors",
+"xe": "Princess Stella has just received the best news of all! Due to damage caused by a flood in the castle, the royal family will have to move house. Queen Kat sees this situation as the perfect opportunity to modernise. In keeping with King Bob's royal motto, \"Closer to the people\", they decide to live in an ordinary house in an ordinary suburb. It's time to show the people that the fam…"
+}
+},
+"17341": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "Da Vinci - O Grande Inventor",
+"u": "https://www.rtp.pt/play/zigzag/p17341/e962939/da-vinci-o-grande-inventor",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Jim Capobianco dá vida ao universo de Leonardo da Vinci em \"Da Vinci - O Grande Inventor\", uma longa-metragem de animação que combina marionetas em stop motion com animação 2D desenhada à mão Jim Capobianco dá vida ao universo de Leonardo da Vinci num novo filme de animação para toda a família, que combina marionetas em stop motion, num estilo visual singular, com animação 2D desenhada à mão. Desc…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Da Vinci - The Great Inventor",
+"xe": "Jim Capobianco brings the world of Leonardo da Vinci to life in \"Da Vinci - The Great Inventor,\" a feature-length animated film that combines stop-motion puppets with hand-drawn 2D animation. Jim Capobianco brings the world of Leonardo da Vinci to life in a new animated film for the whole family, which combines stop-motion puppets, in a unique visual style, with hand-drawn 2D animation. Desc…"
+}
+},
+"15890": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "Leo da Vinci",
+"u": "https://www.rtp.pt/play/zigzag/p15890/e963170/leo-da-vinci",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Leo da Vinci está de volta para mais aventuras emocionantes com os seus amigos, desta vez em busca do rubi mais deslumbrante e misterioso do mundo! O fenomenal menino-génio está de volta para mais aventuras emocionantes com os seus amigos, enquanto se envolvem numa missão emocionante e perigosa para localizar o rubi mais deslumbrante e misterioso do mundo, revelado por Marco Polo nas suas Viagens.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+10,
+10
+],
+"ne": "Leo da Vinci",
+"xe": "Leo da Vinci is back for more exciting adventures with his friends, this time in search of the most dazzling and mysterious ruby in the world! The phenomenal boy genius is back for more exciting adventures with his friends, as they get involved in an exciting and dangerous mission to locate the most dazzling and mysterious ruby in the world, revealed by Marco Polo in his Travels."
+}
+},
+"13603": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "O Refúgio da Audrey",
+"u": "https://www.rtp.pt/play/zigzag/p13603/e963173/audreys-shelter",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Junta-te à aventura! Este é o refúgio da Audrey! Audrey, uma menina de 8 anos, mora num refúgio para espécies ameaçadas de extinção gerida pela sua família. Ela sabe por experiência própria que gerir um refúgio para animais selvagens não é uma tarefa fácil, mas sabe que vale muito a pena! Basta um pouco de empatia e um grande senso de humor. Desde descobrir como fazer um bebé rinoceronte feliz até…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+9,
+10
+],
+"ne": "Audrey's Sanctuary",
+"xe": "Join the adventure! This is Audrey's sanctuary! Audrey, an 8-year-old girl, lives in a sanctuary for endangered species run by her family. She knows from experience that running a wildlife sanctuary is not an easy task, but she knows it's well worth it! All it takes is a little empathy and a great sense of humor. From figuring out how to make a baby rhino happy to…"
+}
+},
+"8699": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "Power Players",
+"u": "https://www.rtp.pt/play/zigzag/p8699/e963178/power-players",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Axel consegue fazer uma coisa que muitos meninos também gostariam: consegue transformar-se num mini super-herói! Axel é um menino de 9 anos que pode transformar-se num brinquedo vivo! Com a sua impressionante altura de brinquedo de 20 cm, este mini super-herói lidera um esquadrão de coloridos brinquedos animados.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 0,
+"more": [],
+"cov": [
+4,
+4
+],
+"ne": "Power Players",
+"xe": "Axel can do something many boys would also like to do: he can turn into a mini superhero! Axel is a 9-year-old boy who can turn into a living toy! At an impressive toy height of 20 cm, this mini superhero leads a squad of colorful animated toys."
+}
+},
+"14751": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "Pompon, O Pequeno Urso",
+"u": "https://www.rtp.pt/play/zigzag/p14751/e963150/pompon-o-pequeno-urso",
+"d": "25 out. 2026",
+"dk": "20261025",
+"e": 0,
+"c": "Pompon",
+"x": "Pompon é um ursinho de 6 anos travesso, alegre e brincalhão, com um talento incrível e precioso Na idade de um ursinho de pelúcia, Pompon tem 6 anos. Ele é travesso, alegre e brincalhão, mas acima de tudo, tem um talento incrível e precioso que faz a alegria da sua melhor amiga Rita e dos seus pais: ele sabe fazer algo extraordinário com algo comum... Graças às mil reviravoltas que a sua imaginaçã…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+4,
+4
+],
+"ne": "Pompon, the Little Bear",
+"xe": "Pompon is a mischievous, cheerful and playful 6-year-old little bear with an incredible and precious talent. At teddy bear age, Pompon is 6 years old. He is mischievous, cheerful and playful, but above all, he has an incredible and precious talent that brings joy to his best friend Rita and her parents: he can make something extraordinary out of something ordinary... Thanks to the countless twists his imaginatio…"
+}
+},
+"14897": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "Petit",
+"u": "https://www.rtp.pt/play/zigzag/p14897/e963154/petit",
+"d": "24 out. 2026",
+"dk": "20261024",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Descobre a perspetiva única e imaginativa de Petit sobre situações do quotidiano que se transformam em aventuras fantásticas que ele irá viver, juntamente com os seus amigos. Baseado no premiado livro \"Petit El Monstruo\" de Isol.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Petit",
+"xe": "Discover Petit's unique and imaginative view of everyday situations that turn into the fantastic adventures he will live through, together with his friends. Based on the award-winning book \"Petit El Monstruo\" by Isol."
+}
+},
 "15891": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "A Minha Lancheira - A Minha Lancheira de Estrelas Cadentes",
@@ -11049,7 +11113,7 @@
 }
 },
 "17172": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo",
@@ -11082,7 +11146,7 @@
 }
 },
 "15529": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Descomplica - Comida do Futuro",
@@ -11108,7 +11172,7 @@
 }
 },
 "17208": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "A Fábrica dos Sonhos",
@@ -11134,7 +11198,7 @@
 }
 },
 "15997": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo: Gonçalo, Missão Kickflip",
@@ -11160,7 +11224,7 @@
 }
 },
 "11551": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Tom Sawyer",
@@ -11186,7 +11250,7 @@
 }
 },
 "15170": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "As Férias do Menino Nicolau",
@@ -11211,8 +11275,34 @@
 "xe": "Nicolau and his friends have great adventures in the summer! Join Nicolau and his cheerful gang on their holidays as they build sandcastles, explore new playgrounds and go treasure hunting! They will whisk you off into their charming world, full of mischief and adventure. What a fantastic summer for Nicolau and his friends!"
 }
 },
+"13626": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "Edmundo e Lúcia",
+"u": "https://www.rtp.pt/play/zigzag/p13626/e951203/edmundo-e-lucia",
+"d": "29 ago. 2026",
+"dk": "20260829",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Edmond, um simpático esquilo, e Lucy, uma ursinha muito curiosa, vivem grandes aventuras na floresta porque a natureza é a melhor companheira para as suas brincadeiras!",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Edmond and Lucy",
+"xe": "Edmond, a friendly squirrel, and Lucy, a very curious little bear, have great adventures in the forest because nature is the best companion for their games!"
+}
+},
 "13608": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Os Argonautas e a Moeda de Ouro",
@@ -11238,7 +11328,7 @@
 }
 },
 "15996": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "O Rio que Corre ao Contrário",
@@ -11264,7 +11354,7 @@
 }
 },
 "15889": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Anselmo Wannabe - O Professor",
@@ -11290,7 +11380,7 @@
 }
 },
 "5708": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Mune, O Guardião da Lua",
@@ -11316,7 +11406,7 @@
 }
 },
 "16727": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Coração de Fogo",
@@ -11342,7 +11432,7 @@
 }
 },
 "15998": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Tiddler",
@@ -11368,7 +11458,7 @@
 }
 },
 "16055": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "D´Artacão e os Três Moscãoteiros",
@@ -11394,7 +11484,7 @@
 }
 },
 "16005": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Tabby Mctat",
@@ -11420,7 +11510,7 @@
 }
 },
 "13858": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "À Boleia da Ciência - Uma dose de Sarampo",
@@ -11446,7 +11536,7 @@
 }
 },
 "13878": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo - Kika toca Jazz",
@@ -11472,7 +11562,7 @@
 }
 },
 "5728": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "A Filha do Grufalão",
@@ -11498,7 +11588,7 @@
 }
 },
 "12614": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "No Mundo dos Animais - Coati",
@@ -11524,7 +11614,7 @@
 }
 },
 "13166": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "25 Curiosidades, 25 de Abril - O dia da revolução",
@@ -11550,7 +11640,7 @@
 }
 },
 "12597": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo: Game Over",
@@ -11576,7 +11666,7 @@
 }
 },
 "12593": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Os Smeds e Os Smoos",
@@ -11602,7 +11692,7 @@
 }
 },
 "12840": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo - Hanka, A Falcoeira",
@@ -11628,7 +11718,7 @@
 }
 },
 "11878": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "No Mundo dos Animais - Leão",
@@ -11654,7 +11744,7 @@
 }
 },
 "7863": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo: Ana Beatriz, Uma Caminhada Especial",
@@ -11680,7 +11770,7 @@
 }
 },
 "10483": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "O Panda e o Galo",
@@ -11706,7 +11796,7 @@
 }
 },
 "9591": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo: Míriam, A Onda Perfeita",
@@ -11732,7 +11822,7 @@
 }
 },
 "9569": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo - Luka - O Guerreiro do Arco-Íris",
@@ -11758,7 +11848,7 @@
 }
 },
 "7111": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Hora do Conto",
@@ -11784,7 +11874,7 @@
 }
 },
 "8580": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "No Tempo em Que Víamos as Cidades Pela Janela",
@@ -11809,8 +11899,34 @@
 "xe": "Today I am 10 years old. How will I look back on these days when I am 30? These days, in 2020, we are living through singular times. The streets all over the world have closed in on themselves and pushed us inside our homes. Hugs, running around, torn trousers and football games in the rain are all on hold now. We have discovered new corners within our four walls, and cooking talents we never imagined we had…"
 }
 },
+"1970": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "kids",
+"n": "As Aventuras do Max - Atlantos",
+"u": "https://www.rtp.pt/play/zigzag/p1970/e963210/maxaventur",
+"d": "14 mar. 2021",
+"dk": "20210314",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Não percas as aventuras de Max, o leão mais corajoso do Universo! O nosso corajoso Max não desiste de salvar o mundo do terrível Sombra!",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+10,
+10
+],
+"ne": "The Adventures of Max - Atlantos",
+"xe": "Don't miss the adventures of Max, the bravest lion in the Universe! Our courageous Max never gives up on saving the world from the terrible Shadow!"
+}
+},
 "8142": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Magazine Zig Zag Especial Natal",
@@ -11836,7 +11952,7 @@
 }
 },
 "8144": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo: Tiago, Mãos Que Falam",
@@ -11862,7 +11978,7 @@
 }
 },
 "7864": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo: Rafael, O Observador de Pássaros",
@@ -11888,7 +12004,7 @@
 }
 },
 "6817": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Isto não é um Chapéu",
@@ -11914,7 +12030,7 @@
 }
 },
 "7657": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo - Jaka - O Motocross e Eu",
@@ -11940,7 +12056,7 @@
 }
 },
 "6533": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Conta um Conto - A Víuva e o Papagaio",
@@ -11966,7 +12082,7 @@
 }
 },
 "7219": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Ziguipédia Monumentos",
@@ -11992,7 +12108,7 @@
 }
 },
 "5701": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "A Vassoura Voadora",
@@ -12018,7 +12134,7 @@
 }
 },
 "5707": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "O Grufalão",
@@ -12044,7 +12160,7 @@
 }
 },
 "6743": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo: A Onda da Maria",
@@ -12070,7 +12186,7 @@
 }
 },
 "5181": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Conta Um Conto - A Lenga-Lenga da Lena, a Hiena!",
@@ -12096,7 +12212,7 @@
 }
 },
 "8412": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "kids",
 "n": "Sim, Eu Consigo - Jonas (Suíça)",
@@ -12122,7 +12238,7 @@
 }
 },
 "14843": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "lang",
 "n": "A Pequena Biblioteca",
@@ -12148,7 +12264,7 @@
 }
 },
 "12890": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "lang",
 "n": "Afinal Eles Leem - Concurso Nacional de Leitura 2022",
@@ -12174,7 +12290,7 @@
 }
 },
 "6157": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "lang",
 "n": "Plano Nacional de Leitura 2018",
@@ -12200,7 +12316,7 @@
 }
 },
 "3991": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "lang",
 "n": "Cuidado com a Língua!",
@@ -12233,7 +12349,7 @@
 }
 },
 "4370": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "lang",
 "n": "Literatura Aqui",
@@ -12272,7 +12388,7 @@
 }
 },
 "1747": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "lang",
 "n": "Literatura Agora",
@@ -12298,7 +12414,7 @@
 }
 },
 "1688": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "lang",
 "n": "Contentor 13",
@@ -12324,7 +12440,7 @@
 }
 },
 "16210": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Faça Chuva Faça Sol",
@@ -12363,7 +12479,7 @@
 }
 },
 "16483": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Ouvir Quem Vê Num Minuto",
@@ -12388,34 +12504,8 @@
 "xe": "The opinion of viewers counts…"
 }
 },
-"17246": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "mag",
-"n": "Negócio Fechado",
-"u": "https://www.rtp.pt/play/p17246/e962515/negocio-fechado",
-"d": "23 out. 2026",
-"dk": "20261023",
-"e": 12,
-"c": "RTP1",
-"x": "Cada objeto tem uma história, cada história tem um valor e cada negociação pode acabar num Negócio Fechado…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 0,
-"more": [],
-"cov": [
-3,
-10
-],
-"ne": "Deal Closed",
-"xe": "Every object has a story, every story has a value, and every negotiation can end in a Closed Deal…"
-}
-},
 "17170": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Grande Reportagem RTP",
@@ -12441,7 +12531,7 @@
 }
 },
 "17248": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Parte de Nós",
@@ -12467,7 +12557,7 @@
 }
 },
 "16274": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Primeira Pessoa",
@@ -12524,7 +12614,7 @@
 }
 },
 "16608": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Ouvir Quem Vê",
@@ -12550,7 +12640,7 @@
 }
 },
 "12532": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Investigação Europa",
@@ -12576,7 +12666,7 @@
 }
 },
 "16303": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Outras Histórias",
@@ -12627,7 +12717,7 @@
 }
 },
 "16245": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Dicas.ANACOM",
@@ -12653,7 +12743,7 @@
 }
 },
 "16136": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Linha da Frente",
@@ -12704,7 +12794,7 @@
 }
 },
 "14371": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Temos Programa",
@@ -12743,7 +12833,7 @@
 }
 },
 "15846": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Angola, Meio Século de Vida",
@@ -12769,7 +12859,7 @@
 }
 },
 "14354": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Voz do Cidadão",
@@ -12826,7 +12916,7 @@
 }
 },
 "5429": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "What´s Up  - Olhar a Moda",
@@ -12852,7 +12942,7 @@
 }
 },
 "11588": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Verdade do Vinho",
@@ -12878,7 +12968,7 @@
 }
 },
 "13876": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "O Outro Lado de Patrick - Making of",
@@ -12904,7 +12994,7 @@
 }
 },
 "13014": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "A Essência",
@@ -12930,7 +13020,7 @@
 }
 },
 "12777": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "ABC Direito Europa",
@@ -12956,7 +13046,7 @@
 }
 },
 "1700": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Termas no Centro de Si",
@@ -12982,7 +13072,7 @@
 }
 },
 "13401": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Seara Vermelha - A Ceifeira de Baleizão",
@@ -13008,7 +13098,7 @@
 }
 },
 "13427": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Uma Primavera Portuguesa",
@@ -13034,7 +13124,7 @@
 }
 },
 "12583": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Longe de Cabul",
@@ -13060,7 +13150,7 @@
 }
 },
 "10954": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Mythos",
@@ -13086,7 +13176,7 @@
 }
 },
 "5703": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Parlamento Europeu - Ideias Feitas e Desfeitas",
@@ -13112,7 +13202,7 @@
 }
 },
 "6756": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Novo Mundo Digital",
@@ -13138,7 +13228,7 @@
 }
 },
 "7417": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Os Pastores do Deserto",
@@ -13164,7 +13254,7 @@
 }
 },
 "9063": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "O Que Ficará dos Fundos Europeus",
@@ -13190,7 +13280,7 @@
 }
 },
 "8961": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Salvador - Podias Ser Tu",
@@ -13216,7 +13306,7 @@
 }
 },
 "8373": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Sem Fronteiras",
@@ -13242,7 +13332,7 @@
 }
 },
 "8622": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Um Dia Num Ano de Pandemia",
@@ -13268,7 +13358,7 @@
 }
 },
 "8508": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Fernão de Magalhães 2020",
@@ -13294,7 +13384,7 @@
 }
 },
 "1803": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Histórias de Mar",
@@ -13320,7 +13410,7 @@
 }
 },
 "7777": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Nós, Portugueses - Partir Para Não Chegar",
@@ -13346,7 +13436,7 @@
 }
 },
 "5446": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "À Roda da Alimentação",
@@ -13372,7 +13462,7 @@
 }
 },
 "5421": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Teorias da Conspiração",
@@ -13398,7 +13488,7 @@
 }
 },
 "5726": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Ruas com História e Memória",
@@ -13424,7 +13514,7 @@
 }
 },
 "5740": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "A Imagem de Abril",
@@ -13450,7 +13540,7 @@
 }
 },
 "2786": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Madeira Prima",
@@ -13476,7 +13566,7 @@
 }
 },
 "2317": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "mag",
 "n": "Sociedade Civil",
@@ -13502,7 +13592,7 @@
 }
 },
 "17249": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Kevinho - O Sol da Caparica",
@@ -13528,7 +13618,7 @@
 }
 },
 "16912": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Napa ao Vivo no Coliseu de Lisboa",
@@ -13554,7 +13644,7 @@
 }
 },
 "15794": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Sons de Vitória - Novas Gerações - Parte II",
@@ -13580,7 +13670,7 @@
 }
 },
 "15523": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Resistência - Concerto de Ano Novo",
@@ -13606,7 +13696,7 @@
 }
 },
 "16806": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Fernando Pereira & The New Age Band: Momentum - Do Vale até à Lua",
@@ -13632,7 +13722,7 @@
 }
 },
 "17101": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Caixa Ribeira 2026 - Jorge Fernando e Fábia Rebordão",
@@ -13658,7 +13748,7 @@
 }
 },
 "17002": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Caixa Ribeira - Em Casa d´ Amália ao Vivo",
@@ -13684,7 +13774,7 @@
 }
 },
 "15078": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "D.A.M.A ao Vivo na Meo Arena",
@@ -13710,7 +13800,7 @@
 }
 },
 "16889": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Em Casa d´ Amália  ao Vivo em Estremoz",
@@ -13743,7 +13833,7 @@
 }
 },
 "16115": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Seara - A Música Portuguesa em Evolução",
@@ -13769,7 +13859,7 @@
 }
 },
 "16635": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Play - Prémios da Música Portuguesa - Melhores Momentos",
@@ -13808,7 +13898,7 @@
 }
 },
 "16241": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Capitão Fausto - Um Ensaio para o Futuro",
@@ -13834,7 +13924,7 @@
 }
 },
 "15322": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "La Meccanica del Colore - Documentário",
@@ -13860,7 +13950,7 @@
 }
 },
 "15986": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "A Bela Adormecida - O Musical",
@@ -13886,7 +13976,7 @@
 }
 },
 "15719": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Festival F - Concerto Tiago Nacarato & Orquestra Bamba Social",
@@ -13912,7 +14002,7 @@
 }
 },
 "14230": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Pedro Abrunhosa - Viagens 3.0",
@@ -13938,7 +14028,7 @@
 }
 },
 "15241": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Laura - O Musical",
@@ -13964,7 +14054,7 @@
 }
 },
 "14194": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "David Fonseca - Still 25",
@@ -13990,7 +14080,7 @@
 }
 },
 "13244": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "José Afonso e as Gerações de Abril",
@@ -14016,7 +14106,7 @@
 }
 },
 "13861": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Em Casa d´ Amália ao Vivo",
@@ -14042,7 +14132,7 @@
 }
 },
 "13654": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Zé Amaro - Tour Cowboy Português",
@@ -14068,7 +14158,7 @@
 }
 },
 "12547": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Música de Graça",
@@ -14094,7 +14184,7 @@
 }
 },
 "12611": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Axel - O Meu Natal Live in São Paulo",
@@ -14120,7 +14210,7 @@
 }
 },
 "12162": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "A Música para Mudar o Mundo: Luz, Paz, Fé, Amor",
@@ -14146,7 +14236,7 @@
 }
 },
 "1113": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Música Maestro - O Quebra Nozes - Tchaikovsky",
@@ -14172,7 +14262,7 @@
 }
 },
 "11606": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "A Pequena Sereia: O Musical",
@@ -14198,7 +14288,7 @@
 }
 },
 "4327": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Cantar de Reis",
@@ -14224,7 +14314,7 @@
 }
 },
 "9117": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "O Pimba é Nosso",
@@ -14250,7 +14340,7 @@
 }
 },
 "8070": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Histórias do Fado - Nova Vaga: Gaspar Varela, João Filipe e Teresinha Landeiro",
@@ -14276,7 +14366,7 @@
 }
 },
 "6333": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "A Guitarra de Coimbra",
@@ -14302,7 +14392,7 @@
 }
 },
 "3011": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Romani",
@@ -14328,7 +14418,7 @@
 }
 },
 "5767": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "Kota Bonga",
@@ -14354,7 +14444,7 @@
 }
 },
 "2094": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "music",
 "n": "A Arte Elétrica em Portugal - A Idade Adulta",
@@ -14379,34 +14469,8 @@
 "xe": "Adulthood - The 90s are the culmination of a process that began in the 60s. These years are marked by the closure of Rock Rendez-Vou…"
 }
 },
-"17322": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "nature",
-"n": "Floresta Selvagem",
-"u": "https://www.rtp.pt/play/p17322/e962783/floresta-selvagem",
-"d": "24 out. 2026",
-"dk": "20261024",
-"e": 1,
-"c": "RTP1",
-"x": "Os protagonistas deste documentário são os habitantes selvagens da Westerwald, a floresta ocidental da Alemanha. Alguns, como o picanço-de-dorso-ru",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Wild Forest",
-"xe": "The protagonists of this documentary are the wild inhabitants of the Westerwald, the western forest of Germany. Some, like the red-backed shrike, …"
-}
-},
 "16211": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Biosfera",
@@ -14463,7 +14527,7 @@
 }
 },
 "17068": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "A Floresta",
@@ -14489,7 +14553,7 @@
 }
 },
 "16849": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "O Sopro da Terra",
@@ -14515,7 +14579,7 @@
 }
 },
 "16940": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "O Regresso da Natureza",
@@ -14541,7 +14605,7 @@
 }
 },
 "16840": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Os Segredos Selvagens da China",
@@ -14567,7 +14631,7 @@
 }
 },
 "17069": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Os Estreitos do Mundo",
@@ -14593,7 +14657,7 @@
 }
 },
 "16943": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Armadilhas e Emboscadas",
@@ -14619,7 +14683,7 @@
 }
 },
 "16555": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Atenção - Frágil: As Lagoas de Brenne",
@@ -14645,7 +14709,7 @@
 }
 },
 "16314": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "E a Bosta Aqui Tão Perto",
@@ -14671,7 +14735,7 @@
 }
 },
 "15784": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Terra de Lendas",
@@ -14697,7 +14761,7 @@
 }
 },
 "16645": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Glaciares - Uma Corrida Contra o Tempo",
@@ -14723,7 +14787,7 @@
 }
 },
 "16612": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Salvar o Vison Europeu",
@@ -14749,7 +14813,7 @@
 }
 },
 "16524": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Vale Savé: Um Milagre Selvagem",
@@ -14775,7 +14839,7 @@
 }
 },
 "16865": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Onde Está a Água?",
@@ -14801,7 +14865,7 @@
 }
 },
 "16817": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Gronelândia sob Pressão",
@@ -14827,7 +14891,7 @@
 }
 },
 "16575": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Inteligência Portuguesa",
@@ -14853,7 +14917,7 @@
 }
 },
 "16663": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "As Ilhas de Nicobar - A Ressurreição de um Arquipélago",
@@ -14879,7 +14943,7 @@
 }
 },
 "16441": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Um Planeta Inquieto",
@@ -14905,7 +14969,7 @@
 }
 },
 "15813": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Natureza: Um Apelo à Reconciliação",
@@ -14931,7 +14995,7 @@
 }
 },
 "15616": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Tubarões: Máquinas Assassinas",
@@ -14957,7 +15021,7 @@
 }
 },
 "14672": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "O Mar do Nosso Futuro",
@@ -14983,7 +15047,7 @@
 }
 },
 "13057": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Era Bonito Vê-la Pensar",
@@ -15009,7 +15073,7 @@
 }
 },
 "13091": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Furnas - O Vulcão da água",
@@ -15035,7 +15099,7 @@
 }
 },
 "14962": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Para Além do Cérebro",
@@ -15061,7 +15125,7 @@
 }
 },
 "15176": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Parques Naturais dos Açores - 10 Anos",
@@ -15087,7 +15151,7 @@
 }
 },
 "14706": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Lisboa, Outras Formas de Vida",
@@ -15113,7 +15177,7 @@
 }
 },
 "14054": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Portugal, uma História Natural",
@@ -15139,7 +15203,7 @@
 }
 },
 "14153": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "A Revolução da Energia Limpa",
@@ -15172,7 +15236,7 @@
 }
 },
 "13860": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Fauna Ibérica",
@@ -15198,7 +15262,7 @@
 }
 },
 "13725": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Gorongosa - Regresso ao Paraíso Selvagem",
@@ -15224,7 +15288,7 @@
 }
 },
 "13620": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "A Península",
@@ -15250,7 +15314,7 @@
 }
 },
 "13322": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Segredos Médicos de Lisboa",
@@ -15276,7 +15340,7 @@
 }
 },
 "12536": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "O Mundo dos Pica-Paus",
@@ -15302,7 +15366,7 @@
 }
 },
 "12446": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Cegonha Branca - Entre a Igreja e o Penhasco",
@@ -15328,7 +15392,7 @@
 }
 },
 "12227": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Guerreiras pela Natureza",
@@ -15354,7 +15418,7 @@
 }
 },
 "11948": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Madeira Profunda",
@@ -15380,7 +15444,7 @@
 }
 },
 "9768": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Vírus - Parasitas Obrigatórios",
@@ -15406,7 +15470,7 @@
 }
 },
 "10414": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "A Ilha dos Gigantes",
@@ -15432,7 +15496,7 @@
 }
 },
 "10504": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Ecomare - Investigação e Salvamento de Espécies Marinhas",
@@ -15458,7 +15522,7 @@
 }
 },
 "10485": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Sardinha Portuguesa - Uma Riqueza Natural",
@@ -15484,7 +15548,7 @@
 }
 },
 "10207": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Planeta A",
@@ -15510,7 +15574,7 @@
 }
 },
 "9047": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "As Novas Viagens Philosophicas",
@@ -15536,7 +15600,7 @@
 }
 },
 "8433": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Um Ano de Gorongosa",
@@ -15562,7 +15626,7 @@
 }
 },
 "8431": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "A Nossa Gorongosa",
@@ -15588,7 +15652,7 @@
 }
 },
 "8364": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "As Febres do Século",
@@ -15614,7 +15678,7 @@
 }
 },
 "8309": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Deus Cérebro",
@@ -15640,7 +15704,7 @@
 }
 },
 "8046": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Ahh! Ciência nos Açores",
@@ -15666,7 +15730,7 @@
 }
 },
 "6437": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Mar, a Última Fronteira",
@@ -15692,7 +15756,7 @@
 }
 },
 "5639": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "nature",
 "n": "Grande é Belo",
@@ -15717,8 +15781,34 @@
 "xe": "The world is full of giants, enormous animals that fill us with fear and awe but also with fascination. There are various ways to define 'big'…"
 }
 },
+"16884": {
+"last_seen": "2026-10-27",
+"row": {
+"s": "series",
+"n": "A Escrava Isaura",
+"u": "https://www.rtp.pt/play/p16884/e963334/a-escrava-isaura",
+"d": "27 out. 2026",
+"dk": "20261027",
+"e": 6,
+"c": "RTP1",
+"x": "Remake da novela que marcou a televisão portuguesa. Uma jovem escrava luta pela liberdade e pelo amor num mundo marcado pela injustiça, paixão e poder…",
+"xs": 1,
+"note": "Brazilian novela (Brazilian Portuguese)",
+"tag": "Brazilian Portuguese",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+6,
+6
+],
+"ne": "Isaura the Slave Girl",
+"xe": "A remake of the soap opera that left its mark on Portuguese television. A young enslaved woman fights for freedom and for love in a world shaped by injustice, passion and power…"
+}
+},
 "15937": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "O Grito",
@@ -15743,34 +15833,8 @@
 "xe": "Suspense and emotion in a series that delves into human frailties…"
 }
 },
-"16884": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "series",
-"n": "A Escrava Isaura",
-"u": "https://www.rtp.pt/play/p16884/e962513/a-escrava-isaura",
-"d": "23 out. 2026",
-"dk": "20261023",
-"e": 5,
-"c": "RTP1",
-"x": "Remake da novela que marcou a televisão portuguesa. Uma jovem escrava luta pela liberdade e pelo amor num mundo marcado pela injustiça, paixão e poder…",
-"xs": 1,
-"note": "Brazilian novela (Brazilian Portuguese)",
-"tag": "Brazilian Portuguese",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-5,
-5
-],
-"ne": "Isaura the Slave Girl",
-"xe": "A remake of the soap opera that left its mark on Portuguese television. A young enslaved woman fights for freedom and for love in a world shaped by injustice, passion and power…"
-}
-},
 "17247": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Ruído",
@@ -15802,34 +15866,8 @@
 "xe": "The regime has fallen. Free from prison and from hiding, the group realizes how successful their sketches were all over the country. The…"
 }
 },
-"17189": {
-"last_seen": "2026-10-26",
-"row": {
-"s": "series",
-"n": "Jones",
-"u": "https://www.rtp.pt/play/p17189/e960910/jones",
-"d": "19 out. 2026",
-"dk": "20261019",
-"e": 4,
-"c": "RTP1",
-"x": "Um homicídio. Uma família cheia de segredos. E um inspetor que fala com os mortos. Criada e realizada por Bruno Gascon, a série combina mistério policial, humor negro e sobrenatural numa história protagonizada por José Pimentão, Laura Dutra e Amanda Abbington…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-4,
-4
-],
-"ne": "Jones",
-"xe": "A murder. A family full of secrets. And an inspector who talks to the dead. Created and directed by Bruno Gascon, the series combines crime mystery, black humor and the supernatural in a story starring José Pimentão, Laura Dutra and Amanda Abbington…"
-}
-},
 "17147": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Se Eu Quiser, Choro",
@@ -15855,7 +15893,7 @@
 }
 },
 "17310": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "A Ferro e Fogo",
@@ -15881,7 +15919,7 @@
 }
 },
 "16367": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "O Pátio da Saudade",
@@ -15907,7 +15945,7 @@
 }
 },
 "17099": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Evadidos",
@@ -15933,7 +15971,7 @@
 }
 },
 "17009": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Salto de Fé",
@@ -15972,7 +16010,7 @@
 }
 },
 "16930": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Millennial Mal",
@@ -15998,7 +16036,7 @@
 }
 },
 "2395": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "O Alto",
@@ -16031,7 +16069,7 @@
 }
 },
 "16742": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Ecos do Mar",
@@ -16057,7 +16095,7 @@
 }
 },
 "16725": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Adónis",
@@ -16083,7 +16121,7 @@
 }
 },
 "16515": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "O Bairro do Humor",
@@ -16116,7 +16154,7 @@
 }
 },
 "16705": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Novas Narrativas de Caça",
@@ -16142,7 +16180,7 @@
 }
 },
 "16574": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Madrugada Suja",
@@ -16168,7 +16206,7 @@
 }
 },
 "14671": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Finisterra",
@@ -16194,7 +16232,7 @@
 }
 },
 "16484": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Fernão Lopes: O Renegado",
@@ -16220,7 +16258,7 @@
 }
 },
 "16534": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "3000 Depois de Cristo",
@@ -16246,7 +16284,7 @@
 }
 },
 "16470": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Algodão a Frio",
@@ -16272,7 +16310,7 @@
 }
 },
 "16393": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Um Filme do Caraças",
@@ -16298,7 +16336,7 @@
 }
 },
 "16364": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Homens de Honra",
@@ -16324,7 +16362,7 @@
 }
 },
 "16345": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Sangue & Mármore",
@@ -16350,7 +16388,7 @@
 }
 },
 "16257": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Refúgio do Medo",
@@ -16376,7 +16414,7 @@
 }
 },
 "15745": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Casa Abrigo",
@@ -16402,7 +16440,7 @@
 }
 },
 "15679": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Pedro e Inês",
@@ -16428,7 +16466,7 @@
 }
 },
 "15506": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Espias",
@@ -16454,7 +16492,7 @@
 }
 },
 "15648": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Filmar para o Boneco",
@@ -16480,7 +16518,7 @@
 }
 },
 "15139": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Situações Delicadas",
@@ -16506,7 +16544,7 @@
 }
 },
 "15442": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Felp",
@@ -16532,7 +16570,7 @@
 }
 },
 "15099": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Lume",
@@ -16558,7 +16596,7 @@
 }
 },
 "8352": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Até Que a Vida Nos Separe",
@@ -16584,7 +16622,7 @@
 }
 },
 "14856": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Daqui Houve Resistência",
@@ -16610,7 +16648,7 @@
 }
 },
 "14147": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "O Americano",
@@ -16636,7 +16674,7 @@
 }
 },
 "11670": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Salgueiro Maia - O Implicado",
@@ -16662,7 +16700,7 @@
 }
 },
 "13656": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Hotel do Rio",
@@ -16688,7 +16726,7 @@
 }
 },
 "13094": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Ministério do Tempo",
@@ -16714,7 +16752,7 @@
 }
 },
 "3868": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Caminhos da Alma - Fátima",
@@ -16740,7 +16778,7 @@
 }
 },
 "12606": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "KM 224",
@@ -16766,7 +16804,7 @@
 }
 },
 "12425": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Lusitânia",
@@ -16792,7 +16830,7 @@
 }
 },
 "12280": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Codex 632",
@@ -16818,7 +16856,7 @@
 }
 },
 "11186": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Regresso a Ítaca",
@@ -16844,7 +16882,7 @@
 }
 },
 "12076": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Ao Largo",
@@ -16870,7 +16908,7 @@
 }
 },
 "4996": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Sara",
@@ -16896,7 +16934,7 @@
 }
 },
 "11653": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Capitães do Açúcar",
@@ -16922,7 +16960,7 @@
 }
 },
 "11652": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Emília",
@@ -16948,7 +16986,7 @@
 }
 },
 "11392": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Motel Valkirias",
@@ -16974,7 +17012,7 @@
 }
 },
 "11364": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Operação Maré Negra",
@@ -17000,7 +17038,7 @@
 }
 },
 "11073": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Abandonados",
@@ -17026,7 +17064,7 @@
 }
 },
 "9875": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Crimes Submersos",
@@ -17052,7 +17090,7 @@
 }
 },
 "10683": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Cuba Libre",
@@ -17078,7 +17116,7 @@
 }
 },
 "10209": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "3 Mulheres - Pós Revolução",
@@ -17104,7 +17142,7 @@
 }
 },
 "6633": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Refrigerantes e Canções de Amor",
@@ -17130,7 +17168,7 @@
 }
 },
 "9213": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Chegar a Casa",
@@ -17156,7 +17194,7 @@
 }
 },
 "8013": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Crónica dos Bons Malandros",
@@ -17182,7 +17220,7 @@
 }
 },
 "8741": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Vento Norte",
@@ -17208,7 +17246,7 @@
 }
 },
 "8690": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Ordem Moral",
@@ -17234,7 +17272,7 @@
 }
 },
 "7675": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "O Atentado",
@@ -17260,7 +17298,7 @@
 }
 },
 "6487": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Conta-me Como Foi",
@@ -17286,7 +17324,7 @@
 }
 },
 "1055": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Hotel 5 Estrelas",
@@ -17312,7 +17350,7 @@
 }
 },
 "6570": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "A Canção de Lisboa - Minissérie",
@@ -17338,7 +17376,7 @@
 }
 },
 "2198": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Os Maias",
@@ -17364,7 +17402,7 @@
 }
 },
 "5188": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Circo Paraíso",
@@ -17390,7 +17428,7 @@
 }
 },
 "4862": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Verão M",
@@ -17416,7 +17454,7 @@
 }
 },
 "3354": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Vidago Palace",
@@ -17442,7 +17480,7 @@
 }
 },
 "1366": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Os Filhos do Rock",
@@ -17468,7 +17506,7 @@
 }
 },
 "3019": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "O Sábio",
@@ -17494,7 +17532,7 @@
 }
 },
 "2773": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Dentro",
@@ -17520,7 +17558,7 @@
 }
 },
 "3909": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "4Play",
@@ -17546,7 +17584,7 @@
 }
 },
 "3676": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Sim, Chef!",
@@ -17579,7 +17617,7 @@
 }
 },
 "2774": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Miúdo Graúdo",
@@ -17605,7 +17643,7 @@
 }
 },
 "1222": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Bem-vindos a Beirais",
@@ -17644,7 +17682,7 @@
 }
 },
 "1844": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Os Nossos Dias",
@@ -17677,7 +17715,7 @@
 }
 },
 "1895": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Agora a Sério",
@@ -17703,7 +17741,7 @@
 }
 },
 "1699": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "series",
 "n": "Água de Mar",
@@ -17742,7 +17780,7 @@
 }
 },
 "4320": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "stage",
 "n": "Júlia",
@@ -17768,7 +17806,7 @@
 }
 },
 "7084": {
-"last_seen": "2026-10-26",
+"last_seen": "2026-10-27",
 "row": {
 "s": "stage",
 "n": "Ver Mais Sobre Ti",
