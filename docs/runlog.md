@@ -199,3 +199,7 @@ Format:
 ## 2026-10-27 (tidy)
 - **Did:** Closed #53 (superseded by #54) and #54 (O Grito, 15937: RTP1 "Séries nacionais", Portuguese; no changes). #55: the reported duplicate "### Added (1)" was not in the raw issue text, but the list sat under two consecutive headings; merged into one ("### Added (N): please check for foreign-language titles").
 - **Issues:** closed #53, #54, #55.
+
+## 2026-10-27 (spelling names, forwarding site)
+- **Did:** #27: americanize() keeps proper names: an allow-list (Labour Party, Lincoln Centre, Centre Pompidou, Theatre Royal, …) plus, in descriptions, any British word capitalized mid-sentence; English titles still convert (they are our own translations). Current translations unchanged; the strict rule would have reintroduced British spelling in 11 titles, so titles were exempted. #3: keep the jamminalley forwarding site indefinitely.
+- **Issues:** closed #27, #3.
