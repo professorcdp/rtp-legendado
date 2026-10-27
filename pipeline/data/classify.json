@@ -1,0 +1,3242 @@
+{
+"9462:3c0336a698ef": {
+"pid": "9462",
+"n": "Portuguese Soul",
+"verdict": "portuguese",
+"reason": "Portuguese Soul documentary series on Portuguese gold and northern Portugal, on RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16132:2d11e676f927": {
+"pid": "16132",
+"n": "Hora dos Portugueses",
+"verdict": "portuguese",
+"reason": "RTP Mundo programme on portugalidade, Portuguese-made",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16137:8bcbc43ca87f": {
+"pid": "16137",
+"n": "Sempre a Tempo",
+"verdict": "portuguese",
+"reason": "RTP2 culture quiz show with 251 episodes, Portuguese-made",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13007:211dea1e13eb": {
+"pid": "13007",
+"n": "RTP Sempre",
+"verdict": "portuguese",
+"reason": "RTP Memória series on Portuguese identity",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13652:e3b0c44298fc": {
+"pid": "13652",
+"n": "Geografia do Descontentamento",
+"verdict": "unsure",
+"reason": "No description; title alone doesn't reveal origin",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10400:ab9c75b9d78c": {
+"pid": "10400",
+"n": "Herdeiros do Bairro",
+"verdict": "portuguese",
+"reason": "About Bairro 6 de Maio, a Portuguese neighbourhood, on RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15079:52d15443594f": {
+"pid": "15079",
+"n": "Sopro",
+"verdict": "portuguese",
+"reason": "Documentary about Pedrógão Grande fire; Dutch couple but Portuguese setting and production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16890:31073700661f": {
+"pid": "16890",
+"n": "Teia",
+"verdict": "unsure",
+"reason": "Textile art series, no clear origin evidence",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12222:a032671a5b19": {
+"pid": "12222",
+"n": "Matança da Páscoa - Memórias do 11 de Março de 1975",
+"verdict": "portuguese",
+"reason": "Documentary on 11 March 1975 in Portugal with Portuguese figures",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13200:96e0e1582399": {
+"pid": "13200",
+"n": "Visita Guiada",
+"verdict": "portuguese",
+"reason": "Presented by Paula Moura Pinheiro on Portuguese history",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14791:3028052d5a4c": {
+"pid": "14791",
+"n": "Habitat",
+"verdict": "portuguese",
+"reason": "Episode on the islands of Portugal, Portuguese setting",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17100:d643dc19e5dd": {
+"pid": "17100",
+"n": "Os Primeiros Alentejanos",
+"verdict": "portuguese",
+"reason": "About the Alentejo Neolithic, Portuguese subject and RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15433:f3455ae2d33b": {
+"pid": "15433",
+"n": "Bartolomeu Cid dos Santos -  Por Terras Devastadas",
+"verdict": "portuguese",
+"reason": "Portuguese artist Bartolomeu Cid dos Santos, on RTP Memória",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16302:efe12bb1fb7e": {
+"pid": "16302",
+"n": "Repovoadores",
+"verdict": "portuguese",
+"reason": "About people moving to interior Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9121:02c2f2050336": {
+"pid": "9121",
+"n": "Othon",
+"verdict": "unsure",
+"reason": "Description about cities in general, origin unclear",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16980:e3cb3e2c192e": {
+"pid": "16980",
+"n": "Portugal no Mundo - Festa de São João em Clermont Ferrand",
+"verdict": "portuguese",
+"reason": "RTP series Portugal no Mundo on Portuguese community festival in France",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10520:63e830861271": {
+"pid": "10520",
+"n": "Portugueses pelo Mundo - Comunidades",
+"verdict": "portuguese",
+"reason": "Series on Portuguese communities abroad, RTP production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14202:6511dcd8af71": {
+"pid": "14202",
+"n": "Outra Goa",
+"verdict": "portuguese",
+"reason": "Goa documentary on RTP2, Portuguese-linked heritage; likely Portuguese-made but not certain",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11847:a507e78ec95b": {
+"pid": "11847",
+"n": "Churchill na Madeira",
+"verdict": "portuguese",
+"reason": "Churchill's stay in Madeira, Portuguese subject on RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16770:40ad61524003": {
+"pid": "16770",
+"n": "Viagem na Minha Terra",
+"verdict": "portuguese",
+"reason": "Catarina Furtado with José Cid, Portuguese setting",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16654:0a379b2a768f": {
+"pid": "16654",
+"n": "Somos Academia",
+"verdict": "portuguese",
+"reason": "Episode about Associação Protectora dos Diabéticos de Portugal; Portuguese subject, RTP2 programme.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16834:409a474bf7a6": {
+"pid": "16834",
+"n": "10 Mil Km, De Regresso ao Japão",
+"verdict": "portuguese",
+"reason": "Series on Portugal-Japan ties, RTP1 production; Portuguese-led subject.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12690:7a428b54ac91": {
+"pid": "12690",
+"n": "Concentrados - Depósito de Concentrados Alemães na Ilha Terceira (1916-1919)",
+"verdict": "portuguese",
+"reason": "Documentary by José Vieira Mendes on Azores history; Portuguese author and subject.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12413:5af4ad135e5c": {
+"pid": "12413",
+"n": "A Mais Longa Jornada",
+"verdict": "unsure",
+"reason": "Futuristic journey documentary on RTP África; no clue to origin.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13598:a4066a1aa83d": {
+"pid": "13598",
+"n": "José Fonseca e Costa - A Luz no Olhar",
+"verdict": "portuguese",
+"reason": "Portrait of Portuguese director Fonseca e Costa on RTP Memória.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12630:7400c04bd89c": {
+"pid": "12630",
+"n": "Daniel Faria: O Silêncio e a Palavra",
+"verdict": "portuguese",
+"reason": "About Portuguese poet Daniel Faria; Portuguese subject on RTP2.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7533:9281119e51d2": {
+"pid": "7533",
+"n": "Exílio no Atlântico",
+"verdict": "unsure",
+"reason": "Gibraltar WWII story; could be Portuguese or acquired, description thin.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14796:58e0ce213471": {
+"pid": "14796",
+"n": "BIAL: 100 Anos Inspirados Pelo Futuro",
+"verdict": "portuguese",
+"reason": "Documentary by Ricardo Clara Couto on Portuguese company BIAL, hosted by Pêpê Rapazote.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14728:cc080d0fc18e": {
+"pid": "14728",
+"n": "No Táxi do Jack",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; Portuguese film.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15022:b8c5e7beb6d4": {
+"pid": "15022",
+"n": "Falamos de António Campos",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese filmmaker António Campos, RTP Memória.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16717:ad944a91f38c": {
+"pid": "16717",
+"n": "Submersos no Índico",
+"verdict": "unsure",
+"reason": "Mozambique Island underwater heritage; could be Portuguese or Mozambican production, unclear.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16692:2940661c676c": {
+"pid": "16692",
+"n": "Wenceslau de Moraes",
+"verdict": "portuguese",
+"reason": "Biography of Lisbon-born writer Wenceslau de Moraes on RTP2.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9205:c9d44d4bf3f7": {
+"pid": "9205",
+"n": "Pólio: O Caminho Para a Erradicação",
+"verdict": "unsure",
+"reason": "Polio in Africa on RTP África; may be acquired, no origin clue.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16602:8105b5e950ef": {
+"pid": "16602",
+"n": "Viagem no tempo, à Procura do Socialismo",
+"verdict": "portuguese",
+"reason": "By Portuguese journalists on post-25 April Portugal.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13315:de8744890f57": {
+"pid": "13315",
+"n": "Editor Contra",
+"verdict": "portuguese",
+"reason": "About Portuguese publisher Fernando Ribeiro de Mello; Recomendações de Abril.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16322:7acde4f4902f": {
+"pid": "16322",
+"n": "Fotobox",
+"verdict": "portuguese",
+"reason": "RTP2 photography programme with Portuguese title; likely national production.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16471:ba649f74dc6a": {
+"pid": "16471",
+"n": "Paulo Rocha - Memórias",
+"verdict": "portuguese",
+"reason": "Interview with Portuguese filmmaker Paulo Rocha, RTP2.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16423:04678d4354c9": {
+"pid": "16423",
+"n": "A Correr a Ponte",
+"verdict": "portuguese",
+"reason": "RTP2 programme credits Portuguese team (Rui Alves, Paulo Sérgio, Gonçalo Madaíl).",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15580:c769c02878ea": {
+"pid": "15580",
+"n": "Portugueses na Nova Inglaterra",
+"verdict": "portuguese",
+"reason": "Series on Azorean emigration to New England, Portuguese subject on RTP2.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15757:0a379b2a768f": {
+"pid": "15757",
+"n": "Entre o Mar e a Terra",
+"verdict": "portuguese",
+"reason": "RTP1 series on Portuguese heritage and gastronomy tradition.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4196:6990ac252772": {
+"pid": "4196",
+"n": "Sem Fazer Planos do Que Virá Depois",
+"verdict": "portuguese",
+"reason": "Documentary about Salvador Sobral and Portugal's Eurovision win, RTP Palco",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14592:be3dafd6d723": {
+"pid": "14592",
+"n": "Nem Toda a Noite a Vida: Vitorino Nemésio",
+"verdict": "portuguese",
+"reason": "Documentary on Azorean writer Vitorino Nemésio, RTP Memória",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16326:b923836ab993": {
+"pid": "16326",
+"n": "Sou Capaz",
+"verdict": "portuguese",
+"reason": "Citizenship programme for Portuguese-speaking African countries; Lusophone production, likely RTP África-related",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16142:575e64d73843": {
+"pid": "16142",
+"n": "Intervalo para Publicidade",
+"verdict": "unsure",
+"reason": "Advertising documentary series on RTP2; no clue to origin",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"5416:bdcf5fb532e9": {
+"pid": "5416",
+"n": "Eugénio de Andrade",
+"verdict": "portuguese",
+"reason": "Portuguese poet Eugénio de Andrade, Beira Baixa, RTP Memória",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14178:2657549cd2d8": {
+"pid": "14178",
+"n": "João Ayres - Pintor Independente",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese painter João Ayres, Mozambique and Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15587:32575e7f5380": {
+"pid": "15587",
+"n": "Como Eu Atravessei África",
+"verdict": "unsure",
+"reason": "Africa crossing documentary; Portuguese credits but no clear origin",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7720:584f2eef32ea": {
+"pid": "7720",
+"n": "Sousa Martins - Vida e Culto",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese doctor Sousa Martins, Portuguese personality",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16051:a3d3ded3999f": {
+"pid": "16051",
+"n": "A Minha Tese - Raúl Saraiva",
+"verdict": "portuguese",
+"reason": "Portuguese-titled PhD series with Portuguese researcher Raúl Saraiva",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15804:7984319fbb65": {
+"pid": "15804",
+"n": "À Mesa com Elas",
+"verdict": "portuguese",
+"reason": "Hosts invite Portuguese viewers to eat across the country",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15978:225eddc0c674": {
+"pid": "15978",
+"n": "Mar, a Última Fronteira - Best Of",
+"verdict": "portuguese",
+"reason": "RTP project with Oceanário de Lisboa and Fundação Oceano Azul",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15768:c42adc26176b": {
+"pid": "15768",
+"n": "Portugal Fenomenal",
+"verdict": "portuguese",
+"reason": "Portugal-focused series, episode set in Loriga, Serra da Estrela",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15917:b922dc834047": {
+"pid": "15917",
+"n": "As Sibilas do Passo",
+"verdict": "portuguese",
+"reason": "Documentaries by Círculo Literário Agustina Bessa-Luís on the Portuguese writer",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14279:7f8da3de946d": {
+"pid": "14279",
+"n": "Afazeres do Mês",
+"verdict": "unsure",
+"reason": "Garden magazine in Portuguese, but origin of production not stated",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15150:3b1cfde3de37": {
+"pid": "15150",
+"n": "Mata-Bicho",
+"verdict": "portuguese",
+"reason": "Series on African Lusophone food, Portuguese-language RTP1 production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15522:098f7d396eb9": {
+"pid": "15522",
+"n": "Se o Mar Deixar",
+"verdict": "portuguese",
+"reason": "Film by Pedro Aguilar, Portuguese filmmaker, about Portuguese fishing communities",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15664:758c8013bf66": {
+"pid": "15664",
+"n": "Olhares - Afrodescendentes no Portugal Contemporâneo",
+"verdict": "portuguese",
+"reason": "About Afro-descendants in contemporary Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12627:31792208d3b6": {
+"pid": "12627",
+"n": "Espelho Meu, Espelho Meu",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese artist Joana Vasconcelos",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10382:ba4661238795": {
+"pid": "10382",
+"n": "Frias Martins: Cientista, Professor, Divulgador e Homem de Fé",
+"verdict": "portuguese",
+"reason": "Documentary on Frias Martins, Azorean scientist and professor",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15758:16d508c098d5": {
+"pid": "15758",
+"n": "Preparados para o Tsunami?",
+"verdict": "portuguese",
+"reason": "Science programme on Iberian tsunami risk, Portuguese-focused RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15695:11602ffd0c18": {
+"pid": "15695",
+"n": "ModaLisboa Base - Melhores Momentos",
+"verdict": "portuguese",
+"reason": "Lisbon Fashion Week highlights, Portuguese event on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15687:a0f1b4e1f399": {
+"pid": "15687",
+"n": "A Minha Indonésia - Making Of",
+"verdict": "portuguese",
+"reason": "Documentary led by Ana Gomes, former Portuguese ambassador; Portuguese-made",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15269:63f1392e741b": {
+"pid": "15269",
+"n": "João de Lacerda - O Colecionador Visionário",
+"verdict": "portuguese",
+"reason": "Portuguese collector, Portuguese interviewees and collection tag",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15573:937dce844d2f": {
+"pid": "15573",
+"n": "The Guitar Barrel Project",
+"verdict": "portuguese",
+"reason": "Luthier and Marquês de Pombal wine barrels; Portuguese subject on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15331:567bcb801fbb": {
+"pid": "15331",
+"n": "Por Amor à Tradição",
+"verdict": "portuguese",
+"reason": "Inês Carranca presents Portuguese traditions, season 2 on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10718:02c17d840bb0": {
+"pid": "10718",
+"n": "Sete Cidades: Da Lenda à Realidade",
+"verdict": "portuguese",
+"reason": "Sete Cidades parish in the Azores; Portuguese documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9010:af2686d72610": {
+"pid": "9010",
+"n": "Por Isso é que Sou das Ilhas de Bruma",
+"verdict": "portuguese",
+"reason": "About composer of Ilhas de Bruma, an Azorean song",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15466:4fa3e155efa0": {
+"pid": "15466",
+"n": "Aprendiz de Feiticeiro - Uma Viagem ao Imaginário de Zeca Medeiros",
+"verdict": "portuguese",
+"reason": "Zeca Medeiros is an Azorean artist; Portuguese documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15152:b6148e51e57b": {
+"pid": "15152",
+"n": "Brumas da Memória: Os Portugueses Contra o III Reich",
+"verdict": "portuguese",
+"reason": "About Portuguese people in the French Resistance, RTP production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14647:670ac53081da": {
+"pid": "14647",
+"n": "Vinhos de Portugal",
+"verdict": "portuguese",
+"reason": "Series by José António Salvador about Portuguese wines",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9042:f74573fb3763": {
+"pid": "9042",
+"n": "No Reino Secreto dos Bijagós",
+"verdict": "portuguese",
+"reason": "Bijagós of Guinea-Bissau, Lusophone subject on RTP2; likely Portuguese-made, Lusophone setting",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1025:c4a552db30af": {
+"pid": "1025",
+"n": "Douro - Uma História de Séculos",
+"verdict": "portuguese",
+"reason": "José António Salvador documentary on the Douro region",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15384:8c62c6c8cd2f": {
+"pid": "15384",
+"n": "Diploma de Saída",
+"verdict": "portuguese",
+"reason": "Report on young Portuguese emigrating, RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11794:ebeac52cecde": {
+"pid": "11794",
+"n": "Plateau",
+"verdict": "portuguese",
+"reason": "Based on a piece by Clara Andermatt, Portuguese choreographer",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15237:67b2756fe719": {
+"pid": "15237",
+"n": "Ilha a Cores",
+"verdict": "portuguese",
+"reason": "Programme on the Azores, Praia da Vitória",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15169:8fbeceaac2c7": {
+"pid": "15169",
+"n": "Filhos de Tuga",
+"verdict": "portuguese",
+"reason": "About Portuguese Colonial War veterans and Angola, RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15195:933ee2c80f1b": {
+"pid": "15195",
+"n": "Sérgio Varella Cid - Um Prodígio no Fio da Navalha - Vícios Privados",
+"verdict": "portuguese",
+"reason": "Portuguese pianist Sérgio Varella Cid, RTP Palco",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14990:23059d2da475": {
+"pid": "14990",
+"n": "E Depois da Revolução?",
+"verdict": "portuguese",
+"reason": "About culture in Portugal after 50 years of democracy",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14784:f88ac287d460": {
+"pid": "14784",
+"n": "As 5 Revoluções Portuguesas",
+"verdict": "portuguese",
+"reason": "Portuguese history series on the Carnation Revolution",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14894:243a7186d074": {
+"pid": "14894",
+"n": "O Trabalho Não É Mercadoria",
+"verdict": "unsure",
+"reason": "Generic labour theme with no origin clues in the description",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14847:ed674a862799": {
+"pid": "14847",
+"n": "Aqueles que Ficaram (Em Toda a Parte Todo o Mundo Tem)",
+"verdict": "portuguese",
+"reason": "Documentary on Estado Novo with testimonies; Portuguese history topic, RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14853:73b0cad5a524": {
+"pid": "14853",
+"n": "Reféns no Paraíso",
+"verdict": "portuguese",
+"reason": "Documentary on 1975 Timor civil war and Portuguese context, RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10189:f3335e96c8ce": {
+"pid": "10189",
+"n": "Antero de Quental: Verbo Vivo da Cultura Açoriana",
+"verdict": "portuguese",
+"reason": "Documentary on Azorean poet Antero de Quental",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14415:d1abe364e5f0": {
+"pid": "14415",
+"n": "Portugal no Mundo - Círio de Nazaré",
+"verdict": "portuguese",
+"reason": "Portuguese presenter Tiago Góes Ferreira, Portuguese community abroad series",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12977:c5fd5d153897": {
+"pid": "12977",
+"n": "Mulheres Que Contam",
+"verdict": "portuguese",
+"reason": "Portuguese interview series about Portuguese decorative arts",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14205:8769a31620af": {
+"pid": "14205",
+"n": "Hotéis XXI",
+"verdict": "unsure",
+"reason": "Portuguese-language title and description but no clear indication of origin",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14620:acb3214c0bea": {
+"pid": "14620",
+"n": "Luiza de Jesus - A Macabra História da Maior Serial Killer Portuguesa",
+"verdict": "portuguese",
+"reason": "Documentary about Portuguese serial killer Luiza de Jesus",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14617:694ad5efdf7f": {
+"pid": "14617",
+"n": "Maçonaria em Portugal - Uma História",
+"verdict": "portuguese",
+"reason": "Documentary on Freemasonry in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14117:0624a49bf340": {
+"pid": "14117",
+"n": "ModaLisboa Singular - Melhores Momentos",
+"verdict": "portuguese",
+"reason": "Lisbon Fashion Week highlights hosted by Sílvia Alberto",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14359:8db7a796a242": {
+"pid": "14359",
+"n": "Os Diários de Thomaz de Mello Breyner",
+"verdict": "portuguese",
+"reason": "Diaries of Portuguese figure, Estado Novo era history",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11032:7660d33751bf": {
+"pid": "11032",
+"n": "No País de Alice",
+"verdict": "portuguese",
+"reason": "Portuguese director Rui Simões travels through Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13434:5b8ff12034f1": {
+"pid": "13434",
+"n": "Salazar Não ia à Bola",
+"verdict": "portuguese",
+"reason": "Documentary on history of football in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11348:6cda13431e25": {
+"pid": "11348",
+"n": "Elogio da Paixão",
+"verdict": "portuguese",
+"reason": "Programme moderated by Portuguese psychologist Gabriela Moita",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11189:dcac607681bb": {
+"pid": "11189",
+"n": "Do Bairro",
+"verdict": "portuguese",
+"reason": "About Lisbon neighbourhoods Alfama and Mouraria",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14159:0501bdd76c90": {
+"pid": "14159",
+"n": "Naçara: Uma e Outra Vez",
+"verdict": "portuguese",
+"reason": "Young Portuguese woman, Silves relatives, Portuguese documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14151:31f4fc1676ae": {
+"pid": "14151",
+"n": "O Mundo de Irreversível",
+"verdict": "portuguese",
+"reason": "Portuguese actors on RTP1 exploring Portuguese series Irreversível",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13932:2205ed5594ba": {
+"pid": "13932",
+"n": "Alexandria",
+"verdict": "portuguese",
+"reason": "Portuguese-language talk show on culture and music, RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13631:81f521bf1dd3": {
+"pid": "13631",
+"n": "Mesa Portuguesa... com Estrelas Com Certeza!",
+"verdict": "portuguese",
+"reason": "Chefs working in Portugal travel Portuguese tables",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13924:a14697e91285": {
+"pid": "13924",
+"n": "Portugal de... Best Of",
+"verdict": "portuguese",
+"reason": "Portuguese figures' perspectives on Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10172:577407dd305f": {
+"pid": "10172",
+"n": "Este é o Meu Corpo - Mutilação Genital Feminina",
+"verdict": "portuguese",
+"reason": "Documentary about FGM victims in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13397:1feeb98f9ffa": {
+"pid": "13397",
+"n": "Os Sobreviventes no Zoo",
+"verdict": "unsure",
+"reason": "Animals in European zoo programme on RTP África; no clear producer information, could be acquired or Portuguese",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8080:31c9eb0ba5c0": {
+"pid": "8080",
+"n": "Romaria do Meu Coração",
+"verdict": "portuguese",
+"reason": "Portuguese festivals and pilgrimages on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14697:58a258f8bae4": {
+"pid": "14697",
+"n": "Fanny e a Melancolia",
+"verdict": "portuguese",
+"reason": "Documentary by Adriano Nazareth about Porto and the Douro",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11005:92bb4e96e4d6": {
+"pid": "11005",
+"n": "50 | 50",
+"verdict": "portuguese",
+"reason": "Documentary by Mafalda Rebelo, Portuguese director, RTP2 culture",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10476:cf6911ba882e": {
+"pid": "10476",
+"n": "Carlos Lopes - O Homem da Maratona",
+"verdict": "portuguese",
+"reason": "Portuguese marathon champion Carlos Lopes biography",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13721:5280119986d9": {
+"pid": "13721",
+"n": "Rosas de Ermera (Filme)",
+"verdict": "portuguese",
+"reason": "Documentary on Timor-Leste family, Lusophone subject with Portuguese-language testimonies",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13698:1d659bbebb8a": {
+"pid": "13698",
+"n": "Viagem ao Centro da Minha Terra: Especial Santos Populares",
+"verdict": "portuguese",
+"reason": "Lisbon Santos Populares marches, Portuguese series",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10004:ca4986093441": {
+"pid": "10004",
+"n": "Terra: Histórias da Cerâmica",
+"verdict": "portuguese",
+"reason": "Ceramics documentary series with Portuguese heritage collection tags",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13186:4de2659fd158": {
+"pid": "13186",
+"n": "Vinho, O Sangue da Terra",
+"verdict": "portuguese",
+"reason": "Documentary by Carlos Fraga on wine, Portuguese heritage collection",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13366:1289008fb86c": {
+"pid": "13366",
+"n": "... E Antes de Abril?",
+"verdict": "portuguese",
+"reason": "About Portuguese fascist regime before 25 April; Recomendações de Abril",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13170:651220813c47": {
+"pid": "13170",
+"n": "Vinhos com História",
+"verdict": "portuguese",
+"reason": "Portuguese wine regions, heritage collection",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13273:3448612a68b4": {
+"pid": "13273",
+"n": "Os Olhos da Revolução",
+"verdict": "portuguese",
+"reason": "RTP cameraman and 25 de Abril 1974, Portuguese history",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"5993:ad18e7df50fb": {
+"pid": "5993",
+"n": "Salgueiro Maia - Rumo à Eternidade",
+"verdict": "portuguese",
+"reason": "Portuguese captain Salgueiro Maia, Revolution of 25 April",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11508:e1cb7760656a": {
+"pid": "11508",
+"n": "José Medeiros Ferreira: Um Pensamento Cintilante",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese figure José Medeiros Ferreira",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8818:8a21f4bb312b": {
+"pid": "8818",
+"n": "Maria Helena Mendes Pinto - Uma Vida nas Artes Decorativas em Portugal",
+"verdict": "portuguese",
+"reason": "Portuguese decorative arts life story, set in Lisbon",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13161:be00efa17525": {
+"pid": "13161",
+"n": "Viva a Democracia - 50 Anos e o Futuro",
+"verdict": "portuguese",
+"reason": "Portugal's 50 years of democracy, Portuguese history collection",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12233:03e5d3697184": {
+"pid": "12233",
+"n": "Portugal de...",
+"verdict": "portuguese",
+"reason": "Portuguese figures' perspectives on Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7273:ae416f240988": {
+"pid": "7273",
+"n": "Portugu Esses",
+"verdict": "portuguese",
+"reason": "Looks at contemporary Portuguese society",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11787:a490ea8e8b95": {
+"pid": "11787",
+"n": "Tribunal Constitucional: 40 Anos a Cumprir o Futuro",
+"verdict": "portuguese",
+"reason": "Portuguese Constitutional Court 40 years",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12437:394b8fe54925": {
+"pid": "12437",
+"n": "Primeiro Estranha Depois Entranha",
+"verdict": "portuguese",
+"reason": "Celebrates brands that are part of Portugal's identity",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12781:72beea1e1ae4": {
+"pid": "12781",
+"n": "Museu da Presidência da República",
+"verdict": "portuguese",
+"reason": "Documentary on Museu da Presidência da República's 10th anniversary, Portuguese subject",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12617:42965f36ca6a": {
+"pid": "12617",
+"n": "Um Corpo que Dança - Ballet Gulbenkian 1965-2005",
+"verdict": "portuguese",
+"reason": "Gulbenkian Ballet history, Portuguese company and RTP Palco",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12293:0a379b2a768f": {
+"pid": "12293",
+"n": "Raízes e Frutos",
+"verdict": "portuguese",
+"reason": "About the Portuguese diabetics association, Portuguese heritage series",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9038:73207249e979": {
+"pid": "9038",
+"n": "Bem Bom - Realidade e Ficção",
+"verdict": "portuguese",
+"reason": "Making of Portuguese biopic about the band Doce",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12427:93d7caf99fab": {
+"pid": "12427",
+"n": "Pobreza Zero - O Futuro a Construir",
+"verdict": "portuguese",
+"reason": "Poverty in Portugal, Portuguese subject on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7749:6a66d09ecad9": {
+"pid": "7749",
+"n": "Torres & Cometas",
+"verdict": "portuguese",
+"reason": "Guimarães Capital of Culture 2012 event",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10171:6c27fb259876": {
+"pid": "10171",
+"n": "Carnaval Guiné-Bissau - Do Auge ao Resgate",
+"verdict": "portuguese",
+"reason": "Guinea-Bissau carnival; Lusophone production, Portuguese-speaking country",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12231:e7608f6ab955": {
+"pid": "12231",
+"n": "A Vida é um Autocarro Vazio",
+"verdict": "portuguese",
+"reason": "About Portuguese writer Maria Judite de Carvalho",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12107:eecbda14c484": {
+"pid": "12107",
+"n": "Destino: Portugal",
+"verdict": "portuguese",
+"reason": "Series on Fernão Mendes Pinto, Portuguese-led travel series",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6866:91493e8e315c": {
+"pid": "6866",
+"n": "Resistir à Cegueira do Mundo - Eduardo Prado Coelho",
+"verdict": "portuguese",
+"reason": "Portrait of Portuguese critic Eduardo Prado Coelho",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12035:b66aa317e2e9": {
+"pid": "12035",
+"n": "Salto Mortal",
+"verdict": "portuguese",
+"reason": "Portuguese sports history, Sport Club do Porto",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11662:826b3b9ac183": {
+"pid": "11662",
+"n": "Conceição Matos: Coragem Hoje, Abraços Amanhã",
+"verdict": "portuguese",
+"reason": "Portuguese woman from Barreiro, Portuguese history documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8946:8f79a0657294": {
+"pid": "8946",
+"n": "Bom Jesus do Monte",
+"verdict": "portuguese",
+"reason": "Bom Jesus do Monte in Braga, Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11945:08211e213fe4": {
+"pid": "11945",
+"n": "Portugal, Uma Casa Para Todos",
+"verdict": "portuguese",
+"reason": "Housing in Portugal, Portuguese subject on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11935:99fdd2c11f4a": {
+"pid": "11935",
+"n": "Fajãs do Tempo",
+"verdict": "portuguese",
+"reason": "Fajãs in the Azores, Portuguese landscapes and people",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11933:414d7e732fe5": {
+"pid": "11933",
+"n": "Ecos da Terra",
+"verdict": "portuguese",
+"reason": "Ecos da Terra festival organized by Portuguese association",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11870:885a1de2f141": {
+"pid": "11870",
+"n": "O Pão que o Diabo Amassou",
+"verdict": "portuguese",
+"reason": "Portuguese film title; Adsamo mountain village, likely Portuguese production, but Portuguese title suggests Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11840:7ee25b72875e": {
+"pid": "11840",
+"n": "Prisioneiros de Guerra",
+"verdict": "portuguese",
+"reason": "Portuguese military surrender in Goa 1961, Portuguese history",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11795:3d45794d0eae": {
+"pid": "11795",
+"n": "Uma Cidade Imaginada",
+"verdict": "portuguese",
+"reason": "Expo 98 legacy in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11589:0283d97b9e29": {
+"pid": "11589",
+"n": "Impressões do Oriente: As Viagens de Fernão Mendes Pinto de Goa a Malaca",
+"verdict": "portuguese",
+"reason": "Fernão Mendes Pinto travel series, Portuguese-led production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9539:7ef320343526": {
+"pid": "9539",
+"n": "A Arte da Cura",
+"verdict": "portuguese",
+"reason": "Series on history of medicine in Portugal, presented by Rita Saldanha",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9030:e4c3be394dcf": {
+"pid": "9030",
+"n": "Vida e Obra de José Luís Tinoco",
+"verdict": "portuguese",
+"reason": "Portuguese artist born in Leiria, studied in Porto",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10459:deb7519e142d": {
+"pid": "10459",
+"n": "Laurinha",
+"verdict": "portuguese",
+"reason": "About Portuguese theatre star Laura Alves",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8322:8892af6f32de": {
+"pid": "8322",
+"n": "Nada Será Como Dante",
+"verdict": "portuguese",
+"reason": "RTP2 literature programme, Portuguese-made, no foreign signals",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8001:a1d7bc3077a7": {
+"pid": "8001",
+"n": "Encontro D´Águas - Segredos da Ria e do Baixo Vouga Lagunar",
+"verdict": "portuguese",
+"reason": "Produced by Município de Estarreja, Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8366:8771e7a9427e": {
+"pid": "8366",
+"n": "João Villaret - O Domador da Voz",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese actor João Villaret",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8602:153b9f1bed3b": {
+"pid": "8602",
+"n": "Maria Gabriela Llansol - Um Olhar Intenso Pode Incendiar o Texto",
+"verdict": "portuguese",
+"reason": "About Portuguese author Maria Gabriela Llansol",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10829:af16e4467d4c": {
+"pid": "10829",
+"n": "Viagem a Portugal",
+"verdict": "portuguese",
+"reason": "Travel through Portugal with Porchat (Brazilian host); Portuguese setting and RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10795:6bae1d99c6c1": {
+"pid": "10795",
+"n": "Longevidade - Desafios Económicos e Sociais",
+"verdict": "portuguese",
+"reason": "About Portuguese demographics and society",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10770:55e7e2ea55a3": {
+"pid": "10770",
+"n": "Heróis Olímpicos",
+"verdict": "portuguese",
+"reason": "Documentary about Portuguese Olympic medallists, made for RTP",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10769:f06bb6f9f53e": {
+"pid": "10769",
+"n": "12 de Outubro de 1972: O Dia em que Perdemos o Medo",
+"verdict": "portuguese",
+"reason": "Portuguese student history, 1972 Lisbon event",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10660:7abed3f0a3ed": {
+"pid": "10660",
+"n": "Laji, Histórias de Refugiados em Portugal",
+"verdict": "portuguese",
+"reason": "Refugees in Portugal, Portuguese-set documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10630:9dfb23964a30": {
+"pid": "10630",
+"n": "Únicos & Singulares",
+"verdict": "portuguese",
+"reason": "Filmed in Portuguese mental health institutions",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9366:bcc7afdd0629": {
+"pid": "9366",
+"n": "Francisco Lyon de Castro: Maior que a Censura",
+"verdict": "portuguese",
+"reason": "About Portuguese publisher under censorship",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10436:de079ae19d06": {
+"pid": "10436",
+"n": "Eunice & Ruy - Viagem ao Princípio",
+"verdict": "portuguese",
+"reason": "Portuguese actors Eunice Muñoz and Ruy de Carvalho",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10399:57298aa1fb79": {
+"pid": "10399",
+"n": "Lisboa: Cidade Triste e Alegre",
+"verdict": "portuguese",
+"reason": "About Lisbon photography book by Portuguese architects",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10368:6aeb4de2a9be": {
+"pid": "10368",
+"n": "Isabel II e Portugal",
+"verdict": "portuguese",
+"reason": "Documentary on Queen Elizabeth II's visits to Portugal, Salazar era",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2958:723686b0fc44": {
+"pid": "2958",
+"n": "Uma Montanha do Tamanho do Homem",
+"verdict": "portuguese",
+"reason": "Portuguese director João Nuno Brochado, village of Drave",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10262:7fc105eceea4": {
+"pid": "10262",
+"n": "Compositores Portugueses Contemporâneos: António Ferreira dos Santos",
+"verdict": "portuguese",
+"reason": "Portuguese composer series",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10252:72d07a7e93e7": {
+"pid": "10252",
+"n": "Juventudes",
+"verdict": "portuguese",
+"reason": "About Portuguese youth and population",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10170:8fdb0af6ae45": {
+"pid": "10170",
+"n": "Bonecreiros da Folia",
+"verdict": "portuguese",
+"reason": "Folia puppet company, RTP Palco, Portuguese title and artists; likely Portuguese production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10174:8dac4722341f": {
+"pid": "10174",
+"n": "Fundação Inatel - Uma Longa História (Versão 60´)",
+"verdict": "portuguese",
+"reason": "About Fundação Inatel, Portuguese institution from Estado Novo",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9808:57b34d72d51c": {
+"pid": "9808",
+"n": "As Coisas em Volta: A Vida Misteriosa dos Objectos",
+"verdict": "unsure",
+"reason": "Generic description about objects' history; no origin clues",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8458:33e7231d2c02": {
+"pid": "8458",
+"n": "Ni Hao China",
+"verdict": "unsure",
+"reason": "About China; could be RTP-made or acquired, no clear evidence",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9614:71a4c3ba4cc7": {
+"pid": "9614",
+"n": "Jornal do Fundão: O Sonho e as Causas",
+"verdict": "portuguese",
+"reason": "About Jornal do Fundão, Beira Interior newspaper in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9732:46db71ed2b42": {
+"pid": "9732",
+"n": "António Coimbra de Matos: O Olhar Nos Outros",
+"verdict": "portuguese",
+"reason": "Portuguese psychiatrist biography, born near the Douro",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9694:5997b7072476": {
+"pid": "9694",
+"n": "Beatriz Costa: A Alegria é a Minha Religião",
+"verdict": "portuguese",
+"reason": "Beatriz Costa, Portuguese actress; RTP Palco documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9402:e65cec9398bf": {
+"pid": "9402",
+"n": "Soa",
+"verdict": "unsure",
+"reason": "Portuguese title but description gives no origin; episode series about crises",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9398:5b89594e129e": {
+"pid": "9398",
+"n": "Future Makers",
+"verdict": "portuguese",
+"reason": "Young creatives living in Lisbon",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9267:85bf7dc8f377": {
+"pid": "9267",
+"n": "O Elogio da Luz",
+"verdict": "unsure",
+"reason": "Lighting series, no origin information; could be acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9305:f6a0a79444f0": {
+"pid": "9305",
+"n": "História do Teatro de Revista em Portugal - A Revista após o 25 de Abril de 1974",
+"verdict": "portuguese",
+"reason": "History of revue theatre in Portugal after 25 April",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9338:fda4dcfa5add": {
+"pid": "9338",
+"n": "Há 100 Anos, A Seara Nova",
+"verdict": "portuguese",
+"reason": "About Seara Nova, Portuguese magazine, Portuguese history documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9099:72e7f81a842a": {
+"pid": "9099",
+"n": "Seis Décadas de Televisão (Minidocs)",
+"verdict": "portuguese",
+"reason": "Marks 60 years of RTP with Portuguese TV figures",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9197:154e3931f6fc": {
+"pid": "9197",
+"n": "Na Rota dos Vinhos da Ilha do Pico",
+"verdict": "portuguese",
+"reason": "Wine route of Pico Island, Azores, Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8795:c8038e8e7a6e": {
+"pid": "8795",
+"n": "Bow",
+"verdict": "unsure",
+"reason": "Dance documentary on post-isolation; origin not stated",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8940:d7237943a8c1": {
+"pid": "8940",
+"n": "Começar de Novo",
+"verdict": "unsure",
+"reason": "Refugee stories of various nationalities; could be Portuguese-made but unclear",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9043:fa742f26a4ed": {
+"pid": "9043",
+"n": "Sou Autor do Meu Nome - Mia Couto",
+"verdict": "portuguese",
+"reason": "Mozambican writer Mia Couto; Lusophone, director Solveig Nordlund worked in Mozambique",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9013:f19a735a4123": {
+"pid": "9013",
+"n": "Selvagens",
+"verdict": "portuguese",
+"reason": "About the Selvagens islands of Portugal; Portuguese narration likely though National Geographic footage",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8451:620043c2ed4c": {
+"pid": "8451",
+"n": "Iron Brothers - Irmandade de Ferro",
+"verdict": "portuguese",
+"reason": "Portuguese brothers Ferreira Pinto; RTP Protagonistas collection",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8943:039cca91cfb9": {
+"pid": "8943",
+"n": "O Bairro Português de Malaca",
+"verdict": "portuguese",
+"reason": "Portuguese community in Malacca; Portuguese-language documentary by RTP",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8902:05604dbd0a6b": {
+"pid": "8902",
+"n": "Mulheres em Portugal",
+"verdict": "portuguese",
+"reason": "RTP with Fundação Francisco Manuel dos Santos, about women in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8868:838337b52e20": {
+"pid": "8868",
+"n": "A Senhora Dona Amélia",
+"verdict": "portuguese",
+"reason": "About Amélia Rey Colaço and Teatro Nacional, Portuguese subject on RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8770:3b71d2429a5b": {
+"pid": "8770",
+"n": "Mulheres na Resistência",
+"verdict": "portuguese",
+"reason": "Recomendações de Abril, Portuguese resistance against the dictatorship, Glória Marreiros",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4648:375d0789844a": {
+"pid": "4648",
+"n": "Sim, Eu Consigo - Ayham - My New Life",
+"verdict": "unsure",
+"reason": "Refugee in Switzerland, English title part; unclear if RTP-made or acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8072:7d10c814c7b2": {
+"pid": "8072",
+"n": "Nós, Portugueses - Um Futuro por Desenhar",
+"verdict": "portuguese",
+"reason": "Nós, Portugueses series about Portuguese economy",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6943:686deaedd0d4": {
+"pid": "6943",
+"n": "Fabrico Internacional",
+"verdict": "portuguese",
+"reason": "Portrays Portuguese companies in international markets",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8028:672bfbd839b5": {
+"pid": "8028",
+"n": "Migradores de Longa Distância: Entre o Tejo e o Ártico",
+"verdict": "portuguese",
+"reason": "Follows birds from Tagus estuary; Portuguese-led documentary with Portuguese title",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7665:78e59841c6bb": {
+"pid": "7665",
+"n": "Francisco de Holanda - A Luz Esquecida do Renascimento",
+"verdict": "portuguese",
+"reason": "Portuguese Renaissance artist, Portuguese title; likely Portuguese production with international interviewees",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7607:6905a3b25aec": {
+"pid": "7607",
+"n": "A Escolha Impossível",
+"verdict": "portuguese",
+"reason": "Portrait of Portuguese community in Limousin, Portuguese-made",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7594:bde5ebcfac12": {
+"pid": "7594",
+"n": "Hotéis com História",
+"verdict": "portuguese",
+"reason": "Hotels in Portugal such as Palácio Estoril, RTP2 series",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7360:548b4aed264b": {
+"pid": "7360",
+"n": "Príncipes do Nada",
+"verdict": "portuguese",
+"reason": "Príncipes do Nada is a Portuguese RTP1 series, season 5",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7368:8367e1d558bf": {
+"pid": "7368",
+"n": "Leva-me Contigo - O Documentário",
+"verdict": "portuguese",
+"reason": "Portuguese author Afonso Reis Cabral, Portuguese literary documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6274:2007e612637f": {
+"pid": "6274",
+"n": "Enviado Especial",
+"verdict": "portuguese",
+"reason": "Aquino de Bragança, anti-colonial figure tied to Lusophone world, Portuguese title",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6910:e605a6cf252e": {
+"pid": "6910",
+"n": "À Procura da Moça Dorita",
+"verdict": "portuguese",
+"reason": "Portuguese sculptor Dorita de Castel-Branco born in Lisbon",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6919:e3780f768503": {
+"pid": "6919",
+"n": "Carquejeiras - As Escravas do Porto",
+"verdict": "portuguese",
+"reason": "About Porto's carquejeiras, Portuguese subject",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7056:3700bfcfa349": {
+"pid": "7056",
+"n": "Das Pedras Fez-se Terra: Histórias da Beira Baixa",
+"verdict": "portuguese",
+"reason": "Stories of Beira Baixa region in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7020:b3d27e078a2c": {
+"pid": "7020",
+"n": "Acima das Nossas Possibilidades",
+"verdict": "portuguese",
+"reason": "Part of Projecto Troika, about Portuguese bailout",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6829:1078e245f8a8": {
+"pid": "6829",
+"n": "Nós, Portugueses - Nascer Para Não Morrer",
+"verdict": "portuguese",
+"reason": "Nós, Portugueses series about Portugal's demographics",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6729:75770630837a": {
+"pid": "6729",
+"n": "Júlio Isidro - 60 Anos de Televisão",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese TV host Júlio Isidro",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6668:8f393708f587": {
+"pid": "6668",
+"n": "Beautiful Madeira",
+"verdict": "unsure",
+"reason": "English title but set in Madeira; production origin unclear",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4677:d6d5da6270fd": {
+"pid": "4677",
+"n": "Portugueses pelo Mundo",
+"verdict": "portuguese",
+"reason": "RTP1 series about Portuguese communities abroad, Portuguese-made and in Portuguese",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6252:d5554ffc985e": {
+"pid": "6252",
+"n": "A Voz do Operário",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese society by Miguel Costa, RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6110:eb430d06ff10": {
+"pid": "6110",
+"n": "Ole António Ole",
+"verdict": "portuguese",
+"reason": "Directed by Portuguese filmmaker Rui Simões, about Angolan artist",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"5545:72bbeba24e53": {
+"pid": "5545",
+"n": "Cesina Bermudes - Uma Vida Só Não Basta",
+"verdict": "portuguese",
+"reason": "Portuguese doctor biography, RTP2 culture, 'Para todas as mulheres' collection",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4680:a0b3ba81477a": {
+"pid": "4680",
+"n": "Tarrafal",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português, about Porto neighbourhood",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"5900:37b07fcd3382": {
+"pid": "5900",
+"n": "Ilhas da Macaronésia (Madeira e Cabo Verde)",
+"verdict": "unsure",
+"reason": "Madeira and Cape Verde nature series; may be Portuguese or acquired, thin evidence",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1687:60ad7ecf0149": {
+"pid": "1687",
+"n": "O Povo Que Ainda Canta",
+"verdict": "portuguese",
+"reason": "Series by Tiago Pereira on Portuguese traditional music",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"5584:481d50164180": {
+"pid": "5584",
+"n": "À Procura de António Botto",
+"verdict": "portuguese",
+"reason": "Documentary about Portuguese writer António Botto",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1786:dd08dcea9329": {
+"pid": "1786",
+"n": "Palcos Agora - Conhecer a Fundação Eugénio de Almeida em Évora",
+"verdict": "portuguese",
+"reason": "RTP Palco magazine visiting Évora, Portuguese-made",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4488:6f38fa69fec6": {
+"pid": "4488",
+"n": "Rosas de Ermera",
+"verdict": "portuguese",
+"reason": "Documentary on Zeca Afonso's family, Portuguese heritage collection",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4533:ec85f114969a": {
+"pid": "4533",
+"n": "O Arquiteto de Lisboa: Pardal Monteiro",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese architect Pardal Monteiro in Lisbon",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1522:d74d1c9360db": {
+"pid": "1522",
+"n": "Mulheres de Abril",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, Portuguese series about April revolution",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3438:3e8dd6e70510": {
+"pid": "3438",
+"n": "A Voz e os Ouvidos do MFA",
+"verdict": "portuguese",
+"reason": "Documentary on MFA, António-Pedro Vasconcelos collection, Portuguese",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3436:f740664c1c82": {
+"pid": "3436",
+"n": "Quando a Tropa Mandou na RTP",
+"verdict": "portuguese",
+"reason": "Report by Jacinto Godinho on RTP and the Portuguese Revolution",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3477:dd86009c033f": {
+"pid": "3477",
+"n": "O Papa Que Veio do Sul",
+"verdict": "unsure",
+"reason": "About Pope Francis; could be Portuguese report or acquired documentary",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2576:b8c1e6ae5c32": {
+"pid": "2576",
+"n": "Camilo de Oliveira",
+"verdict": "portuguese",
+"reason": "Profile of Portuguese comedian Camilo de Oliveira",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2148:2ce0d3ba389c": {
+"pid": "2148",
+"n": "Love Me Love Me Not",
+"verdict": "portuguese",
+"reason": "Documentary on exhibition at Porto municipal gallery, despite English title",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2130:830b1cd638d5": {
+"pid": "2130",
+"n": "Parque da Pena",
+"verdict": "portuguese",
+"reason": "Documentary about Pena Park in Sintra, Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2095:cb8855a27370": {
+"pid": "2095",
+"n": "Show Me Lisbon",
+"verdict": "portuguese",
+"reason": "Documentary about Lisbon by locals, Portuguese-made",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15349:df5822402168": {
+"pid": "15349",
+"n": "Eunice Muñoz - Eu de Eunice",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese actress Eunice Muñoz, RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1948:3fce6f1eee8e": {
+"pid": "1948",
+"n": "Mundo dos Sentidos",
+"verdict": "portuguese",
+"reason": "RTP2 programme in Portuguese about the senses; no foreign signals, likely national production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1926:a7b4ecd691ca": {
+"pid": "1926",
+"n": "Água Vai, Pedra Leva",
+"verdict": "portuguese",
+"reason": "Documentary about levadas of Madeira island, Portuguese subject",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"660:cea7c8d91976": {
+"pid": "660",
+"n": "A Casa e a Cidade",
+"verdict": "portuguese",
+"reason": "About Portuguese urban space after 25 de Abril",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7986:9689ce12b5fa": {
+"pid": "7986",
+"n": "A Vida Invisível",
+"verdict": "portuguese",
+"reason": "Brazilian film set in Rio de Janeiro (Karim Aïnouz), Brazilian-led production; Portuguese-language but Brazilian accent",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14889:78afe21b1722": {
+"pid": "14889",
+"n": "Motel Destino",
+"verdict": "portuguese",
+"reason": "Brazilian film set in Ceará; Brazilian Portuguese audio",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11632:25adc42b369e": {
+"pid": "11632",
+"n": "Sombra - Uma Mãe Sabe",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; Portuguese film",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9155:e65211112a2f": {
+"pid": "9155",
+"n": "Uma Abelha na Chuva",
+"verdict": "portuguese",
+"reason": "Classic Portuguese film (Laura Soveral, João Guedes), despite Cinema Internacional tag",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6242:6ff157f57325": {
+"pid": "6242",
+"n": "Sul",
+"verdict": "portuguese",
+"reason": "Portuguese series about Tejo inspector, on RTP África; Portuguese fiction",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13855:c5bfb5e13eab": {
+"pid": "13855",
+"n": "A Palavra Mágica",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; village story",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11595:cabdb388ef6b": {
+"pid": "11595",
+"n": "Vencidos da Vida",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13120:80de32acce35": {
+"pid": "13120",
+"n": "Pê",
+"verdict": "portuguese",
+"reason": "Set in Lisbon, tagged Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16978:088b3e840097": {
+"pid": "16978",
+"n": "Correr o Fado",
+"verdict": "portuguese",
+"reason": "Set in Luzim on Tâmega river, Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16957:10219130dcc8": {
+"pid": "16957",
+"n": "O Teu Rosto Será o Último",
+"verdict": "portuguese",
+"reason": "Portuguese family history, Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7347:d0f72655b286": {
+"pid": "7347",
+"n": "Pedro e Inês",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; Pedro and Inês legend",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8208:15783e90ab0a": {
+"pid": "8208",
+"n": "O Ego de Egas",
+"verdict": "portuguese",
+"reason": "About Egas Moniz in Lisbon, Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8776:807633ee1219": {
+"pid": "8776",
+"n": "O Protagonista",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12558:dedb0998c6b4": {
+"pid": "12558",
+"n": "Nunca Nada Aconteceu",
+"verdict": "portuguese",
+"reason": "Lisbon suburbs setting, Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9064:be5c65cbc070": {
+"pid": "9064",
+"n": "A Impossibilidade de Estar Só",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8807:daebba08291e": {
+"pid": "8807",
+"n": "Uma Vida à Espera",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15991:fd5ac8e3bb06": {
+"pid": "15991",
+"n": "Idade da Pedra",
+"verdict": "portuguese",
+"reason": "Set in prehistoric Portugal, Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15954:69d0fa4fed5a": {
+"pid": "15954",
+"n": "A Sibila",
+"verdict": "portuguese",
+"reason": "Adaptation of Agustina Bessa-Luís novel; tagged Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15725:344fe86aafb4": {
+"pid": "15725",
+"n": "A Minha Casinha",
+"verdict": "portuguese",
+"reason": "Portuguese family story; Cinema Português tag",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15572:9c7fcb1bfeba": {
+"pid": "15572",
+"n": "A Bela América",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; Portuguese film",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15487:2bd72c7c2f55": {
+"pid": "15487",
+"n": "As Noites Ainda Cheiram a Pólvora",
+"verdict": "portuguese",
+"reason": "Portuguese-language documentary about Mozambique civil war; Lusophone production, Portuguese-led",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13632:435fe0dd76c3": {
+"pid": "13632",
+"n": "2 Duros de Roer",
+"verdict": "portuguese",
+"reason": "Porto and Lisbon police comedy; Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13098:ed678c0922d6": {
+"pid": "13098",
+"n": "KM 224",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; Portuguese film KM 224",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15074:5f46ff9cb981": {
+"pid": "15074",
+"n": "Excelência",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7707:a390eda02936": {
+"pid": "7707",
+"n": "Uma SMS para Antígona",
+"verdict": "portuguese",
+"reason": "Cinema Português tag; Portuguese cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15046:181cacb394d7": {
+"pid": "15046",
+"n": "Légua",
+"verdict": "portuguese",
+"reason": "Set in northern Portugal; Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14992:5b67d30736b5": {
+"pid": "14992",
+"n": "O Anjo do Tesouro de Mafra",
+"verdict": "portuguese",
+"reason": "Mafra setting; Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14919:239e9428bc3d": {
+"pid": "14919",
+"n": "O Aplaudido Dramaturgo Curado Pelas Pílulas Pink",
+"verdict": "portuguese",
+"reason": "Cinema Português tag",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14641:01747b3cd54b": {
+"pid": "14641",
+"n": "Um Filme do Caraças",
+"verdict": "portuguese",
+"reason": "Portuguese expression title; Cinema Português tag",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14269:005278748187": {
+"pid": "14269",
+"n": "Pôr do Sol - O Mistério do Colar de São Cajó",
+"verdict": "portuguese",
+"reason": "Film of RTP series Pôr do Sol",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2495:abcddf911b8e": {
+"pid": "2495",
+"n": "O Leão da Estrela - Minissérie",
+"verdict": "portuguese",
+"reason": "Sporting vs FC Porto story; Filmes Portugueses RTP Play",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12857:c28a5633bbeb": {
+"pid": "12857",
+"n": "Os Fotocines",
+"verdict": "portuguese",
+"reason": "Documentary on colonial war photographers; Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13943:b838bf8ff69b": {
+"pid": "13943",
+"n": "O Anel",
+"verdict": "portuguese",
+"reason": "Cinema Português tag",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13902:f3d11fce8c69": {
+"pid": "13902",
+"n": "O Conto do Nadador",
+"verdict": "portuguese",
+"reason": "Cinema Português tag; most-watched Portuguese film",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13823:9e5362076053": {
+"pid": "13823",
+"n": "Bully",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português despite English title",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13828:22debb2e6e21": {
+"pid": "13828",
+"n": "Ponte Atlântico",
+"verdict": "portuguese",
+"reason": "RTP2 series on Portuguese diaspora personalities; likely Portuguese-made",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13811:21da3651cb80": {
+"pid": "13811",
+"n": "O Chefe do Meu Pai Era um Democrata e Ninguém Sabia",
+"verdict": "portuguese",
+"reason": "Telefilm about 25 de Abril; Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12557:8cc252dbee65": {
+"pid": "12557",
+"n": "A Criança",
+"verdict": "portuguese",
+"reason": "Set in 16th-century Lisbon; tagged Cinema Português (A Criança, Portuguese film)",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7747:859678ae4fb0": {
+"pid": "7747",
+"n": "A Praia da Amália",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; about Amália, Portuguese fado figure",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13683:e8d041f33606": {
+"pid": "13683",
+"n": "Restos do Vento",
+"verdict": "portuguese",
+"reason": "Cinema Português; set in interior Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13612:57f4cfe5f2aa": {
+"pid": "13612",
+"n": "Curral de Moinas - Os Banqueiros do Povo",
+"verdict": "portuguese",
+"reason": "Cinema Português; Curral de Moinas is a Portuguese comedy",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13272:3795ec967fcf": {
+"pid": "13272",
+"n": "Salgueiro Maia - O Implicado",
+"verdict": "portuguese",
+"reason": "Cinema Português; biopic of Portuguese captain Salgueiro Maia",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10828:efe917607fd9": {
+"pid": "10828",
+"n": "Cuba Libre nos Bastidores",
+"verdict": "portuguese",
+"reason": "Making of Cuba Libre, Portuguese series about Annie Silva Pais, PIDE director's daughter",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12186:86e57c6cd9d5": {
+"pid": "12186",
+"n": "Abandonados",
+"verdict": "portuguese",
+"reason": "Cinema Português; Portuguese-Timorese-Australian story, Portuguese-led production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12048:f61bc9a8a2b2": {
+"pid": "12048",
+"n": "Pôr do Sol - Episódio Especial Bloopers",
+"verdict": "portuguese",
+"reason": "Bloopers of Portuguese series Pôr do Sol, presented by Vasco Palmeirim",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10580:9911831eb648": {
+"pid": "10580",
+"n": "Uma Conversa em Família",
+"verdict": "portuguese",
+"reason": "Portuguese case, Teresa de Barros Caetano; Portuguese documentary-drama",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8764:e98adc2a48f3": {
+"pid": "8764",
+"n": "Variações",
+"verdict": "portuguese",
+"reason": "Cinema Português; biopic of António Variações, Lisbon",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10186:dd753f72b18a": {
+"pid": "10186",
+"n": "Juventudes",
+"verdict": "unsure",
+"reason": "Generic description about generations and public debt; no clear origin",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10062:761323eaac0b": {
+"pid": "10062",
+"n": "A Máscara e as Aldeias",
+"verdict": "unsure",
+"reason": "Documentary on pagan mask traditions across Europe; could be Portuguese or acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9769:a731e17a9970": {
+"pid": "9769",
+"n": "Listen",
+"verdict": "portuguese",
+"reason": "Cinema Português; Portuguese family in London, Lúcia Moniz",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7017:13341bf75e2a": {
+"pid": "7017",
+"n": "Djon Africa",
+"verdict": "portuguese",
+"reason": "Djon Africa is a Portuguese-Cape Verdean film about Lisbon-born Miguel",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8204:464f73db12df": {
+"pid": "8204",
+"n": "Próximo Futuro",
+"verdict": "portuguese",
+"reason": "Cinema Português collection; anthology of three shorts",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7314:d33db25d9025": {
+"pid": "7314",
+"n": "Escola das Artes",
+"verdict": "portuguese",
+"reason": "Cinema Português; Portuguese family comedy",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7574:7b8d50d3ba5c": {
+"pid": "7574",
+"n": "Até que o Porno nos Separe",
+"verdict": "portuguese",
+"reason": "Portuguese comedy: Eulália's son emigrated to Germany; Portuguese-language story",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3525:85c4793d93fb": {
+"pid": "3525",
+"n": "O Amor é Lindo... Porque Sim!",
+"verdict": "portuguese",
+"reason": "Tagged Filmes Portugueses and Cinema Português; Vicente Alves do Ó",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3915:f88d8cb30576": {
+"pid": "3915",
+"n": "A Canção de Lisboa",
+"verdict": "portuguese",
+"reason": "Classic Portuguese 1933 film, Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4132:4d94aaae1598": {
+"pid": "4132",
+"n": "O Pátio das Cantigas",
+"verdict": "portuguese",
+"reason": "Portuguese comedy remake by Leonel Vieira, Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2534:661e804c722e": {
+"pid": "2534",
+"n": "O Pátio das Cantigas - Minissérie",
+"verdict": "portuguese",
+"reason": "Portuguese classic comedy remake, tagged Filmes Portugueses RTP Play",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1886:bbafd26d0617": {
+"pid": "1886",
+"n": "Os Filhos do Rock - Making Of",
+"verdict": "portuguese",
+"reason": "Story of Portuguese rock generation of the 80s; RTP fiction",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16211:6a59f21ac314": {
+"pid": "16211",
+"n": "Biosfera",
+"verdict": "portuguese",
+"reason": "Magazine on the Portuguese environmental agenda",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17068:840db483a817": {
+"pid": "17068",
+"n": "A Floresta",
+"verdict": "foreign",
+"reason": "Tom Crowther forest documentary, acquired science doc, no Portuguese link",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16849:3f5a15a34b34": {
+"pid": "16849",
+"n": "O Sopro da Terra",
+"verdict": "foreign",
+"reason": "Generic global nature documentary on wind, acquired science doc",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16940:fe28d28ff31a": {
+"pid": "16940",
+"n": "O Regresso da Natureza",
+"verdict": "foreign",
+"reason": "Generic nature documentary in acquired science collection, no Portuguese link",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16840:2e0ac55c0c92": {
+"pid": "16840",
+"n": "Os Segredos Selvagens da China",
+"verdict": "foreign",
+"reason": "Documentary about China's national parks, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17069:17b6bbdce199": {
+"pid": "17069",
+"n": "Os Estreitos do Mundo",
+"verdict": "foreign",
+"reason": "Documentary on world straits including Pas-de-Calais, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16943:300e507dda8c": {
+"pid": "16943",
+"n": "Armadilhas e Emboscadas",
+"verdict": "foreign",
+"reason": "Generic predator documentary in acquired nature collection",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16555:05f810e0b80b": {
+"pid": "16555",
+"n": "Atenção - Frágil: As Lagoas de Brenne",
+"verdict": "foreign",
+"reason": "Documentary about Brenne ponds in France, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16314:5141892f2207": {
+"pid": "16314",
+"n": "E a Bosta Aqui Tão Perto",
+"verdict": "foreign",
+"reason": "Documentary about dung, acquired nature series, no Portuguese cues",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15784:c1d0da5a7cf2": {
+"pid": "15784",
+"n": "Terra de Lendas",
+"verdict": "foreign",
+"reason": "Elemental legends series featuring US tornadoes, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16645:14ed935a7157": {
+"pid": "16645",
+"n": "Glaciares - Uma Corrida Contra o Tempo",
+"verdict": "foreign",
+"reason": "Global glacier documentary, acquired, no Portuguese link",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16612:823a6c03aa48": {
+"pid": "16612",
+"n": "Salvar o Vison Europeu",
+"verdict": "foreign",
+"reason": "European mink conservation documentary, likely French acquisition",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16524:85fe3cd9af6c": {
+"pid": "16524",
+"n": "Vale Savé: Um Milagre Selvagem",
+"verdict": "foreign",
+"reason": "Documentary set in Zimbabwe, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16865:d81a939a68b7": {
+"pid": "16865",
+"n": "Onde Está a Água?",
+"verdict": "portuguese",
+"reason": "About Pisão village in Portalegre, RTP1 Portuguese report",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16817:af920fb414d8": {
+"pid": "16817",
+"n": "Gronelândia sob Pressão",
+"verdict": "foreign",
+"reason": "Greenland climate documentary, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16575:108d7efcf593": {
+"pid": "16575",
+"n": "Inteligência Portuguesa",
+"verdict": "portuguese",
+"reason": "Portuguese innovation series featuring Goparity, in Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16663:225099796c2a": {
+"pid": "16663",
+"n": "As Ilhas de Nicobar - A Ressurreição de um Arquipélago",
+"verdict": "foreign",
+"reason": "Documentary about Nicobar Islands in India, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16441:09952d4f6e34": {
+"pid": "16441",
+"n": "Um Planeta Inquieto",
+"verdict": "foreign",
+"reason": "Documentary on Panama isthmus geology, acquired",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15813:b9c3fb2d4b3f": {
+"pid": "15813",
+"n": "Natureza: Um Apelo à Reconciliação",
+"verdict": "unsure",
+"reason": "Generic nature series about life's origins; no clear origin signal, likely acquired but not certain.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15616:7a2880783d02": {
+"pid": "15616",
+"n": "Tubarões: Máquinas Assassinas",
+"verdict": "foreign",
+"reason": "Slug 'shark' and shark hunters theme suggest an acquired foreign documentary series.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14672:2485643cf83e": {
+"pid": "14672",
+"n": "O Mar do Nosso Futuro",
+"verdict": "portuguese",
+"reason": "About Portugal's ocean and marine conservation; Portuguese subject.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13057:f8ecbbe9af9c": {
+"pid": "13057",
+"n": "Era Bonito Vê-la Pensar",
+"verdict": "portuguese",
+"reason": "Biography of Portuguese neurologist Paula Coutinho, pioneer in Portugal.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13091:7399ec3d71d3": {
+"pid": "13091",
+"n": "Furnas - O Vulcão da água",
+"verdict": "portuguese",
+"reason": "About Furnas volcano in the Azores; Portuguese subject on RTP2.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14962:0b3f912bf75a": {
+"pid": "14962",
+"n": "Para Além do Cérebro",
+"verdict": "unsure",
+"reason": "Generic mind-science series; no origin clues in the description.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15176:1eca16f67ca0": {
+"pid": "15176",
+"n": "Parques Naturais dos Açores - 10 Anos",
+"verdict": "portuguese",
+"reason": "Azores natural parks documentary about the Autonomous Region.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14706:5660b8021d1e": {
+"pid": "14706",
+"n": "Lisboa, Outras Formas de Vida",
+"verdict": "portuguese",
+"reason": "Documentary about wildlife in Lisbon.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14054:cc23544b1c7b": {
+"pid": "14054",
+"n": "Portugal, uma História Natural",
+"verdict": "portuguese",
+"reason": "Series about Portugal's wild nature, Portuguese title and subject.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14153:717399c4560a": {
+"pid": "14153",
+"n": "A Revolução da Energia Limpa",
+"verdict": "unsure",
+"reason": "Mentions Portugal's energy but may be an acquired international documentary.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13860:17d364da55a7": {
+"pid": "13860",
+"n": "Fauna Ibérica",
+"verdict": "unsure",
+"reason": "Iberian wildlife could be Spanish-Portuguese co-production or acquired Spanish series.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13725:93c56516b209": {
+"pid": "13725",
+"n": "Gorongosa - Regresso ao Paraíso Selvagem",
+"verdict": "unsure",
+"reason": "Gorongosa in Mozambique; Lusophone place but likely an acquired international documentary.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13620:08569e45dc3c": {
+"pid": "13620",
+"n": "A Península",
+"verdict": "unsure",
+"reason": "Iberian Peninsula nature series, likely Spanish-Portuguese; origin unclear.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13322:fa378b2db03b": {
+"pid": "13322",
+"n": "Segredos Médicos de Lisboa",
+"verdict": "portuguese",
+"reason": "Lisbon medical heritage series on RTP2, Portuguese subject.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12536:9aefb50def0e": {
+"pid": "12536",
+"n": "O Mundo dos Pica-Paus",
+"verdict": "foreign",
+"reason": "Slug is English 'knock-knock-a-woodpeckers-world', an acquired documentary.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12446:274cb231bc2b": {
+"pid": "12446",
+"n": "Cegonha Branca - Entre a Igreja e o Penhasco",
+"verdict": "portuguese",
+"reason": "About the white stork, an emblematic Portuguese bird.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12227:5b6f490ff178": {
+"pid": "12227",
+"n": "Guerreiras pela Natureza",
+"verdict": "portuguese",
+"reason": "Iberian lynx breeding centre in the Algarve with Portuguese scientist.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11948:1d41270a6d22": {
+"pid": "11948",
+"n": "Madeira Profunda",
+"verdict": "portuguese",
+"reason": "Produced by RTP Madeira about the archipelago.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9768:a765bb3bb26f": {
+"pid": "9768",
+"n": "Vírus - Parasitas Obrigatórios",
+"verdict": "unsure",
+"reason": "Generic virus science series; no origin clues.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10414:3b34c0fa0af6": {
+"pid": "10414",
+"n": "A Ilha dos Gigantes",
+"verdict": "portuguese",
+"reason": "Features Portuguese scientists Nuno Sá and Jorge Fontes, likely Azores.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10504:8c2492acba1b": {
+"pid": "10504",
+"n": "Ecomare - Investigação e Salvamento de Espécies Marinhas",
+"verdict": "portuguese",
+"reason": "Ecomare inaugurated by Portuguese president Marcelo Rebelo de Sousa; Portuguese lab.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10485:301907781210": {
+"pid": "10485",
+"n": "Sardinha Portuguesa - Uma Riqueza Natural",
+"verdict": "portuguese",
+"reason": "Portuguese sardines, set in Portugal; Portuguese subject and RTP1 production likely.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10207:94f2fd5fd560": {
+"pid": "10207",
+"n": "Planeta A",
+"verdict": "unsure",
+"reason": "Generic sustainability documentary series; no clue to origin.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9047:acb6bde6471a": {
+"pid": "9047",
+"n": "As Novas Viagens Philosophicas",
+"verdict": "portuguese",
+"reason": "Documentary about Portuguese scientists abroad; Portuguese-made series.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8433:000f25b555d6": {
+"pid": "8433",
+"n": "Um Ano de Gorongosa",
+"verdict": "unsure",
+"reason": "Gorongosa safari documentary; likely acquired (US-made) but Mozambique setting, no clear evidence.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8431:b0cf96e937cc": {
+"pid": "8431",
+"n": "A Nossa Gorongosa",
+"verdict": "unsure",
+"reason": "Gorongosa park in Mozambique; possibly foreign acquired documentary, evidence thin.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8364:fb3b98203efc": {
+"pid": "8364",
+"n": "As Febres do Século",
+"verdict": "portuguese",
+"reason": "About 1918 Pneumónica pandemic, Portuguese title and focus; likely Portuguese production.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8309:47fd12828e29": {
+"pid": "8309",
+"n": "Deus Cérebro",
+"verdict": "unsure",
+"reason": "Inesgotável series on neuroscience; origin not clear.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8046:b529a28861fd": {
+"pid": "8046",
+"n": "Ahh! Ciência nos Açores",
+"verdict": "portuguese",
+"reason": "RTP Açores series on Azores science centres.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6437:556d695b3321": {
+"pid": "6437",
+"n": "Mar, a Última Fronteira",
+"verdict": "portuguese",
+"reason": "Series exploring Portuguese marine areas like Porto Santo and Ilhas Selvagens.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"5639:f65715abca9e": {
+"pid": "5639",
+"n": "Grande é Belo",
+"verdict": "foreign",
+"reason": "Generic documentary on giant animals worldwide; no Portuguese link, likely acquired.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16884:622bcad38648": {
+"pid": "16884",
+"n": "A Escrava Isaura",
+"verdict": "portuguese",
+"reason": "Brazilian telenovela remake (Escrava Isaura), though tagged Séries Estrangeiras; Lusophone production.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15937:1611715356bd": {
+"pid": "15937",
+"n": "O Grito",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17247:8ade3c117e19": {
+"pid": "17247",
+"n": "Ruído",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais; post-regime sketches group in Portugal.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17147:9de2668bf75b": {
+"pid": "17147",
+"n": "Se Eu Quiser, Choro",
+"verdict": "portuguese",
+"reason": "RTP Lab series with Portuguese cast and director.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17310:c3cef376bdff": {
+"pid": "17310",
+"n": "A Ferro e Fogo",
+"verdict": "unsure",
+"reason": "Set in Cape Town but RTP Play original; production origin unclear.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16367:229aa8a45410": {
+"pid": "16367",
+"n": "O Pátio da Saudade",
+"verdict": "portuguese",
+"reason": "Séries nacionais, Portuguese director and cast.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17099:4f242cb7f330": {
+"pid": "17099",
+"n": "Evadidos",
+"verdict": "unsure",
+"reason": "Dystopian series on RTP1, no collection tag or cast; origin unclear.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"17009:d4f64687e376": {
+"pid": "17009",
+"n": "Salto de Fé",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16930:e71abee48aa7": {
+"pid": "16930",
+"n": "Millennial Mal",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais.",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2395:064669e24efd": {
+"pid": "2395",
+"n": "O Alto",
+"verdict": "portuguese",
+"reason": "Family returns from exile to Portugal; RTP2 fiction, Portuguese setting suggests national production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16742:531002480c3b": {
+"pid": "16742",
+"n": "Ecos do Mar",
+"verdict": "portuguese",
+"reason": "RTP Lab collection indicates Portuguese production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16725:2277e34ff5fc": {
+"pid": "16725",
+"n": "Adónis",
+"verdict": "portuguese",
+"reason": "Portuguese cast (Lídia Franco, Custódia Gallego), tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16515:b1274b181dc4": {
+"pid": "16515",
+"n": "O Bairro do Humor",
+"verdict": "portuguese",
+"reason": "Portuguese humour series about Portugal, O Bairro do Humor is an RTP production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16705:051f305359be": {
+"pid": "16705",
+"n": "Novas Narrativas de Caça",
+"verdict": "portuguese",
+"reason": "About Portuguese Afro-descendant characters, RTP Play exclusive",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16574:9aba1728d26e": {
+"pid": "16574",
+"n": "Madrugada Suja",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14671:788829f6fc87": {
+"pid": "14671",
+"n": "Finisterra",
+"verdict": "portuguese",
+"reason": "Portuguese cast (Miguel Guilherme, Gonçalo Waddington)",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16484:6496efa7088c": {
+"pid": "16484",
+"n": "Fernão Lopes: O Renegado",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, Portuguese historical figure",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16534:437ad20704cf": {
+"pid": "16534",
+"n": "3000 Depois de Cristo",
+"verdict": "portuguese",
+"reason": "RTP Lab and Séries nacionais tags",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16470:c9a8125d097b": {
+"pid": "16470",
+"n": "Algodão a Frio",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, Portuguese cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16393:0bce20beeabb": {
+"pid": "16393",
+"n": "Um Filme do Caraças",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, Herman José in cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16364:fc0a5b8eda26": {
+"pid": "16364",
+"n": "Homens de Honra",
+"verdict": "portuguese",
+"reason": "About Cunhal and Soares, tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16345:876f7761cf5b": {
+"pid": "16345",
+"n": "Sangue & Mármore",
+"verdict": "portuguese",
+"reason": "RTP Lab, based on album by Portuguese musician David Bruno",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"16257:c5fc0faf04ee": {
+"pid": "16257",
+"n": "Refúgio do Medo",
+"verdict": "portuguese",
+"reason": "Portugal-Iceland co-production, Portuguese cast, Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15745:e019adfe6c85": {
+"pid": "15745",
+"n": "Casa Abrigo",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, Portuguese cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15679:5b318af440b1": {
+"pid": "15679",
+"n": "Pedro e Inês",
+"verdict": "portuguese",
+"reason": "Portuguese historical series by Moita Flores on RTP Memória",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15506:4310fbe620c4": {
+"pid": "15506",
+"n": "Espias",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, set in Portugal, Portuguese cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15648:0a379b2a768f": {
+"pid": "15648",
+"n": "Filmar para o Boneco",
+"verdict": "portuguese",
+"reason": "Séries nacionais tag, about Portuguese diabetics association",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15139:182e7330ab51": {
+"pid": "15139",
+"n": "Situações Delicadas",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, RTP Play original",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15442:d84fd399dd30": {
+"pid": "15442",
+"n": "Felp",
+"verdict": "portuguese",
+"reason": "Felp is a Portuguese puppet comedy series; evidence from tags is thin but moderate",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"15099:f9b22b2fa947": {
+"pid": "15099",
+"n": "Lume",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais; RTP1 fiction set on the Galicia-Portugal border",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8352:5c08616bdb0e": {
+"pid": "8352",
+"n": "Até Que a Vida Nos Separe",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14856:ab1b59007af1": {
+"pid": "14856",
+"n": "Daqui Houve Resistência",
+"verdict": "portuguese",
+"reason": "Séries nacionais; about the antifascist resistance in northern Portugal",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"14147:a4525f2e8183": {
+"pid": "14147",
+"n": "O Americano",
+"verdict": "portuguese",
+"reason": "Séries nacionais; gang robbing banks in the Algarve",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11670:5238ad5bf7f2": {
+"pid": "11670",
+"n": "Salgueiro Maia - O Implicado",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Portuguese cast and director about Salgueiro Maia",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13656:f961bfb39503": {
+"pid": "13656",
+"n": "Hotel do Rio",
+"verdict": "portuguese",
+"reason": "Séries nacionais; João Canijo series with Portuguese cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"13094:d8b0ff0883bb": {
+"pid": "13094",
+"n": "Ministério do Tempo",
+"verdict": "foreign",
+"reason": "El Ministerio del Tiempo is a Spanish series; no national tag, on RTP2",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3868:11d9ceb4e988": {
+"pid": "3868",
+"n": "Caminhos da Alma - Fátima",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Portuguese women's journey to Fátima",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12606:e43a78165252": {
+"pid": "12606",
+"n": "KM 224",
+"verdict": "portuguese",
+"reason": "Séries nacionais; directed by António-Pedro Vasconcelos",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12425:28fe6c94cb5c": {
+"pid": "12425",
+"n": "Lusitânia",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Portuguese folklore legends",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12280:8df797ff8f31": {
+"pid": "12280",
+"n": "Codex 632",
+"verdict": "portuguese",
+"reason": "Séries nacionais; based on José Rodrigues dos Santos novel, Portuguese cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11186:c173f90a2d48": {
+"pid": "11186",
+"n": "Regresso a Ítaca",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Ricardo Cabaça Portuguese series",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"12076:040e2f758703": {
+"pid": "12076",
+"n": "Ao Largo",
+"verdict": "portuguese",
+"reason": "Séries nacionais on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4996:978c276a3303": {
+"pid": "4996",
+"n": "Sara",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Marco Martins and Bruno Nogueira",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11653:57880ccbe477": {
+"pid": "11653",
+"n": "Capitães do Açúcar",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Portuguese director and cast",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11652:06f5bf12352a": {
+"pid": "11652",
+"n": "Emília",
+"verdict": "portuguese",
+"reason": "Séries nacionais on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11392:9d4d048b65a4": {
+"pid": "11392",
+"n": "Motel Valkirias",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Galicia-Portugal co-production tagged national",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11364:77060aa72362": {
+"pid": "11364",
+"n": "Operação Maré Negra",
+"verdict": "portuguese",
+"reason": "Séries nacionais; RTP and Prime Video co-production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"11073:1e32ab280142": {
+"pid": "11073",
+"n": "Abandonados",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Francisco Manso series about Timor",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9875:417a885b11d1": {
+"pid": "9875",
+"n": "Crimes Submersos",
+"verdict": "portuguese",
+"reason": "Séries nacionais; Portuguese-Spanish cast but tagged national, RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10683:b262b0697b08": {
+"pid": "10683",
+"n": "Cuba Libre",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais; about Salazar's police director's daughter, RTP1 fiction",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"10209:1c5d487befc4": {
+"pid": "10209",
+"n": "3 Mulheres - Pós Revolução",
+"verdict": "portuguese",
+"reason": "Portuguese creators and cast about Natália Correia, Snu Abecassis; RTP1 fiction",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6633:9a505d030cf4": {
+"pid": "6633",
+"n": "Refrigerantes e Canções de Amor",
+"verdict": "portuguese",
+"reason": "Original title in Portuguese, RTP1 miniseries; Portuguese title and fiction slot suggest national production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"9213:53f4d2e7e552": {
+"pid": "9213",
+"n": "Chegar a Casa",
+"verdict": "portuguese",
+"reason": "Directed by Sérgio Graciano, Portuguese writers, tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8013:aad4093f86fd": {
+"pid": "8013",
+"n": "Crónica dos Bons Malandros",
+"verdict": "portuguese",
+"reason": "Based on Mário Zambujal's book; tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8741:9c9b688f43e5": {
+"pid": "8741",
+"n": "Vento Norte",
+"verdict": "portuguese",
+"reason": "Historical drama about Portugal before dictatorship; Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"8690:4b5138b08a1a": {
+"pid": "8690",
+"n": "Ordem Moral",
+"verdict": "portuguese",
+"reason": "Heiress of Diário de Notícias; tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"7675:1614fb7a5a09": {
+"pid": "7675",
+"n": "O Atentado",
+"verdict": "portuguese",
+"reason": "Described as Portuguese series about 1937 attack on Salazar",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6487:4ed7dde36d57": {
+"pid": "6487",
+"n": "Conta-me Como Foi",
+"verdict": "portuguese",
+"reason": "Spanish format remade in Portugal, about the Lopes family in Portugal in the 80s",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1055:f6bb29e903b7": {
+"pid": "1055",
+"n": "Hotel 5 Estrelas",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, RTP Memória",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"6570:2fca9b433f04": {
+"pid": "6570",
+"n": "A Canção de Lisboa - Minissérie",
+"verdict": "portuguese",
+"reason": "Remake of the 1933 Portuguese comedy with Vasco Santana",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2198:6d22179c0683": {
+"pid": "2198",
+"n": "Os Maias",
+"verdict": "portuguese",
+"reason": "Adaptation by João Botelho of Eça de Queirós's Portuguese novel",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"5188:d212a22135dc": {
+"pid": "5188",
+"n": "Circo Paraíso",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, RTP1 fiction",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"4862:8bfc252169ef": {
+"pid": "4862",
+"n": "Verão M",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3354:0bb44cc99687": {
+"pid": "3354",
+"n": "Vidago Palace",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais; Vidago Palace is a Portuguese hotel",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1366:f017a9862c07": {
+"pid": "1366",
+"n": "Os Filhos do Rock",
+"verdict": "portuguese",
+"reason": "Series about rock in Portugal; Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3019:ef6ee86967f5": {
+"pid": "3019",
+"n": "O Sábio",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2773:e680178df443": {
+"pid": "2773",
+"n": "Dentro",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3909:7651e4aa985b": {
+"pid": "3909",
+"n": "4Play",
+"verdict": "portuguese",
+"reason": "Set in Porto, tagged Séries nacionais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"3676:65e7f9547b1b": {
+"pid": "3676",
+"n": "Sim, Chef!",
+"verdict": "portuguese",
+"reason": "RTP1 Portuguese comedy series, Sim, Chef! is a national production",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"2774:d4a318f650a3": {
+"pid": "2774",
+"n": "Miúdo Graúdo",
+"verdict": "portuguese",
+"reason": "Tagged 'Séries nacionais', aired on RTP1 as national fiction",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1222:c5f4fc692b5b": {
+"pid": "1222",
+"n": "Bem-vindos a Beirais",
+"verdict": "portuguese",
+"reason": "Tagged 'Séries nacionais'; RTP1 Portuguese soap set in fictional village Beirais",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1844:e04bacf585b2": {
+"pid": "1844",
+"n": "Os Nossos Dias",
+"verdict": "portuguese",
+"reason": "RTP1 telenovela with Portuguese title; no collection tags, but known Portuguese soap",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1895:5b2b2aebb90a": {
+"pid": "1895",
+"n": "Agora a Sério",
+"verdict": "portuguese",
+"reason": "Tagged 'Séries nacionais'; Portuguese sitcom on RTP1",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+},
+"1699:54cda734e88e": {
+"pid": "1699",
+"n": "Água de Mar",
+"verdict": "portuguese",
+"reason": "RTP1 Portuguese youth series, Portuguese title and setting (Academia das Artes)",
+"model": "claude-sonnet-5-5",
+"date": "2026-10-27"
+}
+}
