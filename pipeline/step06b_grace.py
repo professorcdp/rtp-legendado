@@ -100,7 +100,7 @@ def freshen(row: dict, ov: dict) -> dict:
     """Bring a stored row up to today's conventions (fields added since it was stored)."""
     for k, v in (("tag", ""), ("note", ""), ("pt", 0), ("more", []), ("ne", ""), ("xe", ""), ("xs", 0)):
         row.setdefault(k, v)
-    row["ne"], row["xe"] = americanize(row["ne"]), americanize(row["xe"])
+    row["ne"], row["xe"] = americanize(row["ne"], title=True), americanize(row["xe"])
     if not row["tag"]:
         row["tag"] = next((ov.get("page_notes", {}).get(p, "") for p in sorted(pids(row))
                            if ov.get("page_notes", {}).get(p)), "")

@@ -77,11 +77,24 @@ AMERICAN = {
     "travelled": "traveled", "travelling": "traveling", "traveller": "traveler", "travellers": "travelers",
     "unrivalled": "unrivaled", "defence": "defense", "offence": "offense",
 }
-AMERICAN_KEEP = ("Centre for Ecology, Evolution and Environmental Changes",)
+# Proper names keep their own spelling (issue #27). The allow-list below is always kept.
+# In descriptions, a British word capitalized in the middle of a sentence ("the Lincoln
+# Centre", "the Science Centres of the Azores") is treated as part of a name and left
+# alone; converted are lowercase words, words in capitals, and a capitalized word that only
+# starts a sentence (unless the next word is capitalized too, as in "Centre Pompidou
+# opened..."). English *titles* are our own translations in title case ("Island in
+# Colour"), so with title=True every word converts except the allow-list.
+AMERICAN_KEEP = (
+    "Centre for Ecology, Evolution and Environmental Changes",
+    "Labour Party", "Lincoln Centre", "Centre Pompidou", "Theatre Royal", "Theatre of Dreams",
+    "Royal National Theatre", "National Theatre", "Southbank Centre", "Barbican Centre",
+)
 _BRITISH_RE = re.compile(r"\b(" + "|".join(sorted(AMERICAN, key=len, reverse=True)) + r")\b", re.I)
+_SENTENCE_START = re.compile(r"(?:^|[.!?…:;]\s+|[\"“(«—–-]\s*)$")
+_NEXT_CAPITALIZED = re.compile(r"^\s+[A-ZÀ-Ý]")
 
 
-def americanize(text: str) -> str:
+def americanize(text: str, title: bool = False) -> str:
     if not text:
         return text
     kept = {f"\x00{i}\x00": k for i, k in enumerate(AMERICAN_KEEP) if k in text}
@@ -90,7 +103,18 @@ def americanize(text: str) -> str:
 
     def swap(m):
         w = m.group(0); us = AMERICAN[w.lower()]
-        return us.upper() if w.isupper() else us[0].upper() + us[1:] if w[0].isupper() else us
+        if w.islower():
+            return us
+        if title:
+            return us.upper() if w.isupper() and len(w) > 1 else us[0].upper() + us[1:]
+        if w.isupper() and len(w) > 1:
+            return us.upper()
+        # Capitalized: a common word only if it starts a sentence and isn't followed by
+        # another capitalized word; otherwise it belongs to a name or a title.
+        starts = _SENTENCE_START.search(m.string[:m.start()])
+        if starts and not _NEXT_CAPITALIZED.match(m.string[m.end():]):
+            return us[0].upper() + us[1:]
+        return w
     text = _BRITISH_RE.sub(swap, text)
     for ph, k in kept.items():
         text = text.replace(ph, k)
@@ -109,7 +133,7 @@ def seed_from_snapshot(cache: dict) -> int:
     for r in json.loads(SNAPSHOT.read_text(encoding="utf-8")):
         k = key_of(r["n"], r["x"])
         if k not in cache and r.get("ne"):
-            cache[k] = {"n": r["n"], "n_en": americanize(r["ne"]), "x_en": americanize(r.get("xe", ""))}
+            cache[k] = {"n": r["n"], "n_en": americanize(r["ne"], title=True), "x_en": americanize(r.get("xe", ""))}
             added += 1
     return added
 
@@ -166,7 +190,7 @@ def main():
             try:
                 for out in translate_batch(client, chunk):
                     src = next((t["n"] for t in chunk if t["i"] == out["i"]), "")
-                    cache[out["i"]] = {"n": src, "n_en": americanize(out.get("n_en", "")),
+                    cache[out["i"]] = {"n": src, "n_en": americanize(out.get("n_en", ""), title=True),
                                        "x_en": americanize(out.get("x_en", ""))}
             except Exception as e:                # noqa: BLE001 - keep going, retry next run
                 failed += 1
@@ -182,7 +206,7 @@ def main():
     title_en = {v["n"]: v["n_en"] for v in cache.values() if v.get("n") and v.get("n_en")}
     for r in rows:
         got = cache.get(key_of(r["n"], r["x"]), {})
-        r["ne"] = americanize(got.get("n_en", "") or title_en.get(r["n"], ""))
+        r["ne"] = americanize(got.get("n_en", "") or title_en.get(r["n"], ""), title=True)
         r["xe"] = americanize((got.get("x_en", "") or "").replace("�", ""))
 
     save_json("dataset.json", rows)
