@@ -19,3 +19,4 @@ data/*.json
 !data/seen.json
 !data/coverage.json
 !data/reviewed.json
+!data/classify.json
