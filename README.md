@@ -57,6 +57,11 @@ aren't Portuguese-made to [pipeline/config/overrides.json](pipeline/config/overr
 
 The next weekly run, or a manual run of the workflow from the Actions tab, moves them.
 
+Each review issue lists every title not yet reviewed, however many rebuilds ago it appeared.
+In the commit that closes it, run `python tools/mark_reviewed.py --issue N` (from `pipeline/`)
+to add its titles to the baseline, `pipeline/data/reviewed.json`
+([decision 0009](docs/decisions/0009-review-baseline.md)).
+
 ## Caveats
 
 - Only the latest episode of each program is checked, so a show may have captions on some

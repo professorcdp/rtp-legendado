@@ -9,6 +9,12 @@ summary of added, removed and renamed titles, with a reminder to check new
 titles for foreign-language ones, and prints `changed=true|false` for GitHub
 Actions (renames alone don't count as a change).
 
+"Added" is measured against data/reviewed.json, the baseline of programme ids
+already reviewed for language (decision 0009), not against the previous run, so
+a title is listed in every review issue until a review commit marks it reviewed
+(tools/mark_reviewed.py). Removed and renamed titles are measured against the
+previous run. Without a baseline file, "added" falls back to the previous run.
+
 Rows are matched by RTP program id (pid), not by title: a row matches if it
 shares any pid (its main link or a merged season) with a row in the other list.
 The title shown is often the latest episode's, so it can change from week to
@@ -103,8 +109,13 @@ def main():
 
     new_to_old, old_to_new = match(new, old), match(old, new)
     # a row kept in its grace period is never new; it is listed under "Not seen with captions" instead
-    added = sorted((r for i, r in enumerate(new) if i not in new_to_old and not r.get("grace")),
-                   key=lambda r: (r["s"], r["n"]))
+    reviewed = set((json.loads((DATA / "reviewed.json").read_text(encoding="utf-8")) or {}).get("pids", [])) \
+        if (DATA / "reviewed.json").exists() else None
+    if reviewed is not None:                        # everything not yet reviewed (decision 0009)
+        added = sorted((r for r in new if not r.get("grace") and not pids(r) & reviewed), key=lambda r: (r["s"], r["n"]))
+    else:
+        added = sorted((r for i, r in enumerate(new) if i not in new_to_old and not r.get("grace")),
+                       key=lambda r: (r["s"], r["n"]))
     # titles step 6b found pulled by RTP (empty video key, no episodes listed; #50)
     pulled_pids = {pid(r["u"]) for r in json.loads((DATA / "pulled.json").read_text(encoding="utf-8"))} \
         if (DATA / "pulled.json").exists() else set()
@@ -129,6 +140,9 @@ def main():
     to_check = [r for r in added if r["s"] in CHECK_SECTIONS]
     if added:
         md += [f"### Added ({len(added)}): please check for foreign-language titles", "",
+               "Every published title not yet reviewed (since the last review commit), however many "
+               "rebuilds ago it appeared. Closing this issue: run `python tools/mark_reviewed.py --issue N` "
+               "in the review commit.", "",
                "New titles are already published. RTP labels every Portuguese text track the same way (captions and translated subtitles alike), so "
                "foreign-language fiction and international documentaries can't be told apart automatically. "
                f"Look through the {len(to_check)} new title(s) in Portuguese series, films, documentaries and "

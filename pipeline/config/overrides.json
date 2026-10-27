@@ -40,7 +40,8 @@
     "15493",
     "17253",
     "17296",
-    "17297"
+    "17297",
+    "17167"
   ],
   "international_documentary": [
     "10193",
@@ -102,7 +103,8 @@
     "17302",
     "17281",
     "17303",
-    "16774"
+    "16774",
+    "17322"
   ],
   "language_and_literature": [
     "3144",
@@ -123,7 +125,8 @@
     "9769": "Partly in English (set in London)",
     "1305": "Daily soap, 300+ episodes",
     "3019": "Daily sitcom, 300 episodes",
-    "15107": "Brazilian film (Brazilian Portuguese)"
+    "15107": "Brazilian film (Brazilian Portuguese)",
+    "14889": "Brazilian film (Brazilian Portuguese)"
   },
   "_comment_page_notes": "page_notes: the short, learner-facing label shown as a tag next to a title on the page and in the CSV's Note column. Keep it to a few words. `notes` above is the fuller, hand-written background and is not shown unless the pid also appears here.",
   "page_notes": {
@@ -131,7 +134,8 @@
     "5725": "Brazilian Portuguese",
     "15107": "Brazilian Portuguese",
     "7017": "Much Crioulo",
-    "9769": "Partly in English"
+    "9769": "Partly in English",
+    "14889": "Brazilian Portuguese"
   },
   "rename": {
     "13427": "Uma Primavera Portuguesa"
