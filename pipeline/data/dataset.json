@@ -1,40 +1,56 @@
 [
 {
 "s": "docs",
-"n": "Portuguese Soul",
-"u": "https://www.rtp.pt/play/p9462/e963025/portuguese-soul",
-"d": "26 out. 2026",
-"dk": "20261026",
-"e": 7,
+"n": "ScienceCast",
+"u": "https://www.rtp.pt/play/p17213/e964508/sciencecast",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 4,
 "c": "RTP2",
-"x": "Ouro - Há milénios que o Ouro é objeto de desejo, o verdadeiro símbolo da riqueza e da perfeição.Viajamos para norte, para conhecer mais de pert",
+"x": "Carlos Moreira - O Mundo Invisível dos Fungos - Carlos Moreira é investigador na área da microbiologia no ITQB NOVA, onde desenvolve trabalho na á",
 "xs": 0,
 "note": "",
 "tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p16871/e949558/portuguese-soul",
-"d": "21 ago. 2026",
-"r": 1,
-"pt": 0
-}
-],
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
 "cov": [
-7,
-7
+3,
+4
 ],
-"ne": "Portuguese Soul",
-"xe": "Gold - For millennia, gold has been an object of desire, the true symbol of wealth and perfection. We travel north to learn more about…"
+"ne": "ScienceCast",
+"xe": "Carlos Moreira - The Invisible World of Fungi - Carlos Moreira is a microbiology researcher at ITQB NOVA, where he works in the area o…"
+},
+{
+"s": "docs",
+"n": "Do Rio ao Mar",
+"u": "https://www.rtp.pt/play/p17371/e964525/do-rio-ao-mar",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 1,
+"c": "RTP1",
+"x": "Ouémé - Ao navegar pelo rio Ouémé, François Pécheux descobre o Benim e as comunidades que, tal como os habitantes de Ganvié, vivem nas suas mar",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "From River to Sea",
+"xe": "Ouémé - Sailing along the Ouémé River, François Pécheux discovers Benin and the communities that, like the inhabitants of Ganvié, live on its bank…"
 },
 {
 "s": "docs",
 "n": "Hora dos Portugueses",
-"u": "https://www.rtp.pt/play/p16132/e962906/hora-dos-portugueses",
-"d": "24 out. 2026",
-"dk": "20261024",
+"u": "https://www.rtp.pt/play/p16132/e964472/hora-dos-portugueses",
+"d": "31 out. 2026",
+"dk": "20261031",
 "e": 12,
 "c": "RTP Mundo",
 "x": "A portugalidade sob diferentes olhares.",
@@ -70,6 +86,170 @@
 ],
 "ne": "The Portuguese Hour",
 "xe": "Portuguese identity seen from different points of view."
+},
+{
+"s": "docs",
+"n": "Visita Guiada",
+"u": "https://www.rtp.pt/play/p17143/e964363/visita-guiada",
+"d": "31 out. 2026",
+"dk": "20261031",
+"e": 13,
+"c": "RTP2",
+"x": "Mestiçagens: Das Gentes à Gastronomia - O processo de mestiçagem entre homens portugueses e mulheres indianas começou logo a partir de 1510. Mas, ",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p13200/e951916/visita-guiada",
+"d": "05 set. 2026",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p1867/e207399/visita-guiada",
+"d": "21 set. 2015",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p1623/e190546/visita-guiada",
+"d": "06 abr. 2015",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+2,
+7
+],
+"ne": "Guided Tour",
+"xe": "Mixed Heritage: From People to Gastronomy - The process of mixing between Portuguese men and Indian women began as early as 1510. But, …"
+},
+{
+"s": "docs",
+"n": "O Misterioso Norte do Vietname: No Reino das Florestas Montanhosas",
+"u": "https://www.rtp.pt/play/p17350/e964382/o-misterioso-norte-do-vietname-no-reino-das-florestas-montanhosas",
+"d": "31 out. 2026",
+"dk": "20261031",
+"e": 1,
+"c": "RTP1",
+"x": "As montanhas cársticas moldam a paisagem acidentada do norte do Vietname. Estas formações constituem barreiras naturais, separam habitats e criam a",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Mysterious Northern Vietnam: In the Kingdom of the Mountain Forests",
+"xe": "Karst mountains shape the rugged landscape of northern Vietnam. These formations form natural barriers, separate habitats and create…"
+},
+{
+"s": "docs",
+"n": "Deus e Ciência",
+"u": "https://www.rtp.pt/play/p17335/e963816/god-and-science",
+"d": "29 out. 2026",
+"dk": "20261029",
+"e": 2,
+"c": "RTP2",
+"x": "O ano de 1964 confirmou a existência de um acontecimento atualmente considerado como estando na origem do nosso Universo: o Big Bang! Os telescópios",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+2
+],
+"ne": "God and Science",
+"xe": "The year 1964 confirmed the existence of an event now considered to be at the origin of our Universe: the Big Bang! Telescopes…"
+},
+{
+"s": "docs",
+"n": "Sopro - A Transformação do Vidro",
+"u": "https://www.rtp.pt/play/p16448/e963556/sopro-a-transformacao-do-vidro",
+"d": "28 out. 2026",
+"dk": "20261028",
+"e": 4,
+"c": "RTP2",
+"x": "Estúdio em Movimento - Robert Wiley, nascido nos EUA, país que nos anos 70 criou o 'studio glass movement', é o responsável pelos estúdios de vi",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+3,
+4
+],
+"ne": "Blow - The Transformation of Glass",
+"xe": "Studio in Motion - Robert Wiley, born in the USA, the country that created the 'studio glass movement' in the 1970s, is in charge of the glass studios at…"
+},
+{
+"s": "docs",
+"n": "Ecos da História",
+"u": "https://www.rtp.pt/play/p15400/e963573/ecos-da-historia",
+"d": "28 out. 2026",
+"dk": "20261028",
+"e": 1,
+"c": "RTP2",
+"x": "Tito e Estaline: Da Harmonia ao Ódio - Embora em 1945 Estaline tenha imposto a sua liderança sobre o mundo socialista, este mecanismo bem oleado rap",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Echoes of History",
+"xe": "Tito and Stalin: From Harmony to Hatred - Although in 1945 Stalin had imposed his leadership over the socialist world, this well-oiled machine quickly…"
+},
+{
+"s": "docs",
+"n": "Portuguese Soul",
+"u": "https://www.rtp.pt/play/p9462/e963025/portuguese-soul",
+"d": "26 out. 2026",
+"dk": "20261026",
+"e": 7,
+"c": "RTP2",
+"x": "Ouro - Há milénios que o Ouro é objeto de desejo, o verdadeiro símbolo da riqueza e da perfeição.Viajamos para norte, para conhecer mais de pert",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p16871/e949558/portuguese-soul",
+"d": "21 ago. 2026",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+7,
+7
+],
+"ne": "Portuguese Soul",
+"xe": "Gold - For millennia, gold has been an object of desire, the true symbol of wealth and perfection. We travel north to learn more about…"
 },
 {
 "s": "docs",
@@ -124,46 +304,6 @@
 ],
 "ne": "Always in Time",
 "xe": "Divided into three different segments: the Index, which tests your general knowledge, the Cabinet of Curiosities, a showcase of culture, and Reading by Ear, which presents the great works of world literature…"
-},
-{
-"s": "docs",
-"n": "Sopro - A Transformação do Vidro",
-"u": "https://www.rtp.pt/play/p16448/e960306/sopro-a-transformacao-do-vidro",
-"d": "14 out. 2026",
-"dk": "20261014",
-"e": 4,
-"c": "RTP2",
-"x": "Transparências - Andreia Santana, artista plástica, nómada entre Nova Iorque e Lisboa, foi a vencedora do prémio Novo Banco Revelação em 2016. S",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "Breath - The Transformation of Glass",
-"xe": "Transparencies - Andreia Santana, a visual artist who moves between New York and Lisbon, was the winner of the Novo Banco Revelação award in 2016. S…",
-"grace": "2026-10-20"
-},
-{
-"s": "docs",
-"n": "ScienceCast",
-"u": "https://www.rtp.pt/play/p17213/e959653/sciencecast",
-"d": "11 out. 2026",
-"dk": "20261011",
-"e": 2,
-"c": "RTP2",
-"x": "Ricardo Henriques - Quando a Ciência Releva o Invisível - Ricardo Henriques é investigador principal no ITQB NOVA, onde lidera investigação em bi",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "ScienceCast",
-"xe": "Ricardo Henriques - When Science Reveals the Invisible - Ricardo Henriques is a principal investigator at ITQB NOVA, where he leads research in bi…",
-"grace": "2026-10-14"
 },
 {
 "s": "docs",
@@ -302,42 +442,6 @@
 ],
 "ne": "The Easter Slaughter - Memories of 11 March 1975",
 "xe": "Featuring Otelo Saraiva de Carvalho, Francisco da Costa Gomes, António de Spínola, Vasco Lourenço, Salgueiro Maia, Diniz de Almeida,…"
-},
-{
-"s": "docs",
-"n": "Visita Guiada",
-"u": "https://www.rtp.pt/play/p13200/e951916/visita-guiada",
-"d": "05 set. 2026",
-"dk": "20260905",
-"e": 13,
-"c": "RTP2",
-"x": "Programa com autoria e apresentação de Paula Moura Pinheiro, o Visita Guiada conta a História do território português e das suas relações com o resto do mundo através do património histórico, material e imaterial…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p1867/e207399/visita-guiada",
-"d": "21 set. 2015",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p1623/e190546/visita-guiada",
-"d": "06 abr. 2015",
-"r": 1,
-"pt": 0
-}
-],
-"cov": [
-10,
-10
-],
-"ne": "Guided Tour",
-"xe": "Written and presented by Paula Moura Pinheiro, Visita Guiada tells the history of the Portuguese territory and its relations with the rest of the world through its historical heritage, both tangible and intangible…"
 },
 {
 "s": "docs",
@@ -5376,6 +5480,44 @@
 },
 {
 "s": "film",
+"n": "Shakespeare: A Ascensão de um Génio",
+"u": "https://www.rtp.pt/play/p15140/e964510/shakespeare-a-ascensao-de-um-genio",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 1,
+"c": "RTP2",
+"x": "1587. William Shakespeare deixa a pequena cidade rural de Stratford para perseguir o seu sonho de se tornar dramaturgo na perigosa e crescente metróp",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"ne": "Shakespeare: The Rise of a Genius",
+"xe": "1587. William Shakespeare leaves the small rural town of Stratford to pursue his dream of becoming a playwright in the dangerous and growing metropolis…"
+},
+{
+"s": "film",
+"n": "Pixote, a Lei do Mais Fraco",
+"u": "https://www.rtp.pt/play/p8563/e964519/pixote-a-lei-do-mais-fraco",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 1,
+"c": "Pixote",
+"x": "Filme do cineasta argentino, naturalizado brasileiro, Héctor Babenco, inspirado no livro 'Infância dos Mortos' de José Louzeiro, sobre um rapaz que",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 0,
+"more": [],
+"ne": "Pixote: The Law of the Weakest",
+"xe": "A film by Argentine-born, naturalized Brazilian filmmaker Héctor Babenco, inspired by the book 'Infância dos Mortos' by José Louzeiro, about a boy who…"
+},
+{
+"s": "film",
 "n": "A Vida Invisível",
 "u": "https://www.rtp.pt/play/p7986/e962958/a-vida-invisivel",
 "d": "25 out. 2026",
@@ -5449,25 +5591,6 @@
 "more": [],
 "ne": "A Bee in the Rain",
 "xe": "Maria dos Prazeres (Laura Soveral) and Álvaro Silvestre (João Guedes) are married and live in a rural community that they socially dominate. However, their rela…"
-},
-{
-"s": "film",
-"n": "Sul",
-"u": "https://www.rtp.pt/play/p6242/e957728/sul",
-"d": "02 out. 2026",
-"dk": "20261002",
-"e": 1,
-"c": "RTP África",
-"x": "Humberto confronta o assassino do Tejo, mas é demasiado tarde para prender os mandantes dos crimes. O inspector tem uma ideia para resolver o problem",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 0,
-"more": [],
-"ne": "South",
-"xe": "Humberto confronts the Tagus killer, but it is too late to arrest those who ordered the crimes. The inspector has an idea to solve the problem…"
 },
 {
 "s": "film",
@@ -6589,26 +6712,26 @@
 },
 {
 "s": "foreign",
-"n": "Jogos de Traições",
-"u": "https://www.rtp.pt/play/p17167/e962962/jogos-de-traicoes",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 1,
+"n": "O Corno do Centeio",
+"u": "https://www.rtp.pt/play/p16035/e964540/o-corno-do-centeio",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 2,
 "c": "RTP1",
-"x": "Depois de sair da prisão, Rudy Duncan assume a identidade do seu falecido companheiro de cela para conhecer Ashley, com quem este mantinha uma relaç",
+"x": "Ilha de Arousa, 1971. María é uma mulher galega que vive da pesca de marisco, mas também é conhecida na comunidade pelo seu trabalho de parteira, ",
 "xs": 0,
 "note": "",
 "tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
+"r": 1,
+"ok": 1,
+"pt": 0,
 "more": [],
 "cov": [
-1,
-1
+2,
+2
 ],
-"ne": "Con Games",
-"xe": "After getting out of prison, Rudy Duncan takes on the identity of his deceased cellmate in order to meet Ashley, with whom he had been in a relation…"
+"ne": "The Rye Horn",
+"xe": "Arousa Island, 1971. María is a Galician woman who makes a living from shellfish gathering, but she is also known in the community for her work as a midwife,…"
 },
 {
 "s": "foreign",
@@ -7217,29 +7340,6 @@
 },
 {
 "s": "foreign",
-"n": "O Corno do Centeio",
-"u": "https://www.rtp.pt/play/p16035/e898876/o-corno-do-centeio",
-"d": "29 dez. 2025",
-"dk": "20251229",
-"e": 1,
-"c": "RTP1",
-"x": "Ilha de Arousa, 1971. María é uma mulher galega que vive da pesca de marisco, mas também é conhecida na comunidade pelo seu trabalho de parteira, ",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "The Rye Horn",
-"xe": "Arousa Island, 1971. María is a Galician woman who makes a living from shellfish gathering, but she is also known in the community for her work as a midwife,…"
-},
-{
-"s": "foreign",
 "n": "Tudo O Que Sei Sobre O Amor",
 "u": "https://www.rtp.pt/play/p15981/e896674/tudo-o-que-sei-sobre-amor",
 "d": "20 dez. 2025",
@@ -7262,15 +7362,38 @@
 "xe": "When a work trip to New York turns into a solo holiday, Maggie unexpectedly finds herself caught up in a turbulent romance…"
 },
 {
-"s": "foreign",
-"n": "Logout",
-"u": "https://www.rtp.pt/play/p15870/e890234/logout",
-"d": "05 dez. 2025",
-"dk": "20251205",
-"e": 6,
-"c": "Originais RTP Play",
-"x": "Giulia e Achille descobrem o esconderijo do homem que os persegue desde o início: Jezebel, um criminoso que os manipula do seu bunker. Após um confr",
-"xs": 0,
+"s": "fun",
+"n": "Siga a Dança",
+"u": "https://www.rtp.pt/play/p16835/e964534/siga-a-danca",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 9,
+"c": "RTP1",
+"x": "A grande competição de dança do país, onde talentos de todas as idades e estilos sobem ao palco para mostrar o que valem…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+7,
+9
+],
+"ne": "Follow the Dance",
+"xe": "The country's great dance competition, where talents of all ages and styles take the stage to show what they are made of…"
+},
+{
+"s": "fun",
+"n": "Masterchef Portugal",
+"u": "https://www.rtp.pt/play/p17323/e964427/masterchef-portugal",
+"d": "31 out. 2026",
+"dk": "20261031",
+"e": 2,
+"c": "RTP1",
+"x": "A cozinha mais famosa de Portugal volta a abrir portas…",
+"xs": 1,
 "note": "",
 "tag": "",
 "r": 0,
@@ -7278,11 +7401,87 @@
 "pt": 1,
 "more": [],
 "cov": [
-6,
+1,
+2
+],
+"ne": "Masterchef Portugal",
+"xe": "The most famous kitchen in Portugal opens its doors again…"
+},
+{
+"s": "fun",
+"n": "O Preço Certo",
+"u": "https://www.rtp.pt/play/p17275/e964711/o-preco-certo",
+"d": "31 out. 2026",
+"dk": "20261031",
+"e": 12,
+"c": "RTP1",
+"x": "No \"Preço Certo\", as emoções são garantidas!",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p15334/e958325/o-preco-certo",
+"d": "05 out. 2026",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+4,
+10
+],
+"ne": "The Price Is Right",
+"xe": "On \"O Preço Certo\", emotions are guaranteed!"
+},
+{
+"s": "fun",
+"n": "Agarra-me Se Puderes",
+"u": "https://www.rtp.pt/play/p16549/e964089/agarra-me-se-puderes",
+"d": "30 out. 2026",
+"dk": "20261030",
+"e": 12,
+"c": "RTP1",
+"x": "O novo concurso da RTP com apresentação de José Pedro Vasconcelos…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+7,
+10
+],
+"ne": "Catch Me If You Can",
+"xe": "RTP's new game show, presented by José Pedro Vasconcelos…"
+},
+{
+"s": "fun",
+"n": "Tonight Show By Night",
+"u": "https://www.rtp.pt/play/p17164/e963853/tonight-show-by-night",
+"d": "29 out. 2026",
+"dk": "20261029",
+"e": 6,
+"c": "RTP1",
+"x": "Quim e Zé num talk-show com ilustres convidados e a atualidade de Curral de Moinas!",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+3,
 6
 ],
-"ne": "Logout",
-"xe": "Giulia and Achille discover the hideout of the man who has been pursuing them from the start: Jezebel, a criminal who manipulates them from his bunker. After a confr…"
+"ne": "Tonight Show By Night",
+"xe": "Quim and Zé in a talk show with distinguished guests and the latest news from Curral de Moinas!"
 },
 {
 "s": "fun",
@@ -7306,29 +7505,6 @@
 ],
 "ne": "Break The Wall",
 "xe": "A visually immersive talk show that explores media literacy and historical memory, hosted by Tomás Duran…"
-},
-{
-"s": "fun",
-"n": "Agarra-me Se Puderes",
-"u": "https://www.rtp.pt/play/p16549/e963051/agarra-me-se-puderes",
-"d": "26 out. 2026",
-"dk": "20261026",
-"e": 12,
-"c": "RTP1",
-"x": "O novo concurso da RTP com apresentação de José Pedro Vasconcelos…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-7,
-10
-],
-"ne": "Catch Me If You Can",
-"xe": "RTP's new game show, presented by José Pedro Vasconcelos…"
 },
 {
 "s": "fun",
@@ -7376,49 +7552,6 @@
 ],
 "ne": "The Floor",
 "xe": "The biggest board game in the world returns, more vibrant than ever, with new knowledge duels, plenty of competition and lots of fun…"
-},
-{
-"s": "fun",
-"n": "Tonight Show By Night",
-"u": "https://www.rtp.pt/play/p17164/e960634/tonight-show-by-night",
-"d": "15 out. 2026",
-"dk": "20261015",
-"e": 4,
-"c": "RTP1",
-"x": "Quim e Zé num talk-show com ilustres convidados e a atualidade de Curral de Moinas!",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"ne": "Tonight Show By Night",
-"xe": "Quim and Zé in a talk show with distinguished guests and the latest news from Curral de Moinas!",
-"grace": "2026-10-22"
-},
-{
-"s": "fun",
-"n": "O Preço Certo",
-"u": "https://www.rtp.pt/play/p15334/e958325/o-preco-certo",
-"d": "05 out. 2026",
-"dk": "20261005",
-"e": 6,
-"c": "RTP1",
-"x": "No \"Preço Certo\", as emoções são garantidas!",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-4,
-7
-],
-"ne": "The Price Is Right",
-"xe": "On \"O Preço Certo\", emotions are guaranteed!"
 },
 {
 "s": "fun",
@@ -7702,7 +7835,14 @@
 "r": 1,
 "ok": 1,
 "pt": 0,
-"more": [],
+"more": [
+{
+"u": "https://www.rtp.pt/play/p17276/e964076/joker",
+"d": "30 out. 2026",
+"r": 0,
+"pt": 1
+}
+],
 "cov": [
 1,
 10
@@ -8174,8 +8314,8 @@
 "pt": 1
 },
 {
-"u": "https://www.rtp.pt/play/p16125/e962286/janela-indiscreta",
-"d": "21 out. 2026",
+"u": "https://www.rtp.pt/play/p16125/e963881/janela-indiscreta",
+"d": "28 out. 2026",
 "r": 0,
 "pt": 1
 }
@@ -8262,6 +8402,29 @@
 ],
 "ne": "Anonymous Animals",
 "xe": "Nuno Markl and Ana Galvão celebrating the love of pets…"
+},
+{
+"s": "intl",
+"n": "Atenas: Berço da Democracia",
+"u": "https://www.rtp.pt/play/p17206/e957548/atenas-berco-da-democracia",
+"d": "31 out. 2026",
+"dk": "20261031",
+"e": 1,
+"c": "RTP2",
+"x": "Há vinte e cinco séculos, no coração da Grécia Antiga, uma ideia política viria a mudar para sempre o rumo da história da humanidade: cidadãos",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Athens: Cradle of Democracy",
+"xe": "Twenty-five centuries ago, in the heart of Ancient Greece, a political idea was to change the course of human history forever: citizens…"
 },
 {
 "s": "intl",
@@ -8617,29 +8780,6 @@
 },
 {
 "s": "intl",
-"n": "Atenas: Berço da Democracia",
-"u": "https://www.rtp.pt/play/p17206/e957548/atenas-berco-da-democracia",
-"d": "01 out. 2026",
-"dk": "20261001",
-"e": 1,
-"c": "RTP2",
-"x": "Há vinte e cinco séculos, no coração da Grécia Antiga, uma ideia política viria a mudar para sempre o rumo da história da humanidade: cidadãos",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Athens: Cradle of Democracy",
-"xe": "Twenty-five centuries ago, in the heart of Ancient Greece, a political idea was to change the course of human history forever: citizens…"
-},
-{
-"s": "intl",
 "n": "Mao: Vida e Legado",
 "u": "https://www.rtp.pt/play/p17138/e957323/mao-vida-e-legado",
 "d": "30 set. 2026",
@@ -8766,7 +8906,7 @@
 "u": "https://www.rtp.pt/play/p16964/e952137/uma-vida-em-dez-imagens",
 "d": "07 set. 2026",
 "dk": "20260907",
-"e": 4,
+"e": 3,
 "c": "RTP2",
 "x": "Nelson Mandela - A imagem de Nelson Mandela é famosa em todo o mundo. No entanto, apenas um punhado de fotografias icónicas e instantâneos privados",
 "xs": 0,
@@ -9383,13 +9523,13 @@
 },
 {
 "s": "kids",
-"n": "A Grande Descoberta",
-"u": "https://www.rtp.pt/play/zigzag/p3280/e951176/whats-the-big-idea",
-"d": "27 out. 2026",
-"dk": "20261027",
+"n": "O Leonel das Moscas",
+"u": "https://www.rtp.pt/play/zigzag/p13864/e964601/o-leonel-das-moscas",
+"d": "02 nov. 2026",
+"dk": "20261102",
 "e": 0,
 "c": "RTP Zig Zag",
-"x": "Uma série infantil sobre emoções e sentimentos baseada na obra \"O Livro dos Grandes Opostos Filosóficos\" de Oscar Brenifier e Jacques Després Quem sou eu? O que sou eu? Quando eu acordar de manhã estará o mundo exatamente igual como eu o deixei na noite passada? O que é um amigo ou um animal de estimação? Serei apenas pequeno por comparação com algo maior, porque brinco ou choro ou faço perguntas?",
+"x": "Acompanha as aventuras de Leonel, uma mosca doméstica e filho do meio de muitos irmãos. Lloyd mora com os seus pais, a sua irmãzinha e os seus irmãos larvas dentro de um compostor a que chamam lar. Leonel e a sua irmãzinha vivem grandes aventuras com os seus amigos ao explorar o estranho mundo para lá do compostor, onde não faltam lições para Lloyd aprender... Quase!",
 "xs": 1,
 "note": "",
 "tag": "",
@@ -9398,18 +9538,18 @@
 "pt": 1,
 "more": [],
 "cov": [
-1,
-1
+8,
+10
 ],
-"ne": "The Great Discovery",
-"xe": "A children's series about emotions and feelings based on the work \"The Book of Great Philosophical Opposites\" by Oscar Brenifier and Jacques Després. Who am I? What am I? When I wake up in the morning, will the world be exactly the same as I left it last night? What is a friend or a pet? Am I only small by comparison with something bigger, because I play or cry or ask questions?"
+"ne": "Leonel the Fly",
+"xe": "Follow the adventures of Leonel, a housefly and the middle child of many siblings. Lloyd lives with his parents, his little sister and his larva brothers inside a compost bin they call home. Leonel and his little sister have great adventures with their friends as they explore the strange world beyond the compost bin, where there are plenty of lessons for Lloyd to learn... Almost!"
 },
 {
 "s": "kids",
 "n": "Sempre Atrasados",
-"u": "https://www.rtp.pt/play/zigzag/p9289/e963292/nate-is-late",
-"d": "27 out. 2026",
-"dk": "20261027",
+"u": "https://www.rtp.pt/play/zigzag/p9289/e964600/nate-is-late",
+"d": "02 nov. 2026",
+"dk": "20261102",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Nuno e Malika vivem grandes aventuras a caminho da escola e, por isso, chegam sempre atrasados! Todas as manhãs, Nuno e Malika fazem o mesmo caminho para a escola. E, no entanto, eles chegam sempre atrasados! Isso acontece porque, pelo caminho, envolvem-se em aventuras extraordinárias! Mas Prudence, a diretora da escola, nunca acredita numa única palavra das suas extraordinárias histórias...",
@@ -9430,9 +9570,9 @@
 {
 "s": "kids",
 "n": "Mouk",
-"u": "https://www.rtp.pt/play/zigzag/p12334/e963282/mouk",
-"d": "27 out. 2026",
-"dk": "20261027",
+"u": "https://www.rtp.pt/play/zigzag/p12334/e964688/mouk",
+"d": "02 nov. 2026",
+"dk": "20261102",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Mouk e Chavapa, os nossos viajantes globais, continuam vivem novas aventuras a viajar de bicicleta pelo mundo! Da Espanha à Rússia, da Mongólia à Turquia, passando pelo Butão, estes dois nossos amigos conhecem habitantes de todo o planeta. Sobe numa bicicleta e junta-te a eles para descobrires um mundo realista, moderno e colorido! Pessoas incríveis, paisagens inacreditáveis e costumes desconhecid…",
@@ -9453,9 +9593,9 @@
 {
 "s": "kids",
 "n": "Pirata & Capitão",
-"u": "https://www.rtp.pt/play/zigzag/p11989/e963281/pirata-capitao",
-"d": "27 out. 2026",
-"dk": "20261027",
+"u": "https://www.rtp.pt/play/zigzag/p11989/e964596/pirata-capitao",
+"d": "02 nov. 2026",
+"dk": "20261102",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Não há nada melhor que ser pirata e capitão! Ser pirata e capitão é uma busca sem fim por tesouros, viver grandes aventuras, diversão e espírito de equipa.",
@@ -9476,12 +9616,127 @@
 {
 "s": "kids",
 "n": "Jasmine e Jambo",
-"u": "https://www.rtp.pt/play/p13503/e963275/jasmine-e-jambo",
-"d": "27 out. 2026",
-"dk": "20261027",
-"e": 4,
+"u": "https://www.rtp.pt/play/p13503/e964591/jasmine-e-jambo",
+"d": "02 nov. 2026",
+"dk": "20261102",
+"e": 6,
 "c": "RTP2",
 "x": "Jasmine e Jambo são loucos por música…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+6,
+6
+],
+"ne": "Jasmine and Jambo",
+"xe": "Jasmine and Jambo are crazy about music…"
+},
+{
+"s": "kids",
+"n": "Vizinhos da Realeza",
+"u": "https://www.rtp.pt/play/zigzag/p13602/e964499/vizinhos-da-realeza",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "A Princesa Stella acaba de receber a melhor notícia de todas! Devido aos danos causados ??por uma inundação no castelo, a família real terá de mudar de residência. A Rainha Kat vê esta situação como a oportunidade perfeita para se modernizar. De acordo com o lema real do Rei Bob, \"Mais perto das pessoas\", eles decidem morar numa casa normal num subúrbio comum. É hora de mostrar ao povo que a famíl…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Royal Neighbors",
+"xe": "Princess Stella has just received the best news of all! Due to damage caused by a flood in the castle, the royal family will have to move house. Queen Kat sees this situation as the perfect opportunity to modernise. In keeping with King Bob's royal motto, \"Closer to the people\", they decide to live in an ordinary house in an ordinary suburb. It's time to show the people that the fam…"
+},
+{
+"s": "kids",
+"n": "Leo da Vinci",
+"u": "https://www.rtp.pt/play/zigzag/p15890/e964494/leo-da-vinci",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Leo da Vinci está de volta para mais aventuras emocionantes com os seus amigos, desta vez em busca do rubi mais deslumbrante e misterioso do mundo! O fenomenal menino-génio está de volta para mais aventuras emocionantes com os seus amigos, enquanto se envolvem numa missão emocionante e perigosa para localizar o rubi mais deslumbrante e misterioso do mundo, revelado por Marco Polo nas suas Viagens.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+10,
+10
+],
+"ne": "Leo da Vinci",
+"xe": "Leo da Vinci is back for more exciting adventures with his friends, this time in search of the most dazzling and mysterious ruby in the world! The phenomenal boy genius is back for more exciting adventures with his friends, as they get involved in an exciting and dangerous mission to locate the most dazzling and mysterious ruby in the world, revealed by Marco Polo in his Travels."
+},
+{
+"s": "kids",
+"n": "O Refúgio da Audrey",
+"u": "https://www.rtp.pt/play/zigzag/p13603/e964493/audreys-shelter",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Junta-te à aventura! Este é o refúgio da Audrey! Audrey, uma menina de 8 anos, mora num refúgio para espécies ameaçadas de extinção gerida pela sua família. Ela sabe por experiência própria que gerir um refúgio para animais selvagens não é uma tarefa fácil, mas sabe que vale muito a pena! Basta um pouco de empatia e um grande senso de humor. Desde descobrir como fazer um bebé rinoceronte feliz até…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+9,
+10
+],
+"ne": "Audrey's Sanctuary",
+"xe": "Join the adventure! This is Audrey's sanctuary! Audrey, an 8-year-old girl, lives in a sanctuary for endangered species run by her family. She knows from experience that running a wildlife sanctuary is not an easy task, but she knows it's well worth it! All it takes is a little empathy and a great sense of humor. From figuring out how to make a baby rhino happy to…"
+},
+{
+"s": "kids",
+"n": "Power Players",
+"u": "https://www.rtp.pt/play/zigzag/p8699/e964491/power-players",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Axel consegue fazer uma coisa que muitos meninos também gostariam: consegue transformar-se num mini super-herói! Axel é um menino de 9 anos que pode transformar-se num brinquedo vivo! Com a sua impressionante altura de brinquedo de 20 cm, este mini super-herói lidera um esquadrão de coloridos brinquedos animados.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 0,
+"more": [],
+"cov": [
+4,
+4
+],
+"ne": "Power Players",
+"xe": "Axel can do something many boys would also like to do: he can turn into a mini superhero! Axel is a 9-year-old boy who can turn into a living toy! At an impressive toy height of 20 cm, this mini superhero leads a squad of colorful animated toys."
+},
+{
+"s": "kids",
+"n": "Pompon, O Pequeno Urso",
+"u": "https://www.rtp.pt/play/zigzag/p14751/e964490/pompon-o-pequeno-urso",
+"d": "01 nov. 2026",
+"dk": "20261101",
+"e": 0,
+"c": "Pompon",
+"x": "Pompon é um ursinho de 6 anos travesso, alegre e brincalhão, com um talento incrível e precioso Na idade de um ursinho de pelúcia, Pompon tem 6 anos. Ele é travesso, alegre e brincalhão, mas acima de tudo, tem um talento incrível e precioso que faz a alegria da sua melhor amiga Rita e dos seus pais: ele sabe fazer algo extraordinário com algo comum... Graças às mil reviravoltas que a sua imaginaçã…",
 "xs": 1,
 "note": "",
 "tag": "",
@@ -9493,38 +9748,15 @@
 4,
 4
 ],
-"ne": "Jasmine and Jambo",
-"xe": "Jasmine and Jambo are crazy about music…"
-},
-{
-"s": "kids",
-"n": "Descomplica",
-"u": "https://www.rtp.pt/play/zigzag/p17339/e963045/descomplica",
-"d": "26 out. 2026",
-"dk": "20261026",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Se gostas de saber como funciona o mundo que te rodeia, o teu corpo e as emoções do dia a dia, junta-te à equipa \"Descomplica\"! Porque é que as coisas caem ao chão? O nosso corpo tem vontade de se mexer quando ouvimos música, mas porquê? Afinal de que é feito o Sol? E porque é que ficamos doentes? Estas e muitas mais perguntas... Queres descobrir as respostas? Se gostas de saber como funciona o mu…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-1,
-2
-],
-"ne": "Simplify It",
-"xe": "If you like knowing how the world around you works, your body and everyday emotions, join the \"Descomplica\" team! Why do things fall to the ground? Our body feels like moving when we hear music, but why? What is the Sun actually made of? And why do we get sick? These and many more questions... Do you want to find out the answers? If you like knowing how the wor…"
+"ne": "Pompon, the Little Bear",
+"xe": "Pompon is a mischievous, cheerful and playful 6-year-old little bear with an incredible and precious talent. At teddy bear age, Pompon is 6 years old. He is mischievous, cheerful and playful, but above all, he has an incredible and precious talent that brings joy to his best friend Rita and her parents: he can make something extraordinary out of something ordinary... Thanks to the countless twists his imaginatio…"
 },
 {
 "s": "kids",
 "n": "Academia de Super-Heróis",
-"u": "https://www.rtp.pt/play/zigzag/p14029/e963031/academia-de-super-herois",
-"d": "26 out. 2026",
-"dk": "20261026",
+"u": "https://www.rtp.pt/play/zigzag/p14029/e964043/academia-de-super-herois",
+"d": "30 out. 2026",
+"dk": "20261030",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "A nova temporada traz um ano letivo inesquecivelmente agitado na Academia de Super-Heróis! É um novo ano letivo na Academia de Super-Heróis! Os novos alunos do primeiro ano estão prestes a enfrentar uma série de desafios. Quem irá passar o feriado de Natal sozinho na escola? Como poderão os alunos salvar um hamster imortal sequestrado? E é possível apaixonarmo-nos na sexta-feira 13? Enquanto isso…",
@@ -9551,50 +9783,102 @@
 },
 {
 "s": "kids",
-"n": "O Leonel das Moscas",
-"u": "https://www.rtp.pt/play/zigzag/p13864/e963020/o-leonel-das-moscas",
+"n": "Sim, Eu Consigo",
+"u": "https://www.rtp.pt/play/zigzag/p17172/e963810/sim-eu-consigo",
+"d": "29 out. 2026",
+"dk": "20261029",
+"e": 11,
+"c": "Sim",
+"x": "Crianças e jovens de diversos países narram a sua vida e dizem quais são os seus sonhos Conjunto de documentários de vários países em que crianças e jovens narram a sua vida e se propõem a cumprir um desafio. Ao longo de cada documentário ficamos a saber onde vivem, como é a sua família e quais são os seus sonhos.",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p15582/e896171/sim-eu-consigo",
+"d": "16 dez. 2025",
+"r": 0,
+"pt": 1
+}
+],
+"cov": [
+5,
+6
+],
+"ne": "Yes, I Can",
+"xe": "Children and young people from different countries tell the story of their lives and say what their dreams are. A set of documentaries from several countries in which children and young people tell their stories and set themselves a challenge. Throughout each documentary we find out where they live, what their family is like and what their dreams are."
+},
+{
+"s": "kids",
+"n": "A Minha Lancheira - A Minha Lancheira cheia de sol",
+"u": "https://www.rtp.pt/play/zigzag/p15891/e900271/a-minha-lancheira",
+"d": "29 out. 2026",
+"dk": "20261029",
+"e": 1,
+"c": "A Minha Lancheira",
+"x": "A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! Entre gargalhadas, cores e muita imaginação, as Irmãs mostram como preparar lancheiras divertidas, deliciosas e cheias de personalidade, incentivando cada criança a criar as suas próprias combinações. Com uma linguagem espontânea, de criança para cri…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+7,
+10
+],
+"ne": "My Lunchbox - My Lunchbox Full of Sunshine",
+"xe": "Pilar and Kate are ready to turn every snack into an adventure! Pilar and Kate are ready to turn every snack into an adventure! Amid laughter, colors and lots of imagination, the sisters show how to prepare fun, delicious lunchboxes full of personality, encouraging every child to create their own combinations. With spontaneous language, from child to chi…"
+},
+{
+"s": "kids",
+"n": "A Grande Descoberta",
+"u": "https://www.rtp.pt/play/zigzag/p3280/e951176/whats-the-big-idea",
+"d": "27 out. 2026",
+"dk": "20261027",
+"e": 0,
+"c": "RTP Zig Zag",
+"x": "Uma série infantil sobre emoções e sentimentos baseada na obra \"O Livro dos Grandes Opostos Filosóficos\" de Oscar Brenifier e Jacques Després Quem sou eu? O que sou eu? Quando eu acordar de manhã estará o mundo exatamente igual como eu o deixei na noite passada? O que é um amigo ou um animal de estimação? Serei apenas pequeno por comparação com algo maior, porque brinco ou choro ou faço perguntas?",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "The Great Discovery",
+"xe": "A children's series about emotions and feelings based on the work \"The Book of Great Philosophical Opposites\" by Oscar Brenifier and Jacques Després. Who am I? What am I? When I wake up in the morning, will the world be exactly the same as I left it last night? What is a friend or a pet? Am I only small by comparison with something bigger, because I play or cry or ask questions?"
+},
+{
+"s": "kids",
+"n": "Descomplica",
+"u": "https://www.rtp.pt/play/zigzag/p17339/e963045/descomplica",
 "d": "26 out. 2026",
 "dk": "20261026",
 "e": 0,
 "c": "RTP Zig Zag",
-"x": "Acompanha as aventuras de Leonel, uma mosca doméstica e filho do meio de muitos irmãos. Lloyd mora com os seus pais, a sua irmãzinha e os seus irmãos larvas dentro de um compostor a que chamam lar. Leonel e a sua irmãzinha vivem grandes aventuras com os seus amigos ao explorar o estranho mundo para lá do compostor, onde não faltam lições para Lloyd aprender... Quase!",
+"x": "Se gostas de saber como funciona o mundo que te rodeia, o teu corpo e as emoções do dia a dia, junta-te à equipa \"Descomplica\"! Porque é que as coisas caem ao chão? O nosso corpo tem vontade de se mexer quando ouvimos música, mas porquê? Afinal de que é feito o Sol? E porque é que ficamos doentes? Estas e muitas mais perguntas... Queres descobrir as respostas? Se gostas de saber como funciona o mu…",
 "xs": 1,
 "note": "",
 "tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
+"r": 1,
+"ok": 1,
+"pt": 0,
 "more": [],
 "cov": [
-9,
-10
-],
-"ne": "Leonel the Fly",
-"xe": "Follow the adventures of Leonel, a housefly and the middle child of many siblings. Lloyd lives with his parents, his little sister and his larva brothers inside a compost bin they call home. Leonel and his little sister have great adventures with their friends as they explore the strange world beyond the compost bin, where there are plenty of lessons for Lloyd to learn... Almost!",
-"grace": "2026-10-26"
-},
-{
-"s": "kids",
-"n": "Vizinhos da Realeza",
-"u": "https://www.rtp.pt/play/zigzag/p13602/e962927/vizinhos-da-realeza",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "A Princesa Stella acaba de receber a melhor notícia de todas! Devido aos danos causados ??por uma inundação no castelo, a família real terá de mudar de residência. A Rainha Kat vê esta situação como a oportunidade perfeita para se modernizar. De acordo com o lema real do Rei Bob, \"Mais perto das pessoas\", eles decidem morar numa casa normal num subúrbio comum. É hora de mostrar ao povo que a famíl…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-2,
+1,
 2
 ],
-"ne": "Royal Neighbors",
-"xe": "Princess Stella has just received the best news of all! Due to damage caused by a flood in the castle, the royal family will have to move house. Queen Kat sees this situation as the perfect opportunity to modernise. In keeping with King Bob's royal motto, \"Closer to the people\", they decide to live in an ordinary house in an ordinary suburb. It's time to show the people that the fam…"
+"ne": "Simplify It",
+"xe": "If you like knowing how the world around you works, your body and everyday emotions, join the \"Descomplica\" team! Why do things fall to the ground? Our body feels like moving when we hear music, but why? What is the Sun actually made of? And why do we get sick? These and many more questions... Do you want to find out the answers? If you like knowing how the wor…"
 },
 {
 "s": "kids",
@@ -9621,144 +9905,6 @@
 },
 {
 "s": "kids",
-"n": "Leo da Vinci",
-"u": "https://www.rtp.pt/play/zigzag/p15890/e963170/leo-da-vinci",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Leo da Vinci está de volta para mais aventuras emocionantes com os seus amigos, desta vez em busca do rubi mais deslumbrante e misterioso do mundo! O fenomenal menino-génio está de volta para mais aventuras emocionantes com os seus amigos, enquanto se envolvem numa missão emocionante e perigosa para localizar o rubi mais deslumbrante e misterioso do mundo, revelado por Marco Polo nas suas Viagens.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-10,
-10
-],
-"ne": "Leo da Vinci",
-"xe": "Leo da Vinci is back for more exciting adventures with his friends, this time in search of the most dazzling and mysterious ruby in the world! The phenomenal boy genius is back for more exciting adventures with his friends, as they get involved in an exciting and dangerous mission to locate the most dazzling and mysterious ruby in the world, revealed by Marco Polo in his Travels."
-},
-{
-"s": "kids",
-"n": "O Refúgio da Audrey",
-"u": "https://www.rtp.pt/play/zigzag/p13603/e963173/audreys-shelter",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Junta-te à aventura! Este é o refúgio da Audrey! Audrey, uma menina de 8 anos, mora num refúgio para espécies ameaçadas de extinção gerida pela sua família. Ela sabe por experiência própria que gerir um refúgio para animais selvagens não é uma tarefa fácil, mas sabe que vale muito a pena! Basta um pouco de empatia e um grande senso de humor. Desde descobrir como fazer um bebé rinoceronte feliz até…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-9,
-10
-],
-"ne": "Audrey's Sanctuary",
-"xe": "Join the adventure! This is Audrey's sanctuary! Audrey, an 8-year-old girl, lives in a sanctuary for endangered species run by her family. She knows from experience that running a wildlife sanctuary is not an easy task, but she knows it's well worth it! All it takes is a little empathy and a great sense of humor. From figuring out how to make a baby rhino happy to…"
-},
-{
-"s": "kids",
-"n": "Power Players",
-"u": "https://www.rtp.pt/play/zigzag/p8699/e963178/power-players",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Axel consegue fazer uma coisa que muitos meninos também gostariam: consegue transformar-se num mini super-herói! Axel é um menino de 9 anos que pode transformar-se num brinquedo vivo! Com a sua impressionante altura de brinquedo de 20 cm, este mini super-herói lidera um esquadrão de coloridos brinquedos animados.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 0,
-"more": [],
-"cov": [
-4,
-4
-],
-"ne": "Power Players",
-"xe": "Axel can do something many boys would also like to do: he can turn into a mini superhero! Axel is a 9-year-old boy who can turn into a living toy! At an impressive toy height of 20 cm, this mini superhero leads a squad of colorful animated toys."
-},
-{
-"s": "kids",
-"n": "Pompon, O Pequeno Urso",
-"u": "https://www.rtp.pt/play/zigzag/p14751/e963150/pompon-o-pequeno-urso",
-"d": "25 out. 2026",
-"dk": "20261025",
-"e": 0,
-"c": "Pompon",
-"x": "Pompon é um ursinho de 6 anos travesso, alegre e brincalhão, com um talento incrível e precioso Na idade de um ursinho de pelúcia, Pompon tem 6 anos. Ele é travesso, alegre e brincalhão, mas acima de tudo, tem um talento incrível e precioso que faz a alegria da sua melhor amiga Rita e dos seus pais: ele sabe fazer algo extraordinário com algo comum... Graças às mil reviravoltas que a sua imaginaçã…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-4,
-4
-],
-"ne": "Pompon, the Little Bear",
-"xe": "Pompon is a mischievous, cheerful and playful 6-year-old little bear with an incredible and precious talent. At teddy bear age, Pompon is 6 years old. He is mischievous, cheerful and playful, but above all, he has an incredible and precious talent that brings joy to his best friend Rita and her parents: he can make something extraordinary out of something ordinary... Thanks to the countless twists his imaginatio…"
-},
-{
-"s": "kids",
-"n": "Petit",
-"u": "https://www.rtp.pt/play/zigzag/p14897/e963154/petit",
-"d": "24 out. 2026",
-"dk": "20261024",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Descobre a perspetiva única e imaginativa de Petit sobre situações do quotidiano que se transformam em aventuras fantásticas que ele irá viver, juntamente com os seus amigos. Baseado no premiado livro \"Petit El Monstruo\" de Isol.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-2,
-2
-],
-"ne": "Petit",
-"xe": "Discover Petit's unique and imaginative view of everyday situations that turn into the fantastic adventures he will live through, together with his friends. Based on the award-winning book \"Petit El Monstruo\" by Isol."
-},
-{
-"s": "kids",
-"n": "A Minha Lancheira - A Minha Lancheira de Estrelas Cadentes",
-"u": "https://www.rtp.pt/play/zigzag/p15891/e896694/a-minha-lancheira",
-"d": "22 out. 2026",
-"dk": "20261022",
-"e": 1,
-"c": "A Minha Lancheira",
-"x": "A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! Entre gargalhadas, cores e muita imaginação, as Irmãs mostram como preparar lancheiras divertidas, deliciosas e cheias de personalidade, incentivando cada criança a criar as suas próprias combinações. Com uma linguagem espontânea, de criança para cri…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-7,
-10
-],
-"ne": "My Lunchbox - My Shooting Stars Lunchbox",
-"xe": "Pilar and Kate are ready to turn every snack into an adventure! Pilar and Kate are ready to turn every snack into an adventure! Amid laughter, colors, and plenty of imagination, the sisters show how to prepare fun, delicious lunchboxes full of personality, encouraging every child to create their own combinations. With a spontaneous, kid-to-kid way of speaking…"
-},
-{
-"s": "kids",
 "n": "Nefertine no Nilo",
 "u": "https://www.rtp.pt/play/zigzag/p11658/e961756/nefertine-no-nilo",
 "d": "18 out. 2026",
@@ -9776,36 +9922,6 @@
 "ne": "Nefertine on the Nile",
 "xe": "Nefertine is a girl full of courage and curiosity who has great adventures with her best friend Piramsés and the cat Micerina. Nefertine is an eight-year-old girl who lives in ancient Egypt and has endless curiosity and courage. She aspires to be the first female scribe in Egyptian history and is constantly recording her exciting adventures in her papyrus diary. From time to…",
 "grace": "2026-10-24"
-},
-{
-"s": "kids",
-"n": "Sim, Eu Consigo",
-"u": "https://www.rtp.pt/play/zigzag/p17172/e960574/sim-eu-consigo",
-"d": "15 out. 2026",
-"dk": "20261015",
-"e": 11,
-"c": "Sim",
-"x": "Crianças e jovens de diversos países narram a sua vida e dizem quais são os seus sonhos Conjunto de documentários de vários países em que crianças e jovens narram a sua vida e se propõem a cumprir um desafio. Ao longo de cada documentário ficamos a saber onde vivem, como é a sua família e quais são os seus sonhos.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p15582/e896171/sim-eu-consigo",
-"d": "16 dez. 2025",
-"r": 0,
-"pt": 1
-}
-],
-"cov": [
-4,
-5
-],
-"ne": "Yes, I Can",
-"xe": "Children and young people from different countries tell the story of their lives and say what their dreams are. A set of documentaries from several countries in which children and young people tell their stories and set themselves a challenge. Throughout each documentary we find out where they live, what their family is like and what their dreams are."
 },
 {
 "s": "kids",
@@ -9964,29 +10080,6 @@
 ],
 "ne": "Edmond and Lucy",
 "xe": "Edmond, a friendly squirrel, and Lucy, a very curious little bear, have great adventures in the forest because nature is the best companion for their games!"
-},
-{
-"s": "kids",
-"n": "Os Argonautas e a Moeda de Ouro",
-"u": "https://www.rtp.pt/play/zigzag/p13608/e945467/os-argonautas-e-a-moeda-de-ouro",
-"d": "29 jul. 2026",
-"dk": "20260729",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Alba chega a Rodas, uma pequena vila piscatória, para passar o verão na casa da sua tia Helena. Alba está convencida que será um verão chato e solitário... Não poderia estar mais enganada! Em breve ela fará novos e maravilhosos amigos: Lucas, Sali, Olivia e Nil. Juntos farão uma descoberta extraordinária: encontrarão uma moeda de ouro da época romana. Esta descoberta os levará em busca de um tesou…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-2,
-2
-],
-"ne": "The Argonauts and the Gold Coin",
-"xe": "Alba arrives in Rodas, a small fishing village, to spend the summer at her aunt Helena's house. Alba is convinced it will be a boring, lonely summer... She couldn't be more wrong! She soon makes wonderful new friends: Lucas, Sali, Olivia and Nil. Together they make an extraordinary discovery: a gold coin from Roman times. This discovery will lead them on the hunt for a treasu…"
 },
 {
 "s": "kids",
@@ -10680,29 +10773,6 @@
 },
 {
 "s": "kids",
-"n": "A Vassoura Voadora",
-"u": "https://www.rtp.pt/play/zigzag/p5701/e466492/vassoura-voadora",
-"d": "11 abr. 2020",
-"dk": "20200411",
-"e": 0,
-"c": "RTP Zig Zag",
-"x": "Filme de animação baseado no maravilhoso livro infantil escrito por Julia Donaldson e ilustrado por Axel Scheffler, um conto mágico sobre a amizade e a família A história de uma bondosa bruxa que convida um surpreendente grupo de animais para se juntar a ela na sua vassoura, o que causa grande frustração ao seu gato. O grupo acaba por salvar a bruxa de um terrível dragão e, como forma de agradecim…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 0,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Room on the Broom",
-"xe": "An animated film based on the wonderful children's book written by Julia Donaldson and illustrated by Axel Scheffler, a magical tale about friendship and family The story of a kind-hearted witch who invites a surprising group of animals to join her on her broomstick, much to her cat's great frustration. The group ends up saving the witch from a terrible dragon and, as a way of thanking th…"
-},
-{
-"s": "kids",
 "n": "O Grufalão",
 "u": "https://www.rtp.pt/play/zigzag/p5707/e466493/grufalao",
 "d": "11 abr. 2020",
@@ -10977,9 +11047,9 @@
 {
 "s": "mag",
 "n": "Faça Chuva Faça Sol",
-"u": "https://www.rtp.pt/play/p16210/e962931/faca-chuva-faca-sol",
-"d": "25 out. 2026",
-"dk": "20261025",
+"u": "https://www.rtp.pt/play/p16210/e964477/faca-chuva-faca-sol",
+"d": "31 out. 2026",
+"dk": "20261031",
 "e": 12,
 "c": "RTP2",
 "x": "10 temporada do programa que nos abre horizontes para uma nova visão do mundo rural e da economia de futuro…",
@@ -11009,6 +11079,60 @@
 ],
 "ne": "Come Rain or Shine",
 "xe": "The 10th season of the program that opens up our horizons to a new view of rural life and the economy of the future…"
+},
+{
+"s": "mag",
+"n": "Primeira Pessoa",
+"u": "https://www.rtp.pt/play/p16274/e963851/primeira-pessoa",
+"d": "28 out. 2026",
+"dk": "20261028",
+"e": 13,
+"c": "RTP1",
+"x": "Abordagens distintas e plurais de diferentes figuras da nossa sociedade com Fátima Campos Ferreira…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p14571/e909804/primeira-pessoa",
+"d": "28 jan. 2026",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p12800/e827882/primeira-pessoa",
+"d": "05 fev. 2025",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p11167/e831338/primeira-pessoa",
+"d": "22 nov. 2023",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p8971/e830131/primeira-pessoa",
+"d": "21 fev. 2022",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p7801/e829765/primeira-pessoa",
+"d": "24 mai. 2021",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+10,
+10
+],
+"ne": "First Person",
+"xe": "Distinct and varied perspectives from different figures in our society, with Fátima Campos Ferreira…"
 },
 {
 "s": "mag",
@@ -11078,7 +11202,8 @@
 3
 ],
 "ne": "RTP Big Report",
-"xe": "\"Grande Reportagem RTP\" is RTP's new weekly news program."
+"xe": "\"Grande Reportagem RTP\" is RTP's new weekly news program.",
+"grace": "2026-10-27"
 },
 {
 "s": "mag",
@@ -11105,60 +11230,6 @@
 },
 {
 "s": "mag",
-"n": "Primeira Pessoa",
-"u": "https://www.rtp.pt/play/p16274/e960668/primeira-pessoa",
-"d": "14 out. 2026",
-"dk": "20261014",
-"e": 13,
-"c": "RTP1",
-"x": "Abordagens distintas e plurais de diferentes figuras da nossa sociedade com Fátima Campos Ferreira…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p14571/e909804/primeira-pessoa",
-"d": "28 jan. 2026",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p12800/e827882/primeira-pessoa",
-"d": "05 fev. 2025",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p11167/e831338/primeira-pessoa",
-"d": "22 nov. 2023",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p8971/e830131/primeira-pessoa",
-"d": "21 fev. 2022",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p7801/e829765/primeira-pessoa",
-"d": "24 mai. 2021",
-"r": 1,
-"pt": 0
-}
-],
-"cov": [
-10,
-10
-],
-"ne": "First Person",
-"xe": "Distinct and varied perspectives from different figures in our society, with Fátima Campos Ferreira…"
-},
-{
-"s": "mag",
 "n": "Ouvir Quem Vê",
 "u": "https://www.rtp.pt/play/p16608/e956457/ouvir-quem-ve",
 "d": "26 set. 2026",
@@ -11178,7 +11249,8 @@
 6
 ],
 "ne": "Listening to the Viewers",
-"xe": "The opinion of viewers counts…"
+"xe": "The opinion of viewers counts…",
+"grace": "2026-10-27"
 },
 {
 "s": "mag",
@@ -12814,57 +12886,49 @@
 },
 {
 "s": "nature",
-"n": "Biosfera",
-"u": "https://www.rtp.pt/play/p16211/e962765/biosfera",
-"d": "24 out. 2026",
-"dk": "20261024",
-"e": 12,
+"n": "Terra: As Forças da Vida",
+"u": "https://www.rtp.pt/play/p17359/e964057/terra-as-forcas-da-vida",
+"d": "30 out. 2026",
+"dk": "20261030",
+"e": 1,
 "c": "RTP2",
-"x": "Um magazine que marca a agenda ambiental portuguesa…",
-"xs": 1,
+"x": "Uma viagem fascinante ao coração da extraordinária história do nosso planeta que explora a forma como o mundo mineral e os seres vivos se entrela�",
+"xs": 0,
 "note": "",
 "tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p14287/e909046/biosfera",
-"d": "14 fev. 2026",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p11190/e735544/biosfera",
-"d": "16 dez. 2023",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p8304/e589057/biosfera",
-"d": "30 dez. 2021",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p3148/e323390/biosfera",
-"d": "30 dez. 2017",
-"r": 1,
-"pt": 0
-},
-{
-"u": "https://www.rtp.pt/play/p2841/e269455/biosfera",
-"d": "14 jan. 2017",
-"r": 1,
-"pt": 0
-}
-],
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
 "cov": [
-5,
-10
+1,
+1
 ],
-"ne": "Biosphere",
-"xe": "A magazine program that sets the Portuguese environmental agenda…"
+"ne": "Earth: The Forces of Life",
+"xe": "A fascinating journey to the heart of the extraordinary story of our planet, exploring how the mineral world and living beings are intertwined…"
+},
+{
+"s": "nature",
+"n": "A Floresta Ancestral de Bornéu",
+"u": "https://www.rtp.pt/play/p17358/e963820/a-floresta-ancestral-de-borneu",
+"d": "29 out. 2026",
+"dk": "20261029",
+"e": 1,
+"c": "RTP2",
+"x": "Uma viagem ao coração da floresta tropical do Bornéu, subindo rios e colinas para observar a diversidade da vida selvagem, como orangotangos, elefa",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "The Ancient Forest of Borneo",
+"xe": "A journey to the heart of Borneo's rainforest, going up rivers and hills to observe the diversity of wildlife, such as orangutans, elepha…"
 },
 {
 "s": "nature",
@@ -13279,6 +13343,54 @@
 ],
 "ne": "Nature: A Call for Reconciliation",
 "xe": "Combining poetry, science and emotion, the documentary traces, over 2 episodes, the history of life, from its cosmic origins to evolution in…"
+},
+{
+"s": "nature",
+"n": "Biosfera",
+"u": "https://www.rtp.pt/play/p14287/e909046/biosfera",
+"d": "14 fev. 2026",
+"dk": "20260214",
+"e": 12,
+"c": "RTP2",
+"x": "Um magazine que marca a agenda ambiental portuguesa…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p11190/e735544/biosfera",
+"d": "16 dez. 2023",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p8304/e589057/biosfera",
+"d": "30 dez. 2021",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p3148/e323390/biosfera",
+"d": "30 dez. 2017",
+"r": 1,
+"pt": 0
+},
+{
+"u": "https://www.rtp.pt/play/p2841/e269455/biosfera",
+"d": "14 jan. 2017",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+1,
+10
+],
+"ne": "Biosphere",
+"xe": "A magazine program that sets the Portuguese environmental agenda…"
 },
 {
 "s": "nature",
@@ -13980,10 +14092,10 @@
 {
 "s": "series",
 "n": "A Escrava Isaura",
-"u": "https://www.rtp.pt/play/p16884/e963334/a-escrava-isaura",
-"d": "27 out. 2026",
-"dk": "20261027",
-"e": 6,
+"u": "https://www.rtp.pt/play/p16884/e964078/a-escrava-isaura",
+"d": "30 out. 2026",
+"dk": "20261030",
+"e": 5,
 "c": "RTP1",
 "x": "Remake da novela que marcou a televisão portuguesa. Uma jovem escrava luta pela liberdade e pelo amor num mundo marcado pela injustiça, paixão e poder…",
 "xs": 1,
@@ -13994,11 +14106,41 @@
 "pt": 1,
 "more": [],
 "cov": [
-6,
-6
+5,
+5
 ],
 "ne": "Isaura the Slave Girl",
 "xe": "A remake of the soap opera that left its mark on Portuguese television. A young enslaved woman fights for freedom and for love in a world shaped by injustice, passion and power…"
+},
+{
+"s": "series",
+"n": "Ruído",
+"u": "https://www.rtp.pt/play/p17247/e963342/ruido",
+"d": "27 out. 2026",
+"dk": "20261027",
+"e": 8,
+"c": "RTP1",
+"x": "O regime caiu. Livres da prisão e da clandestinidade, o grupo percebe o sucesso que os seus sketches tiveram um pouco por todo o país. A…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [
+{
+"u": "https://www.rtp.pt/play/p14914/e859592/ruido",
+"d": "25 jun. 2025",
+"r": 1,
+"pt": 0
+}
+],
+"cov": [
+4,
+4
+],
+"ne": "Noise",
+"xe": "The regime has fallen. Free from prison and from hiding, the group realizes how successful their sketches were all over the country. The…"
 },
 {
 "s": "series",
@@ -14022,36 +14164,6 @@
 ],
 "ne": "The Scream",
 "xe": "Suspense and emotion in a series that delves into human frailties…"
-},
-{
-"s": "series",
-"n": "Ruído",
-"u": "https://www.rtp.pt/play/p17247/e961740/ruido",
-"d": "20 out. 2026",
-"dk": "20261020",
-"e": 8,
-"c": "RTP1",
-"x": "O regime caiu. Livres da prisão e da clandestinidade, o grupo percebe o sucesso que os seus sketches tiveram um pouco por todo o país. A…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [
-{
-"u": "https://www.rtp.pt/play/p14914/e859592/ruido",
-"d": "25 jun. 2025",
-"r": 1,
-"pt": 0
-}
-],
-"cov": [
-3,
-3
-],
-"ne": "Noise",
-"xe": "The regime has fallen. Free from prison and from hiding, the group realizes how successful their sketches were all over the country. The…"
 },
 {
 "s": "series",

@@ -3292,5 +3292,86 @@
 "reason": "RTP1 Portuguese youth series, Portuguese title and setting (Academia das Artes)",
 "model": "claude-sonnet-5-5",
 "date": "2026-10-27"
+},
+"17213:53fbb2161890": {
+"pid": "17213",
+"n": "ScienceCast",
+"verdict": "portuguese",
+"reason": "Produced by PlaySolutions Audiovisuais; Portuguese researcher at ITQB NOVA.",
+"evidence": "Título Original: ScienceCast; Produção: PlaySolutions Audiovisuais; Ano: 2026; Duração: 35; RTP labels: Todos, Talk-Shows; Part of: Talk-Shows",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"17371:00d94ffa4108": {
+"pid": "17371",
+"n": "Do Rio ao Mar",
+"verdict": "foreign",
+"reason": "Original title in French (Au Bout C est La Mer), documentary about Benin, acquired.",
+"evidence": "Título Original: Au Bout C est La Mer; Duração: 52; RTP labels: Todos, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"17143:bee4e64ee1a1": {
+"pid": "17143",
+"n": "Visita Guiada",
+"verdict": "portuguese",
+"reason": "Authored by Paula Moura Pinheiro, about Portuguese history; RTP2 magazine.",
+"evidence": "Título Original: Visita Guiada 2026; Autoria: Paula Moura Pinheiro; Ano: 2026; Duração: 40; RTP labels: Todos, Magazines",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"17350:4ac09b0e40b9": {
+"pid": "17350",
+"n": "O Misterioso Norte do Vietname: No Reino das Florestas Montanhosas",
+"verdict": "foreign",
+"reason": "Original title Untamed Vietnam; acquired documentary about Vietnam.",
+"evidence": "Título Original: Untamed Vietnam; Duração: 52; RTP labels: Todos, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"17335:03394c41de6a": {
+"pid": "17335",
+"n": "Deus e Ciência",
+"verdict": "foreign",
+"reason": "French documentary (Dieu et la Science) produced with Canal+.",
+"evidence": "Título Original: God and Science / Dieu et la Science; Realização: Alain Tixier; Produção: Adamis, Palomar Editions, Canal+; Música: Laurent Ferlet; Ano: 2025; Duração: 45; RTP labels: Todos, Documentários; Part of: Documentários Diversos, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"16448:4a63f9d93bb3": {
+"pid": "16448",
+"n": "Sopro - A Transformação do Vidro",
+"verdict": "portuguese",
+"reason": "Portuguese director Pedro Cabeleira and production company Vende-se Filmes.",
+"evidence": "Realização: Pedro Cabeleira; Produção: Vende-se Filmes; Autoria: Autoria: Filipa Reis / Pesquisa e Guiões: Inês Abreu; Duração: 25; RTP labels: Todos, Documentários; Part of: Documentários, Documentários de Arte e Cultura, Documentários de Património, Tradições e Gastronomia",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"15400:a6920df879ea": {
+"pid": "15400",
+"n": "Ecos da História",
+"verdict": "foreign",
+"reason": "French production by France Télévisions, original French title.",
+"evidence": "Título Original: Les Echos de le Histoire; Realização: Edoardo Malvenuti, Julien Meynet; Produção: France Téléisions, Mareterraniu Productions; Autoria: Escrito por: Edoardo Malvenuti, Julien Meynet; Ano: 2019; Duração: 25; RTP labels: Todos, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"15140:7cee3ee91085": {
+"pid": "15140",
+"n": "Shakespeare: A Ascensão de um Génio",
+"verdict": "foreign",
+"reason": "British documentary by 72 Films with English cast, original English title.",
+"evidence": "Título Original: Shakespeare: Rise of a Genius; Intérpretes: Daniel Boyarsky, Juliet Stevenson (narradora),  Judi Dench, Helen Mirren, Brian Cox; Realização: Julian Jones, Lisa Martinson; Produção: 72 Films; Música: Nick Foster; Ano: 2023; Duração: 60; RTP labels: Documentários; Part of: Documentários de Personalidades de Portugal e do Mundo",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
+},
+"8563:880d7680b072": {
+"pid": "8563",
+"n": "Pixote, a Lei do Mais Fraco",
+"verdict": "portuguese",
+"reason": "Brazilian film (Babenco, HB Filmes), Brazilian Portuguese audio, not European.",
+"evidence": "Intérpretes: Fernando Ramos da Silva, Gilberto Moura, Edílson Lino, Jorge Julião, Marília Pêra, Jardel Filho, Rubens de Falco, Elke Maravilha; Realização: Hector Babenco; Produção: HB Filmes, Unifilm; Autoria: Argumento: Hector Babenco, Jorge Durán; Música: John Neschling; Ano: 1981; Duração: 123; RTP labels: 16, Filmes; Part of: Cinema Internacional",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-02"
 }
 }
