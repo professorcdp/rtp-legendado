@@ -35,9 +35,11 @@
 "pid": "13652",
 "n": "Geografia do Descontentamento",
 "verdict": "unsure",
-"reason": "No description; title alone doesn't reveal origin",
+"reason": "No description or credits; title and RTP1 culture documentary don't settle origin.",
+"evidence": "RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "10400:ab9c75b9d78c": {
 "pid": "10400",
@@ -58,10 +60,12 @@
 "16890:31073700661f": {
 "pid": "16890",
 "n": "Teia",
-"verdict": "unsure",
-"reason": "Textile art series, no clear origin evidence",
+"verdict": "portuguese",
+"reason": "Portuguese director Pedro Cabeleira, production Vende-se Filmes, Portuguese names.",
+"evidence": "Realização: Pedro Cabeleira; Produção: Vende-se Filmes (Filipa Reis); Autoria: Autoria: Filipa Reis / Pesquisa e Guiões: Inês Abreu; Ano: 2025; Duração: 26; RTP labels: Todos, Documentários; Part of: Documentários de Arte e Cultura, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "12222:a032671a5b19": {
 "pid": "12222",
@@ -114,10 +118,12 @@
 "9121:02c2f2050336": {
 "pid": "9121",
 "n": "Othon",
-"verdict": "unsure",
-"reason": "Description about cities in general, origin unclear",
+"verdict": "portuguese",
+"reason": "Portuguese producers (Fernando Centeio, Zulfimes) and director Martim Ramos; Portuguese-led co-production.",
+"evidence": "Título Original: Othon; Realização: Guillaume Pazat, Martim Ramos; Produção: Fernando Centeio, Zulfimes; Ano: 2014; Duração: 37; RTP labels: Todos, Documentários; Part of: Documentários de Bastidores, Biografias e Personagens, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "16980:e3cb3e2c192e": {
 "pid": "16980",
@@ -186,10 +192,12 @@
 "12413:5af4ad135e5c": {
 "pid": "12413",
 "n": "A Mais Longa Jornada",
-"verdict": "unsure",
-"reason": "Futuristic journey documentary on RTP África; no clue to origin.",
+"verdict": "foreign",
+"reason": "Spanish director and Spanish production companies; narration is a Portuguese voice-over on a Spanish film.",
+"evidence": "Intérpretes: Narração de José Rodrigues dos Santos; Realização: Manuel H. Martín; Produção: SPi, La Claqueta PC; La Cruda Realidad; 28F La Película A.I.E.; Dibulitoon Studio; Autoria: Guião: Manuel H. Martín, Antonio Fernández Torres; Música: Pedro Marques; Ano: 2020; Duração: 76; RTP labels: Todos, Documentários; Part of: Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "13598:a4066a1aa83d": {
 "pid": "13598",
@@ -210,10 +218,12 @@
 "7533:9281119e51d2": {
 "pid": "7533",
 "n": "Exílio no Atlântico",
-"verdict": "unsure",
-"reason": "Gibraltar WWII story; could be Portuguese or acquired, description thin.",
+"verdict": "portuguese",
+"reason": "Portuguese director Pedro Mesquita; Portuguese-Spanish co-production, RTP África.",
+"evidence": "Realização: Pedro Mesquita; Produção: Infiel, Kontratiempo (Amanda Alvarez Diaz, Pedro Mesquita); Autoria: Argumento: Matthew A. Jonassaint, Pedro Mesquita; Música: Joel Frias; Ano: 2020; Duração: 60; RTP labels: Documentários; Part of: Documentários, Documentários de Viagens e Lugares",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "14796:58e0ce213471": {
 "pid": "14796",
@@ -242,10 +252,12 @@
 "16717:ad944a91f38c": {
 "pid": "16717",
 "n": "Submersos no Índico",
-"verdict": "unsure",
-"reason": "Mozambique Island underwater heritage; could be Portuguese or Mozambican production, unclear.",
+"verdict": "portuguese",
+"reason": "Portuguese names, 2026 RTP1 documentary on Ilha de Moçambique; Lusophone subject.",
+"evidence": "Produção: Natacha Silva Frey; Autoria: Sofia Leite; Ano: 2026; Duração: 52; RTP labels: Todos, Documentários; Part of: Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "16692:2940661c676c": {
 "pid": "16692",
@@ -259,9 +271,11 @@
 "pid": "9205",
 "n": "Pólio: O Caminho Para a Erradicação",
 "verdict": "unsure",
-"reason": "Polio in Africa on RTP África; may be acquired, no origin clue.",
+"reason": "No credits or production info; RTP África documentary on Africa could be acquired.",
+"evidence": "Ano: 2021; Duração: 38; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "16602:8105b5e950ef": {
 "pid": "16602",
@@ -346,10 +360,12 @@
 "16142:575e64d73843": {
 "pid": "16142",
 "n": "Intervalo para Publicidade",
-"verdict": "unsure",
-"reason": "Advertising documentary series on RTP2; no clue to origin",
+"verdict": "portuguese",
+"reason": "Portuguese director Miguel Cardoso Faria and writer Patrícia Castanheira.",
+"evidence": "Realização: Miguel Cardoso Faria; Produção: Iooa Filmmaking; Autoria: Guião: Patrícia Castanheira; Ano: 2025; Duração: 27; RTP labels: Documentários; Part of: Documentários de Arte e Cultura, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "5416:bdcf5fb532e9": {
 "pid": "5416",
@@ -370,10 +386,12 @@
 "15587:32575e7f5380": {
 "pid": "15587",
 "n": "Como Eu Atravessei África",
-"verdict": "unsure",
-"reason": "Africa crossing documentary; Portuguese credits but no clear origin",
+"verdict": "portuguese",
+"reason": "Portuguese production and author Anabela Saint-Maurice, Portuguese credits.",
+"evidence": "Produção: Tânia João Santos; Autoria: Autoria: Anabela Saint-Maurice; Música: Música de Genérico: César Martins; Ano: 2025; Duração: 63; RTP labels: Todos, Documentários; Part of: Documentários de História e Política, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "7720:584f2eef32ea": {
 "pid": "7720",
@@ -426,10 +444,12 @@
 "14279:7f8da3de946d": {
 "pid": "14279",
 "n": "Afazeres do Mês",
-"verdict": "unsure",
-"reason": "Garden magazine in Portuguese, but origin of production not stated",
+"verdict": "portuguese",
+"reason": "Portuguese garden magazine on RTP2, Portuguese title and format.",
+"evidence": "Título Original: Afazeres do Mês 2025; Ano: 2025; Duração: 05; RTP labels: Todos, Magazines",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "15150:3b1cfde3de37": {
 "pid": "15150",
@@ -634,10 +654,12 @@
 "14894:243a7186d074": {
 "pid": "14894",
 "n": "O Trabalho Não É Mercadoria",
-"verdict": "unsure",
-"reason": "Generic labour theme with no origin clues in the description",
+"verdict": "portuguese",
+"reason": "Portuguese directors and Raquel Varela, Colectivo Kairós.",
+"evidence": "Realização: Pedro Páscoa, Tiago Abreu; Produção: Colectivo Kairós; Autoria: Guião: Raquel Varela, Roberto della Santa; Ano: 2024; Duração: 53; RTP labels: Documentários; Part of: Documentários de Sociedade e Atualidade, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "14847:ed674a862799": {
 "pid": "14847",
@@ -682,10 +704,12 @@
 "14205:8769a31620af": {
 "pid": "14205",
 "n": "Hotéis XXI",
-"verdict": "unsure",
-"reason": "Portuguese-language title and description but no clear indication of origin",
+"verdict": "portuguese",
+"reason": "Portuguese production Maria & Mayer, director Marina Reino.",
+"evidence": "Realização: Marina Reino; Produção: Maria & Mayer; Autoria: Ideia Original: Rita Rolex / Autoria: Marina Reino; Música: Foreign Poetry; Ano: 2022; Duração: 20; RTP labels: Documentários; Part of: Documentários de Património, Tradições e Gastronomia, Arquitetura e Construções",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "14620:acb3214c0bea": {
 "pid": "14620",
@@ -802,10 +826,12 @@
 "13397:1feeb98f9ffa": {
 "pid": "13397",
 "n": "Os Sobreviventes no Zoo",
-"verdict": "unsure",
-"reason": "Animals in European zoo programme on RTP África; no clear producer information, could be acquired or Portuguese",
+"verdict": "portuguese",
+"reason": "Portuguese director/producer Luís Henrique Pereira, Portuguese-made nature series.",
+"evidence": "Título Original: Natureza e Vida Selvagem - Os Sobreviventes no Zoo; Realização: Luís Henrique Pereira; Produção: Luís Henrique Pereira; Autoria: Luís Henrique Pereira; Ano: 2013; Duração: 25; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "8080:31c9eb0ba5c0": {
 "pid": "8080",
@@ -1298,18 +1324,22 @@
 "9808:57b34d72d51c": {
 "pid": "9808",
 "n": "As Coisas em Volta: A Vida Misteriosa dos Objectos",
-"verdict": "unsure",
-"reason": "Generic description about objects' history; no origin clues",
+"verdict": "portuguese",
+"reason": "Maria & Mayer production, Portuguese directors and authors.",
+"evidence": "Realização: Joana Cunha Ferreira, André Godinho; Produção: Maria & Mayer; Autoria: Autoria: Inês Lamim, Rita Rolex, Rui Afonso Santos; Música: Música de Genérico: Van Ayres; Ano: 2020; Duração: 30; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "8458:33e7231d2c02": {
 "pid": "8458",
 "n": "Ni Hao China",
-"verdict": "unsure",
-"reason": "About China; could be RTP-made or acquired, no clear evidence",
+"verdict": "portuguese",
+"reason": "Portuguese authors (Sofia Pinheiro, Catarina Costa) and SP Entertainment, Portuguese-made show on China.",
+"evidence": "Produção: SP Entertainment; Autoria: Guião: Sofia Pinheiro, Catarina Costa, Arlindo Horta; Duração: 30; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "9614:71a4c3ba4cc7": {
 "pid": "9614",
@@ -1338,10 +1368,12 @@
 "9402:e65cec9398bf": {
 "pid": "9402",
 "n": "Soa",
-"verdict": "unsure",
-"reason": "Portuguese title but description gives no origin; episode series about crises",
+"verdict": "portuguese",
+"reason": "Portuguese director Raquel Castro, original title Sons da Cidade.",
+"evidence": "Título Original: Sons da Cidade; Realização: Raquel Castro; Produção: C.R.I.M; Autoria: Argumento: Raquel Castro; Ano: 2021; Duração: 27; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "9398:5b89594e129e": {
 "pid": "9398",
@@ -1354,10 +1386,12 @@
 "9267:85bf7dc8f377": {
 "pid": "9267",
 "n": "O Elogio da Luz",
-"verdict": "unsure",
-"reason": "Lighting series, no origin information; could be acquired",
+"verdict": "portuguese",
+"reason": "Portuguese credits: André Banza, Ricardo Freitas, Silvia Caetano.",
+"evidence": "Realização: André Banza, Ricardo Freitas; Produção: Susana Frias; Autoria: Autoria: Silvia Caetano; Ano: 2019; Duração: 25; RTP labels: Todos, Documentários; Part of: Clima e Ambiente",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "9305:f6a0a79444f0": {
 "pid": "9305",
@@ -1395,17 +1429,21 @@
 "pid": "8795",
 "n": "Bow",
 "verdict": "unsure",
-"reason": "Dance documentary on post-isolation; origin not stated",
+"reason": "No credits; dance documentary on RTP Palco with no origin clues.",
+"evidence": "Part of: Documentários e Outros, Dança",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "8940:d7237943a8c1": {
 "pid": "8940",
 "n": "Começar de Novo",
-"verdict": "unsure",
-"reason": "Refugee stories of various nationalities; could be Portuguese-made but unclear",
+"verdict": "portuguese",
+"reason": "Portuguese director Ricardo Espírito Santo, RTP1, Portuguese production.",
+"evidence": "Realização: Ricardo Espírito Santo; Produção: Ana Catarina Vieira; Ano: 2021; Duração: 30; RTP labels: Documentários; Part of: Documentários de Sociedade e Atualidade",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "9043:fa742f26a4ed": {
 "pid": "9043",
@@ -1467,9 +1505,11 @@
 "pid": "4648",
 "n": "Sim, Eu Consigo - Ayham - My New Life",
 "verdict": "unsure",
-"reason": "Refugee in Switzerland, English title part; unclear if RTP-made or acquired",
+"reason": "Refugee in Switzerland, English title in episode; possibly acquired but credits are empty.",
+"evidence": "",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "8072:7d10c814c7b2": {
 "pid": "8072",
@@ -1594,10 +1634,12 @@
 "6668:8f393708f587": {
 "pid": "6668",
 "n": "Beautiful Madeira",
-"verdict": "unsure",
-"reason": "English title but set in Madeira; production origin unclear",
+"verdict": "portuguese",
+"reason": "Produced by RTP with Portuguese director and crew; about Madeira",
+"evidence": "Realização: Anabela Saint-Maurice; Produção: Tânia João Santos, Júlio Barata (RTP); Autoria: Anabela Saint-Maurice; Música: Música de Genérico: César Martins; Ano: 2020; Duração: 60; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "4677:d6d5da6270fd": {
 "pid": "4677",
@@ -1643,9 +1685,11 @@
 "pid": "5900",
 "n": "Ilhas da Macaronésia (Madeira e Cabo Verde)",
 "verdict": "unsure",
-"reason": "Madeira and Cape Verde nature series; may be Portuguese or acquired, thin evidence",
+"reason": "Co-production about Madeira and Cape Verde, no clear producer or language information",
+"evidence": "Título Original: Ilhas da Macaronésia (Madeira e Cabo Verde) 2016; Produção: Co-Produção; Duração: 30; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "1687:60ad7ecf0149": {
 "pid": "1687",
@@ -1714,10 +1758,12 @@
 "3477:dd86009c033f": {
 "pid": "3477",
 "n": "O Papa Que Veio do Sul",
-"verdict": "unsure",
-"reason": "About Pope Francis; could be Portuguese report or acquired documentary",
+"verdict": "portuguese",
+"reason": "RTP production, report by Portuguese journalist Luís Baila",
+"evidence": "Realização: RTP; Produção: RTP; Autoria: Reportagem do jornalista Luís Baila; Ano: 2017; RTP labels: Informação; Part of: Notícias, Reportagem e Entrevista",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "2576:b8c1e6ae5c32": {
 "pid": "2576",
@@ -2162,18 +2208,22 @@
 "10186:dd753f72b18a": {
 "pid": "10186",
 "n": "Juventudes",
-"verdict": "unsure",
-"reason": "Generic description about generations and public debt; no clear origin",
+"verdict": "portuguese",
+"reason": "RTP1 documentary directed by Pedro Clérigo, Portuguese subject on generations",
+"evidence": "Realização: Pedro Clérigo; Ano: 2022; Duração: 25; RTP labels: Todos, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "10062:761323eaac0b": {
 "pid": "10062",
 "n": "A Máscara e as Aldeias",
-"verdict": "unsure",
-"reason": "Documentary on pagan mask traditions across Europe; could be Portuguese or acquired",
+"verdict": "foreign",
+"reason": "French production companies and directors (Les Films Figures Libres, ViàOccitanie)",
+"evidence": "Realização: Philippe Roussilhe, Sonia Paramo; Produção: Les Films Figures Libres, Studio Nominum, ViàOccitanie; Autoria: Autoria: Philippe Roussilhe / Escrito por: Philippe Roussilhe, Sonia Paramo; Ano: 2019; Duração: 52; RTP labels: Documentários; Part of: Documentários de Património, Tradições e Gastronomia, Documentários",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "9769:a731e17a9970": {
 "pid": "9769",
@@ -2682,10 +2732,12 @@
 "17310:c3cef376bdff": {
 "pid": "17310",
 "n": "A Ferro e Fogo",
-"verdict": "unsure",
-"reason": "Set in Cape Town but RTP Play original; production origin unclear.",
+"verdict": "foreign",
+"reason": "South African series Spinners, labelled Séries Estrangeiras",
+"evidence": "Título Original: Spinners; Intérpretes: Cantona James, Chelsea Thomas, Dillon Windvogel; Realização: Jaco Bouwer; Produção: Bob Conte; Ano: 2023; Duração: 55; RTP labels: Séries Estrangeiras; Part of: Exclusivas RTP Play, Mistério & Crime",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "16367:229aa8a45410": {
 "pid": "16367",
@@ -2698,10 +2750,12 @@
 "17099:4f242cb7f330": {
 "pid": "17099",
 "n": "Evadidos",
-"verdict": "unsure",
-"reason": "Dystopian series on RTP1, no collection tag or cast; origin unclear.",
+"verdict": "portuguese",
+"reason": "Labelled Séries Nacionais on RTP1",
+"evidence": "Duração: 45; RTP labels: Séries Nacionais",
 "model": "claude-sonnet-5-5",
-"date": "2026-10-27"
+"date": "2026-11-02",
+"was": "unsure"
 },
 "17009:d4f64687e376": {
 "pid": "17009",
