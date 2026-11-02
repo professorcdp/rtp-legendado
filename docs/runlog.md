@@ -207,3 +207,22 @@ Format:
 ## 2026-10-27 (unreviewed titles, review baseline, AI suggestions)
 - **Did:** #56: Jogos de Traições (17167, Reindeer Games) → foreign_fiction; Motel Destino (14889) → Brazilian Portuguese page note; Floresta Selvagem (17322, Westerwald) → international_documentary; full rebuild published, all three confirmed live. #57: `data/reviewed.json` baseline (764 ids) and `tools/mark_reviewed.py`; review issues now list every title not yet reviewed, so nothing is lost between rebuilds (decision 0009). #58: `step05d_classify.py` (claude-sonnet-5-5, low effort, JSON output, server-side fallback on) suggests portuguese/foreign/unsure with a reason, cached in `data/classify.json`; workflow mode `classify`. One-off run: 405 titles, $0.40, 19 foreign (18 acquired nature docs + Ministério do Tempo, a Spanish series) and 38 unsure, posted on #58. Also removed a stray test file committed by mistake.
 - **Issues:** closed #56, #57. #58 open, waiting for Jim's confirmation of the suspects; then apply overrides and add suggestions to the weekly review.
+
+## 2026-11-02 (#58: Jim's classification decisions)
+- **Did:**
+  - **Nature & science stays mixed** (decision 0010). The 18 "foreign" nature flags are dropped, and step05d_classify.py checks only series, films and Documentaries (Portugal).
+  - **Ministério do Tempo (13094)** was checked on RTP's page: it is the 2017 Portuguese remake (Iniziomedia, António Capelo and Mariana Monteiro, tagged "Séries Nacionais"). It stays put.
+  - **New `confirmed_portuguese` list** in overrides.json. The classifier never asks about the titles on it.
+  - **The classifier now reads the credits** on RTP's program page /play/p<pid>/: Título Original, Intérpretes, Realização, Produção, Autoria, RTP labels and "Este conteúdo faz parte de".
+  - **Second pass** over the 27 non-nature "unsure" titles, run as classify mode with `recheck_unsure` (run 41441288021): 9.6k input and 1.4k output tokens, $0.03.
+    - 19 resolved as Portuguese, now on the confirmed list (20 entries with Ministério do Tempo).
+    - 3 look foreign: A Mais Longa Jornada (Spanish), A Ferro e Fogo (South African *Spinners*), A Máscara e as Aldeias (French).
+    - 5 still unsure: Bow, Geografia do Descontentamento, Ilhas da Macaronésia, Pólio, Sim Eu Consigo.
+  - **Weekly wiring:**
+    - run_all runs step05d_classify with `--optional`, which skips it quietly without an API key, and with `--no-api` under `--no-translate`.
+    - The rebuild commits classify.json.
+    - The review issue shows "AI suggests: **verdict** – reason" (or "confirmed Portuguese") next to each new title in the three checked sections.
+    - Nature has been dropped from the review issue's "please check" list.
+    - Tested locally with four titles taken out of the baseline.
+- **Issues:** #58 stays open, waiting for Jim's call on the 8 titles in the table on #58.
+- **Next:** Once Jim confirms, add the foreign ones to `foreign_fiction` or `international_documentary` and the Portuguese ones to `confirmed_portuguese`, rebuild, and close #58.
