@@ -23,6 +23,10 @@ on:
         description: "Skip translations (also skipped automatically while there's no ANTHROPIC_API_KEY secret)"
         type: boolean
         default: false
+      recheck_unsure:
+        description: "classify mode only: ask again, with each program page's credits, about titles answered 'unsure'"
+        type: boolean
+        default: false
 
 # The site's public address, used for the canonical URL and social-card tags.
 # It must match the custom domain in the repo's Pages settings
@@ -103,7 +107,7 @@ jobs:
         run: |
           git config user.name "rtp-legendado bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/dataset.json data/translations.json data/build_info.json data/seen.json data/coverage.json
+          git add data/dataset.json data/translations.json data/build_info.json data/seen.json data/coverage.json data/classify.json
           git diff --cached --quiet || git commit -m "Weekly rebuild of the list ($(date -u +%Y-%m-%d))"
           # If someone else saved in the meantime, this run's data is the newest: keep ours.
           git pull --rebase -X theirs
@@ -207,13 +211,13 @@ jobs:
       - name: Classify titles
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python step05d_classify.py --suspects "$RUNNER_TEMP/suspects.md" | tee "$RUNNER_TEMP/cost.txt"
+        run: python step05d_classify.py ${{ inputs.recheck_unsure && '--recheck-unsure' || '' }} --suspects "$RUNNER_TEMP/suspects.md" | tee "$RUNNER_TEMP/cost.txt"
 
       - name: Post the suspects on issue #58
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          { echo "### AI suggestions: titles that may not be Portuguese productions"
+          { echo "### AI suggestions: titles that may not be Portuguese productions${{ inputs.recheck_unsure && ' (second pass, with RTP credits)' || '' }}"
             echo ""
             echo "Suggestions only; no section has been changed. Please confirm which to move."
             echo ""

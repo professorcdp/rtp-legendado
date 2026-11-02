@@ -11,6 +11,7 @@
     step 6  translate        English titles and descriptions (cached)
     step 5c coverage         captions on how many of the last 10 episodes
     step 6b grace            keep titles 28 days after captions were last seen
+    step 5d classify         AI suggestion for new titles: Portuguese-made or not (never applied)
     step 7  render           index.html + csv
 
 Every step is resumable and caches its HTTP calls, so re-running after a failure
@@ -38,6 +39,7 @@ STEPS = [
     ("episode coverage", [sys.executable, "step05c_coverage.py"]),
     ("translate", [sys.executable, "step06_translate.py"]),
     ("grace period", [sys.executable, "step06b_grace.py"]),
+    ("classify", [sys.executable, "step05d_classify.py", "--optional"]),
     ("render", [sys.executable, "step07_render.py"]),
 ]
 
@@ -55,6 +57,8 @@ def main():
             if not started:
                 continue
         if args.no_translate and name == "translate":
+            cmd = cmd + ["--no-api"]
+        if args.no_translate and name == "classify":
             cmd = cmd + ["--no-api"]
         print(f"\n=== {name} ===", flush=True)
         t0 = time.time()

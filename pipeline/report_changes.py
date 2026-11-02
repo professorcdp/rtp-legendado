@@ -29,6 +29,10 @@ or if the Portugal-only count is zero or under --min-pt-ratio of the previous
 list's, which means the fileKey markup has probably changed. The workflow then
 stops before publishing.
 
+Each added title in the Portuguese series, films and documentaries sections
+carries the AI suggestion from step05d_classify.py (data/classify.json), e.g.
+"AI suggests: foreign – US film". It is a suggestion only; nothing is moved.
+
 Also prints `untranslated=N` (rows missing an English title or description)
 and adds that count to the summary.
 """
@@ -43,6 +47,7 @@ from datetime import date
 from pathlib import Path
 
 from common import DATA
+from step05d_classify import CONFIG, cache_key
 
 SECTION_NAMES = {
     "series": "Portuguese TV series", "film": "Portuguese films", "fun": "Comedy & entertainment",
@@ -51,8 +56,9 @@ SECTION_NAMES = {
     "kids": "Kids & animation", "music": "Music & concerts",
     "intl": "International documentaries", "foreign": "Foreign-language fiction",
 }
-# Sections where a foreign-language title could be hiding (see GOTCHAS.md)
-CHECK_SECTIONS = {"series", "film", "docs", "nature"}
+# Sections where a foreign-language title could be hiding (see GOTCHAS.md). Nature & science is
+# a mix of Portuguese-made and acquired documentaries by design (decision 0010).
+CHECK_SECTIONS = {"series", "film", "docs"}
 
 
 def pid(url: str) -> str:
@@ -77,6 +83,20 @@ def match(rows, others) -> dict[int, dict]:
 
 def line(r) -> str:
     return f"- **{r['n']}** ({SECTION_NAMES.get(r['s'], r['s'])}, pid `{pid(r['u'])}`): {r['u']}"
+
+
+def suggestion(r, cache: dict, confirmed: dict) -> str:
+    """' · AI suggests: …' for a title in a checked section, or ''."""
+    if r["s"] not in CHECK_SECTIONS:
+        return ""
+    p = pid(r["u"])
+    if p in confirmed:
+        return " · confirmed Portuguese"
+    c = cache.get(cache_key(p, r["x"])) or next((c for c in cache.values() if c.get("pid") == p), None)
+    if not c:
+        return " · AI suggests: (not classified yet)"
+    label = {"portuguese": "Portuguese"}.get(c["verdict"], c["verdict"])
+    return f" · AI suggests: **{label}** – {c['reason']}"
 
 
 def main():
@@ -138,6 +158,8 @@ def main():
         md += [f"**{untranslated} title(s) have no English yet.** If the run had an API key, the "
                "translation step failed for them (see the run's log); they are retried next run.", ""]
     to_check = [r for r in added if r["s"] in CHECK_SECTIONS]
+    cache = json.loads((DATA / "classify.json").read_text(encoding="utf-8")) if (DATA / "classify.json").exists() else {}
+    confirmed = json.loads(CONFIG.read_text(encoding="utf-8")).get("confirmed_portuguese", {})
     if added:
         md += [f"### Added ({len(added)}): please check for foreign-language titles", "",
                "Every published title not yet reviewed (since the last review commit), however many "
@@ -145,11 +167,14 @@ def main():
                "in the review commit.", "",
                "New titles are already published. RTP labels every Portuguese text track the same way (captions and translated subtitles alike), so "
                "foreign-language fiction and international documentaries can't be told apart automatically. "
-               f"Look through the {len(to_check)} new title(s) in Portuguese series, films, documentaries and "
-               "nature below. For any that aren't Portuguese-made, add the pid to `foreign_fiction` or "
-               "`international_documentary` in `pipeline/config/overrides.json`. The next weekly run "
-               "(or a manual run of the workflow) moves them to the right section.", ""] + \
-              [line(r) for r in added] + [""]
+               f"Look through the {len(to_check)} new title(s) in Portuguese series, films and documentaries "
+               "below (Nature & science mixes Portuguese and acquired documentaries by design, decision 0010). "
+               "Each shows an AI suggestion; it is never applied automatically. For any that aren't "
+               "Portuguese-made, add the pid to `foreign_fiction` or `international_documentary` in "
+               "`pipeline/config/overrides.json`; for ones confirmed Portuguese after a doubt, add it to "
+               "`confirmed_portuguese`. The next weekly run (or a manual run of the workflow) moves them "
+               "to the right section.", ""] + \
+              [line(r) + suggestion(r, cache, confirmed) for r in added] + [""]
     if removed:
         md += [f"### Removed ({len(removed)})", ""] + [line(r) for r in removed] + [""]
     if by_rtp:

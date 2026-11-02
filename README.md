@@ -62,6 +62,13 @@ In the commit that closes it, run `python tools/mark_reviewed.py --issue N` (fro
 to add its titles to the baseline, `pipeline/data/reviewed.json`
 ([decision 0009](docs/decisions/0009-review-baseline.md)).
 
+New titles in the Portuguese series, films and documentaries sections show an AI suggestion
+(Portuguese, foreign or unsure, with a reason) from `pipeline/step05d_classify.py`, which reads
+the credits on RTP's program page. It is never applied automatically. Nature & science mixes
+Portuguese-made and acquired documentaries by design and isn't checked; titles confirmed
+Portuguese after a doubt go in `confirmed_portuguese`
+([decision 0010](docs/decisions/0010-nature-section-stays-mixed.md)).
+
 ## Caveats
 
 - Only the latest episode of each program is checked, so a show may have captions on some

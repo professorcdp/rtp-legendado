@@ -140,6 +140,10 @@
   "rename": {
     "13427": "Uma Primavera Portuguesa"
   },
+  "_comment_confirmed_portuguese": "confirmed_portuguese: titles a person (or the AI second pass, from RTP's credits) has confirmed are Portuguese productions, with the evidence. step05d_classify.py never asks about or flags these. Decision 0010.",
+  "confirmed_portuguese": {
+    "13094": "Ministério do Tempo: RTP's 2017 Portuguese remake (Iniziomedia; António Capelo, Mariana Monteiro; tagged Séries Nacionais), not the Spanish original"
+  },
   "exclude_title_pattern": "Mensagem de Natal|Trailer|^Remo$",
   "min_subtitle_lines": 30
 }
