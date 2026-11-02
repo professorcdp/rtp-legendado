@@ -226,3 +226,7 @@ Format:
     - Tested locally with four titles taken out of the baseline.
 - **Issues:** #58 stays open, waiting for Jim's call on the 8 titles in the table on #58.
 - **Next:** Once Jim confirms, add the foreign ones to `foreign_fiction` or `international_documentary` and the Portuguese ones to `confirmed_portuguese`, rebuild, and close #58.
+
+## 2026-11-02 (Substack link)
+- **Did:** Added a link to Jim's Substack article. It sits under the lede ("Read the story of how this list was made →", in the accent color, opening in a new tab), in the footer colophon, and in the README. It is a plain link: no embeds or Substack scripts. Published with a render-only run (41441730560) and checked live at 412px in both schemes: cobalt on cream, gold on cobalt, no sideways scrolling.
+- **Issues:** closed #60.
