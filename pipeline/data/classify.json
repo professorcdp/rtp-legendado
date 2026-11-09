@@ -3373,5 +3373,86 @@
 "evidence": "Intérpretes: Fernando Ramos da Silva, Gilberto Moura, Edílson Lino, Jorge Julião, Marília Pêra, Jardel Filho, Rubens de Falco, Elke Maravilha; Realização: Hector Babenco; Produção: HB Filmes, Unifilm; Autoria: Argumento: Hector Babenco, Jorge Durán; Música: John Neschling; Ano: 1981; Duração: 123; RTP labels: 16, Filmes; Part of: Cinema Internacional",
 "model": "claude-sonnet-5-5",
 "date": "2026-11-02"
+},
+"17213:c085c8b578e2": {
+"pid": "17213",
+"n": "ScienceCast",
+"verdict": "portuguese",
+"reason": "Talk show with a University of Aveiro professor, produced by PlaySolutions Audiovisuais, a Portuguese company.",
+"evidence": "Título Original: ScienceCast; Produção: PlaySolutions Audiovisuais; Ano: 2026; Duração: 35; RTP labels: Todos, Talk-Shows; Part of: Talk-Shows",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"17143:ccbe002be85b": {
+"pid": "17143",
+"n": "Visita Guiada",
+"verdict": "portuguese",
+"reason": "Presented by Paula Moura Pinheiro, about Portuguese heritage and history.",
+"evidence": "Título Original: Visita Guiada 2026; Autoria: Paula Moura Pinheiro; Ano: 2026; Duração: 40; RTP labels: Todos, Magazines",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"16448:0b5c9859ee6f": {
+"pid": "16448",
+"n": "Sopro - A Transformação do Vidro",
+"verdict": "portuguese",
+"reason": "Portuguese director and producer (Vende-se Filmes); Portuguese lamp designer featured.",
+"evidence": "Realização: Pedro Cabeleira; Produção: Vende-se Filmes; Autoria: Autoria: Filipa Reis / Pesquisa e Guiões: Inês Abreu; Duração: 25; RTP labels: Todos, Documentários; Part of: Documentários de Arte e Cultura, Documentários de Património, Tradições e Gastronomia, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"15400:5687447fa3f0": {
+"pid": "15400",
+"n": "Ecos da História",
+"verdict": "foreign",
+"reason": "French original title, produced by France Télévisions; acquired documentary.",
+"evidence": "Título Original: Les Echos de le Histoire; Realização: Edoardo Malvenuti, Julien Meynet; Produção: France Téléisions, Mareterraniu Productions; Autoria: Escrito por: Edoardo Malvenuti, Julien Meynet; Ano: 2019; Duração: 25; RTP labels: Todos, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"9462:4289b08c951d": {
+"pid": "9462",
+"n": "Portuguese Soul",
+"verdict": "portuguese",
+"reason": "Hosted by Gisela João, Portuguese director and producer Brighter Films.",
+"evidence": "Intérpretes: Apresentado por Gisela João; Realização: Catarina Medeiros; Produção: Brighter Films; Autoria: Argumento:  Lígia Gonçalves; Ano: 2020; Duração: 20; RTP labels: Todos, Magazines; Part of: Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"4706:3d9d21449a1f": {
+"pid": "4706",
+"n": "A Mãe é Que Sabe",
+"verdict": "portuguese",
+"reason": "Portuguese cast and director, producer Ukbar, tagged Cinema Português.",
+"evidence": "Intérpretes: Joana Pais de Brito, Carmo Saraiva, Filipe Vargas, Maria João Abreu, Adriana Carvalho, Beatriz Costa, Manuela Maria, Carlos Santos, Ricardo Azevedo, Manuel Cavaco, Dalila Carmo, Bruno Cabrerizo, Noémia Costa, Filipa Areosa, Catarina Rebelo; Realização: Nuno Rocha; Produção: Ukbar; Autoria: Argumento: Roberto Pereira; Música: Pedro Marques; Ano: 2016; Duração: 88; RTP labels: Filmes; P",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"5320:d72ad4d9c887": {
+"pid": "5320",
+"n": "A Família Ventura",
+"verdict": "portuguese",
+"reason": "Portuguese cast and director, tagged Cinema Português, set in Vale da Figueira.",
+"evidence": "Intérpretes: Rui Mendes, Maria do Céu Guerra, Custódia Gallego, António Pedro Cerdeira, Pedro Saavedra, Joana de Verona, Susana Arrais, Joana Seixas, João Vicente, Tomás Alves, Beatriz Frazão, Gonçalo Oliveira; Realização: Miguel Guerreiro; Produção: beActive Entertainment; Autoria: Argumento: Nuno Bernardo, Patrícia Brásia; Ano: 2017; Duração: 108; RTP labels: Filmes; Part of: Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"15362:9e27a03e4e5f": {
+"pid": "15362",
+"n": "Máscaras",
+"verdict": "portuguese",
+"reason": "Filmed in Trás-os-Montes, directed by Noémia Delgado, Centro Português de Cinema.",
+"evidence": "Realização: Noémia Delgado; Produção: Centro Português de Cinema; Autoria: Texto: Ernesto Veiga de Oliveira, Benjamim Pereira; Ano: 1976; Duração: 110; RTP labels: Documentários; Part of: Documentários de Património, Tradições e Gastronomia, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
+},
+"17189:0232d7af441f": {
+"pid": "17189",
+"n": "Jones",
+"verdict": "portuguese",
+"reason": "Tagged Séries nacionais, Portuguese director Bruno Gascon and mostly Portuguese cast.",
+"evidence": "Título Original: Jones; Intérpretes: José Pimentão, Laura Dutra, Amanda Abbington, Rafael Morais, Ivo Canelas, Rui Morisson, Raquel Rocha Vieira, Paula de Magalhães, Afonso Lagarto, Margarida Moreira, João Cachola, Silvia Chiola; Realização: Bruno Gascon; Ano: 2026; Duração: 50; RTP labels: Séries Nacionais; Part of: Séries nacionais, Mistério & Crime",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-09"
 }
 }
