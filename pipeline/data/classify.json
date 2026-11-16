@@ -3454,5 +3454,104 @@
 "evidence": "Título Original: Jones; Intérpretes: José Pimentão, Laura Dutra, Amanda Abbington, Rafael Morais, Ivo Canelas, Rui Morisson, Raquel Rocha Vieira, Paula de Magalhães, Afonso Lagarto, Margarida Moreira, João Cachola, Silvia Chiola; Realização: Bruno Gascon; Ano: 2026; Duração: 50; RTP labels: Séries Nacionais; Part of: Séries nacionais, Mistério & Crime",
 "model": "claude-sonnet-5-5",
 "date": "2026-11-09"
+},
+"17213:f21429fff66c": {
+"pid": "17213",
+"n": "ScienceCast",
+"verdict": "portuguese",
+"reason": "Produced by PlaySolutions Audiovisuais; Portuguese illustrator guest, talk show on RTP2",
+"evidence": "Título Original: ScienceCast; Produção: PlaySolutions Audiovisuais; Ano: 2026; Duração: 35; RTP labels: Todos, Talk-Shows; Part of: Talk-Shows",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17371:c28d81056816": {
+"pid": "17371",
+"n": "Do Rio ao Mar",
+"verdict": "foreign",
+"reason": "French original title 'Au Bout C est La Mer', Seine river documentary, acquired",
+"evidence": "Título Original: Au Bout C est La Mer; Duração: 52; RTP labels: Todos, Documentários; Part of: Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17408:068132960f53": {
+"pid": "17408",
+"n": "Múmias do Egito - Em Busca da Imortalidade",
+"verdict": "foreign",
+"reason": "French original title, produced by ZED, AMC Networks, Histoire TV, Foxtel",
+"evidence": "Título Original: Momies du Égypte - En Quête de Immortalité; Realização: Alexandra Barbot; Produção: ZED, AMC Networks International Southern Europe, Histoire TV, Ceská Televize, Foxtel; Ano: 2025; Duração: 45; RTP labels: Todos, Documentários; Part of: Documentários de Património, Tradições e Gastronomia, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17335:bddbedd0232a": {
+"pid": "17335",
+"n": "Deus e Ciência",
+"verdict": "foreign",
+"reason": "French/English original, produced by Adamis and Canal+, French director",
+"evidence": "Título Original: God and Science / Dieu et la Science; Realização: Alain Tixier; Produção: Adamis, Palomar Editions, Canal+; Música: Laurent Ferlet; Ano: 2025; Duração: 45; RTP labels: Todos, Documentários; Part of: Documentários Diversos, Documentários",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17406:9740062f389f": {
+"pid": "17406",
+"n": "Miguel Ângelo: Escândalo na Capela Sistina",
+"verdict": "foreign",
+"reason": "French original title, produced by CFRT, French director and writers",
+"evidence": "Título Original: Michel-Ange: Scandale à la Chapelle Sixtine; Realização: Frédéric Biamonti; Produção: CFRT; Autoria: Argumento: Frédéric Biamonti, Cécile Bulté; Música: Kévin Roger; Ano: 2025; Duração: 52; RTP labels: Todos, Documentários; Part of: Documentários, Documentários de Património, Tradições e Gastronomia",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17404:da3de8c55399": {
+"pid": "17404",
+"n": "Ensino: O Desafio do Superior em Portugal",
+"verdict": "portuguese",
+"reason": "About Portuguese higher education, presented by Carlos Daniel, Portuguese director and writers",
+"evidence": "Intérpretes: Apresentação de Carlos Daniel; Realização: Pedro Clérigo; Autoria: Guião: Ana Rita Madruga, Pedro Clérigo; Ano: 2022; Duração: 52; RTP labels: Todos, Documentários; Part of: Documentários, Documentários de Sociedade e Atualidade",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"15140:3c81bfe0fbd1": {
+"pid": "15140",
+"n": "Shakespeare: A Ascensão de um Génio",
+"verdict": "foreign",
+"reason": "English original, produced by 72 Films, English cast and directors",
+"evidence": "Título Original: Shakespeare: Rise of a Genius; Intérpretes: Daniel Boyarsky, Juliet Stevenson (narradora),  Judi Dench, Helen Mirren, Brian Cox; Realização: Julian Jones, Lisa Martinson; Produção: 72 Films; Música: Nick Foster; Ano: 2023; Duração: 60; RTP labels: Documentários; Part of: Documentários de Personalidades de Portugal e do Mundo",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"15470:691680843051": {
+"pid": "15470",
+"n": "Rosa de Areia",
+"verdict": "portuguese",
+"reason": "Cinema Português, Portuguese directors António Reis and Margarida Cordeiro, Inforfilmes",
+"evidence": "Intérpretes: Ana Umbelina, Balbina Ferro, Cristina de Jesus, Lia Nascimento, Maria Olinda, Alberto Mendes, Alcino da Costa, António Reis, Artur Semedo, Carlos Alberto Gomes, Francisco Nascimento, Frederico Robalo, Ilda Pais, Luís Silva; Realização: Margarida Cordeiro, António Reis; Produção: Inforfilmes; Autoria: Argumento: Margarida Cordeiro, António Reis; Música: César Franck; Ano: 1989; Duração",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17422:01d6f7151efe": {
+"pid": "17422",
+"n": "Nenhum Anjo",
+"verdict": "foreign",
+"reason": "Swedish series, Séries Estrangeiras label, Swedish cast and director",
+"evidence": "Título Original: No Angel; Intérpretes: Yussra El Abdouni, Felicia Sjostrom Nilsson, Edvard Olsson, Bahar Pars, David Nzinga, Nicklas Hansson, Doreen Ndagire, Rachel Mohlin, Miryam Eriksson, Olga Bergara; Realização: Tuna Ozer; Autoria: EliSophie Andrée; Ano: 2023; RTP labels: 16, Séries Estrangeiras; Part of: Exclusivas RTP Play, Grandes dramas, Gen Z, Mistério & Crime",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17421:8a0c4ac2f271": {
+"pid": "17421",
+"n": "All The Way Up: Caminho para A Fama",
+"verdict": "foreign",
+"reason": "French series, Séries Estrangeiras label, French cast and creators",
+"evidence": "Título Original: All The Way Up; Intérpretes: Hatik, Saidou Camara, Brahim Bouhlel, Moussa Mansaly, Sabrina Ouazani, Franck Gastambide, Adel Bencherif, Liv Del Estal, Hakim Jemili; Realização: Franck Gastambide, David Diane; Autoria: Franck Gastambide, Charles Van Tieghem, Xavier Lacaille, Giulio Callegari; Ano: 2020; RTP labels: 16, Séries Estrangeiras; Part of: Exclusivas RTP Play, Grandes drama",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
+},
+"17399:0ea5f50d47a3": {
+"pid": "17399",
+"n": "Leonor, Marquesa de Alorna",
+"verdict": "portuguese",
+"reason": "Séries nacionais, Portuguese cast, Ukbar Filmes, based on Portuguese novel",
+"evidence": "Intérpretes: Sara Matos, Albano Jerónimo, Miguel Borges, Cristovão Campos, Paula Lobo Antunes, Soraia Chaves, Rita Rocha Silva, Joana Solnado, Sandra Faleiro, Cucha Carvalheiro; Realização: Tiago Alvarez Marques; Produção: Ukbar Filmes; Autoria: Escrito por: Pandora da Cunha Telles, Mário Cunha, Cláudia Clemente, Rafael do Carmo Afonso; Ano: 2026; RTP labels: Séries Nacionais; Part of: Séries naci",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-16"
 }
 }
