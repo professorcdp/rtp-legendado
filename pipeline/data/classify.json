@@ -3553,5 +3553,23 @@
 "evidence": "Intérpretes: Sara Matos, Albano Jerónimo, Miguel Borges, Cristovão Campos, Paula Lobo Antunes, Soraia Chaves, Rita Rocha Silva, Joana Solnado, Sandra Faleiro, Cucha Carvalheiro; Realização: Tiago Alvarez Marques; Produção: Ukbar Filmes; Autoria: Escrito por: Pandora da Cunha Telles, Mário Cunha, Cláudia Clemente, Rafael do Carmo Afonso; Ano: 2026; RTP labels: Séries Nacionais; Part of: Séries naci",
 "model": "claude-sonnet-5-5",
 "date": "2026-11-16"
+},
+"9138:fc48c73f5d0c": {
+"pid": "9138",
+"n": "José Afonso, Traz Outro Amigo Também",
+"verdict": "portuguese",
+"reason": "Documentary on Portuguese musician José Afonso, shown on RTP Palco; Portuguese subject and Portuguese-language audio.",
+"evidence": "Part of: Documentários e Outros",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-18"
+},
+"16771:9d08fd8fc720": {
+"pid": "16771",
+"n": "Vadio",
+"verdict": "portuguese",
+"reason": "Tagged Cinema Português; set in Alentejo, with Portuguese director Simão Cayatte and Portuguese cast.",
+"evidence": "Intérpretes: Rúben Simões, Joana Santos, Carlos Afonso, Luísa Cruz, Nuno Nunes, Bruno Simão; Realização: Simão Cayatte; Produção: Pandora da Cunha Telles, Pablo Iraola; Autoria: Simão Cayatte; Ano: 2022; Duração: 88; RTP labels: Filmes; Part of: Cinema Português",
+"model": "claude-sonnet-5-5",
+"date": "2026-11-18"
 }
 }

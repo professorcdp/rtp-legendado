@@ -1,6 +1,52 @@
 [
 {
 "s": "docs",
+"n": "RTP Sempre",
+"u": "https://www.rtp.pt/play/p13007/e967853/rtp-sempre",
+"d": "17 nov. 2026",
+"dk": "20261117",
+"e": 12,
+"c": "RTP Memória",
+"x": "Série de 26 episódios que marcam a identidade portuguesa…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+6,
+10
+],
+"ne": "RTP Forever",
+"xe": "A series of 26 episodes that mark Portuguese identity…"
+},
+{
+"s": "docs",
+"n": "José Afonso, Traz Outro Amigo Também",
+"u": "https://www.rtp.pt/play/p9138/e968444/jose-afonso-traz-um-amigo-tambem",
+"d": "17 nov. 2026",
+"dk": "20261117",
+"e": 0,
+"c": "José Afonso",
+"x": "Devemos a José Afonso um conjunto de canções e pensamentos que mudaram o curso da música em Portugal. Insatisfeito com as formas e práticas da ca",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "José Afonso, Bring Another Friend Too",
+"xe": "We owe to José Afonso a body of songs and ideas that changed the course of music in Portugal. Dissatisfied with the forms and practices of the song…"
+},
+{
+"s": "docs",
 "n": "ScienceCast",
 "u": "https://www.rtp.pt/play/p17213/e967712/sciencecast",
 "d": "15 nov. 2026",
@@ -108,98 +154,6 @@
 },
 {
 "s": "docs",
-"n": "Do Rio ao Mar",
-"u": "https://www.rtp.pt/play/p17371/e967561/do-rio-ao-mar",
-"d": "14 nov. 2026",
-"dk": "20261114",
-"e": 2,
-"c": "RTP1",
-"x": "Sena - François Pécheux percorre o rio Sena ao longo de mais de 770 quilómetros, desde a sua nascente em Source-Seine, na Côte-d´Or, até Honfleu",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-2,
-2
-],
-"ne": "From River to Sea",
-"xe": "Seine - François Pécheux travels along the Seine River for more than 770 kilometers, from its source at Source-Seine, in the Côte-d'Or, to Honfleu…"
-},
-{
-"s": "docs",
-"n": "Múmias do Egito - Em Busca da Imortalidade",
-"u": "https://www.rtp.pt/play/p17408/e967263/mumias-do-egito-em-busca-da-imortalidade",
-"d": "13 nov. 2026",
-"dk": "20261113",
-"e": 1,
-"c": "RTP2",
-"x": "Um laboratório de embalsamamento com 2500 anos de idade lança uma nova luz sobre a mumificação, revelando as crenças, os rituais e o uso especial",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Mummies of Egypt - In Search of Immortality",
-"xe": "A 2,500-year-old embalming laboratory sheds new light on mummification, revealing the beliefs, the rituals, and the special use…"
-},
-{
-"s": "docs",
-"n": "Deus e Ciência",
-"u": "https://www.rtp.pt/play/p17335/e966977/god-and-science",
-"d": "12 nov. 2026",
-"dk": "20261112",
-"e": 4,
-"c": "RTP2",
-"x": "O surgimento da consciência no auge da vida continua a ser um enigma que alimenta a controvérsia entre os cientistas. Será a consciência o resulta",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-2,
-4
-],
-"ne": "God and Science",
-"xe": "The emergence of consciousness at the peak of life remains an enigma that fuels controversy among scientists. Is consciousness the result…"
-},
-{
-"s": "docs",
-"n": "Miguel Ângelo: Escândalo na Capela Sistina",
-"u": "https://www.rtp.pt/play/p17406/e966719/miguel-angelo-escandalo-na-capela-sistina",
-"d": "11 nov. 2026",
-"dk": "20261111",
-"e": 1,
-"c": "RTP2",
-"x": "Em 1563, o 'Juízo Final' de Miguel Ângelo tornou-se alvo da primeira censura oficial da Igreja Católica. Este fresco monumental, repleto de corpos ",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Michelangelo: Scandal in the Sistine Chapel",
-"xe": "In 1563, Michelangelo's 'Last Judgment' became the target of the first official censorship by the Catholic Church. This monumental fresco, full of bodies…"
-},
-{
-"s": "docs",
 "n": "Ensino: O Desafio do Superior em Portugal",
 "u": "https://www.rtp.pt/play/p17404/e966461/ensino-o-desafio-do-superior-em-portugal",
 "d": "10 nov. 2026",
@@ -246,29 +200,6 @@
 },
 {
 "s": "docs",
-"n": "Ecos da História",
-"u": "https://www.rtp.pt/play/p15400/e964879/ecos-da-historia",
-"d": "03 nov. 2026",
-"dk": "20261103",
-"e": 2,
-"c": "RTP2",
-"x": "Mustafa Kemal: Crepúsculo de um Império - Mustapha Kemal, apelidado de Ataturk (o pai dos turcos), conseguiu subjugar o Império Otomano onde os Est",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-2,
-2
-],
-"ne": "Echoes of History",
-"xe": "Mustafa Kemal: Twilight of an Empire - Mustapha Kemal, nicknamed Ataturk (the father of the Turks), managed to subdue the Ottoman Empire, where the Un…"
-},
-{
-"s": "docs",
 "n": "Portuguese Soul",
 "u": "https://www.rtp.pt/play/p9462/e964606/portuguese-soul",
 "d": "02 nov. 2026",
@@ -296,29 +227,6 @@
 ],
 "ne": "Portuguese Soul",
 "xe": "Hosted by Gisela João, a living testimony to a country full of talent, in an 8-episode documentary series…"
-},
-{
-"s": "docs",
-"n": "O Misterioso Norte do Vietname: No Reino das Florestas Montanhosas",
-"u": "https://www.rtp.pt/play/p17350/e964382/o-misterioso-norte-do-vietname-no-reino-das-florestas-montanhosas",
-"d": "31 out. 2026",
-"dk": "20261031",
-"e": 1,
-"c": "RTP1",
-"x": "As montanhas cársticas moldam a paisagem acidentada do norte do Vietname. Estas formações constituem barreiras naturais, separam habitats e criam a",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Mysterious Northern Vietnam: In the Kingdom of the Mountain Forests",
-"xe": "Karst mountains shape the rugged landscape of northern Vietnam. These formations form natural barriers, separate habitats and create…"
 },
 {
 "s": "docs",
@@ -373,29 +281,6 @@
 ],
 "ne": "Always in Time",
 "xe": "Divided into three different segments: the Index, which tests your general knowledge, the Cabinet of Curiosities, a showcase of culture, and Reading by Ear, which presents the great works of world literature…"
-},
-{
-"s": "docs",
-"n": "RTP Sempre",
-"u": "https://www.rtp.pt/play/p13007/e955708/rtp-sempre",
-"d": "24 set. 2026",
-"dk": "20260924",
-"e": 12,
-"c": "RTP Memória",
-"x": "Série de 26 episódios que marcam a identidade portuguesa…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-6,
-10
-],
-"ne": "RTP Forever",
-"xe": "A series of 26 episodes that mark Portuguese identity…"
 },
 {
 "s": "docs",
@@ -817,29 +702,6 @@
 ],
 "ne": "Internees - The German Internment Depot on Terceira Island (1916-1919)",
 "xe": "A documentary by José Vieira Mendes, based on a study by researcher Sérgio Rezendes, which reveals the little-known historical episode of the De…"
-},
-{
-"s": "docs",
-"n": "A Mais Longa Jornada",
-"u": "https://www.rtp.pt/play/p12413/e938953/a-mais-longa-jornada",
-"d": "27 jun. 2026",
-"dk": "20260627",
-"e": 1,
-"c": "RTP África",
-"x": "No futuro próximo, um grupo de mulheres e homens fará uma viagem ao desconhecido. Esta viagem será um enorme desafio humano e tecnológico... Para ",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "The Longest Journey",
-"xe": "In the near future, a group of women and men will make a journey into the unknown. This journey will be an enormous human and technological challenge... To…"
 },
 {
 "s": "docs",
@@ -5549,11 +5411,30 @@
 },
 {
 "s": "film",
+"n": "Vadio",
+"u": "https://www.rtp.pt/play/p16771/e968122/vadio",
+"d": "17 nov. 2026",
+"dk": "20261117",
+"e": 1,
+"c": "RTP1",
+"x": "André tem 13 anos e vive isolado com o pai numa zona seca e remota do Alentejo, onde o ajuda com o seu negócio de perfuração de água em vez de ir",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"ne": "Vagrant",
+"xe": "André is 13 years old and lives isolated with his father in a dry, remote part of the Alentejo, where he helps him with his water-drilling business instead of going…"
+},
+{
+"s": "film",
 "n": "Shakespeare: A Ascensão de um Génio",
 "u": "https://www.rtp.pt/play/p15140/e967715/shakespeare-a-ascensao-de-um-genio",
 "d": "15 nov. 2026",
 "dk": "20261115",
-"e": 2,
+"e": 1,
 "c": "RTP2",
 "x": "Aos 30 anos, Shakespeare atingiu o sucesso: tem um emprego na melhor companhia de teatro de Inglaterra, os Lord Chamberlain´s Men, e dinheiro não fa",
 "xs": 0,
@@ -5672,7 +5553,7 @@
 "x": "Filme do cineasta argentino, naturalizado brasileiro, Héctor Babenco, inspirado no livro 'Infância dos Mortos' de José Louzeiro, sobre um rapaz que",
 "xs": 0,
 "note": "",
-"tag": "",
+"tag": "Brazilian Portuguese",
 "r": 0,
 "ok": 0,
 "pt": 0,
@@ -5736,44 +5617,6 @@
 "more": [],
 "ne": "Shadow - A Mother Knows",
 "xe": "In 1998, Isabel had the perfect family, until one day she comes home and discovers that her 11-year-old son has disappeared. From that moment on, everything…"
-},
-{
-"s": "film",
-"n": "Uma Abelha na Chuva",
-"u": "https://www.rtp.pt/play/p9155/e959534/uma-abelha-na-chuva",
-"d": "18 out. 2026",
-"dk": "20261018",
-"e": 1,
-"c": "RTP2",
-"x": "Maria dos Prazeres (Laura Soveral) e Álvaro Silvestre (João Guedes) são casados e vivem num meio rural que dominam socialmente. Porém, a sua rela�",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "A Bee in the Rain",
-"xe": "Maria dos Prazeres (Laura Soveral) and Álvaro Silvestre (João Guedes) are married and live in a rural community that they socially dominate. However, their rela…"
-},
-{
-"s": "film",
-"n": "A Palavra Mágica",
-"u": "https://www.rtp.pt/play/p13855/e954659/a-palavra-magica",
-"d": "18 set. 2026",
-"dk": "20260918",
-"e": 1,
-"c": "RTP1",
-"x": "A primeira vez que a ouvem não lhes parece grande coisa. A palavra é estranha e o tom em que foi lançada pode ser ofensivo. Na aldeia depressa se e",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "The Magic Word",
-"xe": "The first time they hear it, it doesn't seem like much to them. The word is strange and the tone in which it was thrown out may be offensive. In the village it quickly…"
 },
 {
 "s": "film",
@@ -6819,6 +6662,52 @@
 },
 {
 "s": "foreign",
+"n": "Nenhum Anjo",
+"u": "https://www.rtp.pt/play/p17422/e966608/nenhum-anjo",
+"d": "16 nov. 2026",
+"dk": "20261116",
+"e": 4,
+"c": "Originais RTP Play",
+"x": "A última sobrevivente - Susanne acha que Angelina se comporta de forma estranha e começa a desconfiar da filha. Quando a vida de Fanny fica subitame",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+4,
+4
+],
+"ne": "No Angel",
+"xe": "The Last Survivor - Susanne thinks Angelina is behaving strangely and begins to doubt her daughter. When Fanny's life suddenly…"
+},
+{
+"s": "foreign",
+"n": "All The Way Up: Caminho para A Fama",
+"u": "https://www.rtp.pt/play/p17421/e966585/all-the-way-up-caminho-para-a-fama",
+"d": "12 nov. 2026",
+"dk": "20261112",
+"e": 10,
+"c": "Originais RTP Play",
+"x": "Para encher a sala do único concerto da digressão que não foi cancelado, Apash pondera recorrer a uma manobra de marketing.",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+10,
+10
+],
+"ne": "All The Way Up: Road to Fame",
+"xe": "To fill the venue for the only concert on the tour that wasn't canceled, Apash considers resorting to a marketing stunt."
+},
+{
+"s": "foreign",
 "n": "O Corno do Centeio",
 "u": "https://www.rtp.pt/play/p16035/e964540/o-corno-do-centeio",
 "d": "01 nov. 2026",
@@ -6842,29 +6731,6 @@
 },
 {
 "s": "foreign",
-"n": "Beleza Colateral",
-"u": "https://www.rtp.pt/play/p17296/e961379/collateral-beauty",
-"d": "18 out. 2026",
-"dk": "20261018",
-"e": 1,
-"c": "RTP1",
-"x": "Howard Inlet é um publicitário brilhante. Após a morte da sua filha, fica profundamente abalado e afastado da vida. Os seus amigos e colegas, preoc",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Collateral Beauty",
-"xe": "Howard Inlet is a brilliant advertising executive. After the death of his daughter, he is deeply shaken and withdrawn from life. His friends and colleagues, worr…"
-},
-{
-"s": "foreign",
 "n": "Sobretudo de Noite",
 "u": "https://www.rtp.pt/play/p17297/e961385/sobretudo-de-noite",
 "d": "18 out. 2026",
@@ -6885,6 +6751,29 @@
 ],
 "ne": "Overcoat at Night",
 "xe": "The plot revolves around Vera's search for her biological son, whom she gave up for adoption because she was not in a position to raise him. When questioning the…"
+},
+{
+"s": "foreign",
+"n": "A Ferro e Fogo",
+"u": "https://www.rtp.pt/play/p17310/e959081/a-ferro-e-fogo",
+"d": "12 out. 2026",
+"dk": "20261012",
+"e": 8,
+"c": "Originais RTP Play",
+"x": "A traição de Ethan é descoberta e Damien confronta Nazeem para negociar um acordo. Numa atitude desesperada, Ethan entrega-se para salvar a nova fa",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+8,
+8
+],
+"ne": "By Fire and Sword",
+"xe": "Ethan's betrayal is discovered and Damien confronts Nazeem to negotiate a deal. In a desperate move, Ethan turns himself in to save the new fam…"
 },
 {
 "s": "foreign",
@@ -7466,7 +7355,8 @@
 10
 ],
 "ne": "Cabinet of Curiosities",
-"xe": "Because only curiosity kills ignorance…"
+"xe": "Because only curiosity kills ignorance…",
+"grace": "2026-11-16"
 },
 {
 "s": "fun",
@@ -7512,7 +7402,8 @@
 9
 ],
 "ne": "Break The Wall",
-"xe": "A visually immersive talk show that explores media literacy and historical memory, hosted by Tomás Duran…"
+"xe": "A visually immersive talk show that explores media literacy and historical memory, hosted by Tomás Duran…",
+"grace": "2026-11-16"
 },
 {
 "s": "fun",
@@ -8456,12 +8347,12 @@
 {
 "s": "intl",
 "n": "Castelos do Ar",
-"u": "https://www.rtp.pt/play/p17135/e967816/castelos-do-ar",
-"d": "16 nov. 2026",
-"dk": "20261116",
+"u": "https://www.rtp.pt/play/p17135/e968330/castelos-do-ar",
+"d": "18 nov. 2026",
+"dk": "20261118",
 "e": 4,
 "c": "RTP2",
-"x": "Espanha - Espanha é uma terra de castelos e cada pedra sua tem uma história para contar sobre resistência e honra no sul da Europa. Mais de 10.000 ",
+"x": "Eslováquia - A Eslováquia é um país de rochas e montanhas, de rios que percorrem vales e de fortalezas que vigiam e protegem do alto. Aqui, os cas",
 "xs": 0,
 "note": "",
 "tag": "",
@@ -8477,11 +8368,103 @@
 }
 ],
 "cov": [
+3,
+3
+],
+"ne": "Castles in the Air",
+"xe": "Slovakia - Slovakia is a country of rocks and mountains, of rivers that run through valleys and of fortresses that keep watch and protect from above. Here, the cas…"
+},
+{
+"s": "intl",
+"n": "Do Rio ao Mar",
+"u": "https://www.rtp.pt/play/p17371/e967561/do-rio-ao-mar",
+"d": "14 nov. 2026",
+"dk": "20261114",
+"e": 1,
+"c": "RTP1",
+"x": "Sena - François Pécheux percorre o rio Sena ao longo de mais de 770 quilómetros, desde a sua nascente em Source-Seine, na Côte-d´Or, até Honfleu",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "From River to Sea",
+"xe": "Seine - François Pécheux travels along the Seine River for more than 770 kilometers, from its source at Source-Seine, in the Côte-d'Or, to Honfleu…"
+},
+{
+"s": "intl",
+"n": "Múmias do Egito - Em Busca da Imortalidade",
+"u": "https://www.rtp.pt/play/p17408/e967263/mumias-do-egito-em-busca-da-imortalidade",
+"d": "13 nov. 2026",
+"dk": "20261113",
+"e": 1,
+"c": "RTP2",
+"x": "Um laboratório de embalsamamento com 2500 anos de idade lança uma nova luz sobre a mumificação, revelando as crenças, os rituais e o uso especial",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
 1,
 1
 ],
-"ne": "Castles in the Air",
-"xe": "Spain - Spain is a land of castles, and each of its stones has a story to tell about resistance and honor in southern Europe. More than 10,000…"
+"ne": "Mummies of Egypt - In Search of Immortality",
+"xe": "A 2,500-year-old embalming laboratory sheds new light on mummification, revealing the beliefs, the rituals, and the special use…"
+},
+{
+"s": "intl",
+"n": "Deus e Ciência",
+"u": "https://www.rtp.pt/play/p17335/e966977/god-and-science",
+"d": "12 nov. 2026",
+"dk": "20261112",
+"e": 4,
+"c": "RTP2",
+"x": "O surgimento da consciência no auge da vida continua a ser um enigma que alimenta a controvérsia entre os cientistas. Será a consciência o resulta",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+2,
+4
+],
+"ne": "God and Science",
+"xe": "The emergence of consciousness at the peak of life remains an enigma that fuels controversy among scientists. Is consciousness the result…"
+},
+{
+"s": "intl",
+"n": "Miguel Ângelo: Escândalo na Capela Sistina",
+"u": "https://www.rtp.pt/play/p17406/e966719/miguel-angelo-escandalo-na-capela-sistina",
+"d": "11 nov. 2026",
+"dk": "20261111",
+"e": 1,
+"c": "RTP2",
+"x": "Em 1563, o 'Juízo Final' de Miguel Ângelo tornou-se alvo da primeira censura oficial da Igreja Católica. Este fresco monumental, repleto de corpos ",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Michelangelo: Scandal in the Sistine Chapel",
+"xe": "In 1563, Michelangelo's 'Last Judgment' became the target of the first official censorship by the Catholic Church. This monumental fresco, full of bodies…"
 },
 {
 "s": "intl",
@@ -8531,6 +8514,29 @@
 },
 {
 "s": "intl",
+"n": "Ecos da História",
+"u": "https://www.rtp.pt/play/p15400/e964879/ecos-da-historia",
+"d": "03 nov. 2026",
+"dk": "20261103",
+"e": 2,
+"c": "RTP2",
+"x": "Mustafa Kemal: Crepúsculo de um Império - Mustapha Kemal, apelidado de Ataturk (o pai dos turcos), conseguiu subjugar o Império Otomano onde os Est",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+2,
+2
+],
+"ne": "Echoes of History",
+"xe": "Mustafa Kemal: Twilight of an Empire - Mustapha Kemal, nicknamed Ataturk (the father of the Turks), managed to subdue the Ottoman Empire, where the Un…"
+},
+{
+"s": "intl",
 "n": "Atenas: Berço da Democracia",
 "u": "https://www.rtp.pt/play/p17206/e957548/atenas-berco-da-democracia",
 "d": "31 out. 2026",
@@ -8551,6 +8557,29 @@
 ],
 "ne": "Athens: Cradle of Democracy",
 "xe": "Twenty-five centuries ago, in the heart of Ancient Greece, a political idea was to change the course of human history forever: citizens…"
+},
+{
+"s": "intl",
+"n": "O Misterioso Norte do Vietname: No Reino das Florestas Montanhosas",
+"u": "https://www.rtp.pt/play/p17350/e964382/o-misterioso-norte-do-vietname-no-reino-das-florestas-montanhosas",
+"d": "31 out. 2026",
+"dk": "20261031",
+"e": 1,
+"c": "RTP1",
+"x": "As montanhas cársticas moldam a paisagem acidentada do norte do Vietname. Estas formações constituem barreiras naturais, separam habitats e criam a",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Mysterious Northern Vietnam: In the Kingdom of the Mountain Forests",
+"xe": "Karst mountains shape the rugged landscape of northern Vietnam. These formations form natural barriers, separate habitats and create…"
 },
 {
 "s": "intl",
@@ -9205,6 +9234,29 @@
 },
 {
 "s": "intl",
+"n": "A Mais Longa Jornada",
+"u": "https://www.rtp.pt/play/p12413/e938953/a-mais-longa-jornada",
+"d": "27 jun. 2026",
+"dk": "20260627",
+"e": 1,
+"c": "RTP África",
+"x": "No futuro próximo, um grupo de mulheres e homens fará uma viagem ao desconhecido. Esta viagem será um enorme desafio humano e tecnológico... Para ",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "The Longest Journey",
+"xe": "In the near future, a group of women and men will make a journey into the unknown. This journey will be an enormous human and technological challenge... To…"
+},
+{
+"s": "intl",
 "n": "Ilhas Japonesas Vistas do Ar",
 "u": "https://www.rtp.pt/play/p16447/e936082/ilhas-japonesas-vistas-do-ar",
 "d": "15 jun. 2026",
@@ -9551,9 +9603,9 @@
 {
 "s": "kids",
 "n": "O Leonel das Moscas",
-"u": "https://www.rtp.pt/play/zigzag/p13864/e967806/o-leonel-das-moscas",
-"d": "16 nov. 2026",
-"dk": "20261116",
+"u": "https://www.rtp.pt/play/zigzag/p13864/e968312/o-leonel-das-moscas",
+"d": "18 nov. 2026",
+"dk": "20261118",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Acompanha as aventuras de Leonel, uma mosca doméstica e filho do meio de muitos irmãos. Lloyd mora com os seus pais, a sua irmãzinha e os seus irmãos larvas dentro de um compostor a que chamam lar. Leonel e a sua irmãzinha vivem grandes aventuras com os seus amigos ao explorar o estranho mundo para lá do compostor, onde não faltam lições para Lloyd aprender... Quase!",
@@ -9574,9 +9626,9 @@
 {
 "s": "kids",
 "n": "Sempre Atrasados",
-"u": "https://www.rtp.pt/play/zigzag/p9289/e967804/nate-is-late",
-"d": "16 nov. 2026",
-"dk": "20261116",
+"u": "https://www.rtp.pt/play/zigzag/p9289/e968311/nate-is-late",
+"d": "18 nov. 2026",
+"dk": "20261118",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Nuno e Malika vivem grandes aventuras a caminho da escola e, por isso, chegam sempre atrasados! Todas as manhãs, Nuno e Malika fazem o mesmo caminho para a escola. E, no entanto, eles chegam sempre atrasados! Isso acontece porque, pelo caminho, envolvem-se em aventuras extraordinárias! Mas Prudence, a diretora da escola, nunca acredita numa única palavra das suas extraordinárias histórias...",
@@ -9597,9 +9649,9 @@
 {
 "s": "kids",
 "n": "Mouk",
-"u": "https://www.rtp.pt/play/zigzag/p12334/e967798/mouk",
-"d": "16 nov. 2026",
-"dk": "20261116",
+"u": "https://www.rtp.pt/play/zigzag/p12334/e968304/mouk",
+"d": "18 nov. 2026",
+"dk": "20261118",
 "e": 0,
 "c": "RTP Zig Zag",
 "x": "Mouk e Chavapa, os nossos viajantes globais, continuam vivem novas aventuras a viajar de bicicleta pelo mundo! Da Espanha à Rússia, da Mongólia à Turquia, passando pelo Butão, estes dois nossos amigos conhecem habitantes de todo o planeta. Sobe numa bicicleta e junta-te a eles para descobrires um mundo realista, moderno e colorido! Pessoas incríveis, paisagens inacreditáveis e costumes desconhecid…",
@@ -9620,9 +9672,9 @@
 {
 "s": "kids",
 "n": "Jasmine e Jambo",
-"u": "https://www.rtp.pt/play/p13503/e967794/jasmine-e-jambo",
-"d": "16 nov. 2026",
-"dk": "20261116",
+"u": "https://www.rtp.pt/play/p13503/e968300/jasmine-e-jambo",
+"d": "18 nov. 2026",
+"dk": "20261118",
 "e": 5,
 "c": "RTP2",
 "x": "Jasmine e Jambo são loucos por música…",
@@ -9639,6 +9691,52 @@
 ],
 "ne": "Jasmine and Jambo",
 "xe": "Jasmine and Jambo are crazy about music…"
+},
+{
+"s": "kids",
+"n": "A Minha Lancheira - A Minha Lancheira o gato vai à escola",
+"u": "https://www.rtp.pt/play/zigzag/p17159/e968045/a-minha-lancheira",
+"d": "17 nov. 2026",
+"dk": "20261117",
+"e": 0,
+"c": "A Minha Lancheira",
+"x": "A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! Entre gargalhadas, cores e muita imaginação, as Irmãs mostram como preparar lancheiras divertidas, deliciosas e cheias de personalidade, incentivando cada criança a criar as suas próprias combinações. Com uma linguagem espontânea, de criança para cri…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+8,
+9
+],
+"ne": "My Lunchbox - My Lunchbox: The Cat Goes to School",
+"xe": "Pilar and Kate are ready to turn every snack into an adventure! Pilar and Kate are ready to turn every snack into an adventure! Amid laughter, colors and lots of imagination, the Sisters show how to prepare fun, delicious lunchboxes full of personality, encouraging every child to create their own combinations. With spontaneous language, from child to chi…"
+},
+{
+"s": "kids",
+"n": "Descomplica - Dança",
+"u": "https://www.rtp.pt/play/zigzag/p17339/e967821/descomplica",
+"d": "16 nov. 2026",
+"dk": "20261116",
+"e": 0,
+"c": "Descomplica",
+"x": "Se gostas de saber como funciona o mundo que te rodeia, o teu corpo e as emoções do dia a dia, junta-te à equipa \"Descomplica\"! Porque é que as coisas caem ao chão? O nosso corpo tem vontade de se mexer quando ouvimos música, mas porquê? Afinal de que é feito o Sol? E porque é que ficamos doentes? Estas e muitas mais perguntas... Queres descobrir as respostas? Se gostas de saber como funciona o mu…",
+"xs": 1,
+"note": "",
+"tag": "",
+"r": 1,
+"ok": 1,
+"pt": 0,
+"more": [],
+"cov": [
+4,
+5
+],
+"ne": "Simplify It - Dance",
+"xe": "If you like finding out how the world around you, your body and everyday emotions work, join the \"Descomplica\" team! Why do things fall to the ground? Our body feels like moving when we hear music, but why? What is the Sun actually made of? And why do we get sick? These and many more questions... Do you want to find out the answers? If you like finding out how the wor…"
 },
 {
 "s": "kids",
@@ -9830,52 +9928,6 @@
 ],
 "ne": "Luke, the Time Traveler",
 "xe": "Come live great adventures and travel through time with Luke! Luke is a boy who travels to many different worlds and eras inside a very special elevator: an elevator that travels through time! An exciting adventure with Luke is about to begin!"
-},
-{
-"s": "kids",
-"n": "A Minha Lancheira - A Minha Lancheira do gato que vai à escola",
-"u": "https://www.rtp.pt/play/zigzag/p17159/e966429/a-minha-lancheira",
-"d": "10 nov. 2026",
-"dk": "20261110",
-"e": 0,
-"c": "A Minha Lancheira",
-"x": "A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! A Pilar e a Kate estão prontas para transformar cada lanche numa aventura! Entre gargalhadas, cores e muita imaginação, as Irmãs mostram como preparar lancheiras divertidas, deliciosas e cheias de personalidade, incentivando cada criança a criar as suas próprias combinações. Com uma linguagem espontânea, de criança para cri…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-7,
-8
-],
-"ne": "My Lunchbox - My Lunchbox of the Cat Who Goes to School",
-"xe": "Pilar and Kate are ready to turn every snack into an adventure! Pilar and Kate are ready to turn every snack into an adventure! With lots of laughter, color, and imagination, the sisters show how to prepare fun, delicious lunchboxes full of personality, encouraging every child to create their own combinations. With a spontaneous, child-to-child way of speaking…"
-},
-{
-"s": "kids",
-"n": "Descomplica - Gaming",
-"u": "https://www.rtp.pt/play/zigzag/p17339/e966195/descomplica",
-"d": "09 nov. 2026",
-"dk": "20261109",
-"e": 0,
-"c": "Descomplica",
-"x": "Se gostas de saber como funciona o mundo que te rodeia, o teu corpo e as emoções do dia a dia, junta-te à equipa \"Descomplica\"! Porque é que as coisas caem ao chão? O nosso corpo tem vontade de se mexer quando ouvimos música, mas porquê? Afinal de que é feito o Sol? E porque é que ficamos doentes? Estas e muitas mais perguntas... Queres descobrir as respostas? Se gostas de saber como funciona o mu…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-3,
-4
-],
-"ne": "Simplify It - Gaming",
-"xe": "If you like to know how the world around you works, your body, and everyday emotions, join the \"Descomplica\" team! Why do things fall to the ground? Our body feels like moving when we hear music, but why? What is the Sun actually made of? And why do we get sick? These and many more questions... Do you want to discover the answers? If you like to know how the world works…"
 },
 {
 "s": "kids",
@@ -11085,7 +11137,8 @@
 10
 ],
 "ne": "Deal Closed",
-"xe": "Every object has a story, every story has a value, and every negotiation can end in a Closed Deal…"
+"xe": "Every object has a story, every story has a value, and every negotiation can end in a Closed Deal…",
+"grace": "2026-11-16"
 },
 {
 "s": "mag",
@@ -12572,29 +12625,6 @@
 },
 {
 "s": "music",
-"n": "Zé Amaro - Tour Cowboy Português",
-"u": "https://www.rtp.pt/play/p13654/e784691/ze-amaro-tour-cowboy-portugues",
-"d": "21 jul. 2024",
-"dk": "20240721",
-"e": 0,
-"c": "RTP1",
-"x": "Concerto de Zé Amaro, o 'cowboy português', gravado no Coliseu de Lisboa e inserido na 'Tour Cowboy Português', com os temas que se tornaram verdad",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 1,
-"ok": 1,
-"pt": 0,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "Zé Amaro - Portuguese Cowboy Tour",
-"xe": "A concert by Zé Amaro, the 'Portuguese cowboy', recorded at the Coliseu de Lisboa as part of the 'Portuguese Cowboy Tour', with the songs that have become true…"
-},
-{
-"s": "music",
 "n": "Música de Graça",
 "u": "https://www.rtp.pt/play/p12547/e781523/musica-de-graca",
 "d": "06 jul. 2024",
@@ -12894,29 +12924,6 @@
 },
 {
 "s": "nature",
-"n": "UTILIZAR FICHA",
-"u": "https://www.rtp.pt/play/p17382/e965976/timor-leste-terra-do-crocodilo-adormecido",
-"d": "06 nov. 2026",
-"dk": "20261106",
-"e": 1,
-"c": "RTP2",
-"x": "",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "USE FORM",
-"xe": ""
-},
-{
-"s": "nature",
 "n": "Timor-Leste: Terra do Crocodilo Adormecido",
 "u": "https://www.rtp.pt/play/p17378/e965623/timor-leste-terra-do-crocodilo-adormecido",
 "d": "06 nov. 2026",
@@ -12937,6 +12944,30 @@
 ],
 "ne": "Timor-Leste: Land of the Sleeping Crocodile",
 "xe": "Timor-Leste, a natural paradise located north of Australia. Almost unaltered nature full of natural treasures and living traditions. This p…"
+},
+{
+"s": "nature",
+"n": "UTILIZAR FICHA",
+"u": "https://www.rtp.pt/play/p17382/e965976/timor-leste-terra-do-crocodilo-adormecido",
+"d": "06 nov. 2026",
+"dk": "20261106",
+"e": 1,
+"c": "RTP2",
+"x": "",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "USE FORM",
+"xe": "",
+"grace": "2026-11-16"
 },
 {
 "s": "nature",
@@ -13220,7 +13251,7 @@
 "u": "https://www.rtp.pt/play/p15784/e952358/terra-de-lendas",
 "d": "08 set. 2026",
 "dk": "20260908",
-"e": 4,
+"e": 3,
 "c": "RTP2",
 "x": "Sob o Reinado do Ar - Elemento invisível e intangível, o ar cria eventos espetaculares, como os poderosos tornados nos Estados Unidos, as violentas ",
 "xs": 0,
@@ -14168,34 +14199,11 @@
 },
 {
 "s": "series",
-"n": "Nenhum Anjo",
-"u": "https://www.rtp.pt/play/p17422/e966608/nenhum-anjo",
-"d": "16 nov. 2026",
-"dk": "20261116",
-"e": 4,
-"c": "Originais RTP Play",
-"x": "Angelina é uma aluna do ensino secundário com um estilo de matar... literalmente. Por muito que tente, não consegue controlar a sua sede de matar. Mas, quando ocorre um acidente mortal, descobre uma faceta de si própria que desconhecia.",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-4,
-4
-],
-"ne": "No Angel",
-"xe": "Angelina is a high school student with a killer style... literally. However hard she tries, she can't control her thirst to kill. But when a deadly accident occurs, she discovers a side of herself she didn't know existed."
-},
-{
-"s": "series",
 "n": "A Escrava Isaura",
-"u": "https://www.rtp.pt/play/p16884/e967288/a-escrava-isaura",
-"d": "13 nov. 2026",
-"dk": "20261113",
-"e": 5,
+"u": "https://www.rtp.pt/play/p16884/e968372/a-escrava-isaura",
+"d": "18 nov. 2026",
+"dk": "20261118",
+"e": 6,
 "c": "RTP1",
 "x": "Remake da novela que marcou a televisão portuguesa. Uma jovem escrava luta pela liberdade e pelo amor num mundo marcado pela injustiça, paixão e poder…",
 "xs": 1,
@@ -14207,40 +14215,17 @@
 "more": [],
 "cov": [
 5,
-5
+6
 ],
 "ne": "Isaura the Slave Girl",
 "xe": "A remake of the soap opera that left its mark on Portuguese television. A young enslaved woman fights for freedom and for love in a world shaped by injustice, passion and power…"
 },
 {
 "s": "series",
-"n": "All The Way Up: Caminho para A Fama",
-"u": "https://www.rtp.pt/play/p17421/e966585/all-the-way-up-caminho-para-a-fama",
-"d": "12 nov. 2026",
-"dk": "20261112",
-"e": 10,
-"c": "Originais RTP Play",
-"x": "Um talentoso jovem rapper, apoiado por seus dois amigos de infância, é reconhecido da noite para o dia por uma das maiores estrelas do ra…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-10,
-10
-],
-"ne": "All The Way Up",
-"xe": "A talented young rapper, supported by his two childhood friends, is recognized overnight by one of the biggest stars of ra…"
-},
-{
-"s": "series",
 "n": "Ruído",
-"u": "https://www.rtp.pt/play/p17247/e966496/ruido",
-"d": "10 nov. 2026",
-"dk": "20261110",
+"u": "https://www.rtp.pt/play/p17247/e968098/ruido",
+"d": "17 nov. 2026",
+"dk": "20261117",
 "e": 8,
 "c": "RTP1",
 "x": "O regime caiu. Livres da prisão e da clandestinidade, o grupo percebe o sucesso que os seus sketches tiveram um pouco por todo o país. A…",
@@ -14259,8 +14244,8 @@
 }
 ],
 "cov": [
-6,
-6
+7,
+7
 ],
 "ne": "Noise",
 "xe": "The regime has fallen. Free from prison and from hiding, the group realizes how successful their sketches were all over the country. The…"
@@ -14268,10 +14253,10 @@
 {
 "s": "series",
 "n": "Leonor, Marquesa de Alorna",
-"u": "https://www.rtp.pt/play/p17399/e966313/leonor-marquesa-de-alorna",
-"d": "09 nov. 2026",
-"dk": "20261109",
-"e": 1,
+"u": "https://www.rtp.pt/play/p17399/e967849/leonor-marquesa-de-alorna",
+"d": "16 nov. 2026",
+"dk": "20261116",
+"e": 2,
 "c": "Leonor",
 "x": "Inspirada no best-seller de Maria João Lopo de Carvalho, a série dá vida à história de uma mulher à frente do seu tempo…",
 "xs": 1,
@@ -14282,8 +14267,8 @@
 "pt": 1,
 "more": [],
 "cov": [
-1,
-1
+2,
+2
 ],
 "ne": "Leonor, Marchioness of Alorna",
 "xe": "Inspired by the best-seller by Maria João Lopo de Carvalho, the series brings to life the story of a woman ahead of her time…"
@@ -14356,29 +14341,6 @@
 ],
 "ne": "If I Want To, I'll Cry",
 "xe": "Series directed by Carolina Aguiar, featuring Filipa Saavedra, Francisco Pereira de Almeida, Lúcia Moniz, Inês Sá Frias..."
-},
-{
-"s": "series",
-"n": "A Ferro e Fogo",
-"u": "https://www.rtp.pt/play/p17310/e959081/a-ferro-e-fogo",
-"d": "12 out. 2026",
-"dk": "20261012",
-"e": 8,
-"c": "Originais RTP Play",
-"x": "Um jovem dos bairros pobres da Cidade do Cabo, descobre no spinning uma hipótese de escapar ao crime e mudar de vida…",
-"xs": 1,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-8,
-8
-],
-"ne": "By Iron and Fire",
-"xe": "A young man from the poor neighborhoods of Cape Town discovers in spinning a chance to escape crime and change his life…"
 },
 {
 "s": "series",
