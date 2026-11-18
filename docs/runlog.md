@@ -230,3 +230,22 @@ Format:
 ## 2026-11-02 (Substack link)
 - **Did:** Added a link to Jim's Substack article. It sits under the lede ("Read the story of how this list was made →", in the accent color, opening in a new tab), in the footer colophon, and in the README. It is a plain link: no embeds or Substack scripts. Published with a render-only run (41441730560) and checked live at 412px in both schemes: cobalt on cream, gold on cobalt, no sideways scrolling.
 - **Issues:** closed #60.
+
+## 2026-11-18 (review catch-up, placeholder title, stats wording)
+- **Did:**
+  - **Overrides from reviews #59 and #61–#63:**
+    - 9 titles to international_documentary, including A Mais Longa Jornada and A Máscara e as Aldeias.
+    - 3 titles to foreign_fiction: All The Way Up, Nenhum Anjo, A Ferro e Fogo.
+    - Pixote gets the "Brazilian Portuguese" page note.
+    - 10 more titles are confirmed Portuguese, bringing that list to 30.
+  - **Review baseline:** ran `mark_reviewed.py` for #59, #61, #62 and #63, which added 32 ids (796 in the baseline now).
+  - **#64, placeholder title:** "UTILIZAR FICHA" is added to exclude_title_pattern.
+    - After the first rebuild the title was still listed, because the grace period re-added it from seen.json. step06b now applies the exclusion pattern to the rows it keeps, and the foreign_fiction / international_documentary overrides too.
+    - The first rebuild also left A Máscara e as Aldeias in Portuguese films. RTP files it as fiction, and the "ficcao" rule ran before the override. The international_documentary override now runs right after foreign_fiction.
+  - **#65, stats wording:** the band shows "N programs listed" (the same count as the All chip), with "X with captions this week · Y recently captioned" beneath, all counted from the data.
+  - **Live check after rebuild 44362576394:**
+    - 679 programs listed = All chip; 667 with captions this week + 12 recently captioned.
+    - The placeholder is gone and Timor-Leste (17378) remains.
+    - All 12 moved titles are in their new sections, and Pixote shows its tag.
+- **Issues:** closed #58, #59, #61, #62, #63, #64, #65.
+- **Next:** the weekly review as usual. Open "later" items: #10, #11, #28, #29, #30, #40, #41.
