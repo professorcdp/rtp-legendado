@@ -316,32 +316,6 @@
 "xe": "Every object has a story, every story has a value, and every negotiation can end in a Closed Deal…"
 }
 },
-"17382": {
-"last_seen": "2026-11-16",
-"row": {
-"s": "nature",
-"n": "UTILIZAR FICHA",
-"u": "https://www.rtp.pt/play/p17382/e965976/timor-leste-terra-do-crocodilo-adormecido",
-"d": "06 nov. 2026",
-"dk": "20261106",
-"e": 1,
-"c": "RTP2",
-"x": "",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"cov": [
-1,
-1
-],
-"ne": "USE FORM",
-"xe": ""
-}
-},
 "13007": {
 "last_seen": "2026-11-18",
 "row": {
@@ -6428,28 +6402,6 @@
 "xe": "André is 13 years old and lives isolated with his father in a dry, remote part of the Alentejo, where he helps him with his water-drilling business instead of going…"
 }
 },
-"15140": {
-"last_seen": "2026-11-18",
-"row": {
-"s": "film",
-"n": "Shakespeare: A Ascensão de um Génio",
-"u": "https://www.rtp.pt/play/p15140/e967715/shakespeare-a-ascensao-de-um-genio",
-"d": "15 nov. 2026",
-"dk": "20261115",
-"e": 1,
-"c": "RTP2",
-"x": "Aos 30 anos, Shakespeare atingiu o sucesso: tem um emprego na melhor companhia de teatro de Inglaterra, os Lord Chamberlain´s Men, e dinheiro não fa",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "Shakespeare: The Rise of a Genius",
-"xe": "At 30, Shakespeare achieved success: he has a job with the best theater company in England, the Lord Chamberlain's Men, and money is not lacking…"
-}
-},
 "15470": {
 "last_seen": "2026-11-18",
 "row": {
@@ -7504,28 +7456,6 @@
 "more": [],
 "ne": "Youth",
 "xe": "Climate change, the huge public debt and the sustainability of social security are some of the legacies that past generations…"
-}
-},
-"10062": {
-"last_seen": "2026-11-18",
-"row": {
-"s": "film",
-"n": "A Máscara e as Aldeias",
-"u": "https://www.rtp.pt/play/p10062/e604923/mascara-e-aldeias",
-"d": "16 mar. 2022",
-"dk": "20220316",
-"e": 1,
-"c": "RTP2",
-"x": "Pessoas por trás das suas máscaras são criaturas que encontramos em várias tradições pagãs pela Europa fora. Normalmente, são homens vestidos ",
-"xs": 0,
-"note": "",
-"tag": "",
-"r": 0,
-"ok": 0,
-"pt": 1,
-"more": [],
-"ne": "The Mask and the Villages",
-"xe": "People behind their masks are creatures we find in various pagan traditions throughout Europe. They are usually men dressed…"
 }
 },
 "9769": {
@@ -9631,6 +9561,32 @@
 "xe": "Slovakia - Slovakia is a country of rocks and mountains, of rivers that run through valleys and of fortresses that keep watch and protect from above. Here, the cas…"
 }
 },
+"15140": {
+"last_seen": "2026-11-18",
+"row": {
+"s": "intl",
+"n": "Shakespeare: A Ascensão de um Génio",
+"u": "https://www.rtp.pt/play/p15140/e967715/shakespeare-a-ascensao-de-um-genio",
+"d": "15 nov. 2026",
+"dk": "20261115",
+"e": 1,
+"c": "RTP2",
+"x": "Aos 30 anos, Shakespeare atingiu o sucesso: tem um emprego na melhor companhia de teatro de Inglaterra, os Lord Chamberlain´s Men, e dinheiro não fa",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "Shakespeare: The Rise of a Genius",
+"xe": "At 30, Shakespeare achieved success: he has a job with the best theater company in England, the Lord Chamberlain's Men, and money is not lacking…"
+}
+},
 "17371": {
 "last_seen": "2026-11-18",
 "row": {
@@ -10962,6 +10918,32 @@
 ],
 "ne": "In the Kingdom of the Dragon",
 "xe": "The mysterious and almost mythical Tibet remained unknown to the Western world until the early 17th century, when a group of Jesuits…"
+}
+},
+"10062": {
+"last_seen": "2026-11-18",
+"row": {
+"s": "intl",
+"n": "A Máscara e as Aldeias",
+"u": "https://www.rtp.pt/play/p10062/e604923/mascara-e-aldeias",
+"d": "16 mar. 2022",
+"dk": "20220316",
+"e": 1,
+"c": "RTP2",
+"x": "Pessoas por trás das suas máscaras são criaturas que encontramos em várias tradições pagãs pela Europa fora. Normalmente, são homens vestidos ",
+"xs": 0,
+"note": "",
+"tag": "",
+"r": 0,
+"ok": 0,
+"pt": 1,
+"more": [],
+"cov": [
+1,
+1
+],
+"ne": "The Mask and the Villages",
+"xe": "People behind their masks are creatures we find in various pagan traditions throughout Europe. They are usually men dressed…"
 }
 },
 "8670": {
