@@ -249,3 +249,15 @@ Format:
     - All 12 moved titles are in their new sections, and Pixote shows its tag.
 - **Issues:** closed #58, #59, #61, #62, #63, #64, #65.
 - **Next:** the weekly review as usual. Open "later" items: #10, #11, #28, #29, #30, #40, #41.
+
+## 2026-11-18 ("New this week")
+- **Did:** Added a "New this week" filter (#68).
+  - **First-seen dates:** seen.json now records `first_seen`: the date each program id first appeared on the published list. It is never reset, so a title that drops off and comes back is not "new". step06b updates it on each rebuild and stamps each row with `fs`, its earliest date.
+  - **Seeding:** `tools/seed_first_seen.py` built the dates from the September snapshot plus the 22 weekly rebuild commits, which gives 857 ids.
+  - **On the page:**
+    - A "New this week (N)" chip comes right after All. It shows titles first seen within 7 days of the build date, grouped under their normal sections, at hash #new, with a live count. It is hidden when N is 0.
+    - New rows carry an outlined "New" tag in the accent color, in every view.
+    - The CSV has a "First seen" column at the end.
+  - **Test with the 16 Nov data:** 8 new, exactly the 8 titles that first appeared in review issue #63, with no returnees among them.
+  - **Live check after publish run 44373101498:** 10 new (8 from 16 Nov and 2 from 18 Nov) at 1280px and 412px, in both color schemes. The count follows the search and the Portugal-only box, tapping the chip again returns to All, and there is no sideways scrolling.
+- **Issues:** closed #68.
