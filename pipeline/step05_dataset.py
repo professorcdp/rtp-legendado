@@ -63,6 +63,8 @@ def section_for(pid: str, name: str, cats, keywords: str, collections, episodes:
     kw = keywords or ""
     if pid in ov["foreign_fiction"]:
         return "foreign"
+    if pid in ov["international_documentary"]:      # before "ficcao": RTP files some documentaries as fiction
+        return "intl"
     if pid in ov["language_and_literature"]:
         return "lang"
     if "infantis-e-juvenis" in cats:
@@ -73,8 +75,6 @@ def section_for(pid: str, name: str, cats, keywords: str, collections, episodes:
         is_film = (any(t in cols for t in ("Cinema Português", "Filmes Portugueses", "Cinema Internacional"))
                    or (episodes <= 2 and "Séries" not in cols and "Minissérie" not in name))
         return "film" if is_film else "series"
-    if pid in ov["international_documentary"]:
-        return "intl"
     if ("musica" in cats or "Musicais" in kw or "Música" in kw or "Concertos" in cols
             or ("artes" in cats and "Musicais" in kw)):
         return "music"

@@ -104,6 +104,11 @@ def freshen(row: dict, ov: dict) -> dict:
     if not row["tag"]:
         row["tag"] = next((ov.get("page_notes", {}).get(p, "") for p in sorted(pids(row))
                            if ov.get("page_notes", {}).get(p)), "")
+    # section overrides added since the row was stored still apply (issue #64)
+    if pids(row) & set(ov["foreign_fiction"]):
+        row["s"] = "foreign"
+    elif pids(row) & set(ov["international_documentary"]):
+        row["s"] = "intl"
     return row
 
 
@@ -119,8 +124,12 @@ def main():
     ov = json.loads(CONFIG.read_text(encoding="utf-8"))
 
     subs = load_json("subtitles.json") or {}
+    excl = re.compile(ov["exclude_title_pattern"], re.I)
     grace, pulled = [], []
     for r in update(seen, rows, args.date):
+        if excl.search(r["n"]):                   # e.g. an RTP placeholder title, excluded since it was stored (#64)
+            seen.pop(pid(r["u"]) or r["n"], None)
+            continue
         if is_pulled(r, subs):
             pulled.append(r)
             seen.pop(pid(r["u"]) or r["n"], None)
