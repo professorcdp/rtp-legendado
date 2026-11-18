@@ -122,11 +122,20 @@ def eps_label(r) -> str:
     return f"{'12+' if r['e'] >= 12 else r['e']} ep{'' if r['e'] == 1 else 's'}"
 
 
-def row_html(r) -> str:
+NEW_DAYS = 7                             # "New this week": first listed within this many days of the build (#68)
+
+
+def is_new(r, built: date) -> bool:
+    return bool(r.get("fs")) and (built - date.fromisoformat(r["fs"])).days < NEW_DAYS
+
+
+def row_html(r, new: bool = False) -> str:
     search = " ".join(x for x in (r["n"], r.get("ne", ""), r["x"], r.get("xe", "")) if x).lower()
-    flag = (f'<span class="flag tag">{esc(r["tag"])}</span>' if r.get("tag") else "") + \
+    flag = ('<span class="flag new">New</span>' if new else "") + \
+           (f'<span class="flag tag">{esc(r["tag"])}</span>' if r.get("tag") else "") + \
            ('<span class="flag">Portugal-only license</span>' if r.get("pt") else "")
-    out = [f'<article class="row" data-blocked="{1 if r.get("pt") else 0}" data-s="{esc(search)}">',
+    out = [f'<article class="row" data-blocked="{1 if r.get("pt") else 0}" data-new="{1 if new else 0}" '
+           f'data-s="{esc(search)}">',
            '<div class="rowhead"><div class="rowtitle">',
            f'<a href="{esc(r["u"])}" target="_blank" rel="noopener">{esc(r["n"])}</a>{flag}</div>',
            f'<div class="rowmeta">{eps_label(r)} · {esc(r["d"])}</div></div>']
@@ -151,6 +160,8 @@ def main():
     ap.add_argument("--csv", default="site/rtp-play-legendado.csv")
     ap.add_argument("--site-url", default=os.environ.get("SITE_URL") or "https://legendado.professorcdp.com")
     ap.add_argument("--checked-on", help="date shown on the page, e.g. '11 Sep 2026' (default: today)")
+    ap.add_argument("--build-date", help="date 'New this week' counts back from, YYYY-MM-DD "
+                                         "(default: the date shown on the page)")
     args = ap.parse_args()
 
     rows = load_json("dataset.json")
@@ -168,6 +179,10 @@ def main():
         checked_on = args.checked_on or info.get("checked_on") or "11 Sep 2026"
         checked_n = info.get("checked_n") or 6268
 
+    d, mon, y = checked_on.split()
+    built = date.fromisoformat(args.build_date) if args.build_date else date(int(y), MONTHS_EN.index(mon) + 1, int(d))
+    new_n = sum(1 for r in rows if is_new(r, built))
+
     portuguese = [r for r in rows if r["s"] not in NON_PORTUGUESE]
     year_ago = (today - timedelta(days=365)).strftime("%Y%m%d")
     pt_only_n = sum(1 for r in rows if r.get("pt"))
@@ -181,6 +196,8 @@ def main():
 
     # Chips filter the list to one section (issue #38); "All" comes first.
     chips, sections = [f'<a class="chip active" href="#all" data-sec="">All<b>{len(rows)}</b></a>'], []
+    if new_n:                                       # hidden when nothing is new (#68)
+        chips.append(f'<a class="chip" href="#new" data-sec="new">New this week<b>{new_n}</b></a>')
     for key, anchor, title, blurb in SECTIONS:
         sec_rows = [r for r in rows if r["s"] == key]
         if not sec_rows:
@@ -191,7 +208,7 @@ def main():
             f'  <section id="{anchor}" data-key="{key}" data-total="{len(sec_rows)}"><h2>{esc(title)}</h2>'
             f'<p class="blurb">{esc(blurb)}</p>'
             f'<p class="range"><span class="shown">{len(sec_rows)}</span> of {len(sec_rows)} titles</p>'
-            + "".join(row_html(r) for r in sec_rows) + "</section>")
+            + "".join(row_html(r, is_new(r, built)) for r in sec_rows) + "</section>")
     unplaced = [r["n"] for r in rows if r["s"] not in {s[0] for s in SECTIONS}]
     if unplaced:
         raise SystemExit(f"rows in an unknown section: {unplaced[:5]}")
@@ -225,7 +242,7 @@ def main():
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(doc, encoding="utf-8")
-    log(f"wrote {out} ({len(doc):,} bytes, {len(rows)} rows)")
+    log(f"wrote {out} ({len(doc):,} bytes, {len(rows)} rows, {new_n} new since {built - timedelta(days=NEW_DAYS - 1)})")
 
     host = re.sub(r"^https?://", "", args.site_url).split("/")[0]
     if not host.endswith(".github.io"):              # custom domain: keep it with every deploy
@@ -239,13 +256,13 @@ def main():
         w = csv.writer(f)
         w.writerow(["Section", "Program", "English title", "Episodes", "Latest episode",
                     "Portugal-only license", "Note", "Description (PT)", "Description (EN)", "Link",
-                    "Recent episodes captioned"])
+                    "Recent episodes captioned", "First seen"])
         for r in sorted(rows, key=lambda r: order[r["s"]]):
             eps = "film" if r["s"] == "film" else (("12+" if r["e"] >= 12 else r["e"]) if r["e"] else "special")
             w.writerow([CSV_LABELS.get(r["s"], r["s"]), r["n"], r.get("ne", ""), eps, r["d"],
                         "yes" if r.get("pt") else "no", "; ".join(x for x in (r.get("tag", ""), grace_label(r)) if x),
                         r["x"], r.get("xe", ""), r["u"],
-                        f"{r['cov'][0]}/{r['cov'][1]}" if r.get("cov") else ""])
+                        f"{r['cov'][0]}/{r['cov'][1]}" if r.get("cov") else "", r.get("fs", "")])
     log(f"wrote {csv_path}")
 
 

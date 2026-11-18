@@ -21,6 +21,11 @@ player's video key is empty (`fileKey: ""`) and the programme page lists no
 episodes, the title is "pulled": dropped at once and written to
 data/pulled.json for the weekly review ("Removed by RTP", issue #50).
 
+seen.json also keeps `first_seen`: for every programme id ever on the published
+list, the date of the first run that listed it. It is never reset, so a title that
+drops off and comes back keeps its original date. Each published row gets `fs`,
+the earliest first_seen of its ids, for the "New this week" chip (#68).
+
 Runs after step 6 (so stored rows carry their English) and before step 7.
 Reads and rewrites data/dataset.json; writes data/seen.json and data/pulled.json.
 
@@ -40,6 +45,8 @@ from common import fetch, load_json, log, save_json
 from step06_translate import americanize
 
 GRACE_DAYS = 28
+SEEN_COMMENT = ("rows: last run that found each title with captions; first_seen: first run that listed "
+                "each programme id. See step06b_grace.py.")
 CONFIG = Path(__file__).resolve().parent / "config" / "overrides.json"
 
 
@@ -76,6 +83,14 @@ def update(seen: dict, rows: list, day: str) -> list:
             continue
         grace.append({**copy.deepcopy(e["row"]), "grace": e["last_seen"]})
     return grace
+
+
+def stamp_first_seen(rows: list, first_seen: dict, day: str) -> None:
+    """Record ids listed for the first time today; give each row `fs`, its earliest first_seen."""
+    for r in rows:
+        for p in pids(r):
+            first_seen.setdefault(p, day)
+        r["fs"] = min((first_seen[p] for p in pids(r)), default=day)
 
 
 def is_pulled(row: dict, subs: dict) -> bool:
@@ -120,7 +135,8 @@ def main():
     rows = [r for r in (load_json("dataset.json") or []) if not r.get("grace")]
     if not rows:
         raise SystemExit("run steps 1-6 first")
-    seen = (load_json("seen.json") or {}).get("rows", {})
+    stored = load_json("seen.json") or {}
+    seen, first_seen = stored.get("rows", {}), stored.get("first_seen", {})
     ov = json.loads(CONFIG.read_text(encoding="utf-8"))
 
     subs = load_json("subtitles.json") or {}
@@ -140,9 +156,10 @@ def main():
         log(f"pulled by RTP (dropped, not kept): {', '.join(r['n'] for r in pulled)}")
     out = rows + grace
     out.sort(key=lambda o: (o["s"], -int(o["dk"] or 0)))
+    stamp_first_seen(out, first_seen, args.date)
     save_json("dataset.json", out)
-    save_json("seen.json", {"_comment": "Last run that found each title with captions; see step06b_grace.py.",
-                            "rows": seen})
+    save_json("seen.json", {"_comment": SEEN_COMMENT, "rows": seen,
+                            "first_seen": dict(sorted(first_seen.items(), key=lambda kv: int(kv[0])))})
     log(f"grace: {len(rows)} titles with captions now, {len(grace)} kept from the last {GRACE_DAYS} days "
         f"({', '.join(sorted(r['n'] for r in grace)[:8])}{'…' if len(grace) > 8 else ''})")
 

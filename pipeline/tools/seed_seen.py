@@ -24,7 +24,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from common import save_json  # noqa: E402
-from step06b_grace import GRACE_DAYS, update  # noqa: E402
+from common import load_json  # noqa: E402
+from step06b_grace import GRACE_DAYS, SEEN_COMMENT, update  # noqa: E402
 
 PATH = "pipeline/data/dataset.json"
 
@@ -56,8 +57,8 @@ def main():
         grace = update(seen, rows, day)
         print(f"{day} {per_day[day][:7]}: {len(rows)} with captions, {len(grace)} in grace")
     if not args.dry_run:
-        save_json("seen.json", {"_comment": "Last run that found each title with captions; see step06b_grace.py.",
-                                "rows": seen})
+        first_seen = (load_json("seen.json") or {}).get("first_seen", {})   # kept (see seed_first_seen.py)
+        save_json("seen.json", {"_comment": SEEN_COMMENT, "rows": seen, "first_seen": first_seen})
         print(f"wrote data/seen.json ({len(seen)} titles)")
 
 
