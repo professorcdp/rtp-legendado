@@ -1,6 +1,9 @@
 {
   "_comment": "Hand-maintained overrides. Keys are RTP programme ids (pid) as strings. Re-check after each rebuild: new foreign acquisitions and international documentaries need adding, and RTP occasionally re-tags a programme so an entry here can become redundant.",
   "foreign_fiction": [
+    "17421",
+    "17422",
+    "17310",
     "15979",
     "15980",
     "15981",
@@ -44,6 +47,15 @@
     "17167"
   ],
   "international_documentary": [
+    "17335",
+    "17371",
+    "15400",
+    "17406",
+    "17408",
+    "17350",
+    "15140",
+    "12413",
+    "10062",
     "10193",
     "10836",
     "12990",
@@ -130,6 +142,7 @@
   },
   "_comment_page_notes": "page_notes: the short, learner-facing label shown as a tag next to a title on the page and in the CSV's Note column. Keep it to a few words. `notes` above is the fuller, hand-written background and is not shown unless the pid also appears here.",
   "page_notes": {
+    "8563": "Brazilian Portuguese",
     "16884": "Brazilian Portuguese",
     "5725": "Brazilian Portuguese",
     "15107": "Brazilian Portuguese",
@@ -142,6 +155,16 @@
   },
   "_comment_confirmed_portuguese": "confirmed_portuguese: titles a person (or the AI second pass, from RTP's credits) has confirmed are Portuguese productions, with the evidence. step05d_classify.py never asks about or flags these. Decision 0010.",
   "confirmed_portuguese": {
+    "17404": "Ensino: O Desafio do Superior em Portugal: confirmed Portuguese by Jim (2026-11-18 review)",
+    "5320": "A Família Ventura: confirmed Portuguese by Jim (2026-11-18 review)",
+    "4706": "A Mãe é Que Sabe: confirmed Portuguese by Jim (2026-11-18 review)",
+    "15470": "Rosa de Areia: confirmed Portuguese by Jim (2026-11-18 review)",
+    "17399": "Leonor, Marquesa de Alorna: confirmed Portuguese by Jim (2026-11-18 review)",
+    "8795": "Bow: confirmed Portuguese by Jim (2026-11-18 review)",
+    "13652": "Geografia do Descontentamento: confirmed Portuguese by Jim (2026-11-18 review)",
+    "5900": "Ilhas da Macaronésia (Madeira e Cabo Verde): confirmed Portuguese by Jim (2026-11-18 review)",
+    "9205": "Pólio: O Caminho Para a Erradicação: confirmed Portuguese by Jim (2026-11-18 review)",
+    "4648": "Sim, Eu Consigo: confirmed Portuguese by Jim (2026-11-18 review)",
     "16890": "Teia: AI second pass, from RTP credits (2026-11-02): Portuguese director Pedro Cabeleira, production Vende-se Filmes, Portuguese names",
     "9121": "Othon: AI second pass, from RTP credits (2026-11-02): Portuguese producers (Fernando Centeio, Zulfimes) and director Martim Ramos; Portuguese-led co-production",
     "7533": "Exílio no Atlântico: AI second pass, from RTP credits (2026-11-02): Portuguese director Pedro Mesquita; Portuguese-Spanish co-production, RTP África",
@@ -163,6 +186,6 @@
     "17099": "Evadidos: AI second pass, from RTP credits (2026-11-02): Labelled Séries Nacionais on RTP1",
     "13094": "Ministério do Tempo: RTP's 2017 Portuguese remake (Iniziomedia; António Capelo, Mariana Monteiro; tagged Séries Nacionais), not the Spanish original"
   },
-  "exclude_title_pattern": "Mensagem de Natal|Trailer|^Remo$",
+  "exclude_title_pattern": "Mensagem de Natal|Trailer|^Remo$|UTILIZAR FICHA",
   "min_subtitle_lines": 30
 }

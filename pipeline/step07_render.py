@@ -172,7 +172,10 @@ def main():
     year_ago = (today - timedelta(days=365)).strftime("%Y%m%d")
     pt_only_n = sum(1 for r in rows if r.get("pt"))
     stats = [(f"{checked_n:,}", "TV programs checked"),
-             (f"{sum(1 for r in rows if not r.get('grace')):,}", "with a caption track"),
+             # matches the All chip: rows in their grace period are listed too (issue #65)
+             (f"{len(rows):,}", "programs listed",
+              f"{sum(1 for r in rows if not r.get('grace')):,} with captions this week · "
+              f"{sum(1 for r in rows if r.get('grace')):,} recently captioned"),
              (f"{pt_only_n:,}", "Portugal-only license"),
              (f"{sum(1 for r in portuguese if r['dk'] >= year_ago):,}", "updated in the last year")]
 
@@ -202,7 +205,8 @@ def main():
         "CHECKED_ON": checked_on,
         "YEAR": str(today.year),             # copyright year, from the build date
         "CHECKED_N": f"{checked_n:,}",
-        "STATS": "".join(f'<div class="stat"><b>{b}</b><span>{esc(s)}</span></div>' for b, s in stats),
+        "STATS": "".join(f'<div class="stat"><b>{st[0]}</b><span>{esc(st[1])}</span>'
+                         + (f'<small>{esc(st[2])}</small>' if len(st) > 2 else "") + '</div>' for st in stats),
         "PT_ONLY_N": f"{pt_only_n:,}",
         "CHIPS": "".join(chips),
         "SECTIONS": "\n".join(sections),
