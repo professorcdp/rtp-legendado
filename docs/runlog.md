@@ -261,3 +261,7 @@ Format:
   - **Test with the 16 Nov data:** 8 new, exactly the 8 titles that first appeared in review issue #63, with no returnees among them.
   - **Live check after publish run 44373101498:** 10 new (8 from 16 Nov and 2 from 18 Nov) at 1280px and 412px, in both color schemes. The count follows the search and the Portugal-only box, tapping the chip again returns to All, and there is no sideways scrolling.
 - **Issues:** closed #68.
+
+## 2026-11-19 (review #67)
+- **Did:** Reviewed the two titles added in #67. Both are Portuguese: José Afonso, Traz Outro Amigo Também (9138) and Vadio (16771). No override changes. Ran `mark_reviewed.py --issue 67` to move the baseline forward.
+- **Issues:** closed #67.
